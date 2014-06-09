@@ -51,17 +51,18 @@ $height: 100%;
 		#left, #right {
 			width: 50%;
 			float: left;
-			margin: 2em 0;
+			margin: 3em 0 5em 0;
 		}
 	}	
 }
 
 #map {
 	background-color: $Alabaster;
+	height: 659px;
 	width: 33.33%;
 	float: right;
 	iframe {
 		width: 100%;
-		height: 595px;
+		height: 659px;
 	}
 }

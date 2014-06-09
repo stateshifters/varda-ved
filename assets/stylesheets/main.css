@@ -188,26 +188,27 @@ nav ul {
 #kapcsolat #profile_pic #left, #kapcsolat #profile_pic #right {
   width: 50%;
   float: left;
-  margin: 2em 0;
+  margin: 3em 0 5em 0;
 }
 
 #map {
   background-color: #f8f8f8;
+  height: 659px;
   width: 33.33%;
   float: right;
 }
 #map iframe {
   width: 100%;
-  height: 595px;
+  height: 659px;
 }
 
 footer {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   background-color: #f8f8f8;
   color: black;
   width: 100%;
-  height: 40px;
+  height: 80px;
   display: table;
 }
 footer div {
