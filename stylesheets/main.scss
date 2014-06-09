@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 $Alabaster: #f8f8f8;
 
 $Alto: #d2d2d2;
@@ -14,6 +15,7 @@ $Black: #000000;
 
 html, body {
 	height: 100%;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	color: $Black;
 }
