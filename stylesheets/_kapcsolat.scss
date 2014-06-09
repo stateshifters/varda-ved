@@ -7,54 +7,39 @@ $height: 100%;
 	float: left;
 	color: $White;
 	background-color: $Lima;
+}
 
-	p {
-		font-size: 1.125em;
-		line-height: 1.6em;
-		.bold {
-			font-weight: 600;
-		}
-		.bold:nth-child(3) {
-			padding-left: 1em;
-		}
+p {
+	font-size: 1.125em;
+	line-height: 1.6em;
+	.bold {
+		font-weight: 600;
 	}
-
-	p:first-child {
-		padding: 90px 0 20px 0;
-		font-size: 2em;
+	.bold:nth-child(3) {
+		padding-left: 1em;
 	}
+}
 
-	#logo {
-		width: 40px;
-		padding-bottom: 20px;
-	}
+p:first-child {
+	padding: 90px 0 20px 0;
+	font-size: 2em;
+}
 
-	p:first-child, p.big-bold {
+p.big-bold, p.name {
+	font-size: 1.5625em;
+}
+
+	p:first-child, p.big-bold, p.name {
 		font-weight: 600;
 	}
 
-	p.big-bold {
-		font-size: 1.5625em;
-	}
+#logo {
+	width: 40px;
+	padding-bottom: 20px;
+}
 
-	.upp {
-		text-transform: uppercase;
-	}
-	
-	#profile_pic {
-		width: 100%;
-		img {
-			height: 120px;
-			width: 120px;
-			border: 7px solid $White;
-			border-radius: 50%;
-		}
-		#left, #right {
-			width: 50%;
-			float: left;
-			margin: 3em 0 5em 0;
-		}
-	}	
+.upp {
+	text-transform: uppercase;
 }
 
 #map {
