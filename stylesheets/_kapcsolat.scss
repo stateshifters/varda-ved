@@ -3,30 +3,8 @@ $height: 100%;
 #kapcsolat {
 	width: 66.66%;
 	height: $height;
-	/*height: calc(100% - 60px);*/
 	float: left;
 	color: $White;
-	p:first-child {
-		padding: 90px 0 20px 0;
-		text-transform: uppercase;
-		font-size: 1.875em;
-	}
-
-	#logo {
-		width: 40px;
-		padding-bottom: 20px;
-	}
-
-	p:first-child, p:nth-child(3) {
-		font-weight: 600;
-	}
-	p:nth-child(3) {
-		font-size: 1.5625em;
-	}
-
-	/*p:nth-child(4) {
-		padding-bottom: 2em;
-	}*/
 
 	p {
 		font-size: 1.125em;
@@ -38,6 +16,43 @@ $height: 100%;
 			padding-left: 1em;
 		}
 	}
+
+	p:first-child {
+		padding: 90px 0 20px 0;
+		font-size: 2em;
+	}
+
+	#logo {
+		width: 40px;
+		padding-bottom: 20px;
+	}
+
+	p:first-child, p.big-bold {
+		font-weight: 600;
+	}
+
+	p.big-bold {
+		font-size: 1.5625em;
+	}
+
+	.upp {
+		text-transform: uppercase;
+	}
+	
+	#profile_pic {
+		width: 100%;
+		margin-top: 2em;
+		img {
+			height: 120px;
+			width: 120px;
+			border: 7px solid $White;
+			border-radius: 50%;
+		}
+		#left, #right {
+			width: 50%;
+			float: left;
+		}
+	}	
 }
 
 #map {
