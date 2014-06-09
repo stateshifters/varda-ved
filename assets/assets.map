@@ -1,6 +1,7 @@
 {
   "images/gyula.jpg": "/assets/images/gyula.jpg",
   "images/vardaved-logo.png": "/assets/images/vardaved-logo.png",
+  "js/shrink.js": "/assets/js/shrink.js",
   "stylesheets/main.css": "/assets/stylesheets/main.css",
   "stylesheets/main.min.css": "/assets/stylesheets/main.min.css"
 }

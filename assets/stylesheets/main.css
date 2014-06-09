@@ -64,7 +64,7 @@ a:active {
 
 #stripe {
   width: 100%;
-  height: 10px;
+  height: 0.625em;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -99,10 +99,17 @@ nav {
   text-transform: uppercase;
   position: fixed;
   top: 10px;
+  left: 0;
   z-index: 100;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  transition: height 0.3s;
 }
 nav li {
   flex: 1 1 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -145,6 +152,23 @@ nav ul {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+nav.shrink {
+  height: 3.125em;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  z-index: 100;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #kapcsolat {
