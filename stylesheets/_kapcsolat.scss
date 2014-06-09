@@ -2,9 +2,10 @@ $height: 100%;
 
 #kapcsolat {
 	width: 66.66%;
-	height: $height;
+	min-height: $height;
 	float: left;
 	color: $White;
+	background-color: $Lima;
 
 	p {
 		font-size: 1.125em;
@@ -41,7 +42,6 @@ $height: 100%;
 	
 	#profile_pic {
 		width: 100%;
-		margin-top: 2em;
 		img {
 			height: 120px;
 			width: 120px;
@@ -51,6 +51,7 @@ $height: 100%;
 		#left, #right {
 			width: 50%;
 			float: left;
+			margin: 2em 0;
 		}
 	}	
 }
@@ -58,10 +59,9 @@ $height: 100%;
 #map {
 	background-color: $Alabaster;
 	width: 33.33%;
-	height: $height;
 	float: right;
 	iframe {
 		width: 100%;
-		height: $height;
+		height: 595px;
 	}
 }
