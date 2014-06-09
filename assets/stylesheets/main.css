@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a, img {
+  border: none;
+  outline: none;
+}
+
 html, body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
@@ -145,6 +150,7 @@ nav ul {
 #kapcsolat {
   width: 66.66%;
   min-height: 100%;
+  height: 659px;
   float: left;
   color: white;
   background-color: #43c423;
@@ -199,7 +205,7 @@ nav ul {
 }
 #map iframe {
   width: 100%;
-  height: 659px;
+  height: 100%;
 }
 
 footer {
