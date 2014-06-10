@@ -120,6 +120,7 @@ nav #logo {
   background-color: #f8f8f8;
 }
 nav #logo #logo_pic {
+  position: relative;
   -webkit-transition: width 0.5s;
   -moz-transition: width 0.5s;
   -o-transition: width 0.5s;

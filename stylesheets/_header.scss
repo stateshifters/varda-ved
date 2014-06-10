@@ -30,7 +30,6 @@ $height-speed: height 0.5s;
 $width-speed: width 0.5s;
 $all-speed: all 0.5s;
 
-
 nav{
 	height: 7.5em;
 	width: 100%;
@@ -50,6 +49,7 @@ nav{
 	#logo {
 		background-color: $Alabaster;
 		#logo_pic {
+			position: relative;
 			-webkit-transition: $width-speed;
 		    -moz-transition: $width-speed;
 		    -o-transition: $width-speed;
@@ -117,7 +117,6 @@ nav.shrink {
 				margin: .1875em 1em;
 			}
 		}
-
 		#logo_text {
 			display: table-cell;
 			vertical-align: middle;
