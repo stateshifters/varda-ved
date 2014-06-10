@@ -9,7 +9,6 @@
 		float: left;
 		height: inherit;
 	}
-
 	#stripe_1 {
 		background-color: $Alto;
 	}
@@ -29,9 +28,9 @@
 
 
 nav{
-	height: 3.125em;
+	height: 7.5em;
 	width: 100%;
-	background-color: $White;
+	background-color: $Alabaster;
 	text-align: center;
 	font-size: 1em;
 	text-transform: uppercase;
@@ -39,90 +38,114 @@ nav{
 	top: 10px;
 	left: 0;
 	z-index: 100;
-	-webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    transition: height 0.3s;
+	-webkit-transition: height 0.9s;
+    -moz-transition: height 0.9s;
+    -o-transition: height 0.9s;
+    transition: height 0.9s;
 
-	$moz: -webkit-box, 
-			 -moz-box, 
-		  -ms-flexbox, 
-		 -webkit-flex, 
-		 		 flex;
-
-	$flex: -webkit-flex, 
-    		  -moz-flex, 
-    		   -ms-flex, 
-    			   flex;
-
-	li {
-		flex: 1 1 0;
-		-webkit-transition: all 0.3s;
-    	-moz-transition: all 0.3s;
-    	transition: all 0.3s;
-
-		img {
-			height: 2.75em;
-			margin: .1875em;
+	#logo {
+		background-color: $Alabaster;
+		#logo_pic {
+			-webkit-transition: width 0.9s;
+			    -moz-transition: width 0.9s;
+			    -o-transition: width 0.9s;
+			    transition: width 0.9s;
+			img {
+				height: 4.1875em;
+				margin-top: .7em;
+			}
 		}
-
-		@for $i from 1 through length($moz) {
-			display: nth($moz, $i);
+		#logo_text {
+			height: 2em;
+			font-weight: 600;
+			margin-bottom: 1em;
+			padding-top: 0.5em;
+			-webkit-transition: all 0.3s;
+			    -moz-transition: all 0.3s;
+			    -o-transition: all 0.3s;
+			    transition: all 0.3s;
 		}
-		
-	    @mixin center($center) {
-					-webkit-flex-pack: $center;
-			   -webkit-flex-line-pack: $center;
-			    -webkit-align-content: $center;
-			  -webkit-justify-content: $center;
-			     -moz-justify-content: $center;
-						-ms-flex-pack: $center;
-				   -ms-flex-line-pack: $center;
-					  justify-content: $center;    
-						align-content: $center;
-		}
-		@include center(center);
-	    
-	    @for $i from 1 through length($flex) {
-			#{nth($flex, $i)+-direction}:column;
-		}
-		height: 3.125em;
-	}
-
-	li:nth-of-type(4) {
-		flex: .7 1 0;
 	}
 
 	ul {
 		list-style-type: none;
-		@for $i from 1 through length($moz) {
-			display: nth($moz, $i);
-		}
+	}
 
-		@for $i from 1 through length($flex) {
-			#{nth($flex, $i)+-direction}:row;
-		}
-	    
-	    @for $i from 1 through length($flex) {
-			#{nth($flex,$i)+-wrap}:wrap;
+	#menu_wrap {
+		width: 100%;
+		background-color: $White;
+		#menu {
+			width: 800px;
+			margin: 0 auto;
+			display: table;
+			li {
+				-webkit-transition: all 0.9s;
+		    	-moz-transition: all 0.9s;
+		    	-o-transition: all 0.9s;
+		    	transition: all 0.9s;
+		    	margin-top: 1em;
+		    	padding: 1em 0;
+		    	display: table-cell;
+			}
 		}
 	}
 }
 
-nav.shrink {
-    height: 3.125em;
-	width: 100%;
-	background-color: $Black;
-	color: $White;
-	text-align: center;
-	font-size: 1em;
-	text-transform: uppercase;
-	position: fixed;
-	top: 10px;
-	left: 0;
-	z-index: 100;
 
-	li {}
-	-webkit-transition: all 0.3s;
-    	-moz-transition: all 0.3s;
-    	transition: all 0.3s;
+
+nav.shrink {
+	clear: both;
+    height: 3.125em;
+	background-color: $White;
+	-webkit-transition: height 0.9s;
+    -moz-transition: height 0.9s;
+    -o-transition: height 0.9s;
+    transition: height 0.9s;
+
+    
+    #logo {
+    	width: 20%;
+    	height: 3.125em;
+    	float: left;
+		background-color: $White;
+		#logo_pic {
+			display: table-cell;
+			-webkit-transition: width 0.9s;
+			    -moz-transition: width 0.9s;
+			    -o-transition: width 0.9s;
+			    transition: width 0.9s;
+			img {
+				height: 2.75em;
+				margin: .1875em 1em;
+			}
+		}
+
+		#logo_text {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+			font-size: 1em;
+			-webkit-transition: all 0.3s;
+			    -moz-transition: all 0.3s;
+			    -o-transition: all 0.3s;
+			    transition: all 0.3s;
+		}
+	}
+
+	#menu_wrap {
+		width: 80%;
+		float: right;
+		height: 3.125em;
+		li {
+			-webkit-transition: all 0.9s;
+		    	-moz-transition: all 0.9s;
+		    	-o-transition: all 0.9s;
+		    	transition: all 0.9s;
+	    }
+		ul {
+			list-style-type: none;
+		}
+	}
 }

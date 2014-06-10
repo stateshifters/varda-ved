@@ -91,9 +91,9 @@ a:active {
 }
 
 nav {
-  height: 3.125em;
+  height: 7.5em;
   width: 100%;
-  background-color: white;
+  background-color: #f8f8f8;
   text-align: center;
   font-size: 1em;
   text-transform: uppercase;
@@ -101,74 +101,107 @@ nav {
   top: 10px;
   left: 0;
   z-index: 100;
-  -webkit-transition: height 0.3s;
-  -moz-transition: height 0.3s;
-  transition: height 0.3s;
+  -webkit-transition: height 0.9s;
+  -moz-transition: height 0.9s;
+  -o-transition: height 0.9s;
+  transition: height 0.9s;
 }
-nav li {
-  flex: 1 1 0;
+nav #logo {
+  background-color: #f8f8f8;
+}
+nav #logo #logo_pic {
+  -webkit-transition: width 0.9s;
+  -moz-transition: width 0.9s;
+  -o-transition: width 0.9s;
+  transition: width 0.9s;
+}
+nav #logo #logo_pic img {
+  height: 4.1875em;
+  margin-top: .7em;
+}
+nav #logo #logo_text {
+  height: 2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-pack: center;
-  -webkit-flex-line-pack: center;
-  -webkit-align-content: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-flex-pack: center;
-  -ms-flex-line-pack: center;
-  justify-content: center;
-  align-content: center;
-  -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  height: 3.125em;
-}
-nav li img {
-  height: 2.75em;
-  margin: .1875em;
-}
-nav li:nth-of-type(4) {
-  flex: .7 1 0;
 }
 nav ul {
   list-style-type: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  -moz-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+}
+nav #menu_wrap {
+  width: 100%;
+  background-color: white;
+}
+nav #menu_wrap #menu {
+  width: 800px;
+  margin: 0 auto;
+  display: table;
+}
+nav #menu_wrap #menu li {
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  -o-transition: all 0.9s;
+  transition: all 0.9s;
+  margin-top: 1em;
+  padding: 1em 0;
+  display: table-cell;
 }
 
 nav.shrink {
+  clear: both;
   height: 3.125em;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
+  background-color: white;
+  -webkit-transition: height 0.9s;
+  -moz-transition: height 0.9s;
+  -o-transition: height 0.9s;
+  transition: height 0.9s;
+}
+nav.shrink #logo {
+  width: 20%;
+  height: 3.125em;
+  float: left;
+  background-color: white;
+}
+nav.shrink #logo #logo_pic {
+  display: table-cell;
+  -webkit-transition: width 0.9s;
+  -moz-transition: width 0.9s;
+  -o-transition: width 0.9s;
+  transition: width 0.9s;
+}
+nav.shrink #logo #logo_pic img {
+  height: 2.75em;
+  margin: .1875em 1em;
+}
+nav.shrink #logo #logo_text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
   font-size: 1em;
-  text-transform: uppercase;
-  position: fixed;
-  top: 10px;
-  left: 0;
-  z-index: 100;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
+}
+nav.shrink #menu_wrap {
+  width: 80%;
+  float: right;
+  height: 3.125em;
+}
+nav.shrink #menu_wrap li {
+  -webkit-transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  -o-transition: all 0.9s;
+  transition: all 0.9s;
+}
+nav.shrink #menu_wrap ul {
+  list-style-type: none;
 }
 
 #kapcsolat {
@@ -204,7 +237,7 @@ p:first-child, p.big-bold, p.name {
   font-weight: 600;
 }
 
-#logo {
+#logo_ {
   width: 40px;
   padding-bottom: 20px;
 }
