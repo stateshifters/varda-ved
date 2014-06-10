@@ -17,6 +17,10 @@ html, body {
 
 a {
   color: black;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 a:link {
@@ -28,8 +32,14 @@ a:visited {
 }
 
 a:hover {
-  color: #ee3333;
+  color: white;
+  background-color: #ee3333;
+  padding: 0.3em 0;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 a:active {
@@ -101,36 +111,33 @@ nav {
   top: 10px;
   left: 0;
   z-index: 100;
-  -webkit-transition: height 0.9s;
-  -moz-transition: height 0.9s;
-  -o-transition: height 0.9s;
-  transition: height 0.9s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
 }
 nav #logo {
   background-color: #f8f8f8;
 }
 nav #logo #logo_pic {
-  -webkit-transition: width 0.9s;
-  -moz-transition: width 0.9s;
-  -o-transition: width 0.9s;
-  transition: width 0.9s;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s;
 }
 nav #logo #logo_pic img {
   height: 4.1875em;
-  margin-top: .7em;
+  margin-top: 1.5em;
 }
 nav #logo #logo_text {
   height: 2em;
   font-weight: 600;
   margin-bottom: 1em;
   padding-top: 0.5em;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-nav ul {
-  list-style-type: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 nav #menu_wrap {
   width: 100%;
@@ -142,10 +149,10 @@ nav #menu_wrap #menu {
   display: table;
 }
 nav #menu_wrap #menu li {
-  -webkit-transition: all 0.9s;
-  -moz-transition: all 0.9s;
-  -o-transition: all 0.9s;
-  transition: all 0.9s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
   margin-top: 1em;
   padding: 1em 0;
   display: table-cell;
@@ -155,10 +162,10 @@ nav.shrink {
   clear: both;
   height: 3.125em;
   background-color: white;
-  -webkit-transition: height 0.9s;
-  -moz-transition: height 0.9s;
-  -o-transition: height 0.9s;
-  transition: height 0.9s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  transition: height 0.5s;
 }
 nav.shrink #logo {
   width: 20%;
@@ -168,10 +175,10 @@ nav.shrink #logo {
 }
 nav.shrink #logo #logo_pic {
   display: table-cell;
-  -webkit-transition: width 0.9s;
-  -moz-transition: width 0.9s;
-  -o-transition: width 0.9s;
-  transition: width 0.9s;
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s;
 }
 nav.shrink #logo #logo_pic img {
   height: 2.75em;
@@ -184,10 +191,6 @@ nav.shrink #logo #logo_text {
   margin: 0;
   font-weight: 600;
   font-size: 1em;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
 }
 nav.shrink #menu_wrap {
   width: 80%;
@@ -195,13 +198,10 @@ nav.shrink #menu_wrap {
   height: 3.125em;
 }
 nav.shrink #menu_wrap li {
-  -webkit-transition: all 0.9s;
-  -moz-transition: all 0.9s;
-  -o-transition: all 0.9s;
-  transition: all 0.9s;
-}
-nav.shrink #menu_wrap ul {
-  list-style-type: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #kapcsolat {

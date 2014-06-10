@@ -26,10 +26,25 @@ html, body {
 	color: $Black;
 }
 
-a {color: $Black;}
+a {
+	color: $Black;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
 a:link {text-decoration:none;}  
 a:visited {text-decoration:none;}
-a:hover {color:$Pomegranate; text-decoration:none;} 
+a:hover {
+	color:$White; 
+	background-color: $Pomegranate;
+	padding: 0.3em 0;
+	text-decoration:none;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+} 
 a:active {text-decoration:none;}
 
 
