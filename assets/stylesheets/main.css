@@ -59,10 +59,12 @@ a:active {
 
 #one {
   background-color: #f8f8f8;
+  height: initial;
 }
 
 #two-tuz {
   background-color: #ee3333;
+  height: initial;
 }
 
 #three-munka {
@@ -214,14 +216,19 @@ nav.shrink #menu_wrap li {
 }
 
 #bemutatkozas {
+  font-weight: 300;
   margin: 13.5em auto 0;
-  text-align: left;
-  width: 1000px;
+  min-height: 100%;
 }
 #bemutatkozas .text {
   font-weight: 400;
-  margin-bottom: 1em;
-  padding-top: 1em;
+  line-height: 1.8em;
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 1000px;
+}
+#bemutatkozas img {
+  width: 100%;
 }
 
 #kapcsolat {

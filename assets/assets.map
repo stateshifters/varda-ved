@@ -1,5 +1,8 @@
 {
   "images/gyula.jpg": "/assets/images/gyula.jpg",
+  "images/munkaved-compressor.jpg": "/assets/images/munkaved-compressor.jpg",
+  "images/munkaved.jpg": "/assets/images/munkaved.jpg",
+  "images/munkaved2.jpg": "/assets/images/munkaved2.jpg",
   "images/vardaved-logo.png": "/assets/images/vardaved-logo.png",
   "js/shrink.js": "/assets/js/shrink.js",
   "stylesheets/main.css": "/assets/stylesheets/main.css",
