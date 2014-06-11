@@ -231,6 +231,19 @@ nav.shrink #menu_wrap li {
   width: 100%;
 }
 
+#tuzvedelem {
+  font-weight: 300;
+  padding-top: 3.75em;
+  min-height: 100%;
+}
+#tuzvedelem .text {
+  font-weight: 400;
+  line-height: 1.8em;
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 1000px;
+}
+
 #kapcsolat {
   width: 66.66%;
   min-height: 100%;
