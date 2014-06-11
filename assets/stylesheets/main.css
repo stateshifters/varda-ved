@@ -69,10 +69,12 @@ a:active {
 
 #three-munka {
   background-color: #ff9000;
+  height: initial;
 }
 
 #four-ref {
   background-color: #00a3d8;
+  height: initial;
 }
 
 #five-kapcs,
@@ -234,18 +236,21 @@ nav.shrink #menu_wrap li {
 }
 
 #tuzvedelem,
-#munkavedelem {
+#munkavedelem,
+#referenciak {
   color: white;
   font-weight: 300;
   min-height: 100%;
   padding-top: 3.75em;
 }
 #tuzvedelem .icon,
-#munkavedelem .icon {
+#munkavedelem .icon,
+#referenciak .icon {
   margin: 1.2em 0;
 }
 #tuzvedelem .title,
-#munkavedelem .title {
+#munkavedelem .title,
+#referenciak .title {
   padding: 0;
 }
 
