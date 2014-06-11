@@ -1,95 +1,107 @@
 * {
-	margin: 0;
-	padding: 0;
-
+		margin: 0;
+		padding: 0;
 }
 
-a, img {
-    border: none;
-    outline: none
+a, 
+img {
+	    border: none;
+	    outline: none
 }
 
-$Alabaster: #f8f8f8;
+$alabaster: #f8f8f8;
+$alto: #d2d2d2;
+$black: #000;
+$cerulean :#00a3d8;
+$lima :#43c423;
+$pomegranate: #e33;
+$weborange : #ffa900;
+$white: #fff;
 
-$Alto: #d2d2d2;
-$Pomegranate: #ee3333;
-$WebOrange : #ffa900;
-$Cerulean :#00a3d8;
-$Lima :#43c423;
-$White: #ffffff;
-$Black: #000000;
-
-html, body {
-	height: 100%;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
-	color: $Black;
+html, 
+body {
+		color: $black;
+		font-family: 'Open Sans', sans-serif;
+		height: 100%;
+		text-align: center;
 }
 
 a {
-	color: $Black;
-	-webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+		color: $black;
+		-webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    -o-transition: all .3s;
+	    transition: all .3s;
 }
-a:link {text-decoration:none;}  
+
+a:link {text-decoration:none;} 
+
 a:visited {text-decoration:none;}
+
 a:hover {
-	color:$White; 
-	background-color: $Pomegranate;
-	padding: 0.3em 0;
-	text-decoration:none;
-	-webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+		background-color: $pomegranate;
+		color: $white;
+		padding: .3em 0;
+		text-decoration:none;
+		-webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    -o-transition: all .3s;
+	    transition: all .3s;
 } 
+
 a:active {text-decoration:none;}
 
 
-#wrap, #one, #two-tuz, #three-munka, #four-ref {
-		width: 100%;
+#wrap, 
+#one, 
+#two-tuz, 
+#three-munka, 
+#four-ref {
 		height: 100%;
+		width: 100%;
 }
 
 #one {
-	background-color: $Alabaster;
+		background-color: $alabaster;
 }
 
 #two-tuz {
-	background-color: $Pomegranate;
+		background-color: $pomegranate;
 }
 
 #three-munka {
-	background-color: $WebOrange;
+		background-color: $weborange;
 }
 
 #four-ref {
-	background-color: $Cerulean;
+		background-color: $cerulean;
 }
 
-#five-kapcs, footer {
-	background-color: $Lima;
-	min-height: initial;
+#five-kapcs, 
+footer {
+		background-color: $lima;
+		min-height: initial;
 }
 
 @import '_header.scss';
 
+@import '_bemutatkozas.scss';
+
 @import '_kapcsolat.scss';
 
 footer {
-	text-align: center;
-	font-size: 1em;
-	background-color: $Alabaster;
-	color: $Black;
-	width: 100%;
-	height: 80px;
-	display: table;
-	div {
-		vertical-align: middle;
-		display: table-cell;
-	}
+		background-color: $alabaster;
+		color: $black;
+		display: table;
+		font-size: 1em;
+		height: 80px;
+		text-align: center;
+		width: 100%;
+
+		div {
+			display: table-cell;
+			vertical-align: middle;
+		}
 }
 
 @import '_media.scss'

@@ -4,25 +4,31 @@
 	position: fixed;
 	top: 0;
 	z-index: 100;
+
 	.stripe_all {
 		width: 20%;
 		float: left;
 		height: inherit;
 	}
+
 	#stripe_1 {
-		background-color: $Alto;
+		background-color: $alto;
 	}
+
 	#stripe_2 {
-		background-color: $Pomegranate;
+		background-color: $pomegranate;
 	}
+
 	#stripe_3 {
-		background-color: $WebOrange;
+		background-color: $weborange;
 	}
+
 	#stripe_4 {
-		background-color: $Cerulean;
+		background-color: $cerulean;
 	}
+
 	#stripe_5 {
-		background-color: $Lima;
+		background-color: $lima;
 	}
 }
 
@@ -30,10 +36,10 @@ $height-speed: height 0.5s;
 $width-speed: width 0.5s;
 $all-speed: all 0.5s;
 
-nav{
-	height: 7.5em;
+nav {
+	height: 12.875em;
 	width: 100%;
-	background-color: $Alabaster;
+	background-color: $alabaster;
 	text-align: center;
 	font-size: 1em;
 	text-transform: uppercase;
@@ -47,23 +53,26 @@ nav{
     transition: $height-speed;
 
 	#logo {
-		background-color: $Alabaster;
+		background-color: $alabaster;
+
 		#logo_pic {
 			position: relative;
 			-webkit-transition: $width-speed;
 		    -moz-transition: $width-speed;
 		    -o-transition: $width-speed;
 		    transition: $width-speed;
+		    
 			img {
 				height: 4.1875em;
 				margin-top: 1.5em;
 			}
 		}
+
 		#logo_text {
-			height: 2em;
 			font-weight: 600;
+			height: 2em;
 			margin-bottom: 1em;
-			padding-top: 0.5em;
+			padding-top: .5em;
 			-webkit-transition: $all-speed;
 		    -moz-transition: $all-speed;
 		    -o-transition: $all-speed;
@@ -72,20 +81,22 @@ nav{
 	}
 
 	#menu_wrap {
+		background-color: $white;
 		width: 100%;
-		background-color: $White;
+		
 		#menu {
-			width: 800px;
-			margin: 0 auto;
 			display: table;
+			margin: 0 auto;
+			width: 800px;
+
 			li {
 				-webkit-transition: $all-speed;
 		    	-moz-transition: $all-speed;
 		    	-o-transition: $all-speed;
 		    	transition: $all-speed;
+		    	display: table-cell;
 		    	margin-top: 1em;
 		    	padding: 1em 0;
-		    	display: table-cell;
 			}
 		}
 	}
@@ -94,8 +105,8 @@ nav{
 
 nav.shrink {
 	clear: both;
+	background-color: $white;
     height: 3.125em;
-	background-color: $White;
 	-webkit-transition: $height-speed;
     -moz-transition: $height-speed;
     -o-transition: $height-speed;
@@ -105,18 +116,21 @@ nav.shrink {
     	width: 20%;
     	height: 3.125em;
     	float: left;
-		background-color: $White;
+		background-color: $white;
+
 		#logo_pic {
 			display: table-cell;
 			-webkit-transition: $width-speed;
 		    -moz-transition: $width-speed;
 		    -o-transition: $width-speed;
 		    transition: $width-speed;
+
 			img {
 				height: 2.75em;
 				margin: .1875em 1em;
 			}
 		}
+
 		#logo_text {
 			display: table-cell;
 			vertical-align: middle;
@@ -131,6 +145,7 @@ nav.shrink {
 		width: 80%;
 		float: right;
 		height: 3.125em;
+
 		li {
 			-webkit-transition: $all-speed;
 	    	-moz-transition: $all-speed;
