@@ -1,8 +1,11 @@
 #bemutatkozas {
-	margin: 12.875em auto 0;
+	margin: 13.5em auto 0;
+	text-align: left;
 	width: 1000px;
 
 	.text {
-		margin: 1em auto 0;
+		font-weight: 400;
+		margin-bottom: 1em;
+		padding-top: 1em;
 	}
 }
