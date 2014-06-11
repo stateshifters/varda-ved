@@ -88,7 +88,7 @@ footer {
   height: 0.625em;
   position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
 }
 #stripe .stripe_all {
   width: 20%;
@@ -118,38 +118,21 @@ nav {
   text-align: center;
   font-size: 1em;
   text-transform: uppercase;
-  position: fixed;
   top: 10px;
   left: 0;
   z-index: 100;
-  -webkit-transition: height 0.5s;
-  -moz-transition: height 0.5s;
-  -o-transition: height 0.5s;
-  transition: height 0.5s;
 }
 nav #logo {
   background-color: #f8f8f8;
 }
-nav #logo #logo_pic {
+nav #logo .logo_pic {
   position: relative;
-  -webkit-transition: width 0.5s;
-  -moz-transition: width 0.5s;
-  -o-transition: width 0.5s;
-  transition: width 0.5s;
-}
-nav #logo #logo_pic img {
-  height: 4.1875em;
-  margin-top: 1.5em;
 }
 nav #logo #logo_text {
   font-weight: 600;
   height: 2em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
   padding-top: .5em;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
 }
 nav #menu_wrap {
   background-color: white;
@@ -162,10 +145,6 @@ nav #menu_wrap #menu {
   width: 800px;
 }
 nav #menu_wrap #menu li {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;

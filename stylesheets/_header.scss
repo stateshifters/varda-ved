@@ -3,7 +3,7 @@
 	height: 0.625em;
 	position: fixed;
 	top: 0;
-	z-index: 100;
+	z-index: 1000;
 
 	.stripe_all {
 		width: 20%;
@@ -43,40 +43,22 @@ nav {
 	text-align: center;
 	font-size: 1em;
 	text-transform: uppercase;
-	position: fixed;
+//	position: fixed;
 	top: 10px;
 	left: 0;
 	z-index: 100;
-	-webkit-transition: $height-speed;
-    -moz-transition: $height-speed;
-    -o-transition: $height-speed;
-    transition: $height-speed;
-
 	#logo {
 		background-color: $alabaster;
 
-		#logo_pic {
+		.logo_pic {
 			position: relative;
-			-webkit-transition: $width-speed;
-		    -moz-transition: $width-speed;
-		    -o-transition: $width-speed;
-		    transition: $width-speed;
-		    
-			img {
-				height: 4.1875em;
-				margin-top: 1.5em;
-			}
 		}
 
 		#logo_text {
 			font-weight: 600;
 			height: 2em;
-			margin-bottom: 1em;
+			padding-bottom: 1em;
 			padding-top: .5em;
-			-webkit-transition: $all-speed;
-		    -moz-transition: $all-speed;
-		    -o-transition: $all-speed;
-		    transition: $all-speed;
 		}
 	}
 
@@ -91,10 +73,6 @@ nav {
 			width: 800px;
 
 			li {
-				-webkit-transition: $all-speed;
-		    	-moz-transition: $all-speed;
-		    	-o-transition: $all-speed;
-		    	transition: $all-speed;
 		    	display: table-cell;
 		    	margin-top: 1em;
 		    	padding: 1em 0;
@@ -115,7 +93,7 @@ nav.shrink {
     
     #logo {
     	width: 20%;
-    	height: 3.125em;
+          height: 3.125em;
     	float: left;
 		background-color: $white;
 

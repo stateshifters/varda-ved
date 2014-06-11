@@ -8,6 +8,8 @@
   "images/references-white.png": "/assets/images/references-white.png",
   "images/references.png": "/assets/images/references.png",
   "images/vardaved-logo.png": "/assets/images/vardaved-logo.png",
+  "js/shrink.js": "/assets/js/shrink.js",
+  "js/skrollr.min.js": "/assets/js/skrollr.min.js",
   "stylesheets/main.css": "/assets/stylesheets/main.css",
   "stylesheets/main.min.css": "/assets/stylesheets/main.min.css"
 }

@@ -57,7 +57,8 @@ module.exports = function (grunt) {
 						'require': false,
 						'define': false,
 						's': false,
-						'Swipe': false
+						'Swipe': false,
+						'skrollr': false
 					},
 					reporter: require('jshint-stylish')
 				},
