@@ -15,7 +15,7 @@ $black: #000;
 $cerulean :#00a3d8;
 $lima :#43c423;
 $pomegranate: #e33;
-$weborange : #ffa900;
+$pizazz : #ff9000;
 $white: #fff;
 
 html, 
@@ -72,7 +72,7 @@ a:active {text-decoration:none;}
 }
 
 #three-munka {
-		background-color: $weborange;
+		background-color: $pizazz;
 }
 
 #four-ref {
@@ -87,17 +87,13 @@ footer {
 
 @import '_header.scss';
 
-.text,
-.ul-text {
+.text {
 		font-weight: 400;
 		line-height: 1.8em;
 		margin: 0 auto;
 		max-width: 1000px;
+		padding: 1em;
 		text-align: left;
-}
-
-.text {
-				padding: 1em;
 }
 
 @import '_bemutatkozas.scss';

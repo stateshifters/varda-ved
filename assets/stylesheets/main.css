@@ -68,7 +68,7 @@ a:active {
 }
 
 #three-munka {
-  background-color: #ffa900;
+  background-color: #ff9000;
 }
 
 #four-ref {
@@ -100,7 +100,7 @@ footer {
   background-color: #ee3333;
 }
 #stripe #stripe_3 {
-  background-color: #ffa900;
+  background-color: #ff9000;
 }
 #stripe #stripe_4 {
   background-color: #00a3d8;
@@ -215,17 +215,13 @@ nav.shrink #menu_wrap li {
   transition: all 0.5s;
 }
 
-.text,
-.ul-text {
+.text {
   font-weight: 400;
   line-height: 1.8em;
   margin: 0 auto;
   max-width: 1000px;
-  text-align: left;
-}
-
-.text {
   padding: 1em;
+  text-align: left;
 }
 
 #bemutatkozas {
@@ -237,16 +233,19 @@ nav.shrink #menu_wrap li {
   width: 100%;
 }
 
-#tuzvedelem {
+#tuzvedelem,
+#munkavedelem {
   color: white;
   font-weight: 300;
   min-height: 100%;
   padding-top: 3.75em;
 }
-#tuzvedelem .icon {
+#tuzvedelem .icon,
+#munkavedelem .icon {
   margin: 1.2em 0;
 }
-#tuzvedelem .title {
+#tuzvedelem .title,
+#munkavedelem .title {
   padding: 0;
 }
 

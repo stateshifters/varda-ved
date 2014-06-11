@@ -1,9 +1,8 @@
 {
   "images/extinguisher.png": "/assets/images/extinguisher.png",
   "images/gyula.jpg": "/assets/images/gyula.jpg",
-  "images/munkaved-compressor.jpg": "/assets/images/munkaved-compressor.jpg",
+  "images/helmet.png": "/assets/images/helmet.png",
   "images/munkaved.jpg": "/assets/images/munkaved.jpg",
-  "images/munkaved2.jpg": "/assets/images/munkaved2.jpg",
   "images/vardaved-logo.png": "/assets/images/vardaved-logo.png",
   "stylesheets/main.css": "/assets/stylesheets/main.css",
   "stylesheets/main.min.css": "/assets/stylesheets/main.min.css"
