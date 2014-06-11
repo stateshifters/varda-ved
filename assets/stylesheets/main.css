@@ -215,33 +215,39 @@ nav.shrink #menu_wrap li {
   transition: all 0.5s;
 }
 
+.text,
+.ul-text {
+  font-weight: 400;
+  line-height: 1.8em;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.text {
+  padding: 1em;
+}
+
 #bemutatkozas {
   font-weight: 300;
   margin: 13.5em auto 0;
   min-height: 100%;
-}
-#bemutatkozas .text {
-  font-weight: 400;
-  line-height: 1.8em;
-  margin: 0 auto;
-  padding: 1em 0;
-  width: 1000px;
 }
 #bemutatkozas img {
   width: 100%;
 }
 
 #tuzvedelem {
+  color: white;
   font-weight: 300;
-  padding-top: 3.75em;
   min-height: 100%;
+  padding-top: 3.75em;
 }
-#tuzvedelem .text {
-  font-weight: 400;
-  line-height: 1.8em;
-  margin: 0 auto;
-  padding: 1em 0;
-  width: 1000px;
+#tuzvedelem .icon {
+  margin: 1.2em 0;
+}
+#tuzvedelem .title {
+  padding: 0;
 }
 
 #kapcsolat {

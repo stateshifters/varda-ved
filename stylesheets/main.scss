@@ -87,6 +87,19 @@ footer {
 
 @import '_header.scss';
 
+.text,
+.ul-text {
+		font-weight: 400;
+		line-height: 1.8em;
+		margin: 0 auto;
+		max-width: 1000px;
+		text-align: left;
+}
+
+.text {
+				padding: 1em;
+}
+
 @import '_bemutatkozas.scss';
 
 @import '_tuzvedelem.scss';
