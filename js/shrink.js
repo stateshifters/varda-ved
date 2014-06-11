@@ -1,15 +1,46 @@
-$(function(){
- var shrinkHeader = 350;
-  $(window).scroll(function() {
-    var scroll = getCurrentScroll();
-      if ( scroll >= shrinkHeader ) {
-           $('#main_nav').addClass('shrink');
-        }
-        else {
-            $('#main_nav').removeClass('shrink');
-        }
-  });
-function getCurrentScroll() {
-    return window.pageYOffset || document.documentElement.scrollTop;
-    }
+$(document).ready(function () {
+
+
+	(function () {
+		var lastTime = 0;
+		var vendors = ['ms', 'moz', 'webkit', 'o'];
+		for (var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
+			window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];
+			window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame']
+				|| window[vendors[x] + 'CancelRequestAnimationFrame'];
+		}
+		if (!window.requestAnimationFrame)
+			window.requestAnimationFrame = function (callback, element) {
+				var currTime = new Date().getTime();
+				var timeToCall = Math.max(0, 16 - (currTime - lastTime));
+				var id = window.setTimeout(function () {
+						callback(currTime + timeToCall);
+					},
+					timeToCall);
+				lastTime = currTime + timeToCall;
+				return id;
+			};
+		if (!window.cancelAnimationFrame)
+			window.cancelAnimationFrame = function (id) {
+				clearTimeout(id);
+			};
+	}());
+
+
+	var menuSizeWatch = function () {
+		var shrinkHeader = 350;
+
+		var scroll = window.pageYOffset || document.documentElement.scrollTop;
+		if (scroll >= shrinkHeader) {
+			$('#main_nav').addClass('shrink');
+		}
+		else {
+			$('#main_nav').removeClass('shrink');
+		}
+		window.requestAnimationFrame(menuSizeWatch);
+	};
+
+	window.requestAnimationFrame(menuSizeWatch);
+
+
 });
