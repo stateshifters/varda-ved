@@ -1,1 +1,8 @@
 language: node_js
+deploy:
+  provider: heroku
+  api_key:
+    secure: hdbwGfTfyzUcf9hKk/4TlAHU9EneHNDh79XOr4qwR/OJIDonp8jQFVzO/zyVrhYbcq82rN75g0+6aX83XOyJ0ryQhL5LNA6kzxbQylt9FB05vsF86rtHwbSEbscCB2/1gDeF1P8MlrU1I7IwnCv7A1T9lbGaFKevnQLqkbKS7D4=
+  app: varda-ved-beta
+  on:
+    repo: stateshifters/varda-ved
