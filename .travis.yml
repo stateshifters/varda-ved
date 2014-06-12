@@ -6,3 +6,5 @@ deploy:
   app: varda-ved-beta
   on:
     repo: stateshifters/varda-ved
+notifications:
+  slack: tatu:heB5CcyJ80t4IDuIoXsAt7Wc
