@@ -38,6 +38,6 @@
 		"node": ">=0.10.3"
 	},
 	"scripts": {
-		"postinstall": "grunt hookmeup && git config core.autocrlf input"
+
 	}
 }
