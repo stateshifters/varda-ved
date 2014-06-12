@@ -31,9 +31,6 @@
 		"jshint-stylish": "0.2.0"
 
 	},
-	"engines": {
-		"node": "0.10.22"
-	},
 	"scripts": {
 
 	}
