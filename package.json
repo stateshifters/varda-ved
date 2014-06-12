@@ -2,40 +2,37 @@
 	"name": "Varda-Ved",
 	"version": "1.0.0",
 	"dependencies": {
+		"glob": "4.0.2",
 
-		"jshint-stylish": "*",
-
-		"grunt": "*",
-		"grunt-cli": "*",
-		"glob": "*",
-
-
-		"grunt-appcache": "*",
+		"grunt": "0.4.5",
+		"grunt-appcache": "0.1.4",
+		"grunt-cli": "0.1.13",
 
 
-		"grunt-contrib-jshint": "*",
-		"grunt-contrib-clean": "*",
-		"grunt-contrib-compass": "*",
-		"grunt-contrib-copy": "*",
-		"grunt-contrib-cssmin": "*",
-		"grunt-contrib-watch": "*",
-		"grunt-css-metrics": "*",
+		"grunt-contrib-clean": "0.5.0",
+		"grunt-contrib-cssmin": "0.9.0",
+		"grunt-contrib-jshint": "0.10.0",
+		"grunt-contrib-compass": "0.8.0",
+		"grunt-contrib-copy": "0.5.0",
+		"grunt-contrib-watch": "0.6.1",
+		"grunt-css-metrics": "0.1.2",
+		"grunt-env": "0.4.1",
 
-		"grunt-env": "*",
+		"grunt-file-creator": "0.1.1",
 
-		"grunt-file-creator": "*",
+		"grunt-hash": "0.5.0",
 
-		"grunt-hash": "*",
+		"grunt-phpunit": "0.3.3",
 
-		"grunt-phpunit": "*",
+		"grunt-svgmin": "0.4.0",
 
-		"grunt-svgmin": "*",
+		"grunt-text-replace": "0.3.12",
 
-		"grunt-text-replace": "*"
+		"jshint-stylish": "0.2.0"
 
 	},
 	"engines": {
-		"node": ">=0.10.3"
+		"node": "0.10.22"
 	},
 	"scripts": {
 
