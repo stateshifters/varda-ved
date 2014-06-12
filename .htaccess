@@ -1,0 +1,15 @@
+RewriteEngine ON
+
+<IfModule mod_deflate.c>
+  SetOutputFilter DEFLATE
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+<IfModule mod_headers.c>
+  Header append Vary User-Agent
+</IfModule>
+
+</IfModule>
+
+RewriteBase /
+RewriteCond  %{REQUEST_FILENAME} !robots.txt
+RewriteCond  %{REQUEST_URI} !^/(fonts|images|stylesheets|assets|manifest\.appcache).*$
+RewriteRule  ^(.*)$ index.php [QSA,L]
