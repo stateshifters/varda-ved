@@ -1,3 +1,8 @@
+.sass-cache
+node_modules
+assets/js
+*.appcache
+
 # Created by http://www.gitignore.io
 
 ### Windows ###
@@ -20,6 +25,7 @@ $RECYCLE.BIN/
 
 ### Linux ###
 *~
+!.travis.yml
 
 # KDE directory preferences
 .directory
@@ -31,7 +37,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

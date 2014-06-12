@@ -1,0 +1,43 @@
+{
+	"name": "Varda-Ved",
+	"version": "1.0.0",
+	"dependencies": {
+
+		"jshint-stylish": "*",
+
+		"grunt": "*",
+		"grunt-cli": "*",
+		"glob": "*",
+
+
+		"grunt-appcache": "*",
+
+
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-clean": "*",
+		"grunt-contrib-compass": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-css-metrics": "*",
+
+		"grunt-env": "*",
+
+		"grunt-file-creator": "*",
+
+		"grunt-hash": "*",
+
+		"grunt-phpunit": "*",
+
+		"grunt-svgmin": "*",
+
+		"grunt-text-replace": "*"
+
+	},
+	"engines": {
+		"node": ">=0.10.3"
+	},
+	"scripts": {
+		"postinstall": "grunt hookmeup && git config core.autocrlf input"
+	}
+}

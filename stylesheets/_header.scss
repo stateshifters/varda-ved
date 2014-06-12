@@ -1,0 +1,133 @@
+#stripe {
+	height: .3125em;
+	width: 100%;
+	z-index: 1000;
+
+	.stripe_all {
+		width: 20%;
+		float: left;
+		height: inherit;
+	}
+
+	#stripe_1 {
+		background-color: $alto;
+	}
+
+	#stripe_2 {
+		background-color: $pomegranate;
+	}
+
+	#stripe_3 {
+		background-color: $pizazz;
+	}
+
+	#stripe_4 {
+		background-color: $cerulean;
+	}
+
+	#stripe_5 {
+		background-color: $lima;
+	}
+}
+
+$height-speed: height 0.5s;
+$width-speed: width 0.5s;
+$all-speed: all 0.5s;
+
+nav {
+	height: 12.875em;
+	width: 100%;
+	background-color: $alabaster;
+	text-align: center;
+	font-size: 1em;
+	text-transform: uppercase;
+//	position: fixed;
+	
+	left: 0;
+	z-index: 100;
+	#logo {
+		background-color: $alabaster;
+
+		.logo_pic {
+			position: relative;
+		}
+
+		#logo_text {
+			font-weight: 600;
+			height: 2em;
+			padding-bottom: 1em;
+			padding-top: .5em;
+		}
+	}
+
+	#menu_wrap {
+		background-color: $white;
+		font-weight: 300;
+		width: 100%;
+		
+		#menu {
+			display: table;
+			margin: 0 auto;
+			width: 800px;
+
+			li {
+		    	display: table-cell;
+		    	margin-top: 1em;
+		    	padding: 1em 0;
+			}
+		}
+	}
+}
+
+
+nav.shrink {
+	clear: both;
+	background-color: $white;
+    height: 3.125em;
+	-webkit-transition: $height-speed;
+    -moz-transition: $height-speed;
+    -o-transition: $height-speed;
+    transition: $height-speed;
+    
+    #logo {
+    	width: 20%;
+          height: 3.125em;
+    	float: left;
+		background-color: $white;
+
+		#logo_pic {
+			display: table-cell;
+			-webkit-transition: $width-speed;
+		    -moz-transition: $width-speed;
+		    -o-transition: $width-speed;
+		    transition: $width-speed;
+
+			img {
+				height: 2.75em;
+				margin: .1875em 1em;
+			}
+		}
+
+		#logo_text {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+			font-size: 1em;
+		}
+	}
+
+	#menu_wrap {
+		width: 80%;
+		float: right;
+		height: 3.125em;
+
+		li {
+			-webkit-transition: $all-speed;
+	    	-moz-transition: $all-speed;
+	    	-o-transition: $all-speed;
+	    	transition: $all-speed;
+	    }
+	}
+}

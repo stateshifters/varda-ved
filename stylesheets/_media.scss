@@ -1,0 +1,157 @@
+$monitor: 64em;
+$monitor_: $monitor - 0.01em;
+$tablet: 48em;
+$tablet_: $tablet - 0.01em;
+$mobile: 30em;
+$mobile_: $mobile - 0.01em;
+
+/* 1024px - */
+@media only screen and (min-width: $monitor) {
+	#profile_pic {
+		/*width: 100%;*/
+		img {
+			height: 120px;
+			width: 120px;
+			border: 7px solid $white;
+			border-radius: 50%;
+		}
+		#left, #right {
+			width: 50%;
+			float: left;
+			margin: 3em 0 5em 0;
+		}
+	}	
+}
+
+
+/* 768px - 1023px */
+@media only screen and (min-width: $tablet) and (max-width: $monitor_) {
+	#kapcsolat {
+		width: 100%;
+		height: initial;
+		#profile_pic {
+			/*width: 100%;*/
+			img {
+			height: 120px;
+			width: 120px;
+			border: 7px solid $white;
+			border-radius: 50%;
+			}
+			#left, #right {
+				width: 100%;
+				margin: 2em 0;
+			}
+		}
+	}
+
+	#map {
+	background-color: $alabaster;
+	height: 300px;
+	width: 100%;
+		iframe {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}	
+
+
+/* 480px - 767px */
+@media only screen and (min-width: $mobile) and (max-width: $tablet_) {
+	#kapcsolat {
+		width: 100%;
+		height: initial;
+		#profile_pic {
+			img {
+				height: 100px;
+				width: 100px;
+				border: 5px solid $white;
+				border-radius: 50%;
+			}
+			#left, #right {
+				width: 100%;
+				margin: 2em 0;
+			}
+		}
+	}
+
+	#map {
+	background-color: $alabaster;
+	height: 200px;
+	width: 100%;
+		iframe {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	footer {
+		height: 40px;
+		font-size: 0.7em;
+	}
+}
+
+
+/* - 479px */
+@media only screen and (max-width: $mobile_) {
+	p {
+		font-size: 1em;
+		line-height: 1.6em;
+		.bold {
+			font-weight: 600;
+		}
+		.bold:nth-child(3) {
+			padding-left: 1em;
+		}
+	}
+
+	p:first-child {
+		padding: 90px 0 10px 0;
+		font-size: 1.5em;
+	}
+
+	p.big-bold {
+		font-size: 1.2em;
+	}
+
+	p.name {
+		font-size: 1em;
+	}
+
+	#logo {
+		padding-bottom: 10px;
+	}
+
+
+	#kapcsolat {
+		width: 100%;
+		height: initial;
+		#profile_pic {
+			img {
+				height: 70px;
+				width: 70px;
+				border: 2px solid $white;
+				border-radius: 50%;
+			}
+			#left, #right {
+				width: 100%;
+				margin: 1em 0;
+			}
+		}
+	}
+
+	#map {
+		background-color: $alabaster;
+		height: 150px;
+		width: 100%;
+			iframe {
+				width: 100%;
+				height: 100%;
+			}
+	}
+
+	footer {
+		height: 30px;
+		font-size: 0.7em;
+	}
+}

@@ -1,0 +1,140 @@
+* {
+		margin: 0;
+		padding: 0;
+}
+
+a, 
+img {
+	    border: none;
+	    outline: none
+}
+
+#info {
+	z-index: 9999;
+	padding: 1.5em;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	position: fixed;
+	top: 1em;
+	right: 1em;
+}
+
+$alabaster: #f8f8f8;
+$alto: #d2d2d2;
+$black: #000;
+$cerulean :#00a3d8;
+$lima :#43c423;
+$pomegranate: #e33;
+$pizazz : #ff9000;
+$white: #fff;
+
+html, 
+body {
+		color: $black;
+		background-color: $alabaster;
+		font-family: 'Open Sans', sans-serif;
+		height: 100%;
+		text-align: center;
+}
+
+a {
+		color: $black;
+		-webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    -o-transition: all .3s;
+	    transition: all .3s;
+}
+
+a:link {text-decoration:none;} 
+
+a:visited {text-decoration:none;}
+
+a:hover {
+		background-color: $pomegranate;
+		color: $white;
+		padding: .3em 0;
+		text-decoration:none;
+		-webkit-transition: all .3s;
+	    -moz-transition: all .3s;
+	    -o-transition: all .3s;
+	    transition: all .3s;
+} 
+
+a:active {text-decoration:none;}
+
+
+#wrap, 
+#one, 
+#two-tuz, 
+#three-munka, 
+#four-ref {
+		height: 100%;
+		width: 100%;
+}
+
+#one {
+		background-color: $alabaster;
+		height: initial;
+		margin-top: 18em;
+}
+
+#two-tuz {
+		background-color: $pomegranate;
+		height: initial;
+}
+
+#three-munka {
+		background-color: $pizazz;
+		height: initial;
+}
+
+#four-ref {
+		background-color: $cerulean;
+		height: initial;
+}
+
+#five-kapcs, 
+footer {
+		background-color: $lima;
+		min-height: initial;
+}
+
+@import '_header.scss';
+
+.text {
+		font-size: 1.7em;
+		font-weight: 300;
+		margin: 0 auto;
+		max-width: 1000px;
+		padding: 1em;
+		text-align: left;
+}
+
+.regular {
+		font-weight: 400;
+}
+
+
+
+@import '_bemutatkozas.scss';
+
+@import '_tuzvedelem.scss';
+
+@import '_kapcsolat.scss';
+
+footer {
+		background-color: $alabaster;
+		color: $black;
+		display: table;
+		font-size: 1em;
+		height: 80px;
+		text-align: center;
+		width: 100%;
+
+		div {
+			display: table-cell;
+			vertical-align: middle;
+		}
+}
+
+@import '_media.scss'
