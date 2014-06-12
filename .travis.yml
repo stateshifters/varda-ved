@@ -1,4 +1,7 @@
 language: node_js
+install:
+  - bundle install
+  - npm install
 deploy:
   provider: heroku
   buildpack: https://github.com/meza/heroku-buildpack-php.git#nonprod
