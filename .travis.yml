@@ -5,6 +5,7 @@ install:
   - bundle install
   - npm install
 deploy:
+  strategy: git
   provider: heroku
   buildpack: https://github.com/meza/heroku-buildpack-php.git#nonprod
   api_key:
