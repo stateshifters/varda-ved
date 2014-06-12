@@ -25,6 +25,7 @@ $RECYCLE.BIN/
 
 ### Linux ###
 *~
+!.travis.yml
 
 # KDE directory preferences
 .directory
