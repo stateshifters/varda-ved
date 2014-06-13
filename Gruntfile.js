@@ -163,17 +163,6 @@ module.exports = function (grunt) {
 				options: {
 					spawn: false
 				}
-			},
-			php: {
-				files: [
-					'**/*.php',
-					'!vendor/**',
-					'!node_modules/**'
-				],
-				tasks: ['phpunit'],
-				options: {
-					spawn: false
-				}
 			}
 		},
 		cssmetrics: {
@@ -216,16 +205,6 @@ module.exports = function (grunt) {
 				}
 			}
 
-		},
-		phpunit: {
-			classes: {
-				dir: 'test'
-			},
-			options: {
-				bin: 'vendor/bin/phpunit',
-				bootstrap: 'test/testBootstrap.php',
-				colors: true
-			}
 		},
 		svgmin: {                       // Task
 			options: {                  // Configuration that will be passed directly to SVGO
@@ -345,7 +324,7 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-hash');            // Creates hashes for the assets
 
-	grunt.loadNpmTasks('grunt-phpunit');         // Runs phpunit (used for dev)
+//	grunt.loadNpmTasks('grunt-phpunit');         // Runs phpunit (used for dev)
 
 	grunt.loadNpmTasks('grunt-svgmin');          // Minifies SVG
 
