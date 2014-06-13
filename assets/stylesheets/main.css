@@ -213,11 +213,23 @@ nav.shrink #menu_wrap #menu li {
 }
 
 #image {
+  background: url("/assets/images/munkaved.jpg") no-repeat;
+  background-size: cover;
   height: 311px;
   width: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
 }
-#image img {
-  z-index: -1;
+
+#slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5,
+#slide6 {
+  position: relative;
+  z-index: 5;
 }
 
 .text {
@@ -227,6 +239,10 @@ nav.shrink #menu_wrap #menu li {
   max-width: 1000px;
   padding: 1em;
   text-align: left;
+}
+
+.white {
+  color: white;
 }
 
 .regular {

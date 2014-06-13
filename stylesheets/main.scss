@@ -103,12 +103,23 @@ footer {
 
 
 #image {
-//	background: url('images/munkaved.jpg');
+	background: url('images/munkaved.jpg') no-repeat;
+	background-size: cover;
 	height: 311px;
 	width: 100%;
-	img {
-		z-index: -1;
-	}
+	position: absolute;
+	z-index: 1;
+	left: 0;
+}
+
+#slide1, 
+#slide2, 
+#slide3, 
+#slide4,
+#slide5,
+#slide6 {
+	position: relative;
+	z-index: 5;
 }
 
 
@@ -119,6 +130,10 @@ footer {
 		max-width: 1000px;
 		padding: 1em;
 		text-align: left;
+}
+
+.white {
+		color: $white;
 }
 
 .regular {
