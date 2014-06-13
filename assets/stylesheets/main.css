@@ -212,6 +212,14 @@ nav.shrink #menu_wrap #menu li {
   transition: all 0.5s;
 }
 
+#image {
+  height: 311px;
+  width: 100%;
+}
+#image img {
+  z-index: -1;
+}
+
 .text {
   font-size: 1.7em;
   font-weight: 300;
@@ -231,6 +239,7 @@ nav.shrink #menu_wrap #menu li {
 }
 #bemutatkozas img {
   width: 100%;
+  z-index: -1;
 }
 
 #tuzvedelem,

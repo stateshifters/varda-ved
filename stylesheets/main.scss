@@ -101,6 +101,17 @@ footer {
 
 @import '_header.scss';
 
+
+#image {
+//	background: url('images/munkaved.jpg');
+	height: 311px;
+	width: 100%;
+	img {
+		z-index: -1;
+	}
+}
+
+
 .text {
 		font-size: 1.7em;
 		font-weight: 300;

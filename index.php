@@ -98,16 +98,23 @@
 							A VÁRDA-VÉD neve egyet jelent a munkavédelem és a tűzvédelem terén szerzett sok
 							éves szakmai tapaszatalattal.
 						</p> 
-						<p class="text">
+						<!--p class="text">
 							Amennyiben olyan szakembereket keres, akik <span class="regular">megbízhatóan</span> és
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">biztonságos munkakörnyezetet kialakítani</span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
 							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
-						</p>
+						</p-->
 
 				</div>
 
-				<img src="images/munkaved.jpg">
+				<div  
+				data-0="left:0;top:-53px;opacity:1;"
+				data-500="left:0px;top:60px;position:fixed;opacity:1;" 
+				data-700="left:0px;top:60px;position:fixed;opacity:1;" 
+				data-1000="left:0;top:60px;position:fixed;opacity:0;"
+				id="image">
+						<img src="images/munkaved.jpg">
+				</div>
 
 				<div id="slide2">
 						<p class="text">
