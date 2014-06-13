@@ -13,10 +13,10 @@
 <div id="skrollr-body">
 	<div id="wrap">
 		<div id="info">0</div>
-		<div id="navigation">
+		<div id="navi">
 			<nav id="main_nav"
-			     data-0="height: 16em;position:fixed;top:0;"
-			     data-400="position:fixed;height:3.75em;top:0;">
+			     data-0="position:fixed;top:0;"
+			     data-400="position:fixed;top:0;">
 
 				<ul class="navigation">
 					<div id="logo"
@@ -31,17 +31,12 @@
 							     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
 							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
 						</div>
-						<div id="logo_text"
-						     data-0="height:2em;opacity:100;display:inline;"
-						     data-150="padding:0;line-height:0px;height:0;opacity:0;text-size:.1em;display:inline;"
-						     data-400="display:none;">
+						<div id="logo_text">
 							<a href="#"
 							   data-0="display:inline;opacity:100;font-size:1em;position:relative;top:0px;"
-
 							   data-150="opacity:0;font-size:.6em;display:inline;position:relative;top:-14px;"
 							   data-400="display:none;font-size:0;top:-14px">Várda-Véd</a>
 						</div>
-
 
 						<div class="logo_pic">
 							<img style="display:none;" data-0="position:fixed;height:42px;width:42px;top:16px;left:-60px;margin:0;display:block;"
@@ -49,17 +44,11 @@
 							     data-500="position:fixed;left:16px;top:5px;left:16px;top:16px;"
 							     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
 							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
+						    <a href="#"
+							    data-250="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:0;"
+							    data-360="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:.2;"
+							    data-450="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:1;">Várda-Véd</a>
 						</div>
-						<div id="logo_text"
-						     data-0="display:none;"
-						     data-100="text-size:0.7em;display:inline;"
-						     data-350="text-size:0;display:none;">
-							<a href="#"
-							   data-0="display:none;opacity:100;font-size:1em;position:relative;top:0px;"
-							   data-100="opacity:0;font-size:.6em;display:inline;position:relative;top:-14px;"
-							   data-350="font-size:0;top:20px">Várda-Véd</a>
-						</div>
-						
 					</div>
 
 					<div id="stripe"
@@ -96,6 +85,7 @@
 							</li>
 						</div>
 					</div>
+
 				</ul>
 			</nav>
 		</div>
@@ -323,7 +313,6 @@
 		<div id="five-kapcs">
 			<div id="kapcsolat">
 				<div id="slide16">
-						
 						<h1 class="upp">Kapcsolat</h1>
 						<img id="logo_" src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
 						     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
