@@ -13,96 +13,101 @@
 <div id="skrollr-body">
 	<div id="wrap">
 		<div id="info">0</div>
-		<div id="navi">
-			<nav id="main_nav"
-			     data-0="position:fixed;top:0;"
-			     data-400="position:fixed;top:0;">
+		<div id="header">
+	<nav data-0="position:fixed;top:0;" data-400="position:fixed;top:0;">
 
-				<ul class="navigation">
-					<div id="logo"
-					     data-0="height:12.5em;"
-					     data-150="height:8em;"
-					     data-280="height:4em;"
-					     data-500="height:0;">
-						<div class="logo_pic">
-							<img data-0="height: 4.1875em;display:inline;float:none;margin-top:3em;"
-							     data-100="height:3.125em;display:inline;float:none;opacity:100;"
-							     data-350="height:0;"
-							     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
-							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
-						</div>
-						<div id="logo_text">
-							<a href="#"
-							   data-0="display:inline;opacity:100;font-size:1em;position:relative;top:0px;"
-							   data-150="opacity:0;font-size:.6em;display:inline;position:relative;top:-14px;"
-							   data-400="display:none;font-size:0;top:-14px">Várda-Véd</a>
-						</div>
+		<ul class="navigation">
+			<div id="logo" data-0="height:12.5em;" data-150="height:8em;" data-280="height:4em;" data-500="height:0;">
+				<div class="logo_pic">
+					<img 
+					   data-0="  height:4.1875em; display:inline; float:none; margin-top:3em; opacity:1;"
+					   data-250="height:3.525em; display:inline; float:none; margin-top:1em; opacity:0;"
+					   data-350="height:2.625em; display:table; padding:1em 1em 0; margin-top:0; opacity:0;"
+					   data-550="height:2.625em; display:table; padding:1em 1em 0; margin-top:0; opacity:1;"
+				       src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
+				       onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
+				</div>
+				<!--div id="logo_text">
+					<a href="#"
+					   data-0="display:table; opacity:1; font-size:1em; top:0px;"
+					   data-250="display:table; opacity:0; font-size:0; top:-14px;"
 
-						<div class="logo_pic">
-							<img style="display:none;" data-0="position:fixed;height:42px;width:42px;top:16px;left:-60px;margin:0;display:block;"
-							     data-120="position:fixed;left:-60px;top:16px;"
-							     data-500="position:fixed;left:16px;top:5px;left:16px;top:16px;"
-							     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
-							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
-						    <a href="#"
-							    data-250="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:0;"
-							    data-360="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:.2;"
-							    data-450="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:1;">Várda-Véd</a>
-						</div>
-					</div>
+					   data-350="display:table; opacity:0; font-size:1em; "
+					   data-550="display:table; opacity:1; font-size:1em; "
+					   >
+					   Várda-Véd</a>
+				</div-->
 
-					<div id="stripe"
-							 data-0="height:2px;"
-						     data-500="height:10px;">
-						<div id="stripe_1" class="stripe_all">
-						</div>
-						<div id="stripe_2" class="stripe_all">
-						</div>
-						<div id="stripe_3" class="stripe_all">
-						</div>
-						<div id="stripe_4" class="stripe_all">
-						</div>
-						<div id="stripe_5" class="stripe_all">
-						</div>
-					</div>
+				<!--div class="logo_pic">
+					<img style="display:none;" data-0="position:fixed;height:42px;width:42px;top:16px;left:-60px;margin:0;display:block;"
+					     data-120="position:fixed;left:-60px;top:16px;"
+					     data-500="position:fixed;left:16px;top:5px;left:16px;top:16px;"
+					     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
+					     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
+				    <a href="#"
+					    data-250="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:0;"
+					    data-360="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:.2;"
+					    data-450="font-size:1em;display:block;position:absolute;top:-83px;left:65px;opacity:1;">Várda-Véd</a>
+				</div-->
+			</div>
 
-					<div id="menu_wrap">
-						<div id="menu">
-							<li>
-								<a href="#"><span>bemutatkozás</span></a>
-							</li>
-							<li>
-								<a href="#two-tuz"><span>tűzvédelem</span></a>
-							</li>
-							<li>
-								<a href="#three-munka"><span>munkavédelem</span></a>
-							</li>
-							<li>
-								<a href="#four-ref"><span>referenciák</span></a>
-							</li>
-							<li>
-								<a href="#five-kapcs"><span>kapcsolat</span></a>
-							</li>
-						</div>
-					</div>
+			<div id="stripe" data-0="height:2px;" data-500="height:10px;">
+				<div id="stripe_1" class="stripe_all">
+				</div>
+				<div id="stripe_2" class="stripe_all">
+				</div>
+				<div id="stripe_3" class="stripe_all">
+				</div>
+				<div id="stripe_4" class="stripe_all">
+				</div>
+				<div id="stripe_5" class="stripe_all">
+				</div>
+			</div>
 
-				</ul>
-			</nav>
-		</div>
+			<div id="menu_wrap">
+				<div id="menu">
+					<li>
+						<a href=""><span>Várda-Véd</span></a>
+					</li>
+					<li>
+						<a href="#"><span>bemutatkozás</span></a>
+					</li>
+					<li>
+						<a href="#two-tuz"><span>tűzvédelem</span></a>
+					</li>
+					<li>
+						<a href="#three-munka"><span>munkavédelem</span></a>
+					</li>
+					<li>
+						<a href="#four-ref"><span>referenciák</span></a>
+					</li>
+					<li>
+						<a href="#five-kapcs"><span>kapcsolat</span></a>
+					</li>
+				</div>
+			</div>
+		</ul>
+	</nav>
+</div>
 
 
 		<div id="one">
-			<div id="bemutatkozas">
+			<section id="bemutatkozas">
 				<div  
-					data-0="left:0;top:-53px;opacity:1;"
-					data-500="left:0;top:60px;position:fixed;opacity:1;" 
-					data-1000="left:0;top:60px;position:fixed;opacity:1;" 
-					data-1400="left:0;top:60px;position:fixed;opacity:0;;"
+					data-0="left:0;top:-53px;opacity:1"
+					data-500="left:0;top:60px;position:fixed;opacity:1" 
+					data-1000="left:0;top:60px;position:fixed;opacity:1" 
+					data-1400="left:0;top:60px;position:fixed;opacity:0"
 					id="image">
 						<!--img src="images/munkaved.jpg"-->
 				</div>
 
-				<div id="slide1">
+				<div id="slide1"
+					data-top="transform:translateY(0px);"
+					data--300-top="transform:translateY(-500px);"
+					data-150=""
+					data-anchor-target="#bemutatkozas"
+				>
 						<p class="text regular">
 							A VÁRDA-VÉD neve egyet jelent a munkavédelem és a tűzvédelem terén szerzett sok
 							éves szakmai tapaszatalattal.
@@ -115,6 +120,8 @@
 						</p>
 
 				</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 				<div id="slide2">
 						<p class="text">
@@ -166,7 +173,7 @@
 						</p>
 				</div>
 
-			</div>
+			</section>
 		</div>
 
 		<div id="two-tuz">
@@ -376,7 +383,7 @@
 </div>
 <script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script src="assets/js/skrollr.min.js"></script>
-<script src="assets/js/shrink.js"></script>
+<!--script src="assets/js/shrink.js"></script-->
 <script src="assets/js/info.js"></script>
 </body>
 </html>

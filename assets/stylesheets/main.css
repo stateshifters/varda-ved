@@ -158,60 +158,68 @@ nav #menu_wrap #menu li {
   padding: 1em 0;
 }
 
+/*
 nav.shrink {
-  clear: both;
-  background-color: white;
-  height: 3.125em;
-  -webkit-transition: height 0.5s;
-  -moz-transition: height 0.5s;
-  -o-transition: height 0.5s;
-  transition: height 0.5s;
-}
-nav.shrink #logo {
-  width: 20%;
-  height: 3.125em;
-  float: left;
-  background-color: white;
-}
-nav.shrink #logo #logo_pic {
-  display: table-cell;
-  -webkit-transition: width 0.5s;
-  -moz-transition: width 0.5s;
-  -o-transition: width 0.5s;
-  transition: width 0.5s;
-}
-nav.shrink #logo #logo_pic img {
-  height: 2.75em;
-  margin: .1875em 1em;
-}
-nav.shrink #logo #logo_text {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0;
-  margin: 0;
-  font-weight: 600;
-  font-size: 1em;
-}
-nav.shrink #menu_wrap {
-  width: 80%;
-  float: right;
-  height: 3.125em;
-}
-nav.shrink #menu_wrap #menu {
-  display: table;
-  margin: 0 auto;
-  width: 800px;
-}
-nav.shrink #menu_wrap #menu li {
-  display: table-cell;
-  margin-top: 1em;
-  padding: 1em 0;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
+	clear: both;
+	background-color: $white;
+    height: 3.125em;
+	-webkit-transition: $height-speed;
+    -moz-transition: $height-speed;
+    -o-transition: $height-speed;
+    transition: $height-speed;
+    
+    #logo {
+    	width: 20%;
+        height: 3.125em;
+    	float: left;
+		background-color: $white;
 
+		#logo_pic {
+			display: table-cell;
+			-webkit-transition: $width-speed;
+		    -moz-transition: $width-speed;
+		    -o-transition: $width-speed;
+		    transition: $width-speed;
+
+			img {
+				height: 2.75em;
+				margin: .1875em 1em;
+			}
+		}
+
+		#logo_text {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+			font-size: 1em;
+		}
+	}
+
+	#menu_wrap {
+		width: 80%;
+		float: right;
+		height: 3.125em;
+
+		#menu {
+			display: table;
+			margin: 0 auto;
+			width: 800px;
+
+			li {
+		    	display: table-cell;
+		    	margin-top: 1em;
+		    	padding: 1em 0;
+		    	-webkit-transition: $all-speed;
+		    	-moz-transition: $all-speed;
+		    	-o-transition: $all-speed;
+		    	transition: $all-speed;
+			}
+		}
+	}
+}
+*/
 #image {
   background: url("/assets/images/munkaved.jpg") no-repeat;
   background-size: cover;
