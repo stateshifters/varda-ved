@@ -103,7 +103,10 @@
 
 		<div id="one">
 			<div id="bemutatkozas">
-				<div id="slide1">
+				<div id="slide1"
+                
+                
+				>
 						<p class="text regular">
 							A VÁRDA-VÉD neve egyet jelent a munkavédelem és a tűzvédelem terén szerzett sok
 							éves szakmai tapaszatalattal.
@@ -299,8 +302,8 @@
 
 </div>
 <script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script src="js/skrollr.min.js"></script>
-<script src="js/shrink.js"></script>
-<script src="js/info.js"></script>
+<script src="assets/js/skrollr.min.js"></script>
+<script src="assets/js/shrink.js"></script>
+<script src="assets/js/info.js"></script>
 </body>
 </html>
