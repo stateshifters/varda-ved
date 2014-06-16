@@ -87,12 +87,18 @@ a:active {
   height: 100%;
   position: fixed;
   width: 100%;
+  /*#law{
+  	height: 80px;
+  }*/
 }
 #slide-2 #two-tuz {
   background-color: #ee3333;
 }
 #slide-2 #extinguish {
   padding: 5em 0 1em 0;
+}
+#slide-2 #egy img {
+  height: 80px;
 }
 
 #wrap,

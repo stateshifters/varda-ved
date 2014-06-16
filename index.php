@@ -188,18 +188,53 @@
 				</div>	
 
 				<h1 class="title">Tűzvédelem</h1>
+				<br>
 
-				<p class="text regular relative center">
+				<p class="text regular relative center"
+					data-2200="left:-1500px; opacity:1; display:block;"
+					data-2800="left:0px; opacity:1;"
+					data-3400="left:0px; opacity:1;"
+					data-3800="left:0px; opacity:0;"
+					data-3801="display:none;"
+				>
 					A tűzvédelem jogszabályi hátterét Magyarországon két fontos jogszabály biztosítja. 
 				</p>
 
-				<p class="text relative center">
+				<img 
+					data-2200="height:0px; display:inline;"
+					data-2700="height:90px;"
+					data-2800="height:80px;"
+					data-3400="height:80px;"
+					data-3800="height:0px"
+					data-3801="display:none;"
+				id="law" src="images/law.png">
+
+
+				<div id="egy"
+						data-3600="display:none; opacity:0;"
+						data-3900="display:block; opacity:0;"
+						data-4400="opacity:1;"
+						data-4600=""
+						data-5200=""
+				>
+					<img src="images/1.png"
+						>
+				</div>
+
+
+				<p class="text relative center"
+					data-3600="display:none; opacity:0;"
+					data-3900="display:block; opacity:0; left:1500px;"
+					data-4400="opacity:1; left:0;"
+					data-4600=""
+					data-5200=""
+				>
 					Az első
 					a megelőzés és kárelhárítás érdekében teendő legfontosabb kötelező feladatokat határozza
 					meg, a tűzvédelem területén: ez a jogszabály a Tűzvédelmi Törvény.
 				</p>
 
-				<p class="text">
+				<!--p class="text">
 					A másik hasonlóan fontos jogszabály, az Országos Tűzvédelmi Szabályzat határozza meg a
 					tűzvédelmi megelőzési és kárelhárítási feladatokat és azok pontos végrehajtását.
 					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
@@ -208,9 +243,9 @@
 					saját tűzvédelmi szabályzat kialakítása, megfelelően képzett szakember segítségével.
 					Cégünk ezen felül a munkavállalók teljes körű munka-, és tűzvédelmi oktatását is elvégzi,
 					hogy munkatársai biztonságát és a törvények betartását teljes körűen szavatolhassa.
-				</p>
+				</p-->
 
-				<p class="text">
+				<!--p class="text">
 					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
@@ -223,7 +258,7 @@
 					<li>Tűzoltó készülékek beszerzése, karbantartása</li>
 					<li>Tűzvédelmi szakszemlék megtartása</li>
 					<li>Tűzvédelmi szakvizsgák szervezése, lebonyolítása</li>
-				</ul>
+				</ul-->
 			</div>
 		</section>
 
