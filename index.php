@@ -124,30 +124,28 @@
 							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
 					</p>	
 
-					<div id="klm"
-					data-0="opacity:0; position:relative; top: 0px;"
-						data-50="opacity:0; position:relative; top: 0px;"
-						data-500="opacity:1; position:relative; top: 0px;"
-						data-900="opacity:1; position:relative; top: 0px;"
-						data-1350="opacity:1; position:relative; top: -200px;"
-						data-1850="opacity:1; position:relative; top: -200px;"
+					<div class="relative" id="icon"
+					data-0="opacity:0; top:0px;"
+						data-50="opacity:0; top:0px;"
+						data-500="opacity:1; top:0px;"
+						data-900="opacity:1; top:0px;"
+						data-1350="opacity:1; top:-200px;"
+						data-1850="opacity:1; top:-200px;"
 						data-2030="opacity:0;"
 					>
 						<img src="images/references.png">
 					</div>	
 
 					<p class="relative text center regular"
-						data-0="opacity:1; top: -50px; left:0px;"
-						data-50="opacity:1;top: -50px; left:0px;"
-						data-300="opacity:1; top: 0px; left:0px;"
-						data-800="opacity:1; top: 0px; left:0px;"
-						data-1530="opacity:0; top: 0px; left:1500px;">
+						data-0="opacity:1; top:-50px; left:0px;"
+						data-50="opacity:1;top:-50px; left:0px;"
+						data-300="opacity:1; top:0px; left:0px;"
+						data-800="opacity:1; top:0px; left:0px;"
+						data-1530="opacity:0; top:0px; left:1500px;">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
 						tűzvédelem terén szerzett sok
 						éves szakmai tapaszatalattal.
 					</p>
-
-					
 
 					<p class="text relative center"
 						data-1130="opacity:0; top:-320px; font-size:0em;"

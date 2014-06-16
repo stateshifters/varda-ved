@@ -66,26 +66,26 @@ a:active {
 
 #slide-1 {
   height: 100%;
-  width: 100%;
   position: fixed;
+  width: 100%;
 }
 #slide-1 #one {
-  position: relative;
   left: 0;
-  width: 100%;
   opacity: 1;
+  position: relative;
+  width: 100%;
+}
+#slide-1 #one #icon {
+  padding: 2em 0 1em;
 }
 #slide-1 #one p {
   max-width: 1000px;
 }
-#slide-1 #one #klm {
-  padding: 2em 0 1em;
-}
 
 #slide-2 {
   height: 100%;
-  width: 100%;
   position: fixed;
+  width: 100%;
 }
 #slide-2 #two-tuz {
   background-color: #ee3333;
@@ -268,11 +268,6 @@ nav.shrink #menu_wrap li {
   font-weight: 300;
   min-height: 100%;
   padding-top: 3.75em;
-}
-#tuzvedelem .icon,
-#munkavedelem .icon,
-#referenciak .icon {
-  margin: 1.2em 0;
 }
 #tuzvedelem .title,
 #munkavedelem .title,

@@ -74,33 +74,35 @@ a:active {text-decoration:none;}
 //				opacity: .99;
 }
 
+
+
 #slide-1 {
 		height: 100%;
-		width: 100%;
 		position: fixed;
+		width: 100%;
 //		z-index: 5;
 		#one {
-			position: relative;
 			left: 0;
-			width: 100%;
 			opacity: 1;
+			position: relative;
+			width: 100%;
 //			background-color: $cerulean;
 //			z-index: 5;
 
-			p {
-				max-width: 1000px;
+			#icon {
+				padding: 2em 0 1em;
 			}
 
-			#klm {
-				padding: 2em 0 1em;
+			p {
+				max-width: 1000px;
 			}
 		}
 }
 
 #slide-2 {
 		height: 100%;
-		width: 100%;
 		position: fixed;
+		width: 100%;
 //		z-index: 4;
 
 		#two-tuz {
