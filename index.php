@@ -125,20 +125,20 @@
 					</p>	
 
 					<div class="relative" id="icon"
-					data-0="opacity:0; top:0px;"
+						data-0="opacity:0; top:0px;"
 						data-50="opacity:0; top:0px;"
 						data-500="opacity:1; top:0px;"
 						data-900="opacity:1; top:0px;"
-						data-1350="opacity:1; top:-200px;"
-						data-1850="opacity:1; top:-200px;"
-						data-2030="opacity:0;"
+						data-1350="opacity:1; top:-170px;"
+						data-1850="opacity:1; top:-170px;"
+						data-2030="opacity:0; top:-170px;"
 					>
 						<img src="images/references.png">
 					</div>	
 
 					<p class="relative text center regular"
 						data-0="opacity:1; top:-50px; left:0px;"
-						data-50="opacity:1;top:-50px; left:0px;"
+						data-50="opacity:1; top:-50px; left:0px;"
 						data-300="opacity:1; top:0px; left:0px;"
 						data-800="opacity:1; top:0px; left:0px;"
 						data-1530="opacity:0; top:0px; left:1500px;">
@@ -174,17 +174,32 @@
 			<div id="two-tuz"
 				data-2100="height:0%; width:100%; "
 				data-2400="height:100%; width:100%; "
-				data-5400="height:100%;width:100%; "
-			>
-				<img class="icon" src="images/extinguisher.png">
+				data-5400="height:100%;width:100%; ">
+
+				<div class="relative"
+					data-2600=""
+					data-2800=""
+					data-3000=""
+					data-3200=""
+					data-3400=""
+					data-3700=""
+					>
+						<img id="extinguish" src="images/extinguisher.png">
+				</div>	
 
 				<h1 class="title">Tűzvédelem</h1>
 
-				<p class="text">
-					A tűzvédelem jogszabályi hátterét Magyarországon két fontos jogszabály biztosítja. Az első
+				<p class="text regular relative center">
+					A tűzvédelem jogszabályi hátterét Magyarországon két fontos jogszabály biztosítja. 
+				</p>
+
+				<p class="text relative center">
+					Az első
 					a megelőzés és kárelhárítás érdekében teendő legfontosabb kötelező feladatokat határozza
 					meg, a tűzvédelem területén: ez a jogszabály a Tűzvédelmi Törvény.
+				</p>
 
+				<p class="text">
 					A másik hasonlóan fontos jogszabály, az Országos Tűzvédelmi Szabályzat határozza meg a
 					tűzvédelmi megelőzési és kárelhárítási feladatokat és azok pontos végrehajtását.
 					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy

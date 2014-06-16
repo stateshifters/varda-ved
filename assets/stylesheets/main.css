@@ -64,6 +64,10 @@ a:active {
   width: 100%;
 }
 
+#icon {
+  padding: 1em 0 .5em;
+}
+
 #slide-1 {
   height: 100%;
   position: fixed;
@@ -74,9 +78,6 @@ a:active {
   opacity: 1;
   position: relative;
   width: 100%;
-}
-#slide-1 #one #icon {
-  padding: 2em 0 1em;
 }
 #slide-1 #one p {
   max-width: 1000px;
@@ -89,6 +90,9 @@ a:active {
 }
 #slide-2 #two-tuz {
   background-color: #ee3333;
+}
+#slide-2 #extinguish {
+  padding: 5em 0 1em 0;
 }
 
 #wrap,
@@ -268,11 +272,9 @@ nav.shrink #menu_wrap li {
   font-weight: 300;
   min-height: 100%;
   padding-top: 3.75em;
-}
-#tuzvedelem .title,
-#munkavedelem .title,
-#referenciak .title {
-  padding: 0;
+  /*	.title {
+  		padding: 0;
+  	}*/
 }
 
 #kapcsolat {
@@ -297,7 +299,7 @@ p .bold:nth-child(3) {
 
 h1 {
   font-size: 2em;
-  padding-top: 2.8125em;
+  padding-bottom: 1.5em;
 }
 
 p.big-bold, p.name {
