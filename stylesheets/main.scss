@@ -62,20 +62,61 @@ a:hover {
 
 a:active {text-decoration:none;}
 
- 
+
+#slide-1 {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		#one {
+			position: relative;
+			left: 0;
+			width: 100%;
+			opacity: 1;
+//			background-color: $cerulean;
+
+			.bg-image {
+				position: relative;
+//				top: -42px;
+//				height: 300px;
+				width: 100%;
+//				background: url('images/munkaved.jpg');
+//				background-repeat: no-repeat;
+//				background-size: cover;
+//				opacity: .99;
+			}
+
+			p {
+				max-width: 1000px;
+
+			}
+
+			#klm {
+				padding: 2em 0 1em;
+				img{
+
+				}
+			}
+
+		}
+		
+		#slide1-1 {
+			background-color: $pomegranate;
+			position: relative;
+		}
+}
+
+#wrap, 
 #one, 
 #two-tuz, 
 #three-munka, 
-#four-ref,
-#wrap {
+#four-ref {
 		height: 100%;
 		width: 100%;
 }
 
 #one {
 		background-color: $alabaster;
-		height: initial;
-		margin-top: 18em;
+	//	margin-top: 18em;
 }
 
 #two-tuz {
@@ -101,28 +142,6 @@ footer {
 
 @import '_header.scss';
 
-
-#image {
-	background: url('images/munkaved.jpg') no-repeat;
-	background-size: cover;
-	height: 311px;
-	width: 100%;
-	position: absolute;
-	z-index: 1;
-	left: 0;
-}
-
-#slide1, 
-#slide2, 
-#slide3, 
-#slide4,
-#slide5,
-#slide6 {
-	position: relative;
-	z-index: 5;
-}
-
-
 .text {
 		font-size: 1.7em;
 		font-weight: 300;
@@ -130,10 +149,13 @@ footer {
 		max-width: 1000px;
 		padding: 1em;
 		text-align: left;
+		margin-bottom: 1em;
+//		position: relative;
+//		z-index: 100;
 }
 
-.white {
-		color: $white;
+.center {
+		text-align: center;
 }
 
 .regular {
