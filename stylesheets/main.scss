@@ -63,45 +63,48 @@ a:hover {
 a:active {text-decoration:none;}
 
 
+.relative {
+		position: relative;
+//				top: -42px;
+//				height: 300px;
+		width: 100%;
+//				background: url('images/munkaved.jpg');
+//				background-repeat: no-repeat;
+//				background-size: cover;
+//				opacity: .99;
+}
+
 #slide-1 {
 		height: 100%;
 		width: 100%;
 		position: fixed;
+//		z-index: 5;
 		#one {
 			position: relative;
 			left: 0;
 			width: 100%;
 			opacity: 1;
 //			background-color: $cerulean;
-
-			.bg-image {
-				position: relative;
-//				top: -42px;
-//				height: 300px;
-				width: 100%;
-//				background: url('images/munkaved.jpg');
-//				background-repeat: no-repeat;
-//				background-size: cover;
-//				opacity: .99;
-			}
+//			z-index: 5;
 
 			p {
 				max-width: 1000px;
-
 			}
 
 			#klm {
 				padding: 2em 0 1em;
-				img{
-
-				}
 			}
-
 		}
-		
-		#slide1-1 {
+}
+
+#slide-2 {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+//		z-index: 4;
+
+		#two-tuz {
 			background-color: $pomegranate;
-			position: relative;
 		}
 }
 

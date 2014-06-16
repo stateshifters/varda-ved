@@ -101,14 +101,18 @@
 		</div>
 
 
-		<section id="slide-1">
+		<section id="slide-1"
+			data-0="z-index:5;"
+			data-2000="z-index:5;"
+			data-2001="z-index:4;"
+		>
 				<div id="one"
-					data-0="height:100%;width:100%"
-					data-2200="height:100%;width:100%"
-					data-2800="height:0%;width:100%"
+					data-0="height:100%;width:100%; "
+					data-1900="height:100%;width:100%;"
+					data-2400="height:100%;width:100%;"
 					>
 
-					<p class="bg-image text center"
+					<p class="relative text center"
 						data-100="opacity:0;  top:50px; left:0px;"
 						data-500="opacity:1; top:50px; left:0px;"
 						data-1000="opacity:1; top:50px; left:0px;"
@@ -132,7 +136,7 @@
 						<img src="images/references.png">
 					</div>	
 
-					<p class="bg-image text center regular"
+					<p class="relative text center regular"
 						data-0="opacity:1; top: -50px; left:0px;"
 						data-50="opacity:1;top: -50px; left:0px;"
 						data-300="opacity:1; top: 0px; left:0px;"
@@ -145,12 +149,11 @@
 
 					
 
-					<!--p class="text"
-						data-0="opacity:0; "
-						data-100="opacity:0; "
-						data-600="opacity:1; "
-						data-750="opacity:1; "
-						data-1050="opacity:0;"
+					<p class="text relative center"
+						data-1130="opacity:0; top:-320px; font-size:0em;"
+						data-1430="opacity:1; top:-320px; font-size:1.7em;"
+						data-1850="opacity:1; top: -320px;"
+						data-2030="opacity:0;"
 					>
 						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja 
 						azokat a munkavédelmi feltételeket,
@@ -159,34 +162,22 @@
 						dokumentáció elkészítésében is segítséget nyújtanak, 
 						hogy vállalkozása törvényi
 						szempontból is minden követelménynek megfeleljen.
-					</p-->
+					</p>
 
-				</div>
-
-				<div id="slide1-1">
-						
-				</div>
-
-				<div id="slide2">
-						<p class="text">
-							5454 A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja azokat a munkavédelmi feltételeket,
-							amelyeket a törvény kötelező jelleggel előír, képzett szakértőink emellett a szükséges
-							dokumentáció elkészítésében is segítséget nyújtanak, hogy vállalkozása törvényi
-							szempontból is minden követelménynek megfeleljen.
-
-							A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja azokat a munkavédelmi feltételeket,
-							amelyeket a törvény kötelező jelleggel előír, képzett szakértőink emellett a szükséges
-							dokumentáció elkészítésében is segítséget nyújtanak, hogy vállalkozása törvényi
-							szempontból is minden követelménynek megfeleljen. A VÁRDA-VÉD segítségével ön gond nélkül
-							kialakíthatja azokat a munkavédelmi feltételeket, amelyeket a törvény kötelező jelleggel
-							előír, képzett szakértőink emellett a szükséges dokumentáció elkészítésében is segítséget
-							nyújtanak, hogy vállalkozása törvényi szempontból is minden követelménynek megfeleljen.
-						</p>
 				</div>
 		</section>
 
-		<!--div id="two-tuz">
-			<div id="tuzvedelem">
+
+		<section id="slide-2"
+			data-2100="z-index:4; top:100%"
+			data-2600="z-index:5; top:0%"
+			data-5400="z-index:5;"
+		>
+			<div id="two-tuz"
+				data-2100="height:0%; width:100%; "
+				data-2400="height:100%; width:100%; "
+				data-5400="height:100%;width:100%; "
+			>
 				<img class="icon" src="images/extinguisher.png">
 
 				<h1 class="title">Tűzvédelem</h1>
@@ -221,7 +212,7 @@
 					<li>Tűzvédelmi szakvizsgák szervezése, lebonyolítása</li>
 				</ul>
 			</div>
-		</div-->
+		</section>
 
 
 		<!--div id="three-munka">
