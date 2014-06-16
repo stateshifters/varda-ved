@@ -105,13 +105,11 @@ a:active {text-decoration:none;}
 		}
 
 		#extinguish {
-			padding: 5em 0 1em 0;
+			padding: 5em 0 1em .5em;
+			height: 70px;
 		}
 
-		/*#law{
-			height: 80px;
-		}*/
-		#egy img {
+		.number img{
 			height: 80px;
 		}
 }
@@ -133,6 +131,10 @@ a:active {text-decoration:none;}
 #two-tuz {
 		background-color: $pomegranate;
 		height: initial;
+
+		h1 {
+			color: $white;
+		}
 }
 
 #three-munka {
@@ -172,7 +174,6 @@ footer {
 .regular {
 		font-weight: 400;
 }
-
 
 
 @import '_bemutatkozas.scss';

@@ -184,7 +184,7 @@
 					data-3400=""
 					data-3700=""
 					>
-						<img id="extinguish" src="images/extinguisher.png">
+						<img id="extinguish" src="images/ext-b.png">
 				</div>	
 
 				<h1 class="title">Tűzvédelem</h1>
@@ -201,56 +201,94 @@
 				</p>
 
 				<img 
-					data-2200="height:0px; display:inline;"
-					data-2700="height:90px;"
-					data-2800="height:80px;"
-					data-3400="height:80px;"
+					data-2400="height:0px; display:inline;"
+					data-2900="height:90px;"
+					data-3100="height:80px;"
+					data-3500="height:80px;"
 					data-3800="height:0px"
 					data-3801="display:none;"
 				id="law" src="images/law.png">
 
 
-				<div id="egy"
-						data-3600="display:none; opacity:0;"
+
+				<div class="number"
+						data-3600="display:none; opacity:0; "
 						data-3900="display:block; opacity:0;"
 						data-4400="opacity:1;"
-						data-4600=""
-						data-5200=""
+						data-5200="opacity:1; "
+						data-5600="opacity:0; display:none;"
 				>
-					<img src="images/1.png"
-						>
+					<img src="images/1_3.png">
 				</div>
 
 
 				<p class="text relative center"
 					data-3600="display:none; opacity:0;"
 					data-3900="display:block; opacity:0; left:1500px;"
-					data-4400="opacity:1; left:0;"
-					data-4600=""
-					data-5200=""
+					data-4400="opacity:1; left:0px;"
+					data-5200="opacity:1; left:0px;"
+					data-5700="opacity:0; left:-1500px; display:none;"
 				>
 					Az első
 					a megelőzés és kárelhárítás érdekében teendő legfontosabb kötelező feladatokat határozza
 					meg, a tűzvédelem területén: ez a jogszabály a Tűzvédelmi Törvény.
 				</p>
 
-				<!--p class="text">
+
+				
+				<div class="number"
+						data-5701="opacity:0; display:block;"
+						data-6000="opacity:1;"
+						data-6800="opacity:1; "
+						data-7200="opacity:0; "
+						data-7201="display:none;"
+				>
+					<img src="images/2.png">
+				</div>
+
+				<p class="text relative center"
+					data-5701="opacity:0; left:1500px; display:block;"
+					data-6000="opacity:1; left:0px;"
+					data-6800="opacity:1; left:0px;"
+					data-7300="opacity:0; left:-1500px; display:none;"
+					>
 					A másik hasonlóan fontos jogszabály, az Országos Tűzvédelmi Szabályzat határozza meg a
 					tűzvédelmi megelőzési és kárelhárítási feladatokat és azok pontos végrehajtását.
+				</p>
+
+
+				<p class="text relative center"
+					data-7301="opacity:0; left:1500px; margin-top:-2em; display:block;"
+					data-7600="opacity:1; left:0px; margin-top:-2em;"
+					data-8200="opacity:1; left:0px; margin-top:-2em;"
+					data-8700="opacity:0; left:-1500px; margin-top:-2em; display:none;"
+				>
 					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki- és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
 					Mint bizonyára tudja, a munkáltató kötelessége a hatályos tűzvédelmi előírások alapján
 					saját tűzvédelmi szabályzat kialakítása, megfelelően képzett szakember segítségével.
 					Cégünk ezen felül a munkavállalók teljes körű munka-, és tűzvédelmi oktatását is elvégzi,
 					hogy munkatársai biztonságát és a törvények betartását teljes körűen szavatolhassa.
-				</p-->
+				</p>
 
-				<!--p class="text">
+				<p class="text relative regular center"
+					data-8600="opacity:0; left:1500px;  display:block;"
+					data-9000="opacity:1; left:0px; "
+					data-9800="opacity:1; left:0px; "
+					data-10000="opacity:0; left:0px;"
+					data-11000="opacity:0; left:0px; display:none; "
+				>
 					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
-				<ul class="text">
-					<li>Tűzvédelmi szabályzat készítése
+				<ul class="text"
+					data-10200="opacity:0; left:1500px; margin-top:-2em;"
+					data-10700="opacity:1; left:0px; "
+					data-11200="opacity:1; left:0px; "
+					data-12000="opacity:0; left:-1500px; ">
+					<li
+					
+					>Tűzvédelmi szabályzat készítése
 					</li>
 					<li>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként</li>
 					<li>Tűzriadó terv elkészítése</li>
@@ -258,7 +296,7 @@
 					<li>Tűzoltó készülékek beszerzése, karbantartása</li>
 					<li>Tűzvédelmi szakszemlék megtartása</li>
 					<li>Tűzvédelmi szakvizsgák szervezése, lebonyolítása</li>
-				</ul-->
+				</ul>
 			</div>
 		</section>
 
