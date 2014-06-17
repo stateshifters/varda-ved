@@ -129,6 +129,10 @@ a:active {
 #slide-3 #helmet {
   height: 70px;
 }
+#slide-3 #screw {
+  height: 80px;
+  width: 80px;
+}
 
 .text p {
   font-size: 1em;

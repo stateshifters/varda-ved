@@ -319,22 +319,48 @@
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png">
 				<h1 class="title">Munkavédelem</h1>
-				<p class="text center">
+				<p class="text regular relative center"
+					data-13600="opacity:0; left:1500px; display:block;"
+					data-14000="opacity:1; left:0px;"
+					data-14600="opacity:1; left:0px;"
+					data-15100="opacity:0; left:0px; display:none;"
+
+				>
 					Ahogy azt bizonyára tudja, a munkavédelem előírásainak megvalósítása és betartása minden
 					munkavállalónak és a munkáltatónak érdeke és törvényi kötelezettsége. Ha önnek legalább
 					egy fő alkalmazottja van, akkor a Munkavédelemről szóló 1993. évi XCIII. törvény önre és
 					cégére is vonatkozik.
 				</p>
 
-				<p class="text center">
+				<p class="text relative center"
+					data-15200="opacity:0; display:block;"
+					data-15800="opacity:1; "
+					data-16600="opacity:1; "
+					data-17000="opacity:0;"
+					data-17500="display:none;"
+				>
 					Magyarországon a munkavédelmi tevékenységet megfelelő végzettséggel rendelkező
 					(munkavédelmi technikus, szakmérnök) szakember végezheti.
 				</p>
 
-				<p class="text center">
+				<div class="relative center"
+						data-15200="opacity:0; left:-500px; display:block;"
+						data-15800="opacity:1; left:0px;"
+						data-16600="opacity:1; "
+						data-17000="opacity:1; left:-400px;"
+						data-17500="opacity:0; left:-700px; display:none;">
+					<img id="screw" src="images/screw.png"
+						data-15200="transform:rotate(-360deg); "
+						data-15800="transform:rotate(0deg); "
+						data-16600="transform:rotate(-90deg); "
+						data-17500="transform:rotate(720deg);"
+					>
+				</div>
+
+				<!--p class="text center">
 					A Várda-Véd Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
 					munkavédelemmel kapcsolatos kötelezettségeinek maradéktalanul eleget tehessen:
-				</p>
+				</p-->
 
 				<!--div class="text center">
 					o Munkavédelmi szabályzat teljes körű elkészítése,
