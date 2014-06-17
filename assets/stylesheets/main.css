@@ -131,9 +131,8 @@ a:active {
 #slide-3 #helmet {
   height: 70px;
 }
-#slide-3 #screw {
+#slide-3 #screw, #slide-3 #certificate {
   height: 80px;
-  width: 80px;
 }
 
 .text p {

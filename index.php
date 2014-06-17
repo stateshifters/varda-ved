@@ -83,7 +83,7 @@
 								<a href="#"><span>bemutatkozás</span></a>
 							</li>
 							<li>
-								<a href="#two-tuz"><span>tűzvédelem</span></a>
+								<a href="#tuzvedelem"><span>tűzvédelem</span></a>
 							</li>
 							<li>
 								<a href="#three-munka"><span>munkavédelem</span></a>
@@ -189,7 +189,7 @@
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
-				<h1 class="title">Tűzvédelem</h1>
+				<h1 id="tuzvedelem" class="title">Tűzvédelem</h1>
 				<br>
 
 				<p class="text regular relative center"
@@ -316,8 +316,8 @@
 			data-18000="z-index:5;"
 			data-19000="background-color:rgb(255,144,0);"
 			data-19800="background-color:rgb(255,114,0);"
-			data-21200="background-color:rgb(255,114,0);"
-			data-22000="background-color:rgb(255,144,0);"
+			data-22200="background-color:rgb(255,114,0);"
+			data-23000="background-color:rgb(255,144,0);"
 		>
 			<div id="three-munka">
 			
@@ -415,17 +415,25 @@
 					</ul>
 				</div>
 
-				<p class="text relative center"
+				<div class="relative"
 					data-22801="opacity:0; display:block;"
 					data-23200="opacity:1; "
-					data-23600="opacity:1; "
-					data-24000="opacity:0; display:none;"
+					data-24000="opacity:1; "
+					data-24400="opacity:0; display:none;"
 				>
-					Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
-					minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
-				</p>
+					<p class="text center">
+						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
+						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
+					</p>
+					<img id="certificate" src="images/certificate.png">
+				</div>
 
-				<!--p class="text">
+				<p class="text center"
+					data-24401="opacity:0; display:block;"
+					data-24800="opacity:1; "
+					data-25200="opacity:1; "
+					data-25600="opacity:0; display:none;"
+				>
 					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
 					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
@@ -434,12 +442,17 @@
 					tudja.
 				</p>
 
-				<p class="text center">
+				<p class="text center regular"
+					data-25601="opacity:0; display:block;"
+					data-26000="opacity:1; "
+					data-26400="opacity:1; "
+					data-26800="opacity:0; display:none;"
+				>
 					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
 					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!
-				</p-->
+				</p>
 			</div>
 		</section>
 
