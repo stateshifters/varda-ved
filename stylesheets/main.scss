@@ -98,6 +98,7 @@ a:active {text-decoration:none;}
 		height: 100%;
 		position: fixed;
 		width: 100%;
+		color: $white;
 //		color: $white;
 
 		#two-tuz {
@@ -105,13 +106,37 @@ a:active {text-decoration:none;}
 		}
 
 		#extinguish {
-			padding: 5em 0 1em .5em;
 			height: 70px;
+			padding: 5em 0 1em .5em;
 		}
 
 		.number img{
 			height: 80px;
 		}
+
+		ul {
+			list-style-type: none;
+			text-align: center;
+			li {
+				line-height: 2em;
+				.square {
+					background: $white;
+					border-radius: 50%;
+					display: inline-block;
+					height: 10px;
+					margin: 0 .5em;
+					vertical-align: middle;
+					width: 10px;
+					-moz-border-radius: 50%;
+					-webkit-border-radius: 50%;
+				}
+			}
+		}
+
+}
+
+.text p {
+		font-size: 1em;
 }
 
 #wrap, 
@@ -132,8 +157,8 @@ a:active {text-decoration:none;}
 		background-color: $pomegranate;
 		height: initial;
 
-		h1 {
-			color: $white;
+		.title {
+			color: $black;
 		}
 }
 
@@ -159,10 +184,10 @@ footer {
 		font-size: 1.7em;
 		font-weight: 300;
 		margin: 0 auto;
+		margin-bottom: 1em;
 		max-width: 1000px;
 		padding: 1em;
 		text-align: left;
-		margin-bottom: 1em;
 //		position: relative;
 //		z-index: 100;
 }

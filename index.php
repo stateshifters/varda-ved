@@ -174,7 +174,7 @@
 			<div id="two-tuz"
 				data-2100="height:0%; width:100%; "
 				data-2400="height:100%; width:100%; "
-				data-5400="height:100%;width:100%; ">
+				data-5400="height:100%; width:100%; ">
 
 				<div class="relative"
 					data-2600=""
@@ -276,27 +276,35 @@
 					data-9000="opacity:1; left:0px; "
 					data-9800="opacity:1; left:0px; "
 					data-10000="opacity:0; left:0px;"
-					data-11000="opacity:0; left:0px; display:none; "
+					data-10800="opacity:0; left:0px; display:none; "
 				>
 					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
-				<ul class="text"
-					data-10200="opacity:0; left:1500px; margin-top:-2em;"
-					data-10700="opacity:1; left:0px; "
-					data-11200="opacity:1; left:0px; "
-					data-12000="opacity:0; left:-1500px; ">
-					<li
-					
-					>Tűzvédelmi szabályzat készítése
-					</li>
-					<li>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként</li>
-					<li>Tűzriadó terv elkészítése</li>
-					<li>Tűzveszélyességi osztályok szerinti besorolás elkészítése</li>
-					<li>Tűzoltó készülékek beszerzése, karbantartása</li>
-					<li>Tűzvédelmi szakszemlék megtartása</li>
-					<li>Tűzvédelmi szakvizsgák szervezése, lebonyolítása</li>
-				</ul>
+				<div class="text"
+					data-10801="opacity:0; display:block;"
+					data-11000="opacity:1;"
+					data-11800="opacity:1;"
+					data-12200="opacity:0; display:none;">
+					<ul>
+						<li><div class="square"></div>Tűzvédelmi szabályzat készítése<div class="square"></div></li>
+						<li><div class="square"></div>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként<div class="square"></div></li>
+						<li><div class="square"></div>Tűzriadó terv elkészítése<div class="square"></div></li>
+					</ul>
+				</div>
+
+				<div class="text"
+					data-12201="opacity:0; display:block;"
+					data-12600="opacity:1;"
+					data-13200="opacity:1;"
+					data-13500="opacity:0; display:none;">
+					<ul>
+						<li><div class="square"></div>Tűzveszélyességi osztályok szerinti besorolás elkészítése<div class="square"></div></li>
+						<li><div class="square"></div>Tűzoltó készülékek beszerzése, karbantartása<div class="square"></div></li>
+						<li><div class="square"></div>Tűzvédelmi szakszemlék megtartása<div class="square"></div></li>
+						<li><div class="square"></div>Tűzvédelmi szakvizsgák szervezése, lebonyolítása<div class="square"></div></li>
+					</ul>
+				</div>
 			</div>
 		</section>
 

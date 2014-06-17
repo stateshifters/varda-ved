@@ -87,16 +87,39 @@ a:active {
   height: 100%;
   position: fixed;
   width: 100%;
+  color: white;
 }
 #slide-2 #two-tuz {
   background-color: #ee3333;
 }
 #slide-2 #extinguish {
-  padding: 5em 0 1em .5em;
   height: 70px;
+  padding: 5em 0 1em .5em;
 }
 #slide-2 .number img {
   height: 80px;
+}
+#slide-2 ul {
+  list-style-type: none;
+  text-align: center;
+}
+#slide-2 ul li {
+  line-height: 2em;
+}
+#slide-2 ul li .square {
+  background: white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 .5em;
+  vertical-align: middle;
+  width: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.text p {
+  font-size: 1em;
 }
 
 #wrap,
@@ -116,8 +139,8 @@ a:active {
   background-color: #ee3333;
   height: initial;
 }
-#two-tuz h1 {
-  color: white;
+#two-tuz .title {
+  color: black;
 }
 
 #three-munka {
@@ -250,10 +273,10 @@ nav.shrink #menu_wrap li {
   font-size: 1.7em;
   font-weight: 300;
   margin: 0 auto;
+  margin-bottom: 1em;
   max-width: 1000px;
   padding: 1em;
   text-align: left;
-  margin-bottom: 1em;
 }
 
 .center {
