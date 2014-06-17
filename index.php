@@ -170,6 +170,8 @@
 			data-2100="z-index:4; top:100%"
 			data-2600="z-index:5; top:0%"
 			data-5400="z-index:5;"
+			data-13000="z-index:5;"
+			data-13200="z-index:4;"
 		>
 			<div id="two-tuz"
 				data-2100="height:0%; width:100%; "
@@ -184,7 +186,7 @@
 					data-3400=""
 					data-3700=""
 					>
-						<img id="extinguish" src="images/ext-b.png">
+						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
 				<h1 class="title">Tűzvédelem</h1>
@@ -308,17 +310,22 @@
 		</section>
 
 
-		<!--div id="three-munka">
-			<div id="munkavedelem">
-				<img class="icon" src="images/helmet.png">
-
+		<section id="slide-3"
+			data-13200="z-index:4; top:100%"
+			data-14200="z-index:5; top:0%"
+			data-18000="z-index:5;"
+		>
+			<div id="three-munka">
+			
+				<img class="menu-icon" src="images/helmet.png">
 				<h1 class="title">Munkavédelem</h1>
-
 				<p class="text">
 					Ahogy azt bizonyára tudja, a munkavédelem előírásainak megvalósítása és betartása minden
 					munkavállalónak és a munkáltatónak érdeke és törvényi kötelezettsége. Ha önnek legalább
 					egy fő alkalmazottja van, akkor a Munkavédelemről szóló 1993. évi XCIII. törvény önre és
 					cégére is vonatkozik.
+				</p>
+				<p class="text">
 					Magyarországon a munkavédelmi tevékenységet megfelelő végzettséggel rendelkező
 					(munkavédelmi technikus, szakmérnök) szakember végezheti.
 					A Várda-Véd Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
@@ -350,9 +357,9 @@
 					Várda-Véd Kft. szakembereire!
 				</p>
 			</div>
-		</div>
+		</section>
 
-		<div id="four-ref">
+		<!--div id="four-ref">
 			<div id="referenciak">
 				<img class="icon" src="images/references-2.png">
 

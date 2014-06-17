@@ -94,20 +94,26 @@ a:active {text-decoration:none;}
 		}
 }
 
-#slide-2 {
+#slide-2, #slide-3 {
+		color: $white;
 		height: 100%;
 		position: fixed;
 		width: 100%;
-		color: $white;
-//		color: $white;
+}
 
-		#two-tuz {
-			background-color: $pomegranate;
-		}
+.menu-icon {
+		padding: 5em 0 1em .5em;
+}
+
+#slide-2 {
+		background-color: $pomegranate;
 
 		#extinguish {
 			height: 70px;
-			padding: 5em 0 1em .5em;
+		}
+		
+		.title {
+			color: $black;
 		}
 
 		.number img{
@@ -117,29 +123,35 @@ a:active {text-decoration:none;}
 		ul {
 			list-style-type: none;
 			text-align: center;
+
 			li {
 				line-height: 2em;
-				.square {
-					background: $white;
-					border-radius: 50%;
-					display: inline-block;
-					height: 10px;
-					margin: 0 .5em;
-					vertical-align: middle;
-					width: 10px;
-					-moz-border-radius: 50%;
-					-webkit-border-radius: 50%;
-				}
 			}
 		}
 
+		.square {
+			background: $white;
+			border-radius: 50%;
+			display: inline-block;
+			height: 10px;
+			margin: 0 .5em;
+			vertical-align: middle;
+			width: 10px;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+		}	
 }
+
+#slide-3 {
+		background-color: $pizazz;
+}
+
 
 .text p {
 		font-size: 1em;
 }
 
-#wrap, 
+/*#wrap, 
 #one, 
 #two-tuz, 
 #three-munka, 
@@ -147,25 +159,12 @@ a:active {text-decoration:none;}
 		height: 100%;
 		width: 100%;
 }
-
+*/
 #one {
 		background-color: $alabaster;
 	//	margin-top: 18em;
 }
 
-#two-tuz {
-		background-color: $pomegranate;
-		height: initial;
-
-		.title {
-			color: $black;
-		}
-}
-
-#three-munka {
-		background-color: $pizazz;
-		height: initial;
-}
 
 #four-ref {
 		background-color: $cerulean;
