@@ -76,6 +76,25 @@ a:active {
   color: black;
 }
 
+.list {
+  list-style-type: none;
+}
+.list li {
+  line-height: 2em;
+}
+
+.square {
+  background: white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 .5em;
+  vertical-align: middle;
+  width: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
 #slide-1, #slide-2, #slide-3 {
   height: 100%;
   position: fixed;
@@ -104,23 +123,6 @@ a:active {
 }
 #slide-2 .number img {
   height: 80px;
-}
-#slide-2 ul {
-  list-style-type: none;
-}
-#slide-2 ul li {
-  line-height: 2em;
-}
-#slide-2 .square {
-  background: white;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
-  margin: 0 .5em;
-  vertical-align: middle;
-  width: 10px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
 }
 
 #slide-3 {

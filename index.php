@@ -287,7 +287,7 @@
 					data-10700="opacity:1;"
 					data-11500="opacity:1;"
 					data-11900="opacity:0; display:none;">
-					<ul>
+					<ul class="list">
 						<li><div class="square"></div>Tűzvédelmi szabályzat készítése<div class="square"></div></li>
 						<li><div class="square"></div>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként<div class="square"></div></li>
 						<li><div class="square"></div>Tűzriadó terv elkészítése<div class="square"></div></li>
@@ -299,7 +299,7 @@
 					data-12300="opacity:1;"
 					data-12900="opacity:1;"
 					data-13200="opacity:0; display:none;">
-					<ul>
+					<ul class="list">
 						<li><div class="square"></div>Tűzveszélyességi osztályok szerinti besorolás elkészítése<div class="square"></div></li>
 						<li><div class="square"></div>Tűzoltó készülékek beszerzése, karbantartása<div class="square"></div></li>
 						<li><div class="square"></div>Tűzvédelmi szakszemlék megtartása<div class="square"></div></li>
@@ -314,6 +314,10 @@
 			data-13200="z-index:4; right:100%"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
+			data-19000="background-color:rgb(255,144,0);"
+			data-19800="background-color:rgb(255,114,0);"
+			data-21200="background-color:rgb(255,114,0);"
+			data-22000="background-color:rgb(255,144,0);"
 		>
 			<div id="three-munka">
 			
@@ -357,33 +361,71 @@
 					>
 				</div>
 
-				<!--p class="text center">
+				<p class="text relative center"
+					data-17501="opacity:0; display:block;"
+					data-18100="opacity:1; "
+					data-18600="opacity:1; "
+					data-19000="opacity:0;"
+					data-19001="display:none;"
+				>
 					A Várda-Véd Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
 					munkavédelemmel kapcsolatos kötelezettségeinek maradéktalanul eleget tehessen:
-				</p-->
+				</p>
 
-				<!--div class="text center">
-					o Munkavédelmi szabályzat teljes körű elkészítése,
-					o Munkavédelmi oktatási tematika kidolgozása,
-					o Munkabiztonsági kockázatok értékelése,
-					o Egyéni védőeszközök juttatási rendjének kidolgozása,
-					o Soron kívüli ellenőrzés elvégzése;
-					o Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
-					dokumentálása,
-					o Folyamatos havi munkavédelmi szaktevékenység ellátása;
-					o Orvosi alkalmassági vizsgálatok rendjének szabályozása,
-					o Gépek berendezések munkavédelmi üzembe helyezése;
-					o Időszakos biztonsági felülvizsgálat elvégzése;
-					o Mentési terv elkészítése;
-					o Munkabalesetek teljes körű kivizsgálása;
+				<div class="text center"
+					data-19001="opacity:0; display:block;"
+					data-19600="opacity:1; "
+					data-20000="opacity:1; "
+					data-20400="opacity:0;display:none;"
+				>
+					<ul class="list">
+						<li><div class="square"></div>Munkavédelmi szabályzat teljes körű elkészítése<div class="square"></div></li>
+						<li><div class="square"></div>Munkavédelmi oktatási tematika kidolgozása<div class="square"></div></li>
+						<li><div class="square"></div>Munkabiztonsági kockázatok értékelése<div class="square"></div></li>
+						<li><div class="square"></div>Egyéni védőeszközök juttatási rendjének kidolgozása<div class="square"></div></li>
+					</ul>
 				</div>
 
-				<p class="text center">
+				<div class="text center"
+					data-20401="opacity:0; display:block;"
+					data-20800="opacity:1; "
+					data-21200="opacity:1; "
+					data-21600="opacity:0; display:none;"
+				>
+					<ul class="list">
+						<li><div class="square"></div>Soron kívüli ellenőrzés elvégzése<div class="square"></div></li>
+						<li><div class="square"></div>Mentési terv elkészítése<div class="square"></div></li>
+						<li><div class="square"></div>Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
+						dokumentálása<div class="square"></div></li>
+						<li><div class="square"></div>Folyamatos havi munkavédelmi szaktevékenység ellátása<div class="square"></div></li>
+					</ul>
+				</div>
+
+				<div class="text center"
+					data-21601="opacity:0; display:block;"
+					data-22000="opacity:1; "
+					data-22400="opacity:1; "
+					data-22800="opacity:0; display:none;"
+				>
+					<ul class="list">
+						<li><div class="square"></div>Orvosi alkalmassági vizsgálatok rendjének szabályozása<div class="square"></div></li>
+						<li><div class="square"></div>Gépek berendezések munkavédelmi üzembe helyezése<div class="square"></div></li>
+						<li><div class="square"></div>Időszakos biztonsági felülvizsgálat elvégzése<div class="square"></div></li>
+						<li><div class="square"></div>Munkabalesetek teljes körű kivizsgálása<div class="square"></div></li>
+					</ul>
+				</div>
+
+				<p class="text relative center"
+					data-22801="opacity:0; display:block;"
+					data-23200="opacity:1; "
+					data-23600="opacity:1; "
+					data-24000="opacity:0; display:none;"
+				>
 					Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
 					minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
 				</p>
 
-				<p class="text">
+				<!--p class="text">
 					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
 					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
