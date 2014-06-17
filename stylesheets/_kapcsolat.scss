@@ -2,41 +2,15 @@ $height: 100%;
 
 #five-kapcs {
 	width: 66.66%;
-	min-height: $height;
-	height: 659px;
+//	min-height: $height;
+//	height: 659px;
 	float: left;
 	color: $white;
 	background-color: $lima;
 }
 
-/*p {
-	font-size: 1.125em;
-	line-height: 1.6em;
-	.bold {
-		font-weight: 600;
-	}
-	.bold:nth-child(3) {
-		padding-left: 1em;
-	}
-}*/
-
-h1 {	
-	font-size: 2em;
-	padding-bottom: 1.5em;
-//	padding-top: 2.8125em;
-}
-
-p.big-bold, p.name {
+.name {
 	font-size: 1.5625em;
-}
-
-	h1, p.big-bold, p.name {
-		font-weight: 600;
-	}
-
-#logo_ {
-	width: 40px;
-	padding-bottom: 20px;
 }
 
 #map {

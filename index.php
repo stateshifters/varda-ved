@@ -189,7 +189,7 @@
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
-				<h1 class="title">Tűzvédelem</h1>
+				<h1 class="title upp">Tűzvédelem</h1>
 				<br>
 
 				<p class="text regular relative center"
@@ -515,50 +515,61 @@
 			data-31500="z-index:4; top:100%;"
 			data-32201="z-index:5; top:0%;"
 			data-32900="z-index:5; top:0%;"
-			data-38900="z-index:5;"
+
 		>
 			<div id="five-kapcs">
-				<img class="menu-icon" id="contact" src="images/contact.png">
+				<img class="menu-icon" id="contact" src="images/contact-3.png">
 				<h1 class="title upp">Kapcsolat</h1>
 		
-				<p class="text center bold">Várda-Véd Kft.</p>
+				<div class="relative"
+					data-32200="opacity:0; display:block; left:-800px;"
+					data-32700="opacity:1; left:0px;"
+					data-33500="opacity:1; left:0px;"
+					data-33900="opacity:0; display:none;"
+				>
+					<p class="text center bold">Várda-Véd Kft.</p>
+					<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
+					<p class="text center">
+						<span class="bold">Tel:</span>
+						<span> 06 / 45 / 000-000</span>
+					</p>
+					<p class="text center">
+						<span class="bold">E-mail: </span>
+						<span>info@varda-ved.eu</span>
+					</p>
+				</div>
 
-				<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
 
-
-				<p class="text center">
-					<span class="bold">Tel:</span>
-					<span> 06 / 45 / 000-000</span>
-				</p>
-
-				<p class="text center">
-					<span class="bold">E-mail: </span>
-					<span>info@varda-ved.eu</span>
-				</p>
-				<!--div id="profile_pic">
+				<div id="profile_pic" class="relative"
+					data-33901="opacity:0; display:block; "
+					data-34500="opacity:1; "
+					data-35200="opacity:1; "
+				>
 					<div id="left">
-						<img class="rounded" src="images/gyula.jpg">
-
-						<p class="name upp">Ferenc Horvath</p>
-
-						<p>Tűzvédelmi szakértő</p>
+						<img class="rounded" src="images/gyula.jpg"
+							data-33901="opacity:0; height:0px; width:0px; "
+							data-34500="opacity:1; height:120px; width:120px;"
+						>
+						<p class="name center upp bold">Ferenc Horvath</p>
+						<p class="center">Tűzvédelmi szakértő</p>
 					</div>
 
 					<div id="right">
-						<img class="rounded" src="images/gyula.jpg">
-
-						<p class="name upp">Ferenc Horvath</p>
-
-						<p>Munkavédelmi szakértő</p>
+						<img class="rounded" src="images/gyula.jpg"
+							data-33901="opacity:0; height:0px; width:0px;"
+							data-34500="opacity:1; height:120px; width:120px;"
+						>
+						<p class="name center upp bold">Ferenc Horvath</p>
+						<p class="center">Munkavédelmi szakértő</p>
 					</div>
-				</div-->
+				</div>
 			</div>
 
 			<div id="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42524.95636907797!2d22.080855750585656!3d48.2295374337208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738ecf8951891f9%3A0x1d0dbb602468a21c!2zTcOhdHnDoXMga2lyw6FseSB1dGNhIDE1!5e0!3m2!1shu!2suk!4v1402309126742"
 				        frameborder="0" style="border:0"></iframe>
 			</div>
-		</div>
+		</section>
 		<!--footer>
 			<div>Copyright © Várda-Véd Kft.</div>
 		</footer-->
