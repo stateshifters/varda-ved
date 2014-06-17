@@ -124,9 +124,6 @@ h1 {
   position: relative;
   width: 100%;
 }
-#slide-1 #one p {
-  max-width: 1000px;
-}
 
 #slide-2,
 #slide-3,
@@ -167,10 +164,6 @@ h1 {
 }
 #slide-5 p {
   padding: 0;
-}
-
-.text p {
-  font-size: 1em;
 }
 
 /*#wrap, 
@@ -307,8 +300,9 @@ nav.shrink #menu_wrap li {
   margin: 0 auto;
   margin-bottom: 1em;
   max-width: 1000px;
-  padding: 1em;
+  padding: 1em 0;
   text-align: left;
+  width: 95%;
 }
 
 .center {
