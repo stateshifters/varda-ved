@@ -275,17 +275,16 @@
 					data-8600="opacity:0; left:1500px;  display:block;"
 					data-9000="opacity:1; left:0px; "
 					data-9800="opacity:1; left:0px; "
-					data-10000="opacity:0; left:0px;"
-					data-10800="opacity:0; left:0px; display:none; "
+					data-10300="opacity:0; left:0px; display:none; "
 				>
 					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
 				<div class="text"
-					data-10801="opacity:0; display:block;"
-					data-11000="opacity:1;"
-					data-11800="opacity:1;"
-					data-12200="opacity:0; display:none;">
+					data-10301="opacity:0; display:block;"
+					data-10700="opacity:1;"
+					data-11500="opacity:1;"
+					data-11900="opacity:0; display:none;">
 					<ul>
 						<li><div class="square"></div>Tűzvédelmi szabályzat készítése<div class="square"></div></li>
 						<li><div class="square"></div>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként<div class="square"></div></li>
@@ -294,10 +293,10 @@
 				</div>
 
 				<div class="text"
-					data-12201="opacity:0; display:block;"
-					data-12600="opacity:1;"
-					data-13200="opacity:1;"
-					data-13500="opacity:0; display:none;">
+					data-11901="opacity:0; display:block;"
+					data-12300="opacity:1;"
+					data-12900="opacity:1;"
+					data-13200="opacity:0; display:none;">
 					<ul>
 						<li><div class="square"></div>Tűzveszélyességi osztályok szerinti besorolás elkészítése<div class="square"></div></li>
 						<li><div class="square"></div>Tűzoltó készülékek beszerzése, karbantartása<div class="square"></div></li>
