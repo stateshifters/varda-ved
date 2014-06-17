@@ -37,6 +37,9 @@ body {
 		text-align: center;
 }
 
+@import '_header.scss';
+@import '_text.scss';
+
 a {
 		color: $black;
 		-webkit-transition: all .3s;
@@ -45,9 +48,13 @@ a {
 	    transition: all .3s;
 }
 
-a:link {text-decoration:none;} 
+a:link {
+		text-decoration:none;
+} 
 
-a:visited {text-decoration:none;}
+a:visited {
+		text-decoration:none;
+}
 
 a:hover {
 		background-color: $pomegranate;
@@ -60,7 +67,9 @@ a:hover {
 	    transition: all .3s;
 } 
 
-a:active {text-decoration:none;}
+a:active {
+		text-decoration:none;
+}
 
 
 .relative {
@@ -68,31 +77,10 @@ a:active {text-decoration:none;}
 		width: 100%;
 }
 
-#icon {
-		padding: 1em 0 .5em;
-}
+
 
 .menu-icon {
 		padding: 5em 0 1em;
-}
-
-
-
-h1 {	
-		font-size: 2em;
-		padding-bottom: 1.5em;
-}
-
-.title {
-		color: $black;
-}
-
-.upp {
-		text-transform: uppercase;
-}
-
-.bold {
-		font-weight: 600!important;
 }
 
 
@@ -103,20 +91,21 @@ h1 {
 
 		li {
 			line-height: 2em;
+
+			.square {
+				background: $white;
+				border-radius: 50%;
+				display: inline-block;
+				height: 10px;
+				margin: 0 .5em;
+				vertical-align: middle;
+				width: 10px;
+				-moz-border-radius: 50%;
+				-webkit-border-radius: 50%;
+			}
 		}
 }
 
-.square {
-		background: $white;
-		border-radius: 50%;
-		display: inline-block;
-		height: 10px;
-		margin: 0 .5em;
-		vertical-align: middle;
-		width: 10px;
-		-moz-border-radius: 50%;
-		-webkit-border-radius: 50%;
-}	
 
 #slide-1,
 #slide-2,
@@ -135,8 +124,8 @@ h1 {
 			position: relative;
 			width: 100%;
 
-			p {
-//				max-width: 1000px;
+			#icon {
+				padding: 1em 0 .5em;
 			}
 		}
 }
@@ -188,10 +177,6 @@ h1 {
 		}
 }
 
-.text p {
-//		font-size: 1em;
-}
-
 /*#wrap, 
 #one, 
 #two-tuz, 
@@ -207,38 +192,6 @@ h1 {
 }
 
 
-footer {
-		background-color: $lima;
-		min-height: initial;
-}
-
-@import '_header.scss';
-
-.text {
-		font-size: 1.7em;
-		font-weight: 300;
-		margin: 0 auto;
-		margin-bottom: 1em;
-		max-width: 1000px;
-		padding: 1em 0;
-		text-align: left;
-		width: 95%;
-//		position: relative;
-//		z-index: 100;
-}
-
-.center {
-		text-align: center;
-}
-
-.regular {
-		font-weight: 400;
-}
-
-
-@import '_bemutatkozas.scss';
-
-@import '_tuzvedelem.scss';
 
 @import '_kapcsolat.scss';
 

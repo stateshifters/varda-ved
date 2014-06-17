@@ -28,162 +28,6 @@ body {
   text-align: center;
 }
 
-a {
-  color: black;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: #ee3333;
-  color: white;
-  padding: .3em 0;
-  text-decoration: none;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-}
-
-a:active {
-  text-decoration: none;
-}
-
-.relative {
-  position: relative;
-  width: 100%;
-}
-
-#icon {
-  padding: 1em 0 .5em;
-}
-
-.menu-icon {
-  padding: 5em 0 1em;
-}
-
-h1 {
-  font-size: 2em;
-  padding-bottom: 1.5em;
-}
-
-.title {
-  color: black;
-}
-
-.upp {
-  text-transform: uppercase;
-}
-
-.bold {
-  font-weight: 600 !important;
-}
-
-.list {
-  list-style-type: none;
-}
-.list li {
-  line-height: 2em;
-}
-
-.square {
-  background: white;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
-  margin: 0 .5em;
-  vertical-align: middle;
-  width: 10px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-}
-
-#slide-1,
-#slide-2,
-#slide-3,
-#slide-4,
-#slide-5 {
-  height: 100%;
-  position: fixed;
-  width: 100%;
-}
-
-#slide-1 #one {
-  left: 0;
-  opacity: 1;
-  position: relative;
-  width: 100%;
-}
-
-#slide-2,
-#slide-3,
-#slide-4 {
-  color: white;
-}
-
-#slide-2 {
-  background-color: #ee3333;
-}
-#slide-2 #extinguish {
-  height: 70px;
-}
-#slide-2 .number img {
-  height: 80px;
-}
-
-#slide-3 {
-  background-color: #ff9000;
-}
-#slide-3 #helmet {
-  height: 70px;
-}
-#slide-3 #certificate,
-#slide-3 #screw {
-  height: 80px;
-}
-
-#slide-4 {
-  background-color: #00a3d8;
-}
-
-#slide-5 {
-  background-color: #43c423;
-}
-#slide-5 #contact {
-  height: 80px;
-}
-#slide-5 p {
-  padding: 0;
-}
-
-/*#wrap, 
-#one, 
-#two-tuz, 
-#three-munka, 
-#four-ref {
-		height: 100%;
-		width: 100%;
-}
-*/
-#one {
-  background-color: #f8f8f8;
-}
-
-footer {
-  background-color: #43c423;
-  min-height: initial;
-}
-
 #stripe {
   height: .3125em;
   width: 100%;
@@ -294,6 +138,23 @@ nav.shrink #menu_wrap li {
   transition: all 0.5s;
 }
 
+h1 {
+  font-size: 2em;
+  padding-bottom: 1.5em;
+}
+
+.title {
+  color: black;
+}
+
+.upp {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
 .text {
   font-size: 1.7em;
   font-weight: 300;
@@ -313,31 +174,143 @@ nav.shrink #menu_wrap li {
   font-weight: 400;
 }
 
-#bemutatkozas {
-  font-weight: 300;
-  min-height: 100%;
+a {
+  color: black;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
 }
-#bemutatkozas img {
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ee3333;
+  color: white;
+  padding: .3em 0;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
   width: 100%;
 }
 
-#tuzvedelem,
-#munkavedelem,
-#referenciak {
+.menu-icon {
+  padding: 5em 0 1em;
+}
+
+.list {
+  list-style-type: none;
+}
+.list li {
+  line-height: 2em;
+}
+.list li .square {
+  background: white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 0 .5em;
+  vertical-align: middle;
+  width: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+#slide-1,
+#slide-2,
+#slide-3,
+#slide-4,
+#slide-5 {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}
+
+#slide-1 #one {
+  left: 0;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+#slide-1 #one #icon {
+  padding: 1em 0 .5em;
+}
+
+#slide-2,
+#slide-3,
+#slide-4 {
   color: white;
-  font-weight: 300;
-  min-height: 100%;
-  padding-top: 3.75em;
-  /*	.title {
-  		padding: 0;
-  	}*/
+}
+
+#slide-2 {
+  background-color: #ee3333;
+}
+#slide-2 #extinguish {
+  height: 70px;
+}
+#slide-2 .number img {
+  height: 80px;
+}
+
+#slide-3 {
+  background-color: #ff9000;
+}
+#slide-3 #helmet {
+  height: 70px;
+}
+#slide-3 #certificate,
+#slide-3 #screw {
+  height: 80px;
+}
+
+#slide-4 {
+  background-color: #00a3d8;
+}
+
+#slide-5 {
+  background-color: #43c423;
+}
+#slide-5 #contact {
+  height: 80px;
+}
+#slide-5 p {
+  padding: 0;
+}
+
+/*#wrap, 
+#one, 
+#two-tuz, 
+#three-munka, 
+#four-ref {
+		height: 100%;
+		width: 100%;
+}
+*/
+#one {
+  background-color: #f8f8f8;
 }
 
 #five-kapcs {
-  width: 66.66%;
-  float: left;
-  color: white;
   background-color: #43c423;
+  color: white;
+  float: left;
+  width: 66.66%;
 }
 
 .name {
@@ -346,9 +319,9 @@ nav.shrink #menu_wrap li {
 
 #map {
   background-color: #f8f8f8;
+  float: right;
   height: 659px;
   width: 33.33%;
-  float: right;
 }
 #map iframe {
   width: 100%;

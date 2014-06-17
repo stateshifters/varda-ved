@@ -1,0 +1,37 @@
+h1 {	
+		font-size: 2em;
+		padding-bottom: 1.5em;
+}
+
+.title {
+		color: $black;
+}
+
+.upp {
+		text-transform: uppercase;
+}
+
+.bold {
+		font-weight: 600!important;
+}
+
+.text {
+		font-size: 1.7em;
+		font-weight: 300;
+		margin: 0 auto;
+		margin-bottom: 1em;
+		max-width: 1000px;
+		padding: 1em 0;
+		text-align: left;
+		width: 95%;
+//		position: relative;
+//		z-index: 100;
+}
+
+.center {
+		text-align: center;
+}
+
+.regular {
+		font-weight: 400;
+}
