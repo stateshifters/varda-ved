@@ -65,23 +65,28 @@ a:active {text-decoration:none;}
 
 .relative {
 		position: relative;
-//				top: -42px;
-//				height: 300px;
 		width: 100%;
-//				background: url('images/munkaved.jpg');
-//				background-repeat: no-repeat;
-//				background-size: cover;
-//				opacity: .99;
 }
 
 #icon {
 		padding: 1em 0 .5em;
 }
 
-#slide-1 {
+.menu-icon {
+		padding: 5em 0 1em .5em;
+}
+
+.title {
+		color: $black;
+}
+
+#slide-1, #slide-2, #slide-3 {
 		height: 100%;
 		position: fixed;
 		width: 100%;
+}
+
+#slide-1 {
 		#one {
 			left: 0;
 			opacity: 1;
@@ -96,13 +101,6 @@ a:active {text-decoration:none;}
 
 #slide-2, #slide-3 {
 		color: $white;
-		height: 100%;
-		position: fixed;
-		width: 100%;
-}
-
-.menu-icon {
-		padding: 5em 0 1em .5em;
 }
 
 #slide-2 {
@@ -111,10 +109,6 @@ a:active {text-decoration:none;}
 		#extinguish {
 			height: 70px;
 		}
-		
-		.title {
-			color: $black;
-		}
 
 		.number img{
 			height: 80px;
@@ -122,7 +116,6 @@ a:active {text-decoration:none;}
 
 		ul {
 			list-style-type: none;
-			text-align: center;
 
 			li {
 				line-height: 2em;
@@ -144,6 +137,10 @@ a:active {text-decoration:none;}
 
 #slide-3 {
 		background-color: $pizazz;
+
+		#helmet {
+			height: 70px;
+		}
 }
 
 

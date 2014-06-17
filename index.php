@@ -282,7 +282,7 @@
 					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
-				<div class="text"
+				<div class="text center"
 					data-10301="opacity:0; display:block;"
 					data-10700="opacity:1;"
 					data-11500="opacity:1;"
@@ -294,7 +294,7 @@
 					</ul>
 				</div>
 
-				<div class="text"
+				<div class="text center"
 					data-11901="opacity:0; display:block;"
 					data-12300="opacity:1;"
 					data-12900="opacity:1;"
@@ -311,25 +311,32 @@
 
 
 		<section id="slide-3"
-			data-13200="z-index:4; top:100%"
-			data-14200="z-index:5; top:0%"
+			data-13200="z-index:4; right:100%"
+			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
 		>
 			<div id="three-munka">
 			
-				<img class="menu-icon" src="images/helmet.png">
+				<img class="menu-icon" id="helmet" src="images/helmet.png">
 				<h1 class="title">Munkavédelem</h1>
-				<p class="text">
+				<p class="text center">
 					Ahogy azt bizonyára tudja, a munkavédelem előírásainak megvalósítása és betartása minden
 					munkavállalónak és a munkáltatónak érdeke és törvényi kötelezettsége. Ha önnek legalább
 					egy fő alkalmazottja van, akkor a Munkavédelemről szóló 1993. évi XCIII. törvény önre és
 					cégére is vonatkozik.
 				</p>
-				<p class="text">
+
+				<p class="text center">
 					Magyarországon a munkavédelmi tevékenységet megfelelő végzettséggel rendelkező
 					(munkavédelmi technikus, szakmérnök) szakember végezheti.
+				</p>
+
+				<p class="text center">
 					A Várda-Véd Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
 					munkavédelemmel kapcsolatos kötelezettségeinek maradéktalanul eleget tehessen:
+				</p>
+
+				<!--div class="text center">
 					o Munkavédelmi szabályzat teljes körű elkészítése,
 					o Munkavédelmi oktatási tematika kidolgozása,
 					o Munkabiztonsági kockázatok értékelése,
@@ -343,19 +350,28 @@
 					o Időszakos biztonsági felülvizsgálat elvégzése;
 					o Mentési terv elkészítése;
 					o Munkabalesetek teljes körű kivizsgálása;
+				</div>
+
+				<p class="text center">
 					Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
-					minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. A
-					VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
+					minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
+				</p>
+
+				<p class="text">
+					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
 					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
 					szabályzatot, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
 					fakadó sajátosságokra is, hogy dolgozói egészségének védelmét teljes körűen szavatolni
 					tudja.
+				</p>
+
+				<p class="text center">
 					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
 					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!
-				</p>
+				</p-->
 			</div>
 		</section>
 

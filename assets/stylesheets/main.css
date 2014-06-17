@@ -68,11 +68,20 @@ a:active {
   padding: 1em 0 .5em;
 }
 
-#slide-1 {
+.menu-icon {
+  padding: 5em 0 1em .5em;
+}
+
+.title {
+  color: black;
+}
+
+#slide-1, #slide-2, #slide-3 {
   height: 100%;
   position: fixed;
   width: 100%;
 }
+
 #slide-1 #one {
   left: 0;
   opacity: 1;
@@ -85,13 +94,6 @@ a:active {
 
 #slide-2, #slide-3 {
   color: white;
-  height: 100%;
-  position: fixed;
-  width: 100%;
-}
-
-.menu-icon {
-  padding: 5em 0 1em .5em;
 }
 
 #slide-2 {
@@ -100,15 +102,11 @@ a:active {
 #slide-2 #extinguish {
   height: 70px;
 }
-#slide-2 .title {
-  color: black;
-}
 #slide-2 .number img {
   height: 80px;
 }
 #slide-2 ul {
   list-style-type: none;
-  text-align: center;
 }
 #slide-2 ul li {
   line-height: 2em;
@@ -127,6 +125,9 @@ a:active {
 
 #slide-3 {
   background-color: #ff9000;
+}
+#slide-3 #helmet {
+  height: 70px;
 }
 
 .text p {
