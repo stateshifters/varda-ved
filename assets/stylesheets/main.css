@@ -95,7 +95,7 @@ a:active {
   -webkit-border-radius: 50%;
 }
 
-#slide-1, #slide-2, #slide-3 {
+#slide-1, #slide-2, #slide-3, #slide-4 {
   height: 100%;
   position: fixed;
   width: 100%;
@@ -111,7 +111,7 @@ a:active {
   max-width: 1000px;
 }
 
-#slide-2, #slide-3 {
+#slide-2, #slide-3, #slide-4 {
   color: white;
 }
 
@@ -135,6 +135,10 @@ a:active {
   height: 80px;
 }
 
+#slide-4 {
+  background-color: #00a3d8;
+}
+
 .text p {
   font-size: 1em;
 }
@@ -150,11 +154,6 @@ a:active {
 */
 #one {
   background-color: #f8f8f8;
-}
-
-#four-ref {
-  background-color: #00a3d8;
-  height: initial;
 }
 
 #five-kapcs,

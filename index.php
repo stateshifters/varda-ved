@@ -318,8 +318,13 @@
 			data-19800="background-color:rgb(255,114,0);"
 			data-22200="background-color:rgb(255,114,0);"
 			data-23000="background-color:rgb(255,144,0);"
+			data-26400="z-index:5;"
+			data-26800="z-index:4;"
 		>
-			<div id="three-munka">
+			<div id="three-munka"
+				data-26400="opacity:1;"
+				data-27250="opacity:0;"
+			>
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png">
 				<h1 class="title">Munkavédelem</h1>
@@ -456,14 +461,22 @@
 			</div>
 		</section>
 
-		<!--div id="four-ref">
-			<div id="referenciak">
-				<img class="icon" src="images/references-2.png">
 
+		<section id="slide-4"
+			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0);"
+			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
+			data-28300="z-index:5;background-color:rgb(0,163,216);"
+		>
+			<div id="four-ref">
+				
+				<img class="menu-icon" src="images/references-2.png">
 				<h1 class="title">Referenciák</h1>
 
-				<p class="text">
+				<p class="text center">
 					Miért válassza a VÁRDA-VÉD szolgáltatásait?
+				</p>
+
+				<p class="text center">
 					Mint bizonyára tudja, egy cég szabályos működéséhez nem csak a megfelelő munka-, és
 					tűzvédelmi körülmények kialakítására van szükség, hanem a precíz, pontos dokumentáció
 					meglétére is. Ezzel elkerülhető, hogy felesleges kockázatot vállaljon a cég, hiszen a
@@ -476,7 +489,7 @@
 			</div>
 		</div>
 
-		<div id="five-kapcs">
+		<!--div id="five-kapcs">
 			<div id="kapcsolat">
 				<h1 class="upp">Kapcsolat</h1>
 				<img id="logo_" src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
