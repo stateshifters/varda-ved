@@ -391,17 +391,50 @@ footer div {
 }
 /* 480px - 767px */
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
-  #kapcsolat {
+  #slide-1,
+  #slide-2,
+  #slide-3,
+  #slide-4,
+  #slide-5 {
+    position: relative;
+  }
+
+  #navigation #logo div:first-child,
+  #navigation #logo div:nth-child(2),
+  #navigation #logo div:nth-child(4) {
+    display: none;
+  }
+  #navigation #logo div:nth-child(3) img {
+    display: block !important;
+    height: 42px;
+    left: .5em;
+    margin: auto;
+    position: fixed;
+    top: .5em;
+    z-index: 11;
+  }
+  #navigation #stripe, #navigation #menu_wrap {
+    position: fixed !important;
+  }
+  #navigation #menu_wrap {
+    background-color: white;
+    z-index: 10;
+  }
+  #navigation #menu_wrap #menu {
+    visibility: hidden;
+  }
+
+  #five-kapcs {
     width: 100%;
     height: initial;
   }
-  #kapcsolat #profile_pic img {
-    height: 100px;
-    width: 100px;
+  #five-kapcs #profile_pic img {
     border: 5px solid white;
     border-radius: 50%;
+    height: 100px;
+    width: 100px;
   }
-  #kapcsolat #profile_pic #left, #kapcsolat #profile_pic #right {
+  #five-kapcs #profile_pic #left, #five-kapcs #profile_pic #right {
     width: 100%;
     margin: 2em 0;
   }

@@ -83,7 +83,7 @@
 								<a href="#"><span>bemutatkozás</span></a>
 							</li>
 							<li>
-								<a href="#tuzvedelem"><span>tűzvédelem</span></a>
+								<a href="#two-tuz"><span>tűzvédelem</span></a>
 							</li>
 							<li>
 								<a href="#three-munka"><span>munkavédelem</span></a>
@@ -101,7 +101,7 @@
 		</div>
 
 
-		<section id="slide-1"
+		<section id="slide-1" class="homeSlide"
 			data-0="z-index:5;"
 			data-2000="z-index:5;"
 			data-2001="z-index:4;"
@@ -166,7 +166,7 @@
 		</section>
 
 
-		<section id="slide-2"
+		<section id="slide-2" class="homeSlide"
 			data-2100="z-index:4; top:100%"
 			data-2600="z-index:5; top:0%"
 			data-5400="z-index:5;"
@@ -310,7 +310,7 @@
 		</section>
 
 
-		<section id="slide-3"
+		<section id="slide-3" class="homeSlide"
 			data-13200="z-index:4; right:100%"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
@@ -463,7 +463,7 @@
 		</section>
 
 
-		<section id="slide-4"
+		<section id="slide-4" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0);"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
 			data-28900="z-index:5;background-color:rgb(0,163,216);"
@@ -511,10 +511,11 @@
 
 
 
-		<section id="slide-5"
+		<section id="slide-5" class="homeSlide"
 			data-31500="z-index:4; top:100%;"
 			data-32201="z-index:5; top:0%;"
 			data-32900="z-index:5; top:0%;"
+			data-32901="z-index:3;"
 
 		>
 			<div id="five-kapcs">
@@ -577,8 +578,8 @@
 
 </div>
 <script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<script src="assets/js/skrollr.min.js"></script>
-<script src="assets/js/shrink.js"></script>
+<!--script src="assets/js/skrollr.min.js"></script-->
+<!--script src="assets/js/shrink.js"></script-->
 <script src="assets/js/info.js"></script>
 </body>
 </html>
