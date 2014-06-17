@@ -76,6 +76,14 @@ a:active {
   color: black;
 }
 
+.upp {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
 .list {
   list-style-type: none;
 }
@@ -148,6 +156,9 @@ a:active {
 }
 #slide-5 #contact {
   height: 80px;
+}
+#slide-5 p {
+  padding: 0;
 }
 
 .text p {
@@ -329,17 +340,16 @@ nav.shrink #menu_wrap li {
   background-color: #43c423;
 }
 
-p {
-  font-size: 1.125em;
-  line-height: 1.6em;
-}
-p .bold {
-  font-weight: 600;
-}
-p .bold:nth-child(3) {
-  padding-left: 1em;
-}
-
+/*p {
+	font-size: 1.125em;
+	line-height: 1.6em;
+	.bold {
+		font-weight: 600;
+	}
+	.bold:nth-child(3) {
+		padding-left: 1em;
+	}
+}*/
 h1 {
   font-size: 2em;
   padding-bottom: 1.5em;
@@ -356,10 +366,6 @@ h1, p.big-bold, p.name {
 #logo_ {
   width: 40px;
   padding-bottom: 20px;
-}
-
-.upp {
-  text-transform: uppercase;
 }
 
 #map {

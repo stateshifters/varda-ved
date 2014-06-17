@@ -328,7 +328,7 @@
 			>
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png">
-				<h1 class="title">Munkavédelem</h1>
+				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
 					data-13600="opacity:0; left:1500px; display:block;"
 					data-14000="opacity:1; left:0px;"
@@ -473,7 +473,7 @@
 			<div id="four-ref">
 				
 				<img class="menu-icon" src="images/references-2.png">
-				<h1 class="title">Referenciák</h1>
+				<h1 class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em;"
@@ -519,25 +519,23 @@
 		>
 			<div id="five-kapcs">
 				<img class="menu-icon" id="contact" src="images/contact.png">
-				<h1 class="upp">Kapcsolat</h1>
+				<h1 class="title upp">Kapcsolat</h1>
 		
-				<p class="big-bold">Várda-Véd Kft.</p>
+				<p class="text center bold">Várda-Véd Kft.</p>
 
-				<p class="text-normal">4600 Kisvárda, Mátyás király u. 15.</p>
+				<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
 
-				<p>
 
-				<p>
+				<p class="text center">
 					<span class="bold">Tel:</span>
 					<span> 06 / 45 / 000-000</span>
 				</p>
 
-				<p>
+				<p class="text center">
 					<span class="bold">E-mail: </span>
 					<span>info@varda-ved.eu</span>
 				</p>
-				</p>
-				<div id="profile_pic">
+				<!--div id="profile_pic">
 					<div id="left">
 						<img class="rounded" src="images/gyula.jpg">
 
@@ -553,7 +551,7 @@
 
 						<p>Munkavédelmi szakértő</p>
 					</div>
-				</div>
+				</div-->
 			</div>
 
 			<div id="map">

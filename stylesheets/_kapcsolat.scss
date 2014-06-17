@@ -9,7 +9,7 @@ $height: 100%;
 	background-color: $lima;
 }
 
-p {
+/*p {
 	font-size: 1.125em;
 	line-height: 1.6em;
 	.bold {
@@ -18,7 +18,7 @@ p {
 	.bold:nth-child(3) {
 		padding-left: 1em;
 	}
-}
+}*/
 
 h1 {	
 	font-size: 2em;
@@ -37,10 +37,6 @@ p.big-bold, p.name {
 #logo_ {
 	width: 40px;
 	padding-bottom: 20px;
-}
-
-.upp {
-	text-transform: uppercase;
 }
 
 #map {
