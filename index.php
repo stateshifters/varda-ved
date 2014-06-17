@@ -189,7 +189,7 @@
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
-				<h1 id="tuzvedelem" class="title">Tűzvédelem</h1>
+				<h1 class="title">Tűzvédelem</h1>
 				<br>
 
 				<p class="text regular relative center"
@@ -320,6 +320,7 @@
 			data-23000="background-color:rgb(255,144,0);"
 			data-26400="z-index:5;"
 			data-26800="z-index:4;"
+			data-30000="background-color:rgb(67,196,35)"
 		>
 			<div id="three-munka"
 				data-26400="opacity:1;"
@@ -465,36 +466,61 @@
 		<section id="slide-4"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0);"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
-			data-28300="z-index:5;background-color:rgb(0,163,216);"
+			data-28900="z-index:5;background-color:rgb(0,163,216);"
+			data-31500="z-index:5;"
+			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
 			<div id="four-ref">
 				
 				<img class="menu-icon" src="images/references-2.png">
 				<h1 class="title">Referenciák</h1>
-
-				<p class="text center">
+				
+				<p class="text regular center"
+					data-28500="opacity:1; display:block; margin-top:1em;"
+					data-28800="opacity:1; margin-top:1em;"
+					data-29100="opacity:0; display:none; margin-top:1em;"
+				>
 					Miért válassza a VÁRDA-VÉD szolgáltatásait?
 				</p>
 
-				<p class="text center">
+				<p class="text center"
+					data-29101="opacity:0; display:block;"
+					data-29500="opacity:1; "
+					data-30000="opacity:1; "
+					data-30300="opacity:0; display:none;"
+				>
 					Mint bizonyára tudja, egy cég szabályos működéséhez nem csak a megfelelő munka-, és
 					tűzvédelmi körülmények kialakítására van szükség, hanem a precíz, pontos dokumentáció
 					meglétére is. Ezzel elkerülhető, hogy felesleges kockázatot vállaljon a cég, hiszen a
 					hiányos, vagy pontatlan dokumentumok miatt cégét jelentős bírság sújthatja.
+				</p>
+
+				<p class="text center"
+					data-30301="opacity:0; display:block;"
+					data-30700="opacity:1; "
+					data-31200="opacity:1; "
+					data-31500="opacity:0; display:none;"
+				>
 					A VÁRDA-VÉD-et az elvégzett munka minősége mellett az is megkülönbözteti a
 					versenytársaktól, hogy munkatársaink szakértelme szavatolja: az elvégzett munka mellett a
 					törvényileg szükséges dokumentáció is naprakészen és a jogi követelményeknek megfelelően
 					kerül a megrendelő birtokába a szükséges átalakítások elvégzését követően.
 				</p>
 			</div>
-		</div>
+		</section>
 
-		<!--div id="five-kapcs">
-			<div id="kapcsolat">
+
+
+		<section id="slide-5"
+			data-31500="z-index:4; top:100%;"
+			data-32201="z-index:5; top:0%;"
+			data-32900="z-index:5; top:0%;"
+			data-38900="z-index:5;"
+		>
+			<div id="five-kapcs">
+				<img class="menu-icon" id="contact" src="images/contact.png">
 				<h1 class="upp">Kapcsolat</h1>
-				<img id="logo_" src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
-				     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
-
+		
 				<p class="big-bold">Várda-Véd Kft.</p>
 
 				<p class="text-normal">4600 Kisvárda, Mátyás király u. 15.</p>
@@ -535,7 +561,7 @@
 				        frameborder="0" style="border:0"></iframe>
 			</div>
 		</div>
-		<footer>
+		<!--footer>
 			<div>Copyright © Várda-Véd Kft.</div>
 		</footer-->
 	</div>
