@@ -190,7 +190,7 @@
 				</div>	
 
 				<h1 class="title upp">Tűzvédelem</h1>
-				<br>
+				
 
 				<p class="text regular relative center"
 					data-2200="left:-1500px; opacity:1; display:block;"
@@ -260,10 +260,10 @@
 
 
 				<p class="text relative center"
-					data-7301="opacity:0; left:1500px; margin-top:-2em; display:block;"
-					data-7600="opacity:1; left:0px; margin-top:-2em;"
-					data-8200="opacity:1; left:0px; margin-top:-2em;"
-					data-8700="opacity:0; left:-1500px; margin-top:-2em; display:none;"
+					data-7301="opacity:0; left:1500px; margin-top:-1em; display:block;"
+					data-7600="opacity:1; left:0px; margin-top:-1em;"
+					data-8200="opacity:1; left:0px; margin-top:-1em;"
+					data-8700="opacity:0; left:-1500px; margin-top:-1em; display:none;"
 				>
 					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki- és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.

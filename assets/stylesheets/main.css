@@ -399,12 +399,19 @@ footer div {
     position: relative;
   }
 
-  #navigation #logo div:first-child,
-  #navigation #logo div:nth-child(2),
-  #navigation #logo div:nth-child(4) {
+  .center {
+    text-align: left;
+  }
+
+  #main_nav {
+    height: 4em;
+  }
+  #main_nav #logo div:first-child,
+  #main_nav #logo div:nth-child(2),
+  #main_nav #logo div:nth-child(4) {
     display: none;
   }
-  #navigation #logo div:nth-child(3) img {
+  #main_nav #logo div:nth-child(3) img {
     display: block !important;
     height: 42px;
     left: .5em;
@@ -413,20 +420,31 @@ footer div {
     top: .5em;
     z-index: 11;
   }
-  #navigation #stripe, #navigation #menu_wrap {
+  #main_nav #stripe, #main_nav #menu_wrap {
     position: fixed !important;
   }
-  #navigation #menu_wrap {
+  #main_nav #menu_wrap {
     background-color: white;
     z-index: 10;
   }
-  #navigation #menu_wrap #menu {
+  #main_nav #menu_wrap #menu {
     visibility: hidden;
   }
 
+  .text {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding: 0;
+    width: 90%;
+  }
+
+  h1 {
+    padding-bottom: .5em;
+  }
+
   #five-kapcs {
-    width: 100%;
     height: initial;
+    width: 100%;
   }
   #five-kapcs #profile_pic img {
     border: 5px solid white;
