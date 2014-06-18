@@ -4,6 +4,10 @@ node_js:
 install:
   - bundle install
   - npm install
+
+before_deploy:
+- git fetch --unshallow
+
 deploy:
   strategy: git
   provider: heroku
