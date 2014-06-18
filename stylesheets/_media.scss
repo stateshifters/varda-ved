@@ -26,6 +26,15 @@ $mobile_: $mobile - 0.01em;
 
 /* 768px - 1023px */
 @media only screen and (min-width: $tablet) and (max-width: $monitor_) {
+
+#slide-1,
+#slide-2,
+#slide-3,
+#slide-4,
+#slide-5 {
+		position: relative;
+}
+
 	#five-kapcs {
 		width: 100%;
 		height: initial;

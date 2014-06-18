@@ -102,7 +102,7 @@
 
 
 		<section id="slide-1"
-			data-0="z-index:5;"
+			data-0="z-index:5; position:fixed; height:100%; width: 100%;"
 			data-2000="z-index:5;"
 			data-2001="z-index:4;"
 		>
@@ -167,7 +167,7 @@
 
 
 		<section id="slide-2"
-			data-2100="z-index:4; top:100%"
+			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
 			data-2600="z-index:5; top:0%"
 			data-5400="z-index:5;"
 			data-13000="z-index:5;"
@@ -311,7 +311,7 @@
 
 
 		<section id="slide-3"
-			data-13200="z-index:4; right:100%"
+			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
 			data-19000="background-color:rgb(255,144,0);"
@@ -464,7 +464,7 @@
 
 
 		<section id="slide-4"
-			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0);"
+			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
 			data-28900="z-index:5;background-color:rgb(0,163,216);"
 			data-31500="z-index:5;"
@@ -512,7 +512,7 @@
 
 
 		<section id="slide-5"
-			data-31500="z-index:4; top:100%;"
+			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
 			data-32201="z-index:5; top:0%;"
 			data-32900="z-index:5; top:0%;"
 			data-32901="z-index:5;"
