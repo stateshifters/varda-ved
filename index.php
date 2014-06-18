@@ -578,8 +578,23 @@
 
 </div>
 <script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-<!--script src="assets/js/skrollr.min.js"></script-->
-<!--script src="assets/js/shrink.js"></script-->
+<script src="assets/js/skrollr.min.js"></script>
+<script src="assets/js/shrink.js"></script>
 <script src="assets/js/info.js"></script>
+<script type="text/javascript">
+	$(function () {
+	  // initialize skrollr if the window width is large enough
+	  if ($(window).width() > 767) {
+	    skrollr.init(yourOptions);
+	  }
+
+	  // disable skrollr if the window is resized below 768px wide
+	  $(window).on('resize', function () {
+	    if ($(window).width() <= 767) {
+	      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+	    }
+	});
+});
+</script>
 </body>
 </html>
