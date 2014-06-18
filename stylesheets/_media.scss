@@ -1,12 +1,38 @@
 $monitor: 64em;
-$monitor_: $monitor - 0.01em;
+$monitor_: $monitor - .01em;
 $tablet: 48em;
-$tablet_: $tablet - 0.01em;
+$tablet_: $tablet - .01em;
 $mobile: 30em;
-$mobile_: $mobile - 0.01em;
+$mobile_: $mobile - .01em;
+$widescreen: 90.625em;
+$widescreen_: $widescreen - .01em;
 
-/* 1024px - */
-@media only screen and (min-width: $monitor) {
+
+// 1450 - 
+@media only screen and (min-width: $widescreen) {
+	.text {
+			font-size: 2em!important;
+			line-height: 1.7em;
+			margin: 1em auto 2em;
+			max-width: 1200px;
+	}
+
+	.title {
+			margin-bottom: 1em;
+	}
+
+	.menu-icon {
+			margin: 2em auto;
+	}
+
+	#slide-1 {
+
+	}
+}
+
+
+/* 1024px - 1449 */
+@media only screen and (min-width: $monitor) and (max-width: $widescreen_) {
 	#profile_pic {
 		/*width: 100%;*/
 		img {
@@ -26,14 +52,6 @@ $mobile_: $mobile - 0.01em;
 
 /* 768px - 1023px */
 @media only screen and (min-width: $tablet) and (max-width: $monitor_) {
-
-#slide-1,
-#slide-2,
-#slide-3,
-#slide-4,
-#slide-5 {
-		position: relative;
-}
 
 	#five-kapcs {
 		width: 100%;
@@ -67,14 +85,6 @@ $mobile_: $mobile - 0.01em;
 
 /*  - 767px */
 @media only screen and  (max-width: $tablet_) {
-	
-#slide-1,
-#slide-2,
-#slide-3,
-#slide-4,
-#slide-5 {
-		position: relative;
-}
 
 #main_nav {
 		height: 4em;

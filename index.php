@@ -12,7 +12,7 @@
 <body>
 <div id="skrollr-body">
 	<div id="wrap">
-		<div id="info">0</div>
+		<!--div id="info">0</div-->
 		<div id="navigation">
 			<nav id="main_nav"
 			     data-0="height: 16em;position:fixed;top:0;"

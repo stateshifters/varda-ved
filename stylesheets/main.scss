@@ -9,7 +9,7 @@ img {
 	    outline: none
 }
 
-#info {
+/*#info {
 		z-index: 9999;
 		padding: 1.5em;
 		background-color: rgba(0,0,0,.5);
@@ -17,7 +17,7 @@ img {
 		position: fixed;
 		top: 1em;
 		right: 1em;
-}
+}*/
 
 $alabaster: #f8f8f8;
 $alto: #d2d2d2;
@@ -109,6 +109,7 @@ a:hover {
 #slide-4,
 #slide-5 {
 		height: 100%;
+		position: relative;
 		width: 100%;
 }
 

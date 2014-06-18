@@ -35,16 +35,15 @@ $width-speed: width 0.5s;
 $all-speed: all 0.5s;
 
 nav {
-	height: 12.875em;
-	width: 100%;
 	background-color: $alabaster;
-	text-align: center;
 	font-size: 1em;
-	text-transform: uppercase;
-//	position: fixed;
-	
+	height: 12.875em;
 	left: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
 	z-index: 100;
+
 	#logo {
 		background-color: $alabaster;
 

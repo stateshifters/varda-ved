@@ -9,16 +9,15 @@ img {
   outline: none;
 }
 
-#info {
-  z-index: 9999;
-  padding: 1.5em;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  position: fixed;
-  top: 1em;
-  right: 1em;
-}
-
+/*#info {
+		z-index: 9999;
+		padding: 1.5em;
+		background-color: rgba(0,0,0,.5);
+		color: #fff;
+		position: fixed;
+		top: 1em;
+		right: 1em;
+}*/
 html,
 body {
   color: black;
@@ -54,13 +53,13 @@ body {
 }
 
 nav {
-  height: 12.875em;
-  width: 100%;
   background-color: #f8f8f8;
-  text-align: center;
   font-size: 1em;
-  text-transform: uppercase;
+  height: 12.875em;
   left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
   z-index: 100;
 }
 nav #logo {
@@ -231,6 +230,7 @@ a:hover {
 #slide-4,
 #slide-5 {
   height: 100%;
+  position: relative;
   width: 100%;
 }
 
@@ -334,8 +334,24 @@ footer div {
   vertical-align: middle;
 }
 
-/* 1024px - */
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 90.625em) {
+  .text {
+    font-size: 2em !important;
+    line-height: 1.7em;
+    margin: 1em auto 2em;
+    max-width: 1200px;
+  }
+
+  .title {
+    margin-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 2em auto;
+  }
+}
+/* 1024px - 1449 */
+@media only screen and (min-width: 64em) and (max-width: 90.615em) {
   #profile_pic {
     /*width: 100%;*/
   }
@@ -353,14 +369,6 @@ footer div {
 }
 /* 768px - 1023px */
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
-  #slide-1,
-  #slide-2,
-  #slide-3,
-  #slide-4,
-  #slide-5 {
-    position: relative;
-  }
-
   #five-kapcs {
     width: 100%;
     height: initial;
@@ -391,14 +399,6 @@ footer div {
 }
 /*  - 767px */
 @media only screen and (max-width: 47.99em) {
-  #slide-1,
-  #slide-2,
-  #slide-3,
-  #slide-4,
-  #slide-5 {
-    position: relative;
-  }
-
   #main_nav {
     height: 4em;
   }
