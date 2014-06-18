@@ -146,6 +146,11 @@ a:hover {
 
 #slide-3 {
 		background-color: $pizazz;
+		color: $black;
+
+		.square {
+			background: $black;
+		}
 
 		#helmet {
 			height: 70px;
