@@ -304,6 +304,18 @@ a:hover {
   float: left;
   width: 66.66%;
 }
+#five-kapcs #profile_pic img {
+  border: 7px solid white;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+#five-kapcs #profile_pic #left,
+#five-kapcs #profile_pic #right {
+  float: left;
+  margin: 3em 0 5em 0;
+  width: 50%;
+}
 
 .name {
   font-size: 1.5625em;
@@ -354,22 +366,26 @@ footer div {
   #slide-5 .text {
     margin: .5em auto 0;
   }
+  #slide-5 #profile_pic img {
+    border: 10px solid white;
+    height: 170px !important;
+    margin-bottom: 1.3em;
+    width: 170px !important;
+  }
+  #slide-5 #left,
+  #slide-5 #right {
+    margin-top: 3em;
+  }
+  #slide-5 #left p:nth-child(3),
+  #slide-5 #right p:nth-child(3) {
+    font-size: 1.7em;
+    font-weight: 300;
+  }
+  #slide-5 .name {
+    font-size: 2.2em;
+  }
 }
 /* 1024px - 1449 */
-@media only screen and (min-width: 64em) and (max-width: 90.615em) {
-  #profile_pic img {
-    border: 7px solid white;
-    border-radius: 50%;
-    height: 120px;
-    width: 120px;
-  }
-  #profile_pic #left,
-  #profile_pic #right {
-    float: left;
-    margin: 3em 0 5em 0;
-    width: 50%;
-  }
-}
 /* 768px - 1023px */
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
   #five-kapcs {

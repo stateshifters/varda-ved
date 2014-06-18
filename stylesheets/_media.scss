@@ -33,30 +33,36 @@ $widescreen_: $widescreen - .01em;
 				margin: .5em auto 0;
 			}
 
-			
+			#profile_pic {
+
+				img {
+					border: 10px solid $white;
+					height: 170px!important;
+					margin-bottom: 1.3em; 
+					width: 170px!important;
+				}
+			}
+
+			#left, 
+			#right {
+				margin-top: 3em;
+
+				p:nth-child(3) {
+					font-size: 1.7em;
+					font-weight: 300;
+				}
+			}
+
+			.name {
+				font-size: 2.2em;
+			}
 	}
 }
 
 
 /* 1024px - 1449 */
 @media only screen and (min-width: $monitor) and (max-width: $widescreen_) {
-
-	#profile_pic {
-
-		img {
-			border: 7px solid $white;
-			border-radius: 50%;
-			height: 120px;
-			width: 120px;
-		}
-
-		#left, 
-		#right {
-			float: left;
-			margin: 3em 0 5em 0;
-			width: 50%;
-		}
-	}	
+	
 }
 
 
