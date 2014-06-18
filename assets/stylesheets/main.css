@@ -352,6 +352,7 @@ footer div {
     line-height: 1.7em;
     margin: .5em auto 2em;
     max-width: 1200px;
+    width: 95%;
   }
 
   .title {
@@ -385,8 +386,6 @@ footer div {
     font-size: 2.2em;
   }
 }
-/* 1024px - 1449 */
-/* 768px - 1023px */
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
   #five-kapcs {
     height: initial;
@@ -414,7 +413,6 @@ footer div {
     width: 100%;
   }
 }
-/*  - 767px */
 @media only screen and (max-width: 47.99em) {
   #main_nav {
     height: 4em;

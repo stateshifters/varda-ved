@@ -1,21 +1,24 @@
-$monitor: 64em;
-$monitor_: $monitor - .01em;
-$tablet: 48em;
-$tablet_: $tablet - .01em;
-$mobile: 30em;
+$mobile: 30em;  // 480
 $mobile_: $mobile - .01em;
-$widescreen: 90.625em;
+$tablet: 48em;  // 768
+$tablet_: $tablet - .01em;
+$monitor: 64em; //1024
+$monitor_: $monitor - .01em;
+$widescreen: 80em; // 1280
 $widescreen_: $widescreen - .01em;
+$mwidescreen: 90.625em;  // 1450 MediumWideScreen
+$mwidescreen_: $mwidescreen - .01em;
 
 
 // 1450 - 
-@media only screen and (min-width: $widescreen) {
+@media only screen and (min-width: $mwidescreen) {
 
 	.text {
 			font-size: 2em!important;
 			line-height: 1.7em;
 			margin: .5em auto 2em;
 			max-width: 1200px;
+			width: 95%;
 	}
 
 	.title {
@@ -60,13 +63,13 @@ $widescreen_: $widescreen - .01em;
 }
 
 
-/* 1024px - 1449 */
-@media only screen and (min-width: $monitor) and (max-width: $widescreen_) {
+// 1280px - 1449
+@media only screen and (min-width: $widescreen) and (max-width: $mwidescreen_) {
 	
 }
 
 
-/* 768px - 1023px */
+// 768px - 1023px
 @media only screen and (min-width: $tablet) and (max-width: $monitor_) {
 
 	#five-kapcs {
@@ -103,157 +106,156 @@ $widescreen_: $widescreen - .01em;
 }	
 
 
-/*  - 767px */
+//  - 767px
 @media only screen and  (max-width: $tablet_) {
 
-#main_nav {
-		height: 4em;
+	#main_nav {
+			height: 4em;
 
-		#logo {
-			div:first-child, 
-			div:nth-child(2),
-			div:nth-child(4) {
-				display: none;
+			#logo {
+				div:first-child, 
+				div:nth-child(2),
+				div:nth-child(4) {
+					display: none;
+				}
+
+				div:nth-child(3) {
+
+					img {
+						display: block!important;
+						height: 42px;
+						left: .5em;
+						margin: auto;
+						position: fixed;
+						top: .5em;
+						z-index: 11;
+					}
+				}
 			}
 
-			div:nth-child(3) {
+			#stripe, 
+			#menu_wrap {
+				position: fixed!important;
+			}
+
+			#menu_wrap {
+				background-color: $white;
+				z-index: 10;
+
+				#menu {
+					visibility: hidden;
+				}
+			}
+	}
+
+
+	#slide-1 {
+
+			#one #icon{
+				padding: 0 0 1.5em;	
+			}
+	}
+
+	#slide-2 {
+
+			#two-tuz {
+
+				#law {
+					display: none;
+				}
+			}
+
+			.number {
+				img {
+					height: 50px;
+				}
+			}
+	}
+
+	#slide-3 {
+
+			color: $black;
+
+			#helmet {
+				height: 60px;
+			}
+
+			#certificate,
+			#screw {
+				margin-bottom: 1.5em;
+			}
+	}
+
+
+	#slide-5 {
+
+			.text {
+				margin-bottom: .5em;
+			}
+	}
+
+	.text {
+			font-size: 1.15em;
+			line-height: 1.6em;
+			margin-bottom: 2em;
+			padding: 0;
+			width: 90%;
+	}
+
+	h1 {
+			padding-bottom: 1em;
+	}
+
+	.list {
+			list-style-position: inside;
+			list-style-type: square;
+
+			li .square {
+				display: none;
+			}
+	}
+
+	li.last {
+			margin-bottom: -2em; 
+	}
+
+
+
+		#five-kapcs {
+			width: 100%;
+
+			#profile_pic { 
 
 				img {
-					display: block!important;
-					height: 42px;
-					left: .5em;
-					margin: auto;
-					position: fixed;
-					top: .5em;
-					z-index: 11;
+					border: 5px solid $white;
+					border-radius: 50%;
+					height: 100px;
+					width: 100px;
+				}
+
+				#left, 
+				#right {
+					width: 100%;
+					margin: 2em 0;
 				}
 			}
 		}
 
-		#stripe, 
-		#menu_wrap {
-			position: fixed!important;
-		}
-
-		#menu_wrap {
-			background-color: $white;
-			z-index: 10;
-
-			#menu {
-				visibility: hidden;
-			}
-		}
-
-}
-
-
-#slide-1 {
-
-		#one #icon{
-			padding: 0 0 1.5em;	
-		}
-}
-
-#slide-2 {
-
-		#two-tuz {
-
-			#law {
-				display: none;
-			}
-		}
-
-		.number {
-			img {
-				height: 50px;
-			}
-		}
-}
-
-#slide-3 {
-
-		color: $black;
-
-		#helmet {
-			height: 60px;
-		}
-
-		#certificate,
-		#screw {
-			margin-bottom: 1.5em;
-		}
-}
-
-
-#slide-5 {
-
-		.text {
-			margin-bottom: .5em;
-		}
-}
-
-.text {
-		font-size: 1.15em;
-		line-height: 1.6em;
-		margin-bottom: 2em;
-		padding: 0;
-		width: 90%;
-}
-
-h1 {
-		padding-bottom: 1em;
-}
-
-.list {
-		list-style-position: inside;
-		list-style-type: square;
-
-		li .square {
-			display: none;
-		}
-}
-
-li.last {
-		margin-bottom: -2em; 
-}
-
-
-
-	#five-kapcs {
-		width: 100%;
-
-		#profile_pic { 
-
-			img {
-				border: 5px solid $white;
-				border-radius: 50%;
-				height: 100px;
-				width: 100px;
-			}
-
-			#left, 
-			#right {
-				width: 100%;
-				margin: 2em 0;
-			}
-		}
-	}
-
-	#map {
-		background-color: $alabaster;
-		height: 200px;
-		width: 100%;
-
-		iframe {
-			height: 100%;
+		#map {
+			background-color: $alabaster;
+			height: 200px;
 			width: 100%;
-		}
-	}
 
-	footer {
-		font-size: 0.7em;
-		height: 40px;
-	}
+			iframe {
+				height: 100%;
+				width: 100%;
+			}
+		}
+
+		footer {
+			font-size: 0.7em;
+			height: 40px;
+		}
 }
 
 
