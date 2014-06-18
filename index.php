@@ -80,19 +80,19 @@
 					<div id="menu_wrap">
 						<div id="menu">
 							<li>
-								<a href="#"><span>bemutatkozás</span></a>
+								<a href="one"><span>bemutatkozás</span></a>
 							</li>
 							<li>
-								<a href="#two-tuz"><span>tűzvédelem</span></a>
+								<a href="#slide-2"><span>tűzvédelem</span></a>
 							</li>
 							<li>
-								<a href="#three-munka"><span>munkavédelem</span></a>
+								<a href="#slide-3"><span>munkavédelem</span></a>
 							</li>
 							<li>
-								<a href="#four-ref"><span>referenciák</span></a>
+								<a href="#slide-4"><span>referenciák</span></a>
 							</li>
 							<li>
-								<a href="#five-kapcs"><span>kapcsolat</span></a>
+								<a href="#slide-5"><span>kapcsolat</span></a>
 							</li>
 						</div>
 					</div>
@@ -101,7 +101,7 @@
 		</div>
 
 
-		<section id="slide-1" class="homeSlide"
+		<section id="slide-1"
 			data-0="z-index:5;"
 			data-2000="z-index:5;"
 			data-2001="z-index:4;"
@@ -166,7 +166,7 @@
 		</section>
 
 
-		<section id="slide-2" class="homeSlide"
+		<section id="slide-2"
 			data-2100="z-index:4; top:100%"
 			data-2600="z-index:5; top:0%"
 			data-5400="z-index:5;"
@@ -290,7 +290,7 @@
 					<ul class="list">
 						<li><div class="square"></div>Tűzvédelmi szabályzat készítése<div class="square"></div></li>
 						<li><div class="square"></div>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként<div class="square"></div></li>
-						<li><div class="square"></div>Tűzriadó terv elkészítése<div class="square"></div></li>
+						<li class="last"><div class="square"></div>Tűzriadó terv elkészítése<div class="square"></div></li>
 					</ul>
 				</div>
 
@@ -310,7 +310,7 @@
 		</section>
 
 
-		<section id="slide-3" class="homeSlide"
+		<section id="slide-3"
 			data-13200="z-index:4; right:100%"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
@@ -388,7 +388,7 @@
 						<li><div class="square"></div>Munkavédelmi szabályzat teljes körű elkészítése<div class="square"></div></li>
 						<li><div class="square"></div>Munkavédelmi oktatási tematika kidolgozása<div class="square"></div></li>
 						<li><div class="square"></div>Munkabiztonsági kockázatok értékelése<div class="square"></div></li>
-						<li><div class="square"></div>Egyéni védőeszközök juttatási rendjének kidolgozása<div class="square"></div></li>
+						<li class="last"><div class="square"></div>Egyéni védőeszközök juttatási rendjének kidolgozása<div class="square"></div></li>
 					</ul>
 				</div>
 
@@ -403,7 +403,7 @@
 						<li><div class="square"></div>Mentési terv elkészítése<div class="square"></div></li>
 						<li><div class="square"></div>Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
 						dokumentálása<div class="square"></div></li>
-						<li><div class="square"></div>Folyamatos havi munkavédelmi szaktevékenység ellátása<div class="square"></div></li>
+						<li class="last"><div class="square"></div>Folyamatos havi munkavédelmi szaktevékenység ellátása<div class="square"></div></li>
 					</ul>
 				</div>
 
@@ -463,7 +463,7 @@
 		</section>
 
 
-		<section id="slide-4" class="homeSlide"
+		<section id="slide-4"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0);"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
 			data-28900="z-index:5;background-color:rgb(0,163,216);"
@@ -473,7 +473,7 @@
 			<div id="four-ref">
 				
 				<img class="menu-icon" src="images/references-2.png">
-				<h1 class="title upp">Referenciák</h1>
+				<h1 class="title upp" id="four">Referenciák</h1>
 				
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em;"
@@ -511,7 +511,7 @@
 
 
 
-		<section id="slide-5" class="homeSlide"
+		<section id="slide-5"
 			data-31500="z-index:4; top:100%;"
 			data-32201="z-index:5; top:0%;"
 			data-32900="z-index:5; top:0%;"

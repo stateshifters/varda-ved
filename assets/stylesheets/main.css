@@ -201,6 +201,10 @@ a:active {
   text-decoration: none;
 }
 
+#menu_wrap, #menu {
+  z-index: 101;
+}
+
 .relative {
   position: relative;
   width: 100%;
@@ -395,9 +399,6 @@ footer div {
     position: relative;
   }
 
-  /*.center {
-  		text-align: 
-  }*/
   #main_nav {
     height: 4em;
   }
@@ -470,6 +471,10 @@ footer div {
   }
   .list li .square {
     display: none;
+  }
+
+  li.last {
+    margin-bottom: -2em;
   }
 
   #five-kapcs {

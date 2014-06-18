@@ -71,6 +71,9 @@ a:active {
 		text-decoration:none;
 }
 
+#menu_wrap, #menu {
+	z-index: 101;
+}
 
 .relative {
 		position: relative;

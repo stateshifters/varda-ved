@@ -67,10 +67,6 @@ $mobile_: $mobile - 0.01em;
 		position: relative;
 }
 
-/*.center {
-		text-align: 
-}*/
-
 #main_nav {
 		height: 4em;
 
@@ -175,6 +171,10 @@ h1 {
 		li .square {
 			display: none;
 		}
+}
+
+li.last {
+		margin-bottom: -2em; 
 }
 
 
