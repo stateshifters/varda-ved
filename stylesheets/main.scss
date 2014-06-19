@@ -9,16 +9,6 @@ img {
 	    outline: none
 }
 
-/*#info {
-		z-index: 9999;
-		padding: 1.5em;
-		background-color: rgba(0,0,0,.5);
-		color: #fff;
-		position: fixed;
-		top: 1em;
-		right: 1em;
-}*/
-
 $alabaster: #f8f8f8;
 $alto: #d2d2d2;
 $black: #000;
@@ -33,7 +23,6 @@ body {
 		color: $black;
 		background-color: $alabaster;
 		font-family: 'Open Sans', sans-serif;
-//		height: 100%;
 		text-align: center;
 }
 
@@ -67,8 +56,19 @@ a:hover {
 } 
 
 
+#logo {
+		img {
+			height: 2.625em;
+			margin-top: 1em;
+		}
+}
+
 #menu_wrap, #menu {
-		z-index: 101;
+		z-index: 1;
+}
+
+#menu {
+		margin: 0 0 0 auto;
 }
 
 .relative {

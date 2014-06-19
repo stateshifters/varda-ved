@@ -13,7 +13,7 @@
 <div id="skrollr-body">
 	<div id="wrap">
 		<!--div id="info">0</div-->
-		<div id="navigation">
+		<section id="navigation" class="homeSlide">
 			<nav id="main_nav"
 			     data-0="height: 16em;position:fixed;top:0;"
 			     data-400="position:fixed;height:3.75em;top:0;">
@@ -24,26 +24,32 @@
 					     data-150="height:8em;"
 					     data-280="height:4em;"
 					     data-500="height:0;">
-						<div class="logo_pic">
-							<img data-0="height: 4.1875em;display:inline;float:none;margin-top:3em;"
-							     data-100="height:3.125em;display:inline;float:none;opacity:100;"
-							     data-350="height:0;"
-							     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
+						<div id="logo_pic">
+							<img 
+								 data-0="height: 4.1875em; position: initial; display:inline;float:none;margin-top:3em; top:0px;"
+							     data-100="height:3.125em; display:inline;float:none;opacity:100;"
+							     data-270="height:0;"
+							     data-271="height:2.625em; position:fixed; left:-150px; top:15px; margin-top:0; z-index:5;"
+							     data-500="height:2.625em; left:15px; top:15px;"
+							      src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
 							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
 						</div>
 						<div id="logo_text"
-						     data-0="height:2em;opacity:100;display:inline;"
-						     data-150="padding:0;line-height:0px;height:0;opacity:0;text-size:.1em;display:inline;"
-						     data-400="display:none;">
+							data-0="position:initial; display:inline; padding:.3em 0;"
+							     data-150=""
+							     data-151="position:fixed; left:65px; top:-80px; z-index:5;"
+							     data-400="left:65px; top:25px;"
+						>
 							<a href="#"
-							   data-0="display:inline;opacity:100;font-size:1em;position:relative;top:0px;"
-
-							   data-150="opacity:0;font-size:.6em;display:inline;position:relative;top:-14px;"
-							   data-400="display:none;font-size:0;top:-14px">Várda-Véd</a>
+								 data-0="font-size:1em;"
+							     data-150="font-size:0em;"
+							     data-151="font-size:1em;"
+							     data-400="font-size:1em;">
+							   Várda-Véd</a>
 						</div>
 
 
-						<div class="logo_pic">
+						<!--div class="logo_pic">
 							<img style="display:none;" data-0="position:fixed;height:42px;width:42px;top:16px;left:-60px;margin:0;display:block;"
 							     data-120="position:fixed;left:-60px;top:16px;"
 							     data-500="position:fixed;left:16px;top:5px;left:16px;top:16px;"
@@ -58,12 +64,12 @@
 							   data-0="display:none;opacity:100;font-size:1em;position:relative;top:0px;"
 							   data-100="opacity:0;font-size:.6em;display:inline;position:relative;top:-14px;"
 							   data-350="font-size:0;top:20px">Várda-Véd</a>
-						</div>
+						</div-->
 						
 					</div>
 
 					<div id="stripe"
-							 data-0="height:2px;"
+							 data-0="height:2px; position:relative;"
 						     data-500="height:10px;">
 						<div id="stripe_1" class="stripe_all">
 						</div>
@@ -77,10 +83,13 @@
 						</div>
 					</div>
 
-					<div id="menu_wrap">
-						<div id="menu">
+					<div id="menu_wrap"
+						data-0="position:relative;top:0px;"
+						data-500="top:0px;"
+					>
+						<ul id="menu">
 							<li>
-								<a href="one"><span>bemutatkozás</span></a>
+								<a href="#slide-1"><span>bemutatkozás</span></a>
 							</li>
 							<li>
 								<a href="#slide-2"><span>tűzvédelem</span></a>
@@ -94,14 +103,14 @@
 							<li>
 								<a href="#slide-5"><span>kapcsolat</span></a>
 							</li>
-						</div>
+						</ul>
 					</div>
 				</ul>
 			</nav>
-		</div>
+		</section>
 
 
-		<section id="slide-1"
+		<section id="slide-1" class="homeSlide"
 			data-0="z-index:5; position:fixed; height:100%; width: 100%;"
 			data-2000="z-index:5;"
 			data-2001="z-index:4;"
@@ -166,7 +175,7 @@
 		</section>
 
 
-		<section id="slide-2"
+		<section id="slide-2" class="homeSlide"
 			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
 			data-2600="z-index:5; top:0%"
 			data-5400="z-index:5;"
@@ -189,7 +198,7 @@
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
-				<h1 class="title upp">Tűzvédelem</h1>
+				<h1 id="anyad" class="title upp">Tűzvédelem</h1>
 				
 
 				<p class="text regular relative center"
@@ -310,7 +319,7 @@
 		</section>
 
 
-		<section id="slide-3"
+		<section id="slide-3" class="homeSlide"
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
@@ -463,7 +472,7 @@
 		</section>
 
 
-		<section id="slide-4"
+		<section id="slide-4" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
 			data-28900="z-index:5;background-color:rgb(0,163,216);"
@@ -511,7 +520,7 @@
 
 
 
-		<section id="slide-5"
+		<section id="slide-5" class="homeSlide"
 			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
 			data-32201="z-index:5; top:0%;"
 			data-32900="z-index:5; top:0%;"
@@ -580,8 +589,8 @@
 <script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script src="assets/js/skrollr.min.js"></script>
 <script src="assets/js/shrink.js"></script>
-<script src="assets/js/info.js"></script>
-<script type="text/javascript">
+<!--script src="assets/js/info.js"></script-->
+<!--script type="text/javascript">
 	$(function () {
 	  // initialize skrollr if the window width is large enough
 	  if ($(window).width() > 767) {
@@ -593,8 +602,8 @@
 	    if ($(window).width() <= 767) {
 	      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
 	    }
+	  });
 	});
-});
-</script>
+</script-->
 </body>
 </html>

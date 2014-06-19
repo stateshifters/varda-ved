@@ -66,6 +66,31 @@ $mwidescreen_: $mwidescreen - .01em;
 // 1280px - 1423px
 @media only screen and (min-width: $widescreen) and (max-width: $mwidescreen_) {
 	
+	#stripe {
+		height: 10px;
+		position: fixed;
+		top:0px;
+		z-index: 100;
+	}
+
+	#menu_wrap {
+		position: fixed;
+		top:10px;
+	}
+
+	#logo {
+
+		#logo_pic img {
+			height: 80px;
+			position: relative;
+			top: 80px;
+		}
+
+		#logo_text {
+			top: 80px;
+		}
+	}
+
 	.text {
 			font-size: 1.7em!important;
 			line-height: 1.65em;
@@ -76,7 +101,6 @@ $mwidescreen_: $mwidescreen - .01em;
 
 	.title {
 			font-size: 2.3em;
-//			margin-bottom: .5em;
 	}
 
 	#screw,
@@ -122,6 +146,10 @@ $mwidescreen_: $mwidescreen - .01em;
 				}
 			}
 
+			#map {
+					height: 900px;
+			}
+
 			.name {
 				font-size: 1.8em;
 			}
@@ -131,6 +159,32 @@ $mwidescreen_: $mwidescreen - .01em;
 // 1024px - 1279px
 @media only screen and (min-width: $monitor) and (max-width: $widescreen_) {
 	
+	#stripe {
+		height: 10px;
+		position: fixed;
+		top:0px;
+		z-index: 100;
+	}
+
+	#menu_wrap {
+		position: fixed;
+		top:10px;
+	}
+
+	#logo {
+
+		#logo_pic img {
+			height: 60px;
+			position: relative;
+			top: 80px;
+		}
+
+		#logo_text {
+			top: 80px;
+		}
+	}
+
+
 	.text {
 			font-size: 1.55em!important;
 			line-height: 1.6em;
@@ -156,12 +210,44 @@ $mwidescreen_: $mwidescreen - .01em;
 				margin: .5em auto 0;
 			}
 	}
+
+	#map {
+			height: 827px;
+	}
 }
 
 
 // 768px - 1023px
 @media only screen and (min-width: $tablet) and (max-width: $monitor_) 
 and (orientation: landscape){
+
+	
+	#stripe {
+		height: 10px;
+		position: fixed;
+		top:0px;
+		z-index: 100;
+	}
+
+	#menu_wrap {
+		position: fixed;
+		top:10px;
+	}
+
+	#logo {
+
+		#logo_pic img {
+			height: 50px;
+			position: relative;
+			top: 80px;
+		}
+
+		#logo_text {
+			top: 80px;
+		}
+	}
+
+
 
 	.text {
 			font-size: 1.55em!important;
@@ -229,9 +315,9 @@ and (orientation: landscape){
 
 
 //  - 767px
-@media only screen and  (max-width: $tablet_) {
+@media only screen and (max-width: $tablet_) {
 
-	#main_nav {
+	/*#main_nav {
 			height: 4em;
 
 			#logo {
@@ -268,7 +354,7 @@ and (orientation: landscape){
 					visibility: hidden;
 				}
 			}
-	}
+	}*/
 
 
 	#slide-1 {
@@ -343,41 +429,41 @@ and (orientation: landscape){
 
 
 
-		#five-kapcs {
-			width: 100%;
+	#five-kapcs {
+		width: 100%;
 
-			#profile_pic { 
+		#profile_pic { 
 
-				img {
-					border: 5px solid $white;
-					border-radius: 50%;
-					height: 100px;
-					width: 100px;
-				}
-
-				#left, 
-				#right {
-					width: 100%;
-					margin: 2em 0;
-				}
+			img {
+				border: 5px solid $white;
+				border-radius: 50%;
+				height: 100px;
+				width: 100px;
 			}
-		}
 
-		#map {
-			background-color: $alabaster;
-			height: 200px;
-			width: 100%;
-
-			iframe {
-				height: 100%;
+			#left, 
+			#right {
 				width: 100%;
+				margin: 2em 0;
 			}
 		}
+	}
 
-		footer {
-			font-size: 0.7em;
-			height: 40px;
+	#map {
+		background-color: $alabaster;
+		height: 200px;
+		width: 100%;
+
+		iframe {
+			height: 100%;
+			width: 100%;
 		}
+	}
+
+	footer {
+		font-size: 0.7em;
+		height: 40px;
+	}
 }
 
 

@@ -9,15 +9,6 @@ img {
   outline: none;
 }
 
-/*#info {
-		z-index: 9999;
-		padding: 1.5em;
-		background-color: rgba(0,0,0,.5);
-		color: #fff;
-		position: fixed;
-		top: 1em;
-		right: 1em;
-}*/
 html,
 body {
   color: black;
@@ -65,7 +56,7 @@ nav {
 nav #logo {
   background-color: #f8f8f8;
 }
-nav #logo .logo_pic {
+nav #logo #logo_pic {
   position: relative;
 }
 nav #logo #logo_text {
@@ -73,6 +64,7 @@ nav #logo #logo_text {
   height: 2em;
   padding-bottom: 1em;
   padding-top: .5em;
+  position: relative;
 }
 nav #menu_wrap {
   background-color: white;
@@ -88,54 +80,60 @@ nav #menu_wrap #menu li {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
+  z-index: 1001;
 }
 
-nav.shrink {
-  clear: both;
-  background-color: white;
-  height: 3.125em;
-  -webkit-transition: height 0.5s;
-  -moz-transition: height 0.5s;
-  -o-transition: height 0.5s;
-  transition: height 0.5s;
-}
-nav.shrink #logo {
-  width: 20%;
-  height: 3.125em;
-  float: left;
-  background-color: white;
-}
-nav.shrink #logo #logo_pic {
-  display: table-cell;
-  -webkit-transition: width 0.5s;
-  -moz-transition: width 0.5s;
-  -o-transition: width 0.5s;
-  transition: width 0.5s;
-}
-nav.shrink #logo #logo_pic img {
-  height: 2.75em;
-  margin: .1875em 1em;
-}
-nav.shrink #logo #logo_text {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0;
-  margin: 0;
-  font-weight: 600;
-  font-size: 1em;
-}
-nav.shrink #menu_wrap {
-  width: 80%;
-  float: right;
-  height: 3.125em;
-}
-nav.shrink #menu_wrap li {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
+/*nav.shrink {
+	clear: both;
+	background-color: $white;
+    height: 3.125em;
+	-webkit-transition: $height-speed;
+    -moz-transition: $height-speed;
+    -o-transition: $height-speed;
+    transition: $height-speed;
+    
+    #logo {
+    	width: 20%;
+          height: 3.125em;
+    	float: left;
+		background-color: $white;
 
+		#logo_pic {
+			display: table-cell;
+			-webkit-transition: $width-speed;
+		    -moz-transition: $width-speed;
+		    -o-transition: $width-speed;
+		    transition: $width-speed;
+
+			img {
+				height: 2.75em;
+				margin: .1875em 1em;
+			}
+		}
+
+		#logo_text {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+			font-size: 1em;
+		}
+	}
+
+	#menu_wrap {
+		width: 80%;
+		float: right;
+		height: 3.125em;
+
+		li {
+			-webkit-transition: $all-speed;
+	    	-moz-transition: $all-speed;
+	    	-o-transition: $all-speed;
+	    	transition: $all-speed;
+	    }
+	}
+}*/
 h1 {
   font-size: 2em;
   padding-bottom: 1.5em;
@@ -193,8 +191,17 @@ a:hover {
   transition: all .3s;
 }
 
+#logo img {
+  height: 2.625em;
+  margin-top: 1em;
+}
+
 #menu_wrap, #menu {
-  z-index: 101;
+  z-index: 1;
+}
+
+#menu {
+  margin: 0 0 0 auto;
 }
 
 .relative {
@@ -391,6 +398,27 @@ footer div {
   }
 }
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+  }
+
+  #menu_wrap {
+    position: fixed;
+    top: 10px;
+  }
+
+  #logo #logo_pic img {
+    height: 80px;
+    position: relative;
+    top: 80px;
+  }
+  #logo #logo_text {
+    top: 80px;
+  }
+
   .text {
     font-size: 1.7em !important;
     line-height: 1.65em;
@@ -438,11 +466,35 @@ footer div {
     font-size: 1.4em;
     font-weight: 300;
   }
+  #slide-5 #map {
+    height: 900px;
+  }
   #slide-5 .name {
     font-size: 1.8em;
   }
 }
 @media only screen and (min-width: 64em) and (max-width: 79.99em) {
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+  }
+
+  #menu_wrap {
+    position: fixed;
+    top: 10px;
+  }
+
+  #logo #logo_pic img {
+    height: 60px;
+    position: relative;
+    top: 80px;
+  }
+  #logo #logo_text {
+    top: 80px;
+  }
+
   .text {
     font-size: 1.55em !important;
     line-height: 1.6em;
@@ -465,8 +517,33 @@ footer div {
   #slide-5 .text {
     margin: .5em auto 0;
   }
+
+  #map {
+    height: 827px;
+  }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) and (orientation: landscape) {
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+  }
+
+  #menu_wrap {
+    position: fixed;
+    top: 10px;
+  }
+
+  #logo #logo_pic img {
+    height: 50px;
+    position: relative;
+    top: 80px;
+  }
+  #logo #logo_text {
+    top: 80px;
+  }
+
   .text {
     font-size: 1.55em !important;
     line-height: 1.55em;
@@ -522,35 +599,44 @@ footer div {
   }
 }
 @media only screen and (max-width: 47.99em) {
-  #main_nav {
-    height: 4em;
-  }
-  #main_nav #logo div:first-child,
-  #main_nav #logo div:nth-child(2),
-  #main_nav #logo div:nth-child(4) {
-    display: none;
-  }
-  #main_nav #logo div:nth-child(3) img {
-    display: block !important;
-    height: 42px;
-    left: .5em;
-    margin: auto;
-    position: fixed;
-    top: .5em;
-    z-index: 11;
-  }
-  #main_nav #stripe,
-  #main_nav #menu_wrap {
-    position: fixed !important;
-  }
-  #main_nav #menu_wrap {
-    background-color: white;
-    z-index: 10;
-  }
-  #main_nav #menu_wrap #menu {
-    visibility: hidden;
-  }
-
+  	/*#main_nav {
+  			height: 4em;
+  
+  			#logo {
+  				div:first-child, 
+  				div:nth-child(2),
+  				div:nth-child(4) {
+  					display: none;
+  				}
+  
+  				div:nth-child(3) {
+  
+  					img {
+  						display: block!important;
+  						height: 42px;
+  						left: .5em;
+  						margin: auto;
+  						position: fixed;
+  						top: .5em;
+  						z-index: 11;
+  					}
+  				}
+  			}
+  
+  			#stripe, 
+  			#menu_wrap {
+  				position: fixed!important;
+  			}
+  
+  			#menu_wrap {
+  				background-color: $white;
+  				z-index: 10;
+  
+  				#menu {
+  					visibility: hidden;
+  				}
+  			}
+  	}*/
   #slide-1 #one #icon {
     padding: 0 0 1.5em;
   }

@@ -47,7 +47,7 @@ nav {
 	#logo {
 		background-color: $alabaster;
 
-		.logo_pic {
+		#logo_pic {
 			position: relative;
 		}
 
@@ -56,6 +56,7 @@ nav {
 			height: 2em;
 			padding-bottom: 1em;
 			padding-top: .5em;
+			position: relative;
 		}
 	}
 
@@ -73,13 +74,14 @@ nav {
 		    	display: table-cell;
 		    	margin-top: 1em;
 		    	padding: 1em 0;
+		    	z-index: 1001;
 			}
 		}
 	}
 }
 
 
-nav.shrink {
+/*nav.shrink {
 	clear: both;
 	background-color: $white;
     height: 3.125em;
@@ -129,4 +131,4 @@ nav.shrink {
 	    	transition: $all-speed;
 	    }
 	}
-}
+}*/
