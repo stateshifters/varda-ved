@@ -466,27 +466,55 @@ footer div {
     margin: .5em auto 0;
   }
 }
-@media only screen and (min-width: 48em) and (max-width: 63.99em) {
+@media only screen and (min-width: 48em) and (max-width: 63.99em) and (orientation: landscape) {
+  .text {
+    font-size: 1.55em !important;
+    line-height: 1.55em;
+    max-width: 860px;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+
+  li {
+    line-height: 1.8em !important;
+  }
+
   #five-kapcs {
     height: initial;
-    width: 100%;
+    width: 60%;
   }
-  #five-kapcs #profile_pic img {
-    border: 7px solid white;
+
+  #slide-5 .text {
+    margin: .5em auto 0;
+  }
+
+  #profile_pic img {
+    border: 4px solid white;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 80px !important;
+    width: 80px !important;
   }
-  #five-kapcs #profile_pic #left,
-  #five-kapcs #profile_pic #right {
+  #profile_pic #left,
+  #profile_pic #right {
     margin: 2em 0;
-    width: 100%;
+    width: 50%;
+  }
+  #profile_pic #left p:nth-child(3),
+  #profile_pic #right p:nth-child(3) {
+    font-weight: 300;
+  }
+  #profile_pic #left .name,
+  #profile_pic #right .name {
+    font-size: 1.3em;
   }
 
   #map {
     background-color: #f8f8f8;
-    height: 300px;
-    width: 100%;
+    min-height: 300px;
+    width: 40%;
   }
   #map iframe {
     height: 100%;
