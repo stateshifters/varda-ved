@@ -434,7 +434,7 @@
 					<img id="certificate" src="images/certificate.png">
 				</div>
 
-				<p class="text center"
+				<p class="text center" id="long"
 					data-24401="opacity:0; display:block;"
 					data-24800="opacity:1; "
 					data-25200="opacity:1; "
