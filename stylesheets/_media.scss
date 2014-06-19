@@ -9,9 +9,16 @@ $widescreen_: $widescreen - .01em;
 $mwidescreen: 89em;  // 1424 MediumWideScreen
 $mwidescreen_: $mwidescreen - .01em;
 
+$wwidescreen: 100em;  // 1600
+$wwidescreen_: $wwidescreen - .01em;
 
-// 1424px - 
-@media only screen and (min-width: $mwidescreen) {
+$xwidescreen: 120em; // 1920
+$xwidescreen_: $xwidescreen - .01em;  
+
+
+
+// 1424px - 1599px
+@media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen_) {
 
 	.text {
 			font-size: 2em!important;

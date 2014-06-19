@@ -357,7 +357,7 @@ footer div {
   vertical-align: middle;
 }
 
-@media only screen and (min-width: 89em) {
+@media only screen and (min-width: 89em) and (max-width: 99.99em) {
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
