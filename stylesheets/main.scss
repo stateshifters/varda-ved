@@ -29,12 +29,17 @@ body {
 @import '_header.scss';
 @import '_text.scss';
 
+@mixin transition($parameters) {
+		-webkit-transition: $parameters;
+	    -moz-transition: $parameters;
+	    -o-transition: $parameters;
+	    transition: $parameters;
+}
+
 a {
 		color: $black;
-		-webkit-transition: all .3s;
-	    -moz-transition: all .3s;
-	    -o-transition: all .3s;
-	    transition: all .3s;
+		@include transition(all .3s);
+
 }
 
 a:link,
@@ -49,21 +54,21 @@ a:hover {
 		color: $white;
 		padding: .3em 0;
 		text-decoration:none;
-		-webkit-transition: all .3s;
-	    -moz-transition: all .3s;
-	    -o-transition: all .3s;
-	    transition: all .3s;
+
+	    @include transition(all .3s);
 } 
 
 
 #logo {
+
 		img {
 			height: 2.625em;
 			margin-top: 1em;
 		}
 }
 
-#menu_wrap, #menu {
+#menu,
+#menu_wrap {
 		z-index: 1;
 }
 
@@ -178,18 +183,8 @@ a:hover {
 		}
 }
 
-/*#wrap, 
-#one, 
-#two-tuz, 
-#three-munka, 
-#four-ref {
-		height: 100%;
-		width: 100%;
-}
-*/
 #one {
 		background-color: $alabaster;
-	//	margin-top: 18em;
 }
 
 

@@ -23,9 +23,9 @@ body {
   z-index: 1000;
 }
 #stripe .stripe_all {
-  width: 20%;
   float: left;
   height: inherit;
+  width: 20%;
 }
 #stripe #stripe_1 {
   background-color: #d2d2d2;
@@ -168,10 +168,10 @@ h1 {
 
 a {
   color: black;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 a:link,
@@ -185,10 +185,10 @@ a:hover {
   color: white;
   padding: .3em 0;
   text-decoration: none;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #logo img {
@@ -196,7 +196,8 @@ a:hover {
   margin-top: 1em;
 }
 
-#menu_wrap, #menu {
+#menu,
+#menu_wrap {
   z-index: 1;
 }
 
@@ -296,15 +297,6 @@ a:hover {
   padding: 0;
 }
 
-/*#wrap, 
-#one, 
-#two-tuz, 
-#three-munka, 
-#four-ref {
-		height: 100%;
-		width: 100%;
-}
-*/
 #one {
   background-color: #f8f8f8;
 }
@@ -339,8 +331,8 @@ a:hover {
   width: 33.33%;
 }
 #map iframe {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 footer {
@@ -718,21 +710,23 @@ footer div {
   }
 }
 /* - 479px 
-@media only screen and (max-width: $mobile_) {
+@media only screen and (max-width: $mobile-) {
 	p {
 		font-size: 1em;
 		line-height: 1.6em;
+
 		.bold {
 			font-weight: 600;
 		}
+
 		.bold:nth-child(3) {
 			padding-left: 1em;
 		}
 	}
 
 	p:first-child {
-		padding: 90px 0 10px 0;
 		font-size: 1.5em;
+		padding: 90px 0 10px;
 	}
 
 	p.big-bold {
@@ -751,16 +745,20 @@ footer div {
 	#kapcsolat {
 		width: 100%;
 		height: initial;
+
 		#profile_pic {
+
 			img {
-				height: 70px;
-				width: 70px;
 				border: 2px solid $white;
 				border-radius: 50%;
+				height: 70px;
+				width: 70px;
 			}
-			#left, #right {
-				width: 100%;
+
+			#left, 
+			#right {
 				margin: 1em 0;
+				width: 100%;
 			}
 		}
 	}
@@ -769,14 +767,15 @@ footer div {
 		background-color: $alabaster;
 		height: 150px;
 		width: 100%;
+
 			iframe {
-				width: 100%;
 				height: 100%;
+				width: 100%;
 			}
 	}
 
 	footer {
-		height: 30px;
 		font-size: 0.7em;
+		height: 30px;
 	}
 } */

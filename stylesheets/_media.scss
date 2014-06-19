@@ -1,24 +1,24 @@
 $mobile: 30em;  // 480
-$mobile_: $mobile - .01em;
+$mobile-: $mobile - .01em;
 $tablet: 48em;  // 768
-$tablet_: $tablet - .01em;
+$tablet-: $tablet - .01em;
 $monitor: 64em; //1024
-$monitor_: $monitor - .01em;
+$monitor-: $monitor - .01em;
 $widescreen: 80em; // 1280
-$widescreen_: $widescreen - .01em;
+$widescreen-: $widescreen - .01em;
 $mwidescreen: 89em;  // 1424 MediumWideScreen
-$mwidescreen_: $mwidescreen - .01em;
+$mwidescreen-: $mwidescreen - .01em;
 
 $wwidescreen: 100em;  // 1600
-$wwidescreen_: $wwidescreen - .01em;
+$wwidescreen-: $wwidescreen - .01em;
 
 $xwidescreen: 120em; // 1920
-$xwidescreen_: $xwidescreen - .01em;  
+$xwidescreen-: $xwidescreen - .01em;  
 
 
 
 // 1424px - 1599px
-@media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen_) {
+@media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
 
 	.text {
 			font-size: 2em!important;
@@ -71,7 +71,7 @@ $xwidescreen_: $xwidescreen - .01em;
 
 
 // 1280px - 1423px
-@media only screen and (min-width: $widescreen) and (max-width: $mwidescreen_) {
+@media only screen and (min-width: $widescreen) and (max-width: $mwidescreen-) {
 	
 	#stripe {
 		height: 10px;
@@ -164,7 +164,7 @@ $xwidescreen_: $xwidescreen - .01em;
 }
 
 // 1024px - 1279px
-@media only screen and (min-width: $monitor) and (max-width: $widescreen_) {
+@media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
 	
 	#stripe {
 		height: 10px;
@@ -225,7 +225,7 @@ $xwidescreen_: $xwidescreen - .01em;
 
 
 // 768px - 1023px
-@media only screen and (min-width: $tablet) and (max-width: $monitor_) 
+@media only screen and (min-width: $tablet) and (max-width: $monitor-) 
 and (orientation: landscape){
 
 	
@@ -322,7 +322,7 @@ and (orientation: landscape){
 
 
 //  - 767px
-@media only screen and (max-width: $tablet_) {
+@media only screen and (max-width: $tablet-) {
 
 	/*#main_nav {
 			height: 4em;
@@ -381,6 +381,7 @@ and (orientation: landscape){
 			}
 
 			.number {
+
 				img {
 					height: 50px;
 				}
@@ -476,21 +477,23 @@ and (orientation: landscape){
 
 
 /* - 479px 
-@media only screen and (max-width: $mobile_) {
+@media only screen and (max-width: $mobile-) {
 	p {
 		font-size: 1em;
 		line-height: 1.6em;
+
 		.bold {
 			font-weight: 600;
 		}
+
 		.bold:nth-child(3) {
 			padding-left: 1em;
 		}
 	}
 
 	p:first-child {
-		padding: 90px 0 10px 0;
 		font-size: 1.5em;
+		padding: 90px 0 10px;
 	}
 
 	p.big-bold {
@@ -509,16 +512,20 @@ and (orientation: landscape){
 	#kapcsolat {
 		width: 100%;
 		height: initial;
+
 		#profile_pic {
+
 			img {
-				height: 70px;
-				width: 70px;
 				border: 2px solid $white;
 				border-radius: 50%;
+				height: 70px;
+				width: 70px;
 			}
-			#left, #right {
-				width: 100%;
+
+			#left, 
+			#right {
 				margin: 1em 0;
+				width: 100%;
 			}
 		}
 	}
@@ -527,14 +534,15 @@ and (orientation: landscape){
 		background-color: $alabaster;
 		height: 150px;
 		width: 100%;
+
 			iframe {
-				width: 100%;
 				height: 100%;
+				width: 100%;
 			}
 	}
 
 	footer {
-		height: 30px;
 		font-size: 0.7em;
+		height: 30px;
 	}
 } */
