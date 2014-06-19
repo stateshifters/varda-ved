@@ -94,14 +94,14 @@ $mwidescreen_: $mwidescreen - .01em;
 				img {
 					border: 8px solid $white;
 					height: 135px!important;
-					margin-bottom: 1.3em; 
+					margin-bottom: .8em; 
 					width: 135px!important;
 				}
 			}
 
 			#left, 
 			#right {
-				margin-top: 2em;
+				margin: 2em 0 5em 0!important;
 
 				p:nth-child(3) {
 					font-size: 1.5em;
