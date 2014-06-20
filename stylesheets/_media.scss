@@ -19,6 +19,62 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {
+
+  .text {
+    font-size: 2em !important;
+    line-height: 1.7em;
+    margin: .5em auto 2em;
+    max-width: 1400px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.6em;
+    margin-bottom: .5em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 2em auto;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 75px;
+  }
+
+  #slide-5 {
+
+    .text {
+      margin: .5em auto 0;
+    }
+
+    #profile_pic {
+
+      img {
+        border: 10px solid $white;
+        height: 170px !important;
+        margin-bottom: 1.4em;
+        width: 170px !important;
+      }
+    }
+
+    #left,
+    #right {
+      margin-top: 3em;
+
+      p:nth-child(3) {
+        font-size: 1.7em;
+        font-weight: 300;
+      }
+    }
+
+    .name {
+      font-size: 2.3em;
+    }
+  }
+
 }
 
 @media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
@@ -36,10 +92,6 @@ $xwidescreen-: $xwidescreen - .01em;
     font-size: 2.5em;
     margin-bottom: .5em;
     padding-bottom: 1em;
-  }
-
-  #first-ref-pic {
-    margin-bottom: 1em;
   }
 
   .menu-icon {
