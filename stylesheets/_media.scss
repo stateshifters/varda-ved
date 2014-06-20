@@ -72,6 +72,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 }
 
+
 @media only screen and (min-width: $widescreen) and (max-width: $mwidescreen-) {
 
   #stripe {
@@ -102,13 +103,18 @@ $xwidescreen-: $xwidescreen - .01em;
   .text {
     font-size: 1.7em !important;
     line-height: 1.65em;
-    margin: .5em auto 2em;
+    margin: .5em auto 0;
     max-width: 1100px;
     width: 95%;
   }
 
   .title {
     font-size: 2.3em;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 60px;
   }
 
   #screw,
@@ -117,15 +123,32 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .menu-icon {
-    margin: 1.5em auto 1em;
+    margin: 1em auto .5em;
   }
 
   li {
     line-height: 1.8em !important;
   }
 
-  #long {
-    margin-top: -.5em;
+  #slide-2 {
+
+    #extinguish {
+      height: 60px;
+    }
+  }
+
+  .number {
+
+    img {
+      margin: 3em 0 -1.5em;
+    }
+  }
+
+  #slide-3 {
+
+    #helmet {
+      height: 60px;
+    } 
   }
 
   #slide-5 {

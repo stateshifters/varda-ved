@@ -229,7 +229,7 @@
 						data-5200="opacity:1; "
 						data-5600="opacity:0; display:none;"
 				>
-					<img src="images/1_3.png">
+					<img class="circle" src="images/1_3.png">
 				</div>
 
 
@@ -254,7 +254,7 @@
 						data-7200="opacity:0; "
 						data-7201="display:none;"
 				>
-					<img src="images/2.png">
+					<img class="circle" src="images/2.png">
 				</div>
 
 				<p class="text relative center"
@@ -269,10 +269,10 @@
 
 
 				<p class="text relative center"
-					data-7301="opacity:0; left:1500px; margin-top:-1em; display:block;"
-					data-7600="opacity:1; left:0px; margin-top:-1em;"
-					data-8200="opacity:1; left:0px; margin-top:-1em;"
-					data-8700="opacity:0; left:-1500px; margin-top:-1em; display:none;"
+					data-7301="opacity:0; left:1500px;  display:block;"
+					data-7600="opacity:1; left:0px; "
+					data-8200="opacity:1; left:0px; "
+					data-8700="opacity:0; left:-1500px; display:none;"
 				>
 					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki- és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
@@ -481,7 +481,7 @@
 		>
 			<div id="four-ref">
 				
-				<img class="menu-icon" src="images/references-2.png">
+				<img id="ref-icon" class="menu-icon" src="images/references-2.png">
 				<h1 id="referenciak" class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
