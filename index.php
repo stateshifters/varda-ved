@@ -590,6 +590,7 @@
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>
 <script src="assets/js/skrollr.min.js"></script>
+<script src="assets/js/skrollr.menu.min.js"></script>
 <!--<script src="assets/js/skrollr.menu.min.js"></script>-->
 <script src="assets/js/varda-ved.js"></script>
 <!--script src="assets/js/info.js"></script-->
