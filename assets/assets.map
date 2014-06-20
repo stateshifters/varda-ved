@@ -23,11 +23,9 @@
   "images/references.png": "/assets/images/references.png",
   "images/screw.png": "/assets/images/screw.png",
   "images/vardaved-logo.png": "/assets/images/vardaved-logo.png",
-  "js/enquire.min.js": "/assets/js/enquire.min.js",
   "js/shrink.js": "/assets/js/shrink.js",
   "js/skrollr.menu.min.js": "/assets/js/skrollr.menu.min.js",
   "js/skrollr.min.js": "/assets/js/skrollr.min.js",
-  "js/varda-ved.js": "/assets/js/varda-ved.js",
   "stylesheets/main.css": "/assets/stylesheets/main.css",
   "stylesheets/main.min.css": "/assets/stylesheets/main.min.css"
 }
