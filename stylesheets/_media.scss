@@ -16,11 +16,15 @@ $xwidescreen: 120em; // 1920
 $xwidescreen-: $xwidescreen - .01em;  
 
 
+// 1920px -
+@media only screen and (min-width: $xwidescreen) {
+
+}
+
 // 1600px - 1919px
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {
 
 }
-
 
 // 1424px - 1599px
 @media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
