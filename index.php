@@ -116,7 +116,7 @@
 			data-2001="z-index:4;"
 		>
 				<div id="one"
-                     data-0="height:100%;width:100%; "
+					data-0="height:100%;width:100%; "
 					data-1900="height:100%;width:100%;"
 					data-2400="height:100%;width:100%;"
 					>
