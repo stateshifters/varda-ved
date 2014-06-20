@@ -98,10 +98,10 @@
 								<a href="#munkavedelem" data-menu-top="14600"><span>munkavédelem</span></a>
 							</li>
 							<li>
-								<a href="#referenciak" data-menu-top="3400"><span>referenciák</span></a>
+								<a href="#referenciak" data-menu-top="28800"><span>referenciák</span></a>
 							</li>
 							<li>
-								<a href="#kapcsolat" data-menu-top="3400"><span>kapcsolat</span></a>
+								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
 							</li>
 						</ul>
 					</div>
@@ -482,7 +482,7 @@
 			<div id="four-ref">
 				
 				<img class="menu-icon" src="images/references-2.png">
-				<h1 class="title upp" id="four">Referenciák</h1>
+				<h1 id="referenciak" class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em;"
@@ -529,7 +529,7 @@
 		>
 			<div id="five-kapcs">
 				<img class="menu-icon" id="contact" src="images/contact-3.png">
-				<h1 class="title upp">Kapcsolat</h1>
+				<h1 id="kapcsolat" class="title upp">Kapcsolat</h1>
 		
 				<div class="relative"
 					data-32200="opacity:0; display:block; left:-800px;"
