@@ -1,3 +1,14 @@
+@charset 'UTF-8';
+@import 'compass/css3';
+@import 'compass/css3/border-radius';
+@import 'compass/css3/inline-block';
+
+html {
+  height: 100%;
+}
+
+@import 'compass/reset';
+
 * {
   margin: 0;
   padding: 0;
