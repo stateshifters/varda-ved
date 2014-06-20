@@ -89,7 +89,7 @@
 					>
 						<ul id="menu">
 							<li>
-								<a href="#slide-1" data-menu-top="0"><span>bemutatkozás</span></a>
+								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>
 							<li>
 								<a href="#tuzvedelem" data-menu-top="3400"><span>tűzvédelem</span></a>
@@ -110,7 +110,7 @@
 		</section>
 
 
-		<section id="slide-1" class="homeSlide"
+		<section id="bemutatkozas" class="homeSlide"
 			data-0="z-index:5; position:fixed; height:100%; width: 100%;"
 			data-2000="z-index:5;"
 			data-2001="z-index:4;"
