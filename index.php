@@ -89,19 +89,19 @@
 					>
 						<ul id="menu">
 							<li>
-								<a href="#slide-1"><span>bemutatkozás</span></a>
+								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>
 							<li>
-								<a href="#slide-2"><span>tűzvédelem</span></a>
+								<a href="#tuzvedelem" data-menu-top="3400"><span>tűzvédelem</span></a>
 							</li>
 							<li>
-								<a href="#slide-3"><span>munkavédelem</span></a>
+								<a href="#munkavedelem" data-menu-top="14600"><span>munkavédelem</span></a>
 							</li>
 							<li>
-								<a href="#slide-4"><span>referenciák</span></a>
+								<a href="#referenciak" data-menu-top="28800"><span>referenciák</span></a>
 							</li>
 							<li>
-								<a href="#slide-5"><span>kapcsolat</span></a>
+								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
 							</li>
 						</ul>
 					</div>
@@ -110,7 +110,7 @@
 		</section>
 
 
-		<section id="slide-1" class="homeSlide"
+		<section id="bemutatkozas" class="homeSlide"
 			data-0="z-index:5; position:fixed; height:100%; width: 100%;"
 			data-2000="z-index:5;"
 			data-2001="z-index:4;"
@@ -198,7 +198,7 @@
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
-				<h1 id="anyad" class="title upp">Tűzvédelem</h1>
+				<h1 id="tuzvedelem" class="title upp">Tűzvédelem</h1>
 				
 
 				<p class="text regular relative center"
@@ -337,7 +337,7 @@
 			>
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png">
-				<h1 class="title upp">Munkavédelem</h1>
+				<h1 id="munkavedelem" class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
 					data-13600="opacity:0; left:1500px; display:block;"
 					data-14000="opacity:1; left:0px;"
@@ -482,7 +482,7 @@
 			<div id="four-ref">
 				
 				<img class="menu-icon" src="images/references-2.png">
-				<h1 class="title upp" id="four">Referenciák</h1>
+				<h1 id="referenciak" class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em;"
@@ -529,7 +529,7 @@
 		>
 			<div id="five-kapcs">
 				<img class="menu-icon" id="contact" src="images/contact-3.png">
-				<h1 class="title upp">Kapcsolat</h1>
+				<h1 id="kapcsolat" class="title upp">Kapcsolat</h1>
 		
 				<div class="relative"
 					data-32200="opacity:0; display:block; left:-800px;"
@@ -590,7 +590,7 @@
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>
 <script src="assets/js/skrollr.min.js"></script>
-<!--<script src="assets/js/skrollr.menu.min.js"></script>-->
+<script src="assets/js/skrollr.menu.min.js"></script>
 <script src="assets/js/varda-ved.js"></script>
 <!--script src="assets/js/info.js"></script-->
 <!--script type="text/javascript">

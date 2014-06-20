@@ -246,7 +246,7 @@ a:hover {
   width: 10px;
 }
 
-#slide-1,
+#bemutatkozas,
 #slide-2,
 #slide-3,
 #slide-4,
@@ -256,14 +256,14 @@ a:hover {
   width: 100%;
 }
 
-#slide-1 #one {
+#bemutatkozas #one {
   left: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   position: relative;
   width: 100%;
 }
-#slide-1 #one #icon {
+#bemutatkozas #one #icon {
   padding: 1em 0 .5em;
 }
 
@@ -610,7 +610,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 47.99em) {
-  #slide-1 #one #icon {
+  #bemutatkozas #one #icon {
     padding: 0 0 1.5em;
   }
 
