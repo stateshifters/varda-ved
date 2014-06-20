@@ -1,11 +1,11 @@
-/* global enquire: false, Modernizr: false, History: false, console:false */
+/* global enquire: false, Modernizr: false, History: false */
 window.onload = function () {
 
-	var sortOn = function(arr, key){
-		arr.sort(function(a, b){
-			if(a[key] < b[key]){
+	var sortOn = function (arr, key) {
+		arr.sort(function (a, b) {
+			if (a[key] < b[key]) {
 				return -1;
-			}else if(a[key] > b[key]){
+			} else if (a[key] > b[key]) {
 				return 1;
 			}
 			return 0;
@@ -41,10 +41,10 @@ window.onload = function () {
 	}());
 
 
-	var breakpoints = (function(){
+	var breakpoints = (function () {
 		var menuItems = $('#menu').find('a');
 		var points = [];
-		$.each(menuItems, function(i, elem) {
+		$.each(menuItems, function (i, elem) {
 
 			var state = elem.getAttribute('href');
 			var position = parseInt(elem.getAttribute('data-menu-top'), 10);
@@ -55,27 +55,42 @@ window.onload = function () {
 			});
 		});
 
-		return sortOn(points,'position').reverse();
+		return sortOn(points, 'position');
 
 	}());
 
-	function initHistory() {
-
-		console.log(breakpoints);
+	function initHistory(parallax) {
 		function onScroll() {
 			var scroll = window.pageYOffset || document.documentElement.scrollTop;
 
-			$.each(breakpoints, function(index, breakpoint) {
+			var candidate = null;
 
-				if (scroll>breakpoint.position) {
-					console.log(scroll, breakpoint.position);
-					History.pushState(null, null, breakpoint.state);
-					return;
+			$.each(breakpoints, function (index, breakpoint) {
+				if (candidate === null) {
+					candidate = breakpoint;
 				}
+				if (scroll >= breakpoint.position) {
+					candidate = breakpoint;
+				}
+			});
+			if (History.getState().hash !== '/' + candidate.state) {
+				History.pushState(null, null, candidate.state);
+			}
+		}
+		if(parallax) {
+			$.each(breakpoints, function (index, breakpoint) {
+				$(breakpoint.state).waypoint('destroy');
+			});
+			$(window).scroll(onScroll);
+		} else {
+			$(window).scroll();
+			$.each(breakpoints, function (index, breakpoint) {
+				$(breakpoint.state).waypoint(function(){
+					History.pushState(null, null, breakpoint.state);
+				});
 			});
 		}
 
-		$(window).scroll(onScroll);
 
 	}
 
@@ -92,7 +107,7 @@ window.onload = function () {
 //			scale: 2,
 
 			//How long the animation should take in ms.
-			duration: function() {
+			duration: function () {
 //				By default, the duration is hardcoded at 500ms.
 				return 0;
 
@@ -116,24 +131,25 @@ window.onload = function () {
 
 		var s = skrollr.init({});
 		initMenu(s);
-		initHistory();
+		initHistory(true);
 
 		// Init Skrollr for 768 and up
 		if (winW < 768) {
 			s.destroy();
+			initHistory(false);
 		}
 		//else {
-			// Resize our slides when we go mobile
-			//$slide.height(winH);
+		// Resize our slides when we go mobile
+		//$slide.height(winH);
 
-			//skrollr.refresh($('.homeSlide'));
+		//skrollr.refresh($('.homeSlide'));
 		//}
 
 		// Check for touch
 		if (Modernizr.touch) {
 			s.destroy();
+			initHistory(false);
 		}
-
 	}
 
 	function initAdjustWindow() {
@@ -147,7 +163,7 @@ window.onload = function () {
 		};
 	}
 
-
-
+	initHistory(false);
 	enquire.register('screen and (min-width : 768px)', initAdjustWindow(), false);
+
 };
