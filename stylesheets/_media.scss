@@ -8,14 +8,81 @@ $widescreen: 80em;
 $widescreen-: $widescreen - .01em;
 $mwidescreen: 89em;
 $mwidescreen-: $mwidescreen - .01em;
-
 $wwidescreen: 100em;
 $wwidescreen-: $wwidescreen - .01em;
-
 $xwidescreen: 120em;
 $xwidescreen-: $xwidescreen - .01em;
 
 @media only screen and (min-width: $xwidescreen) {
+
+  .text {
+    font-size: 2.2em !important;
+    line-height: 1.8em;
+    margin: .5em auto 2em;
+    max-width: 1710px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 4em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 3.5em auto;
+    padding-bottom: 0;
+  }
+
+  #slide-2 {
+
+    #extinguish {
+      height: 130px;
+    }
+  }
+
+  #slide-3 {
+
+    #helmet {
+      height: 130px;
+    }
+  }
+
+  #ref-icon {
+    height: 130px;
+  }
+
+  #slide-5 {
+
+    .text {
+      margin: .5em auto 0;
+    }
+
+    #profile_pic {
+
+      img {
+        border: 13px solid $white;
+        height: 230px !important;
+        margin-bottom: 1.6em;
+        width: 230px !important;
+      }
+    }
+
+    #left,
+    #right {
+      margin-top: 3em;
+
+      p:nth-child(3) {
+        font-size: 1.9em;
+        font-weight: 300;
+      }
+    }
+
+    .name {
+      font-size: 2.5em;
+    }
+  }
 }
 
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {

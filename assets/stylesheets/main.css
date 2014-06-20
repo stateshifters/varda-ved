@@ -366,6 +366,61 @@ footer div {
   vertical-align: middle;
 }
 
+@media only screen and (min-width: 120em) {
+  .text {
+    font-size: 2.2em !important;
+    line-height: 1.8em;
+    margin: .5em auto 2em;
+    max-width: 1710px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 4em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 3.5em auto;
+    padding-bottom: 0;
+  }
+
+  #slide-2 #extinguish {
+    height: 130px;
+  }
+
+  #slide-3 #helmet {
+    height: 130px;
+  }
+
+  #ref-icon {
+    height: 130px;
+  }
+
+  #slide-5 .text {
+    margin: .5em auto 0;
+  }
+  #slide-5 #profile_pic img {
+    border: 13px solid white;
+    height: 230px !important;
+    margin-bottom: 1.6em;
+    width: 230px !important;
+  }
+  #slide-5 #left,
+  #slide-5 #right {
+    margin-top: 3em;
+  }
+  #slide-5 #left p:nth-child(3),
+  #slide-5 #right p:nth-child(3) {
+    font-size: 1.9em;
+    font-weight: 300;
+  }
+  #slide-5 .name {
+    font-size: 2.5em;
+  }
+}
 @media only screen and (min-width: 100em) and (max-width: 119.99em) {
   .text {
     font-size: 2em !important;
