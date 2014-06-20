@@ -118,7 +118,7 @@ window.onload = function () {
 
 	}
 
-	function adjustWindow() {
+	function adjustWindow(match) {
 
 		// Get window size
 		var winH = $(window).height();
@@ -131,7 +131,7 @@ window.onload = function () {
 
 		var s = skrollr.init({});
 		initMenu(s);
-		initHistory(true);
+		initHistory(match);
 
 		// Init Skrollr for 768 and up
 		if (winW < 768) {
@@ -155,10 +155,10 @@ window.onload = function () {
 	function initAdjustWindow() {
 		return {
 			match: function () {
-				adjustWindow();
+				adjustWindow(true);
 			},
 			unmatch: function () {
-				adjustWindow();
+				adjustWindow(false);
 			}
 		};
 	}
