@@ -1,37 +1,37 @@
-h1 {	
-		font-size: 2em;
-		padding-bottom: 1.5em;
+h1 {
+  font-size: 2em;
+  padding-bottom: 1.5em;
 }
 
 .title {
-		color: $black;
+  color: $black;
 }
 
 .upp {
-		text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .bold {
-		font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
 .text {
-		font-size: 1.7em;
-		font-weight: 300;
-		margin: 0 auto;
-		margin-bottom: 1em;
-		max-width: 1000px;
-		padding: 1em 0;
-		text-align: center;
-		width: 95%;
-//		position: relative;
-//		z-index: 100;
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  max-width: 1000px;
+  padding: 1em 0;
+  text-align: center;
+  width: 95%;
+  //		position: relative;
+  //		z-index: 100;
 }
 
 .center {
-//		text-align: center;
+  //		text-align: center;
 }
 
 .regular {
-		font-weight: 400;
+  font-weight: 400;
 }

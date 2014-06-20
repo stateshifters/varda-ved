@@ -206,6 +206,18 @@ module.exports = function (grunt) {
 			}
 
 		},
+		scsslint: {
+			all: [
+				'stylesheets/**/*.scss',
+				'!stylesheets/_mq.scss'
+			],
+			options: {
+				config: 'configs/scss-lint.yml',
+				bundleExec: true,
+				reporterOutput: null,
+				colorizeOutput: true
+			}
+		},
 		svgmin: {                       // Task
 			options: {                  // Configuration that will be passed directly to SVGO
 				plugins: [
@@ -324,7 +336,7 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-hash');            // Creates hashes for the assets
 
-//	grunt.loadNpmTasks('grunt-phpunit');         // Runs phpunit (used for dev)
+	grunt.loadNpmTasks('grunt-scss-lint');       // Checks if SCSS code is nice or not
 
 	grunt.loadNpmTasks('grunt-svgmin');          // Minifies SVG
 
@@ -358,6 +370,12 @@ module.exports = function (grunt) {
 		]);
 	});
 
+	grunt.registerTask('verify', [
+		'jshint',
+		'scsslint',
+		'cssmetrics'
+	]);
+
 	grunt.registerTask('compile:js', [
 		'jshint',
 		'copy:js'
@@ -370,6 +388,7 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('compile:css', function () {
 		grunt.task.run([
+			'scsslint',
 			'clean:css',
 			'create:debugCss',
 			'compass',
@@ -429,6 +448,7 @@ module.exports = function (grunt) {
 	});
 
 	grunt.registerTask('hookmeup', ['clean:hooks', 'copy:hooks']);
+
 
 
 };

@@ -1,43 +1,41 @@
 $height: 100%;
 
 #five-kapcs {
-		background-color: $lima;
-		color: $white;
-		float: left;
-		width: 66.66%;
+  background-color: $lima;
+  color: $white;
+  float: left;
+  width: 66.66%;
 
-		#profile_pic {
+  #profile_pic {
 
-				img {
-					border: 7px solid $white;
-					border-radius: 50%;
-					height: 120px;
-					width: 120px;
-				}
+    img {
+      border: 7px solid $white;
+      @include border-radius(50%);
+      height: 120px;
+      width: 120px;
+    }
 
-				#left, 
-				#right {
-					float: left;
-					margin: 3em 0 5em 0;
-					width: 50%;
-				}
-		}
+    #left,
+    #right {
+      float: left;
+      margin: 3em 0 5em;
+      width: 50%;
+    }
+  }
 }
 
 .name {
-		font-size: 1.5625em;
+  font-size: 1.5625em;
 }
 
-
-
 #map {
-		background-color: $alabaster;
-		float: right;
-		height: 100%;
-		width: 33.33%;
+  background-color: $alabaster;
+  float: right;
+  height: 100%;
+  width: 33.33%;
 
-		iframe {
-			height: 100%;
-			width: 100%;
-		}
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
 }

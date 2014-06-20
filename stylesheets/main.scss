@@ -1,210 +1,201 @@
 * {
-		margin: 0;
-		padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-a, 
+a,
 img {
-	    border: none;
-	    outline: none
+  border: 0;
+  outline: none;
 }
 
 $alabaster: #f8f8f8;
 $alto: #d2d2d2;
 $black: #000;
-$cerulean :#00a3d8;
-$lima :#43c423;
+$cerulean: #00a3d8;
+$lima: #43c423;
 $pomegranate: #e33;
-$pizazz : #ff9000;
+$pizazz: #ff9000;
 $white: #fff;
 
-html, 
+html,
 body {
-		color: $black;
-		background-color: $alabaster;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 16px;
-		text-align: center;
+  background-color: $alabaster;
+  color: $black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
 }
 
 @import '_header.scss';
 @import '_text.scss';
 
 @mixin transition($parameters) {
-		-webkit-transition: $parameters;
-	    -moz-transition: $parameters;
-	    -o-transition: $parameters;
-	    transition: $parameters;
+  -webkit-transition: $parameters;
+  -moz-transition: $parameters;
+  -o-transition: $parameters;
+  transition: $parameters;
 }
 
 a {
-		color: $black;
-		@include transition(all .3s);
+  color: $black;
+  @include transition(all .3s);
 
 }
 
 a:link,
 a:visited,
 a:active {
-		text-decoration:none;
-} 
-
+  text-decoration: none;
+}
 
 a:hover {
-		background-color: $pomegranate;
-		color: $white;
-		padding: .3em 0;
-		text-decoration:none;
+  background-color: $pomegranate;
+  color: $white;
+  padding: .3em 0;
+  text-decoration: none;
 
-	    @include transition(all .3s);
-} 
-
+  @include transition(all .3s);
+}
 
 #logo {
 
-		img {
-			height: 2.625em;
-			margin-top: 1em;
-		}
+  img {
+    height: 2.625em;
+    margin-top: 1em;
+  }
 }
 
 #menu,
 #menu_wrap {
-		z-index: 1;
+  z-index: 1;
 }
 
 #menu {
-		margin: 0 0 0 auto;
+  margin: 0 0 0 auto;
 }
 
 .relative {
-		position: relative;
-		width: 100%;
+  position: relative;
+  width: 100%;
 }
-
 
 .menu-icon {
-		padding: 5em 0 1em;
+  padding: 5em 0 1em;
 }
-
 
 .list {
-		list-style-type: none;
+  list-style-type: none;
 
-		li {
-			line-height: 2em;
+  li {
+    line-height: 2em;
 
-			.square {
-				background: $white;
-				border-radius: 50%;
-				display: inline-block;
-				height: 10px;
-				margin: 0 .5em;
-				vertical-align: middle;
-				width: 10px;
-				-moz-border-radius: 50%;
-				-webkit-border-radius: 50%;
-			}
-		}
+    .square {
+      background: $white;
+      @include border-radius(50%);
+      @include inline-block();
+      height: 10px;
+      margin: 0 .5em;
+      vertical-align: middle;
+      width: 10px;
+    }
+  }
 }
-
 
 #slide-1,
 #slide-2,
 #slide-3,
 #slide-4,
 #slide-5 {
-		height: 100%;
-		position: relative;
-		width: 100%;
+  height: 100%;
+  position: relative;
+  width: 100%;
 }
 
 #slide-1 {
-		#one {
-			left: 0;
-			opacity: 1;
-			position: relative;
-			width: 100%;
+  #one {
+    left: 0;
+    @include opacity(1);
+    position: relative;
+    width: 100%;
 
-			#icon {
-				padding: 1em 0 .5em;
-			}
-		}
+    #icon {
+      padding: 1em 0 .5em;
+    }
+  }
 }
 
-#slide-2, 
-#slide-3, 
+#slide-2,
+#slide-3,
 #slide-4 {
-		color: $white;
+  color: $white;
 }
 
 #slide-2 {
-		background-color: $pomegranate;
+  background-color: $pomegranate;
 
-		#extinguish {
-			height: 70px;
-		}
+  #extinguish {
+    height: 70px;
+  }
 
-		.number img{
-			height: 80px;
-		}	
+  .number img {
+    height: 80px;
+  }
 }
 
 #slide-3 {
-		background-color: $pizazz;
-		color: $black;
+  background-color: $pizazz;
+  color: $black;
 
-		.square {
-			background: $black;
-		}
+  .square {
+    background: $black;
+  }
 
-		#helmet {
-			height: 70px;
-		}
+  #helmet {
+    height: 70px;
+  }
 
-		#certificate, 
-		#screw {
-			height: 80px;
-		}
+  #certificate,
+  #screw {
+    height: 80px;
+  }
 }
 
 #slide-4 {
-		background-color: $cerulean;
+  background-color: $cerulean;
 }
 
 #slide-5 {
-		background-color: $lima;
+  background-color: $lima;
 
-		#contact {
-			height: 80px;
-		}
+  #contact {
+    height: 80px;
+  }
 
-		p {
-			padding: 0;
-		}
+  p {
+    padding: 0;
+  }
 }
 
 #one {
-		background-color: $alabaster; 
+  background-color: $alabaster;
 }
-
-
 
 @import '_kapcsolat.scss';
 
 footer {
-		background-color: $alabaster;
-		color: $black;
-		display: table;
-		font-size: 1em;
-		height: 80px;
-		text-align: center;
-		width: 100%;
+  background-color: $alabaster;
+  color: $black;
+  display: table;
+  font-size: 1em;
+  height: 80px;
+  text-align: center;
+  width: 100%;
 
-		div {
-			display: table-cell;
-			vertical-align: middle;
-		}
+  div {
+    display: table-cell;
+    vertical-align: middle;
+  }
 }
 
 @import '_media.scss'
