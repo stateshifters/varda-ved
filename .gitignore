@@ -1,7 +1,14 @@
 .sass-cache
 node_modules
-assets/js
 *.appcache
+*.log
+
+assets/js
+assets/debug.css
+assets/images/**/*.*
+assets/debug.*.css
+assets/**/*.*.css
+assets/**/*.map
 
 # Created by http://www.gitignore.io
 
