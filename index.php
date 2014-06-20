@@ -175,7 +175,7 @@
 		</section>
 
 
-		<section id="slide-2" class="homeSlide"
+		<section id="tuzvedelem" class="homeSlide"
 			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
 			data-2600="z-index:5; top:0%"
 			data-5400="z-index:5;"
@@ -198,7 +198,7 @@
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
 				</div>	
 
-				<h1 id="tuzvedelem" class="title upp">Tűzvédelem</h1>
+				<h1 class="title upp">Tűzvédelem</h1>
 				
 
 				<p class="text regular relative center"
@@ -319,7 +319,7 @@
 		</section>
 
 
-		<section id="slide-3" class="homeSlide"
+		<section id="munkavedelem" class="homeSlide"
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
@@ -337,7 +337,7 @@
 			>
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png">
-				<h1 id="munkavedelem" class="title upp">Munkavédelem</h1>
+				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
 					data-13600="opacity:0; left:1500px; display:block;"
 					data-14000="opacity:1; left:0px;"
@@ -472,7 +472,7 @@
 		</section>
 
 
-		<section id="slide-4" class="homeSlide"
+		<section id="referenciak" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
 			data-28900="z-index:5;background-color:rgb(0,163,216);"
@@ -482,7 +482,7 @@
 			<div id="four-ref">
 				
 				<img id="ref-icon" class="menu-icon" src="images/references-2.png">
-				<h1 id="referenciak" class="title upp">Referenciák</h1>
+				<h1 class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em;"
@@ -520,7 +520,7 @@
 
 
 
-		<section id="slide-5" class="homeSlide"
+		<section id="kapcsolat" class="homeSlide"
 			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
 			data-32201="z-index:5; top:0%;"
 			data-32900="z-index:5; top:0%;"
@@ -529,7 +529,7 @@
 		>
 			<div id="five-kapcs">
 				<img class="menu-icon" id="contact" src="images/contact-3.png">
-				<h1 id="kapcsolat" class="title upp">Kapcsolat</h1>
+				<h1 class="title upp">Kapcsolat</h1>
 		
 				<div class="relative"
 					data-32200="opacity:0; display:block; left:-800px;"

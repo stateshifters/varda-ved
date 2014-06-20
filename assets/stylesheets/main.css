@@ -247,10 +247,10 @@ a:hover {
 }
 
 #bemutatkozas,
-#slide-2,
-#slide-3,
-#slide-4,
-#slide-5 {
+#tuzvedelem,
+#munkavedelem,
+#referenciak,
+#kapcsolat {
   height: 100%;
   position: relative;
   width: 100%;
@@ -267,48 +267,48 @@ a:hover {
   padding: 1em 0 .5em;
 }
 
-#slide-2,
-#slide-3,
-#slide-4 {
+#tuzvedelem,
+#munkavedelem,
+#referenciak {
   color: white;
 }
 
-#slide-2 {
+#tuzvedelem {
   background-color: #ee3333;
 }
-#slide-2 #extinguish {
+#tuzvedelem #extinguish {
   height: 70px;
 }
-#slide-2 .number img {
+#tuzvedelem .number img {
   height: 80px;
 }
 
-#slide-3 {
+#munkavedelem {
   background-color: #ff9000;
   color: black;
 }
-#slide-3 .square {
+#munkavedelem .square {
   background: black;
 }
-#slide-3 #helmet {
+#munkavedelem #helmet {
   height: 70px;
 }
-#slide-3 #certificate,
-#slide-3 #screw {
+#munkavedelem #certificate,
+#munkavedelem #screw {
   height: 80px;
 }
 
-#slide-4 {
+#referenciak {
   background-color: #00a3d8;
 }
 
-#slide-5 {
+#kapcsolat {
   background-color: #43c423;
 }
-#slide-5 #contact {
+#kapcsolat #contact {
   height: 80px;
 }
-#slide-5 p {
+#kapcsolat p {
   padding: 0;
 }
 
@@ -391,25 +391,25 @@ footer div {
     height: 70px;
   }
 
-  #slide-5 .text {
+  #kapcsolat .text {
     margin: .5em auto 0;
   }
-  #slide-5 #profile_pic img {
+  #kapcsolat #profile_pic img {
     border: 10px solid white;
     height: 170px !important;
     margin-bottom: 1.3em;
     width: 170px !important;
   }
-  #slide-5 #left,
-  #slide-5 #right {
+  #kapcsolat #left,
+  #kapcsolat #right {
     margin-top: 3em;
   }
-  #slide-5 #left p:nth-child(3),
-  #slide-5 #right p:nth-child(3) {
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
     font-size: 1.7em;
     font-weight: 300;
   }
-  #slide-5 .name {
+  #kapcsolat .name {
     font-size: 2.2em;
   }
 }
@@ -465,7 +465,7 @@ footer div {
     line-height: 1.8em !important;
   }
 
-  #slide-2 #extinguish {
+  #tuzvedelem #extinguish {
     height: 60px;
   }
 
@@ -473,32 +473,32 @@ footer div {
     margin: 3em 0 -1.5em;
   }
 
-  #slide-3 #helmet {
+  #munkavedelem #helmet {
     height: 60px;
   }
 
-  #slide-5 .text {
+  #kapcsolat .text {
     margin: .5em auto 0;
   }
-  #slide-5 #profile_pic img {
+  #kapcsolat #profile_pic img {
     border: 8px solid white;
     height: 135px !important;
     margin-bottom: .8em;
     width: 135px !important;
   }
-  #slide-5 #left,
-  #slide-5 #right {
+  #kapcsolat #left,
+  #kapcsolat #right {
     margin: 2em 0 5em !important;
   }
-  #slide-5 #left p:nth-child(3),
-  #slide-5 #right p:nth-child(3) {
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
     font-size: 1.4em;
     font-weight: 300;
   }
-  #slide-5 #map {
+  #kapcsolat #map {
     height: 900px;
   }
-  #slide-5 .name {
+  #kapcsolat .name {
     font-size: 1.8em;
   }
 }
@@ -543,7 +543,7 @@ footer div {
     line-height: 1.8em !important;
   }
 
-  #slide-5 .text {
+  #kapcsolat .text {
     margin: .5em auto 0;
   }
 
@@ -593,7 +593,7 @@ footer div {
     width: 60%;
   }
 
-  #slide-5 .text {
+  #kapcsolat .text {
     margin: .5em auto 0;
   }
 
@@ -634,25 +634,25 @@ footer div {
     padding: 0 0 1.5em;
   }
 
-  #slide-2 #two-tuz #law {
+  #tuzvedelem #two-tuz #law {
     display: none;
   }
-  #slide-2 .number img {
+  #tuzvedelem .number img {
     height: 50px;
   }
 
-  #slide-3 {
+  #munkavedelem {
     color: black;
   }
-  #slide-3 #helmet {
+  #munkavedelem #helmet {
     height: 60px;
   }
-  #slide-3 #certificate,
-  #slide-3 #screw {
+  #munkavedelem #certificate,
+  #munkavedelem #screw {
     margin-bottom: 1.5em;
   }
 
-  #slide-5 .text {
+  #kapcsolat .text {
     margin-bottom: .5em;
   }
 
