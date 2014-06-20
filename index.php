@@ -588,9 +588,12 @@
 </div>
 <script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 <script src="assets/js/modernizr.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>
 <script src="assets/js/skrollr.min.js"></script>
 <script src="assets/js/skrollr.menu.min.js"></script>
+<script src="assets/js/history.js"></script>
+<script src="assets/js/history.adapter.jquery.js"></script>
 <script src="assets/js/varda-ved.js"></script>
 <!--script src="assets/js/info.js"></script-->
 <!--script type="text/javascript">

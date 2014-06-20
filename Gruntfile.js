@@ -66,7 +66,8 @@ module.exports = function (grunt) {
 					src: [
 						'Gruntfile.js',
 						'js/**/*.js',
-						'!**/*.min.js'
+						'!**/*.min.js',
+						'!js/history*.js'
 					]
 				}
 			}
