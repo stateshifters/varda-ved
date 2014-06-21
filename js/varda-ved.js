@@ -38,8 +38,8 @@ window.onload = function () {
 		var s = skrollr.init({});
 		initMenu(s);
 
-		// Init Skrollr for 768 and up
-		if (winW < 768) {
+		// Init Skrollr for 1024 and up
+		if (winW < 1024) {
 			s.destroy();
 		}
 		//else {
@@ -67,5 +67,5 @@ window.onload = function () {
 		};
 	}
 
-	enquire.register('screen and (min-width : 768px)', initAdjustWindow(), false);
+	enquire.register('screen and (min-width : 1024px)', initAdjustWindow(), false);
 };
