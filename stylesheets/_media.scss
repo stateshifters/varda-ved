@@ -173,6 +173,10 @@ $xwidescreen-: $xwidescreen - .01em;
     z-index: 100;
   }
 
+  nav #menu_wrap #menu {
+    width: 700px;
+  }
+
   #menu_wrap {
     position: fixed;
     top: 10px;
