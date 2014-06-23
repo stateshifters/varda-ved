@@ -711,7 +711,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   nav {
-    height: 3em;
+    height: 4.5em;
 
     #logo {
       
@@ -724,13 +724,65 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #icon img {
+    height: 70px;
+    margin-top: -1em;
+  }
+
   .text {
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 0;
     text-align: left;
     width: 95%!important;
+  }
 
+  .title {
+    font-size: 1.5em;
+  }
+
+  #tuzvedelem {
+
+    #extinguish {
+      height: 50px;
+    }
+  }
+
+  #munkavedelem {
+
+    #certificate,
+    #helmet,
+    #screw {
+      height: 50px;
+    }
+
+    #certificate,
+    #screw {
+      margin-bottom: 1em;
+    }
+  }
+
+  #ref-icon {
+    height: 50px;
+  }
+
+
+  .circle, 
+  #law {
+    height: 50px!important;
+  }
+
+  #law {
+    margin: 1em 0 2em;
+  }
+
+  .list {
+
+    li {
+      .square:nth-child(even) {
+        display: none;
+      }
+    }
   }
 
 
@@ -739,10 +791,24 @@ $xwidescreen-: $xwidescreen - .01em;
     height: initial;
     width: 100%;
 
+    .text {
+      line-height: .7em;
+      text-align: center;
+    }
+
+    #five-kapcs {
+      text-align: center;
+      width: 100%;
+    }
+
+    #contact {
+      height: 50px;
+    }
+
     #profile_pic {
 
       img {
-        border: 2px solid $white;
+        border: 3px solid $white;
         @include border-radius(50%);
         height: 70px;
         width: 70px;
@@ -754,6 +820,11 @@ $xwidescreen-: $xwidescreen - .01em;
         width: 100%;
       }
     }
+  }
+
+  .name {
+    font-size: 1.2em;
+    margin: .3em 0;
   }
 
   #map {

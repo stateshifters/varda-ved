@@ -910,13 +910,18 @@ footer div {
   }
 
   nav {
-    height: 3em;
+    height: 4.5em;
   }
   nav #logo #logo_text {
     left: 50px;
     position: fixed;
     top: 20px;
     z-index: 5;
+  }
+
+  #icon img {
+    height: 70px;
+    margin-top: -1em;
   }
 
   .text {
@@ -927,12 +932,58 @@ footer div {
     width: 95% !important;
   }
 
+  .title {
+    font-size: 1.5em;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 50px;
+  }
+
+  #munkavedelem #certificate,
+  #munkavedelem #helmet,
+  #munkavedelem #screw {
+    height: 50px;
+  }
+  #munkavedelem #certificate,
+  #munkavedelem #screw {
+    margin-bottom: 1em;
+  }
+
+  #ref-icon {
+    height: 50px;
+  }
+
+  .circle,
+  #law {
+    height: 50px !important;
+  }
+
+  #law {
+    margin: 1em 0 2em;
+  }
+
+  .list li .square:nth-child(even) {
+    display: none;
+  }
+
   #kapcsolat {
     height: initial;
     width: 100%;
   }
+  #kapcsolat .text {
+    line-height: .7em;
+    text-align: center;
+  }
+  #kapcsolat #five-kapcs {
+    text-align: center;
+    width: 100%;
+  }
+  #kapcsolat #contact {
+    height: 50px;
+  }
   #kapcsolat #profile_pic img {
-    border: 2px solid white;
+    border: 3px solid white;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -943,6 +994,11 @@ footer div {
   #kapcsolat #profile_pic #right {
     margin: 1em 0;
     width: 100%;
+  }
+
+  .name {
+    font-size: 1.2em;
+    margin: .3em 0;
   }
 
   #map {
