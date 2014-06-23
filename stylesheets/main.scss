@@ -114,10 +114,10 @@ a:hover {
 }
 
 #bemutatkozas,
-#slide-2,
-#slide-3,
-#slide-4,
-#slide-5 {
+#tuzvedelem,
+#munkavedelem,
+#referenciak,
+#kapcsolat {
   height: 100%;
   position: relative;
   width: 100%;
@@ -136,13 +136,13 @@ a:hover {
   }
 }
 
-#slide-2,
-#slide-3,
-#slide-4 {
+#tuzvedelem,
+#munkavedelem,
+#referenciak {
   color: $white;
 }
 
-#slide-2 {
+#tuzvedelem {
   background-color: $pomegranate;
 
   #extinguish {
@@ -154,7 +154,7 @@ a:hover {
   }
 }
 
-#slide-3 {
+#munkavedelem {
   background-color: $pizazz;
   color: $black;
 
@@ -172,11 +172,11 @@ a:hover {
   }
 }
 
-#slide-4 {
+#referenciak {
   background-color: $cerulean;
 }
 
-#slide-5 {
+#kapcsolat {
   background-color: $lima;
 
   #contact {
