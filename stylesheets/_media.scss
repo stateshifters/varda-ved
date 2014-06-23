@@ -334,7 +334,7 @@ $xwidescreen-: $xwidescreen - .01em;
   #logo {
 
     #logo_pic img {
-      height: 60px;
+      height: 80px;
       position: relative;
       top: 80px;
     }
@@ -345,22 +345,54 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .text {
-    font-size: 1.55em !important;
+    font-size: 1.6em !important;
     line-height: 1.6em;
-    max-width: 950px;
+    margin: .5em auto 0;
+    max-width: 900px;
     width: 95%;
   }
 
-  #icon {
-    padding-top: 2em !important;
+  .title {
+    font-size: 2.1em;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 60px;
+  }
+
+  #screw,
+  #certificate {
+    margin-top: -1em;
   }
 
   .menu-icon {
-    margin: 1em auto;
+    margin: 1em auto .5em;
   }
 
   li {
     line-height: 1.8em !important;
+  }
+
+  #slide-2 {
+
+    #extinguish {
+      height: 60px;
+    }
+  }
+
+  .number {
+
+    img {
+      margin: 3em 0 -1.5em;
+    }
+  }
+
+  #slide-3 {
+
+    #helmet {
+      height: 60px;
+    } 
   }
 
   #slide-5 {
@@ -368,12 +400,38 @@ $xwidescreen-: $xwidescreen - .01em;
     .text {
       margin: .5em auto 0;
     }
-  }
 
-  #map {
-    height: 827px;
+    #profile_pic {
+
+      img {
+        border: 5px solid $white;
+        height: 110px !important;
+        margin-bottom: 1.2em;
+        width: 110px !important;
+      }
+    }
+
+    #left,
+    #right {
+      margin: 2em 0 5em !important;
+
+      p:nth-child(3) {
+        font-size: 1.3em;
+        font-weight: 300;
+      }
+    }
+
+    #map {
+      height: 900px;
+    }
+
+    .name {
+      font-size: 1.6em;
+      margin-bottom: .2em;
+    }
   }
 }
+
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) and (orientation: landscape) {
 
