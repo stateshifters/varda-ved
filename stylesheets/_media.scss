@@ -283,7 +283,15 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #kapcsolat {
 
+    #five-kapcs {
+
+      div:nth-child(3) {
+        margin-top: 3em;
+      }
+    }
+
     .text {
+      line-height: 1.3em;
       margin: .5em auto 0;
     }
 
@@ -397,7 +405,15 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #kapcsolat {
 
+    #five-kapcs {
+
+      div:nth-child(3) {
+        margin-top: 3em;
+      }
+    }
+
     .text {
+      line-height: 1.3em;
       margin: .5em auto 0;
     }
 

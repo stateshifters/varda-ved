@@ -579,7 +579,11 @@ footer div {
     height: 60px;
   }
 
+  #kapcsolat #five-kapcs div:nth-child(3) {
+    margin-top: 3em;
+  }
   #kapcsolat .text {
+    line-height: 1.3em;
     margin: .5em auto 0;
   }
   #kapcsolat #profile_pic img {
@@ -668,7 +672,11 @@ footer div {
     height: 60px;
   }
 
+  #kapcsolat #five-kapcs div:nth-child(3) {
+    margin-top: 3em;
+  }
   #kapcsolat .text {
+    line-height: 1.3em;
     margin: .5em auto 0;
   }
   #kapcsolat #profile_pic img {
