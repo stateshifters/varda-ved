@@ -143,6 +143,9 @@ nav #menu li {
   padding: 1em 0;
   z-index: 1001;
 }
+nav #menu #sandwich {
+  display: none;
+}
 
 h1 {
   font-size: 2em;
@@ -199,10 +202,6 @@ a:hover {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-#sandwich {
-  display: none;
 }
 
 #logo img {
@@ -924,11 +923,16 @@ footer div {
   }
 
   #sandwich {
-    display: block;
+    display: block !important;
     position: fixed;
     right: 20px;
-    top: 0;
+    top: -9px;
     visibility: visible;
+  }
+  #sandwich #menu-link:hover {
+    background-color: white;
+    margin: 0;
+    padding: 0;
   }
 
   #icon img {

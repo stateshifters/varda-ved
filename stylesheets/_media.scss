@@ -725,11 +725,18 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   #sandwich {
-    display: block;
+    display: block!important;
     position: fixed;
     right: 20px;
-    top: 0;
+    top: -9px;
     visibility: visible;
+
+    #menu-link:hover {
+//      @include transition(all .3s);
+      background-color: $white;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   #icon img {
