@@ -804,7 +804,7 @@ footer div {
     width: 100%;
   }
 }
-@media only screen and (max-width: 47.99em) {
+@media only screen and (min-width: 30em) and (max-width: 47.99em) {
   #bemutatkozas #one #icon {
     padding: 0 0 1.5em;
   }
@@ -881,9 +881,77 @@ footer div {
     height: 100%;
     width: 100%;
   }
+}
+@media only screen and (max-width: 29.99em) {
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+  }
 
-  footer {
-    font-size: .7em;
-    height: 40px;
+  #menu_wrap {
+    position: fixed;
+    top: 10px;
+  }
+  #menu_wrap #menu {
+    visibility: hidden;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+
+  #logo_pic img {
+    height: 35px;
+    left: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
+
+  nav {
+    height: 3em;
+  }
+  nav #logo #logo_text {
+    left: 50px;
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .text {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0;
+    text-align: left;
+    width: 95% !important;
+  }
+
+  #kapcsolat {
+    height: initial;
+    width: 100%;
+  }
+  #kapcsolat #profile_pic img {
+    border: 2px solid white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  #kapcsolat #profile_pic #left,
+  #kapcsolat #profile_pic #right {
+    margin: 1em 0;
+    width: 100%;
+  }
+
+  #map {
+    background-color: #f8f8f8;
+    height: 150px;
+    width: 100%;
+  }
+  #map iframe {
+    height: 100%;
+    width: 100%;
   }
 }

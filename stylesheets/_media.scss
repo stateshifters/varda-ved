@@ -570,7 +570,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 }
 
-@media only screen and (max-width: $tablet-) {
+@media only screen and (min-width: $mobile) and (max-width: $tablet-) {
 
   #bemutatkozas {
 
@@ -673,79 +673,102 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  footer {
-    font-size: .7em;
-    height: 40px;
-  }
+//  footer {
+//    font-size: .7em;
+//    height: 40px;
+//  }
 }
 
-// - 479px
-//@media only screen and (max-width: $mobile-) {
-//	p {
-//		font-size: 1em;
-//		line-height: 1.6em;
-//
-//		.bold {
-//			font-weight: 600;
-//		}
-//
-//		.bold:nth-child(3) {
-//			padding-left: 1em;
-//		}
-//	}
-//
-//	p:first-child {
-//		font-size: 1.5em;
-//		padding: 90px 0 10px;
-//	}
-//
-//	p.big-bold {
-//		font-size: 1.2em;
-//	}
-//
-//	p.name {
-//		font-size: 1em;
-//	}
-//
-//	#logo {
-//		padding-bottom: 10px;
-//	}
-//
-//
-//	#kapcsolat {
-//		width: 100%;
-//		height: initial;
-//
-//		#profile_pic {
-//
-//			img {
-//				border: 2px solid $white;
-//				border-radius: 50%;
-//				height: 70px;
-//				width: 70px;
-//			}
-//
-//			#left,
-//			#right {
-//				margin: 1em 0;
-//				width: 100%;
-//			}
-//		}
-//	}
-//
-//	#map {
-//		background-color: $alabaster;
-//		height: 150px;
-//		width: 100%;
-//
-//			iframe {
-//				height: 100%;
-//				width: 100%;
-//			}
-//	}
-//
-//	footer {
-//		font-size: 0.7em;
-//		height: 30px;
-//	}
-//}
+
+
+@media only screen and (max-width: $mobile-) {
+
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+  }
+
+  #menu_wrap {
+    position: fixed;
+    top: 10px;
+
+    #menu {
+      visibility: hidden;
+    }
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+
+  #logo_pic img {
+    height: 35px;
+    left: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
+
+  nav {
+    height: 3em;
+
+    #logo {
+      
+      #logo_text {
+        left: 50px;
+        position: fixed;
+        top: 20px; 
+        z-index: 5;
+      }
+    }
+  }
+
+  .text {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0;
+    text-align: left;
+    width: 95%!important;
+
+  }
+
+
+  #kapcsolat {
+
+    height: initial;
+    width: 100%;
+
+    #profile_pic {
+
+      img {
+        border: 2px solid $white;
+        @include border-radius(50%);
+        height: 70px;
+        width: 70px;
+      }
+
+      #left,
+      #right {
+        margin: 1em 0;
+        width: 100%;
+      }
+    }
+  }
+
+  #map {
+    background-color: $alabaster;
+    height: 150px;
+    width: 100%;
+
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+//  footer {
+//    font-size: .7em;
+//    height: 30px;
+//  }
+}
