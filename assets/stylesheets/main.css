@@ -366,6 +366,108 @@ footer div {
   vertical-align: middle;
 }
 
+@media only screen and (min-width: 120em) {
+  .text {
+    font-size: 2.2em !important;
+    line-height: 1.8em;
+    margin: .5em auto 2em;
+    max-width: 1710px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 4em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 3.5em auto;
+    padding-bottom: 0;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 130px;
+  }
+
+  #munkavedelem #helmet {
+    height: 130px;
+  }
+
+  #ref-icon {
+    height: 130px;
+  }
+
+  #kapcsolat .text {
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 13px solid white;
+    height: 230px !important;
+    margin-bottom: 1.6em;
+    width: 230px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin-top: 3em;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.9em;
+    font-weight: 300;
+  }
+  #kapcsolat .name {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (min-width: 100em) and (max-width: 119.99em) {
+  .text {
+    font-size: 2em !important;
+    line-height: 1.7em;
+    margin: .5em auto 2em;
+    max-width: 1400px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.6em;
+    margin-bottom: .5em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 2em auto;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 75px;
+  }
+
+  #kapcsolat .text {
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 10px solid white;
+    height: 170px !important;
+    margin-bottom: 1.4em;
+    width: 170px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin-top: 3em;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.7em;
+    font-weight: 300;
+  }
+  #kapcsolat .name {
+    font-size: 2.3em;
+  }
+}
 @media only screen and (min-width: 89em) and (max-width: 99.99em) {
   .text {
     font-size: 1.625em !important;
@@ -477,7 +579,11 @@ footer div {
     height: 60px;
   }
 
+  #kapcsolat #five-kapcs div:nth-child(3) {
+    margin-top: 3em;
+  }
   #kapcsolat .text {
+    line-height: 1.3em;
     margin: .5em auto 0;
   }
   #kapcsolat #profile_pic img {
@@ -516,7 +622,7 @@ footer div {
   }
 
   #logo #logo_pic img {
-    height: 60px;
+    height: 80px;
     position: relative;
     top: 80px;
   }
@@ -525,30 +631,75 @@ footer div {
   }
 
   .text {
-    font-size: 1.55em !important;
+    font-size: 1.6em !important;
     line-height: 1.6em;
-    max-width: 950px;
+    margin: .5em auto 0;
+    max-width: 900px;
     width: 95%;
   }
 
-  #icon {
-    padding-top: 2em !important;
+  .title {
+    font-size: 2.1em;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 60px;
+  }
+
+  #screw,
+  #certificate {
+    margin-top: -1em;
   }
 
   .menu-icon {
-    margin: 1em auto;
+    margin: 1em auto .5em;
   }
 
   li {
     line-height: 1.8em !important;
   }
 
-  #kapcsolat .text {
-    margin: .5em auto 0;
+  #tuzvedelem #extinguish {
+    height: 60px;
   }
 
-  #map {
-    height: 827px;
+  .number img {
+    margin: 3em 0 -1.5em;
+  }
+
+  #munkavedelem #helmet {
+    height: 60px;
+  }
+
+  #kapcsolat #five-kapcs div:nth-child(3) {
+    margin-top: 3em;
+  }
+  #kapcsolat .text {
+    line-height: 1.3em;
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 5px solid white;
+    height: 110px !important;
+    margin-bottom: 1.2em;
+    width: 110px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin: 2em 0 5em !important;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.3em;
+    font-weight: 300;
+  }
+  #kapcsolat #map {
+    height: 900px;
+  }
+  #kapcsolat .name {
+    font-size: 1.6em;
+    margin-bottom: .2em;
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) and (orientation: landscape) {
@@ -564,6 +715,20 @@ footer div {
     top: 10px;
   }
 
+  .text {
+    font-size: 1.1em !important;
+    line-height: 1.65em;
+    margin: .5em auto 0;
+    max-width: 700px;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 1.4em;
+    margin-top: -.5em;
+    padding-bottom: 0;
+  }
+
   #logo #logo_pic img {
     height: 50px;
     position: relative;
@@ -573,15 +738,25 @@ footer div {
     top: 80px;
   }
 
-  .text {
-    font-size: 1.55em !important;
-    line-height: 1.55em;
-    max-width: 860px;
-    width: 95%;
+  .menu-icon {
+    margin: 1.5em auto;
+    padding: 4em 0 0;
   }
 
-  .title {
-    font-size: 1.8em;
+  #tuzvedelem .number img {
+    height: 60px;
+    margin: 2em 0 -.5em;
+  }
+  #tuzvedelem #extinguish {
+    height: 50px;
+  }
+
+  #munkavedelem #helmet {
+    height: 50px;
+  }
+
+  #ref-icon {
+    height: 50px;
   }
 
   li {
@@ -598,12 +773,12 @@ footer div {
   }
 
   #profile_pic img {
-    border: 4px solid white;
+    border: 2px solid white;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    height: 80px !important;
-    width: 80px !important;
+    height: 70px !important;
+    width: 70px !important;
   }
   #profile_pic #left,
   #profile_pic #right {
@@ -616,7 +791,7 @@ footer div {
   }
   #profile_pic #left .name,
   #profile_pic #right .name {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   #map {

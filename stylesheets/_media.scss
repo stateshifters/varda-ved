@@ -8,17 +8,140 @@ $widescreen: 80em;
 $widescreen-: $widescreen - .01em;
 $mwidescreen: 89em;
 $mwidescreen-: $mwidescreen - .01em;
-
 $wwidescreen: 100em;
 $wwidescreen-: $wwidescreen - .01em;
-
 $xwidescreen: 120em;
 $xwidescreen-: $xwidescreen - .01em;
 
 @media only screen and (min-width: $xwidescreen) {
+
+  .text {
+    font-size: 2.2em !important;
+    line-height: 1.8em;
+    margin: .5em auto 2em;
+    max-width: 1710px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 4em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 3.5em auto;
+    padding-bottom: 0;
+  }
+
+  #tuzvedelem {
+
+    #extinguish {
+      height: 130px;
+    }
+  }
+
+  #munkavedelem {
+
+    #helmet {
+      height: 130px;
+    }
+  }
+
+  #ref-icon {
+    height: 130px;
+  }
+
+  #kapcsolat {
+
+    .text {
+      margin: .5em auto 0;
+    }
+
+    #profile_pic {
+
+      img {
+        border: 13px solid $white;
+        height: 230px !important;
+        margin-bottom: 1.6em;
+        width: 230px !important;
+      }
+    }
+
+    #left,
+    #right {
+      margin-top: 3em;
+
+      p:nth-child(3) {
+        font-size: 1.9em;
+        font-weight: 300;
+      }
+    }
+
+    .name {
+      font-size: 2.5em;
+    }
+  }
 }
 
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {
+
+  .text {
+    font-size: 2em !important;
+    line-height: 1.7em;
+    margin: .5em auto 2em;
+    max-width: 1400px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.6em;
+    margin-bottom: .5em;
+    padding-bottom: 1em;
+  }
+
+  .menu-icon {
+    margin: 2em auto;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 75px;
+  }
+
+  #kapcsolat {
+
+    .text {
+      margin: .5em auto 0;
+    }
+
+    #profile_pic {
+
+      img {
+        border: 10px solid $white;
+        height: 170px !important;
+        margin-bottom: 1.4em;
+        width: 170px !important;
+      }
+    }
+
+    #left,
+    #right {
+      margin-top: 3em;
+
+      p:nth-child(3) {
+        font-size: 1.7em;
+        font-weight: 300;
+      }
+    }
+
+    .name {
+      font-size: 2.3em;
+    }
+  }
+
 }
 
 @media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
@@ -160,7 +283,15 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #kapcsolat {
 
+    #five-kapcs {
+
+      div:nth-child(3) {
+        margin-top: 3em;
+      }
+    }
+
     .text {
+      line-height: 1.3em;
       margin: .5em auto 0;
     }
 
@@ -211,7 +342,7 @@ $xwidescreen-: $xwidescreen - .01em;
   #logo {
 
     #logo_pic img {
-      height: 60px;
+      height: 80px;
       position: relative;
       top: 80px;
     }
@@ -222,35 +353,101 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .text {
-    font-size: 1.55em !important;
+    font-size: 1.6em !important;
     line-height: 1.6em;
-    max-width: 950px;
+    margin: .5em auto 0;
+    max-width: 900px;
     width: 95%;
   }
 
-  #icon {
-    padding-top: 2em !important;
+  .title {
+    font-size: 2.1em;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 60px;
+  }
+
+  #screw,
+  #certificate {
+    margin-top: -1em;
   }
 
   .menu-icon {
-    margin: 1em auto;
+    margin: 1em auto .5em;
   }
 
   li {
     line-height: 1.8em !important;
   }
 
-  #kapcsolat {
+  #tuzvedelem {
 
-    .text {
-      margin: .5em auto 0;
+    #extinguish {
+      height: 60px;
     }
   }
 
-  #map {
-    height: 827px;
+  .number {
+
+    img {
+      margin: 3em 0 -1.5em;
+    }
+  }
+
+  #munkavedelem {
+
+    #helmet {
+      height: 60px;
+    } 
+  }
+
+  #kapcsolat {
+
+    #five-kapcs {
+
+      div:nth-child(3) {
+        margin-top: 3em;
+      }
+    }
+
+    .text {
+      line-height: 1.3em;
+      margin: .5em auto 0;
+    }
+
+    #profile_pic {
+
+      img {
+        border: 5px solid $white;
+        height: 110px !important;
+        margin-bottom: 1.2em;
+        width: 110px !important;
+      }
+    }
+
+    #left,
+    #right {
+      margin: 2em 0 5em !important;
+
+      p:nth-child(3) {
+        font-size: 1.3em;
+        font-weight: 300;
+      }
+    }
+
+    #map {
+      height: 900px;
+    }
+
+    .name {
+      font-size: 1.6em;
+      margin-bottom: .2em;
+    }
   }
 }
+
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) and (orientation: landscape) {
 
@@ -266,6 +463,20 @@ $xwidescreen-: $xwidescreen - .01em;
     top: 10px;
   }
 
+  .text {
+    font-size: 1.1em!important;
+    line-height: 1.65em;
+    margin: .5em auto 0;
+    max-width: 700px;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 1.4em;
+    margin-top: -.5em;
+    padding-bottom: 0;
+  }
+
   #logo {
 
     #logo_pic img {
@@ -279,15 +490,32 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  .text {
-    font-size: 1.55em !important;
-    line-height: 1.55em;
-    max-width: 860px;
-    width: 95%;
+  .menu-icon {
+    margin: 1.5em auto;
+    padding: 4em 0 0;
   }
 
-  .title {
-    font-size: 1.8em;
+  #tuzvedelem {
+
+    .number img {
+      height: 60px;
+      margin: 2em 0 -.5em;
+    }
+
+    #extinguish {
+      height: 50px;
+    }
+  }
+
+  #munkavedelem {
+
+    #helmet {
+      height: 50px;
+    }
+  }
+
+  #ref-icon {
+    height: 50px;
   }
 
   li {
@@ -309,10 +537,10 @@ $xwidescreen-: $xwidescreen - .01em;
   #profile_pic {
 
     img {
-      border: 4px solid $white;
+      border: 2px solid $white;
       @include border-radius(50%);
-      height: 80px !important;
-      width: 80px !important;
+      height: 70px !important;
+      width: 70px !important;
     }
 
     #left,
@@ -325,7 +553,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
 
       .name {
-        font-size: 1.3em;
+        font-size: 1em;
       }
     }
   }
