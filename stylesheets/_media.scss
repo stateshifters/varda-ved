@@ -724,6 +724,14 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #sandwich {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 0;
+    visibility: visible;
+  }
+
   #icon img {
     height: 70px;
     margin-top: -1em;
@@ -733,7 +741,6 @@ $xwidescreen-: $xwidescreen - .01em;
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 0;
-    text-align: left;
     width: 95%!important;
   }
 
@@ -770,6 +777,7 @@ $xwidescreen-: $xwidescreen - .01em;
   .circle, 
   #law {
     height: 50px!important;
+    margin-top: .8em;
   }
 
   #law {
