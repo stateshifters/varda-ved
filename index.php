@@ -88,6 +88,10 @@
 						data-500="top:0px;"
 					>
 						<ul id="menu">
+							<li id="sandwich">
+								<a id="menu-link" href="">
+									<img src="images/sandwich.png"></li>
+								</a>
 							<li>
 								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>

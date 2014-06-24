@@ -133,8 +133,8 @@ window.onload = function () {
 		initMenu(s);
 		initHistory(match);
 
-		// Init Skrollr for 768 and up
-		if (winW < 768) {
+		// Init Skrollr for 1024 and up
+		if (winW < 1024) {
 			s.destroy();
 			initHistory(false);
 		}
@@ -164,6 +164,6 @@ window.onload = function () {
 	}
 
 	initHistory(false);
-	enquire.register('screen and (min-width : 768px)', initAdjustWindow(), false);
+	enquire.register('screen and (min-width : 1024px)', initAdjustWindow(), false);
 
 };
