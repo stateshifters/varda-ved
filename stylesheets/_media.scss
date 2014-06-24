@@ -627,13 +627,17 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-
-  #bemutatkozas {
-
-    #one #icon {
-      padding: 0 0 1.5em;
-    }
+  #icon img {
+    height: 85px;
+    margin: -1em auto 1em;
   }
+
+  //#bemutatkozas {
+//
+ //   #one #icon {
+//      padding: 0 0 1.5em;
+//    }
+//  }
 
   #tuzvedelem {
 
@@ -664,19 +668,13 @@ $xwidescreen-: $xwidescreen - .01em;
     font-size: 2em;
   }
 
-  #tuzvedelem {
-
-    #extinguish {
-      height: 50px;
-    }
-  }
 
   #munkavedelem {
 
     #certificate,
     #helmet,
     #screw {
-      height: 50px;
+      height: 70px;
     }
 
     #certificate,
@@ -686,13 +684,13 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   #ref-icon {
-    height: 50px;
+    height: 70px;
   }
 
 
   .circle, 
   #law {
-    height: 50px!important;
+    height: 70px!important;
     margin-top: .8em;
   }
 
@@ -726,20 +724,25 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #contact {
-      height: 50px;
+      height: 70px;
     }
 
     #profile_pic {
 
       img {
-        border: 3px solid $white;
+        border: 5px solid $white;
         @include border-radius(50%);
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
       }
 
       #left,
       #right {
+
+        p:nth-child(3) {
+          font-size: 1.1em;
+        }
+
         margin: 1em 0;
         width: 100%;
       }
@@ -747,13 +750,12 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .name {
-    font-size: 1.2em;
     margin: .3em 0;
   }
 
   #map {
     background-color: $alabaster;
-    height: 150px;
+    height: 200px;
     width: 100%;
 
     iframe {
