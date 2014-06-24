@@ -449,119 +449,179 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 
-@media only screen and (min-width: $tablet) and (max-width: $monitor-) and (orientation: landscape) {
+@media only screen and (min-width: $tablet) and (max-width: $monitor-)  {
 
   #stripe {
     height: 10px;
     position: fixed;
     top: 0;
-    z-index: 100;
   }
 
   #menu_wrap {
     position: fixed;
     top: 10px;
-  }
 
-  .text {
-    font-size: 1.1em!important;
-    line-height: 1.65em;
-    margin: .5em auto 0;
-    max-width: 700px;
-    width: 95%;
-  }
-
-  .title {
-    font-size: 1.4em;
-    margin-top: -.5em;
-    padding-bottom: 0;
+    #menu {
+      visibility: hidden;
+    }
   }
 
   #logo {
+    padding-bottom: 10px;
+  }
 
-    #logo_pic img {
-      height: 50px;
-      position: relative;
-      top: 80px;
-    }
+  #logo_pic img {
+    height: 35px;
+    left: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
 
-    #logo_text {
-      top: 80px;
+  nav {
+    height: 4.5em;
+
+    #logo {
+      
+      #logo_text {
+        left: 50px;
+        position: fixed;
+        top: 20px; 
+        z-index: 5;
+      }
     }
   }
 
-  .menu-icon {
-    margin: 1.5em auto;
-    padding: 4em 0 0;
+  #sandwich {
+    display: block!important;
+    position: fixed;
+    right: 20px;
+    top: -9px;
+    visibility: visible;
+
+    #menu-link:hover {
+      background-color: $white;
+      margin: 0;
+      padding: 0;
+    }
   }
 
-  #tuzvedelem {
+  #icon img {
+    height: 85px;
+    margin: -1em auto 1em;
+  }
 
-    .number img {
-      height: 60px;
-      margin: 2em 0 -.5em;
-    }
+  .text {
+    font-size: 1.5em;
+    line-height: 1.7em;
+    padding: 0;
+    text-align: left;
+    width: 90%!important;
+  }
 
-    #extinguish {
-      height: 50px;
-    }
+  .title {
+    font-size: 2.1em;
+  }
+
+  .circle {
+    height: 55px!important;
   }
 
   #munkavedelem {
 
-    #helmet {
-      height: 50px;
+    #certificate,
+    #helmet,
+    #screw {
+      height: 80px;
+    }
+
+    #certificate,
+    #screw {
+      margin-bottom: 1em;
+    }
+  }
+
+  #tuzvedelem {
+
+    #extinguish {
+      height: 80px;
     }
   }
 
   #ref-icon {
-    height: 50px;
+    height: 80px;
+  }
+   
+  #law {
+    height: 60px!important;
+    margin-top: .8em;
   }
 
-  li {
-    line-height: 1.8em !important;
+  #law {
+    margin: 1em 0 3em;
   }
 
-  #five-kapcs {
-    height: initial;
-    width: 60%;
-  }
+  .list {
 
-  #kapcsolat {
-
-    .text {
-      margin: .5em auto 0;
+    li {
+      .square:nth-child(even) {
+        display: none;
+      }
     }
   }
 
-  #profile_pic {
 
-    img {
-      border: 2px solid $white;
-      @include border-radius(50%);
-      height: 70px !important;
-      width: 70px !important;
+  #kapcsolat {
+
+    height: initial;
+    width: 100%;
+
+    .text {
+      line-height: .7em;
+      text-align: center;
+    }
+
+    #five-kapcs {
+      text-align: center;
+      width: 100%;
+    }
+
+    #contact {
+      height: 80px;
+    }
+
+    #profile_pic {
+
+      img {
+        border: 5px solid $white;
+        @include border-radius(50%);
+        height: 110px;
+        width: 110px;
+      }
+
+      #left,
+      #right {
+        margin: 1em 0;
+        width: 100%;
+      }
     }
 
     #left,
     #right {
-      margin: 2em 0;
-      width: 50%;
-
       p:nth-child(3) {
-        font-weight: 300;
-      }
-
-      .name {
-        font-size: 1em;
+        font-size: 1.1em;
       }
     }
   }
 
+  .name {
+    margin: .3em 0;
+  }
+
   #map {
     background-color: $alabaster;
-    min-height: 300px;
-    width: 40%;
+    height: 250px;
+    width: 100%;
 
     iframe {
       height: 100%;
@@ -632,30 +692,6 @@ $xwidescreen-: $xwidescreen - .01em;
     margin: -1em auto 1em;
   }
 
-  //#bemutatkozas {
-//
- //   #one #icon {
-//      padding: 0 0 1.5em;
-//    }
-//  }
-
-  #tuzvedelem {
-
-    #two-tuz {
-
-      #law {
-        display: none;
-      }
-    }
-
-    .number {
-
-      img {
-        height: 50px;
-      }
-    }
-  }
-
   .text {
     font-size: 1.4em;
     line-height: 1.65em;
@@ -668,6 +704,9 @@ $xwidescreen-: $xwidescreen - .01em;
     font-size: 2em;
   }
 
+  .circle {
+    height: 55px!important;
+  }
 
   #munkavedelem {
 
@@ -686,11 +725,9 @@ $xwidescreen-: $xwidescreen - .01em;
   #ref-icon {
     height: 70px;
   }
-
-
-  .circle, 
+   
   #law {
-    height: 70px!important;
+    height: 50px!important;
     margin-top: .8em;
   }
 
@@ -738,13 +775,15 @@ $xwidescreen-: $xwidescreen - .01em;
 
       #left,
       #right {
-
-        p:nth-child(3) {
-          font-size: 1.1em;
-        }
-
         margin: 1em 0;
         width: 100%;
+      }
+    }
+
+    #left,
+    #right {
+      p:nth-child(3) {
+        font-size: 1.1em;
       }
     }
   }
@@ -763,12 +802,6 @@ $xwidescreen-: $xwidescreen - .01em;
       width: 100%;
     }
   }
-  
-
-//  footer {
-//    font-size: .7em;
-//    height: 40px;
-//  }
 }
 
 

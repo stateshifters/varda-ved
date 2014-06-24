@@ -594,7 +594,7 @@
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>
-<script src="assets/js/skrollr.min.js"></script>
+<!--script src="assets/js/skrollr.min.js"></script-->
 <script src="assets/js/skrollr.menu.min.js"></script>
 <script src="assets/js/history.js"></script>
 <script src="assets/js/history.adapter.jquery.js"></script>
