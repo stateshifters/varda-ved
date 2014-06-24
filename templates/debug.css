@@ -1,0 +1,68 @@
+body:before {
+    background-color: #FCF8E3;
+    border-bottom: 1px solid #FBEED5;
+    border-left: 1px solid #FBEED5;
+    color: #C09853;
+    font: small-caption;
+    padding: 3px 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100; }
+@media all and (min-width: 11em) {
+    body:before {
+        content: "tinyDevice ≥ 176px (11em)"; } }
+@media all and (min-width: 15em) {
+    body:before {
+        content: "smallMobile ≥ 240px (15em)"; } }
+@media all and (min-width: 20em) {
+    body:before {
+        content: "mobile ≥ 320px (20em)"; } }
+@media all and (min-width: 30em) {
+    body:before {
+        content: "mobileLandscape ≥ 480px (30em)"; } }
+@media all and (min-width: 33.75em) {
+    body:before {
+        content: "smallTablet ≥ 540px (33.75em)"; } }
+@media all and (min-width: 40em) {
+    body:before {
+        content: "tablet ≥ 640px (40em)"; } }
+@media all and (min-width: 45em) {
+    body:before {
+        content: "tabletLandscape ≥ 720px (45em)"; } }
+@media all and (min-width: 48em) {
+    body:before {
+        content: "largeTablet ≥ 768px (48em)"; } }
+@media all and (min-width: 50em) {
+    body:before {
+        content: "nokiaLumia ≥ 800px (50em)"; } }
+@media all and (min-width: 51.5em) {
+    body:before {
+        content: "kindle ≥ 824px (51.5em)"; } }
+@media all and (min-width: 53.375em) {
+    body:before {
+        content: "motorolaDefy ≥ 854px (53.375em)"; } }
+@media all and (min-width: 60em) {
+    body:before {
+        content: "smallDesktop ≥ 960px (60em)"; } }
+@media all and (min-width: 64em) {
+    body:before {
+        content: "desktop ≥ 1024px (64em)"; } }
+@media all and (min-width: 67.5em) {
+    body:before {
+        content: "smartphoneWide ≥ 1080px (67.5em)"; } }
+@media all and (min-width: 80em) {
+    body:before {
+        content: "tabletWide ≥ 1280px (80em)"; } }
+@media all and (min-width: 85.375em) {
+    body:before {
+        content: "desktopWide ≥ 1366px (85.375em)"; } }
+@media all and (min-width: 120em) {
+    body:before {
+        content: "tvSmall ≥ 1920px (120em)"; } }
+@media all and (min-width: 128em) {
+    body:before {
+        content: "tv ≥ 2048px (128em)"; } }
+@media all and (min-width: 160em) {
+    body:before {
+        content: "tvWide ≥ 2560px (160em)"; } }
