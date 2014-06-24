@@ -3,6 +3,8 @@ node_modules
 *.appcache
 *.log
 
+robots.txt
+
 assets/js
 assets/debug.css
 assets/images/**/*.*
