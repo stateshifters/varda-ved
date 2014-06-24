@@ -12,6 +12,7 @@
 <body>
 <div id="skrollr-body">
     <div id="loader">
+    	<p>Betöltés</p>
     	<img src="images/loader.gif" />
     </div>
 	<div id="wrap">
