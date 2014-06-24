@@ -944,6 +944,7 @@ footer div {
     font-size: 1.2em;
     line-height: 1.5em;
     padding: 0;
+    text-align: left;
     width: 95% !important;
   }
 
