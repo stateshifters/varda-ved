@@ -74,8 +74,9 @@ module.exports = function (grunt) {
 			}
 		},
 		clean: {
-			all: [staticTargetDir],
+			all: [staticTargetDir, 'robots.txt', 'manifest.appcache'],
 			cache: ['manifest.appcache'],
+			robots: ['robots.txt'],
 			css: [staticTargetDir + '*.css'],
 			hash: [staticTargetDir + 'assets.map'],
 			hooks: ['.git/hooks/*'],
@@ -208,6 +209,24 @@ module.exports = function (grunt) {
 			}
 
 		},
+		robotstxt: {
+			beta: {
+				policy: [
+					{
+						ua: '*',
+						disallow: '/'
+					}
+				]
+			},
+			production: {
+				policy: [
+					{
+						ua: '*',
+						disallow: ''
+					}
+				]
+			}
+		},
 		scsslint: {
 			all: [
 				'stylesheets/**/*.scss',
@@ -338,6 +357,8 @@ module.exports = function (grunt) {
 
 	grunt.loadNpmTasks('grunt-hash');            // Creates hashes for the assets
 
+	grunt.loadNpmTasks('grunt-robots-txt');		 // Generates robots.txt
+
 	grunt.loadNpmTasks('grunt-scss-lint');       // Checks if SCSS code is nice or not
 
 	grunt.loadNpmTasks('grunt-svgmin');          // Minifies SVG
@@ -349,7 +370,8 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', [
 		'clean:all',
 		'compile',
-		'create:hash'
+		'create:hash',
+		'robots'
 	]);
 
 	grunt.registerTask('compile', function () {
@@ -368,8 +390,17 @@ module.exports = function (grunt) {
 			'create:debugCss',
 			'cssmin',
 			'create:hash',
-			'create:cache'
+			'create:cache',
+			'robots'
 		]);
+	});
+
+	grunt.registerTask('robots', function() {
+		if(isProd) {
+			grunt.task.run(['robotstxt:production']);
+		} else {
+			grunt.task.run(['robotstxt:beta']);
+		}
 	});
 
 	grunt.registerTask('verify', [
