@@ -808,6 +808,55 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+  }
+
+  #menu_wrap {
+    position: fixed;
+    top: 10px;
+  }
+  #menu_wrap #menu {
+    visibility: hidden;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+
+  #logo_pic img {
+    height: 35px;
+    left: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
+
+  nav {
+    height: 4.5em;
+  }
+  nav #logo #logo_text {
+    left: 50px;
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+  }
+
+  #sandwich {
+    display: block !important;
+    position: fixed;
+    right: 20px;
+    top: -9px;
+    visibility: visible;
+  }
+  #sandwich #menu-link:hover {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
   #bemutatkozas #one #icon {
     padding: 0 0 1.5em;
   }
@@ -819,65 +868,87 @@ footer div {
     height: 50px;
   }
 
-  #munkavedelem {
-    color: black;
+  .text {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0;
+    text-align: left;
+    width: 95% !important;
   }
-  #munkavedelem #helmet {
-    height: 60px;
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 50px;
+  }
+
+  #munkavedelem #certificate,
+  #munkavedelem #helmet,
+  #munkavedelem #screw {
+    height: 50px;
   }
   #munkavedelem #certificate,
   #munkavedelem #screw {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
   }
 
-  #kapcsolat .text {
-    margin-bottom: .5em;
+  #ref-icon {
+    height: 50px;
   }
 
-  .text {
-    font-size: 1.15em;
-    line-height: 1.6em;
-    margin-bottom: 2em;
-    padding: 0;
-    width: 90%;
+  .circle,
+  #law {
+    height: 50px !important;
+    margin-top: .8em;
   }
 
-  h1 {
-    padding-bottom: 1em;
+  #law {
+    margin: 1em 0 2em;
   }
 
-  .list {
-    list-style-position: inside;
-    list-style-type: square;
-  }
-  .list li .square {
+  .list li .square:nth-child(even) {
     display: none;
   }
 
-  li.last {
-    margin-bottom: -2em;
-  }
-
-  #five-kapcs {
+  #kapcsolat {
+    height: initial;
     width: 100%;
   }
-  #five-kapcs #profile_pic img {
-    border: 5px solid white;
+  #kapcsolat .text {
+    line-height: .7em;
+    text-align: center;
+  }
+  #kapcsolat #five-kapcs {
+    text-align: center;
+    width: 100%;
+  }
+  #kapcsolat #contact {
+    height: 50px;
+  }
+  #kapcsolat #profile_pic img {
+    border: 3px solid white;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
   }
-  #five-kapcs #profile_pic #left,
-  #five-kapcs #profile_pic #right {
-    margin: 2em 0;
+  #kapcsolat #profile_pic #left,
+  #kapcsolat #profile_pic #right {
+    margin: 1em 0;
     width: 100%;
+  }
+
+  .name {
+    font-size: 1.2em;
+    margin: .3em 0;
   }
 
   #map {
     background-color: #f8f8f8;
-    height: 200px;
+    height: 150px;
     width: 100%;
   }
   #map iframe {
