@@ -869,15 +869,15 @@ footer div {
   }
 
   .text {
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1.4em;
+    line-height: 1.65em;
     padding: 0;
     text-align: left;
     width: 95% !important;
   }
 
   .title {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   #tuzvedelem #extinguish {
