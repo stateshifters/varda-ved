@@ -186,7 +186,9 @@ module.exports = function (grunt) {
 				srcBasePath: staticTargetDir,
 				destBasePath: staticTargetDir,
 				flatten: false,
-				hashLength: (isProd) ? 32 : 0
+//				hashLength: (isProd) ? 32 : 0
+				hashLength: 0
+
 			},
 			files: {
 				expand: true,
@@ -460,7 +462,7 @@ module.exports = function (grunt) {
 		if (isProd) {
 			grunt.task.run([
 				'replace:production-hash',
-				'clean:hashless'
+//				'clean:hashless'
 			]);
 		}
 	});
