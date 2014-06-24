@@ -370,6 +370,10 @@ footer div {
 }
 
 @media only screen and (min-width: 120em) {
+  #wrap {
+    visibility: hidden;
+  }
+
   .text {
     font-size: 2.2em !important;
     line-height: 1.8em;
@@ -425,6 +429,10 @@ footer div {
   }
 }
 @media only screen and (min-width: 100em) and (max-width: 119.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
@@ -472,6 +480,10 @@ footer div {
   }
 }
 @media only screen and (min-width: 89em) and (max-width: 99.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
   .text {
     font-size: 1.625em !important;
     line-height: 1.7em;
@@ -519,6 +531,10 @@ footer div {
   }
 }
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -612,6 +628,10 @@ footer div {
   }
 }
 @media only screen and (min-width: 64em) and (max-width: 79.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -709,6 +729,10 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
+  #loading {
+    display: none;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -858,6 +882,10 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
+  #loading {
+    display: none;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -1003,6 +1031,10 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
+  #loading {
+    display: none;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;

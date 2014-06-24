@@ -14,6 +14,9 @@ $xwidescreen: 120em;
 $xwidescreen-: $xwidescreen - .01em;
 
 @media only screen and (min-width: $xwidescreen) {
+  #wrap {
+    visibility: hidden;
+  }
 
   .text {
     font-size: 2.2em !important;
@@ -86,6 +89,9 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {
+  #wrap {
+    visibility: hidden;
+  }
 
   .text {
     font-size: 2em !important;
@@ -145,6 +151,9 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
+  #wrap {
+    visibility: hidden;
+  }
 
   .text {
     font-size: 1.625em !important;
@@ -202,8 +211,11 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 }
 
-
 @media only screen and (min-width: $widescreen) and (max-width: $mwidescreen-) {
+  #wrap {
+    visibility: hidden;
+  }
+
 
   #stripe {
     height: 10px;
@@ -278,7 +290,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
     #helmet {
       height: 60px;
-    } 
+    }
   }
 
   #kapcsolat {
@@ -326,6 +338,9 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
+  #wrap {
+    visibility: hidden;
+  }
 
   #stripe {
     height: 10px;
@@ -339,7 +354,7 @@ $xwidescreen-: $xwidescreen - .01em;
     top: 10px;
 
     #menu {
-      width: 700px!important;
+      width: 700px !important;
     }
   }
 
@@ -352,7 +367,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #logo_text {
-      top: 27px!important;
+      top: 27px !important;
     }
   }
 
@@ -404,7 +419,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
     #helmet {
       height: 60px;
-    } 
+    }
   }
 
   #kapcsolat {
@@ -452,8 +467,10 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 }
 
-
-@media only screen and (min-width: $tablet) and (max-width: $monitor-)  {
+@media only screen and (min-width: $tablet) and (max-width: $monitor-) {
+  #loading {
+    display: none;
+  }
 
   #stripe {
     height: 10px;
@@ -486,18 +503,18 @@ $xwidescreen-: $xwidescreen - .01em;
     height: 4.5em;
 
     #logo {
-      
+
       #logo_text {
         left: 50px;
         position: fixed;
-        top: 20px; 
+        top: 20px;
         z-index: 5;
       }
     }
   }
 
   #sandwich {
-    display: block!important;
+    display: block !important;
     position: fixed;
     right: 20px;
     top: -9px;
@@ -520,7 +537,7 @@ $xwidescreen-: $xwidescreen - .01em;
     line-height: 1.7em;
     padding: 0;
     text-align: left;
-    width: 90%!important;
+    width: 90% !important;
   }
 
   .title {
@@ -528,7 +545,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .circle {
-    height: 55px!important;
+    height: 55px !important;
   }
 
   #munkavedelem {
@@ -555,9 +572,9 @@ $xwidescreen-: $xwidescreen - .01em;
   #ref-icon {
     height: 80px;
   }
-   
+
   #law {
-    height: 60px!important;
+    height: 60px !important;
     margin-top: .8em;
   }
 
@@ -573,7 +590,6 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
   }
-
 
   #kapcsolat {
 
@@ -635,6 +651,9 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
+  #loading {
+    display: none;
+  }
 
   #stripe {
     height: 10px;
@@ -667,18 +686,18 @@ $xwidescreen-: $xwidescreen - .01em;
     height: 4.5em;
 
     #logo {
-      
+
       #logo_text {
         left: 50px;
         position: fixed;
-        top: 20px; 
+        top: 20px;
         z-index: 5;
       }
     }
   }
 
   #sandwich {
-    display: block!important;
+    display: block !important;
     position: fixed;
     right: 20px;
     top: -9px;
@@ -701,7 +720,7 @@ $xwidescreen-: $xwidescreen - .01em;
     line-height: 1.65em;
     padding: 0;
     text-align: left;
-    width: 95%!important;
+    width: 95% !important;
   }
 
   .title {
@@ -709,7 +728,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .circle {
-    height: 55px!important;
+    height: 55px !important;
   }
 
   #munkavedelem {
@@ -729,9 +748,9 @@ $xwidescreen-: $xwidescreen - .01em;
   #ref-icon {
     height: 70px;
   }
-   
+
   #law {
-    height: 50px!important;
+    height: 50px !important;
     margin-top: .8em;
   }
 
@@ -747,7 +766,6 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
   }
-
 
   #kapcsolat {
 
@@ -808,9 +826,10 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 }
 
-
-
 @media only screen and (max-width: $mobile-) {
+  #loading {
+    display: none;
+  }
 
   #stripe {
     height: 10px;
@@ -843,18 +862,18 @@ $xwidescreen-: $xwidescreen - .01em;
     height: 4.5em;
 
     #logo {
-      
+
       #logo_text {
         left: 50px;
         position: fixed;
-        top: 20px; 
+        top: 20px;
         z-index: 5;
       }
     }
   }
 
   #sandwich {
-    display: block!important;
+    display: block !important;
     position: fixed;
     right: 20px;
     top: -9px;
@@ -877,7 +896,7 @@ $xwidescreen-: $xwidescreen - .01em;
     line-height: 1.5em;
     padding: 0;
     text-align: left;
-    width: 95%!important;
+    width: 95% !important;
   }
 
   .title {
@@ -909,10 +928,9 @@ $xwidescreen-: $xwidescreen - .01em;
     height: 50px;
   }
 
-
-  .circle, 
+  .circle,
   #law {
-    height: 50px!important;
+    height: 50px !important;
     margin-top: .8em;
   }
 
@@ -928,7 +946,6 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
   }
-
 
   #kapcsolat {
 
@@ -981,9 +998,9 @@ $xwidescreen-: $xwidescreen - .01em;
       width: 100%;
     }
   }
-  
-//  footer {
-//    font-size: .7em;
-//    height: 30px;
-//  }
+
+  //  footer {
+  //    font-size: .7em;
+  //    height: 30px;
+  //  }
 }

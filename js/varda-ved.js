@@ -132,23 +132,27 @@ window.onload = function () {
 		var s = skrollr.init({});
 		initMenu(s);
 		initHistory(match);
-
+		var hasSkrollr = true;
 		// Init Skrollr for 1024 and up
 		if (winW < 1024) {
 			s.destroy();
 			initHistory(false);
+			hasSkrollr = false;
 		}
-		//else {
-		// Resize our slides when we go mobile
-		//$slide.height(winH);
-
-		//skrollr.refresh($('.homeSlide'));
-		//}
-
-		// Check for touch
 		if (Modernizr.touch) {
 			s.destroy();
 			initHistory(false);
+			hasSkrollr = false;
+		}
+
+		if(hasSkrollr) {
+			$('#wrap').hide();
+			$('#wrap').css('visibility', 'visible');
+			$('#loader').hide();
+			$('#wrap').show({duration:1000});
+			$('#loader').remove();
+		} else {
+			$('#loader').remove();
 		}
 	}
 
