@@ -461,7 +461,7 @@ module.exports = function (grunt) {
 
 		if (isProd) {
 			grunt.task.run([
-				'replace:production-hash',
+				'replace:production-hash'
 //				'clean:hashless'
 			]);
 		}
