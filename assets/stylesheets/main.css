@@ -374,6 +374,12 @@ footer div {
     visibility: hidden;
   }
 
+  #loader {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+  }
+
   .text {
     font-size: 2.2em !important;
     line-height: 1.8em;
@@ -433,6 +439,12 @@ footer div {
     visibility: hidden;
   }
 
+  #loader {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
@@ -484,6 +496,12 @@ footer div {
     visibility: hidden;
   }
 
+  #loader {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+  }
+
   .text {
     font-size: 1.625em !important;
     line-height: 1.7em;
@@ -533,6 +551,12 @@ footer div {
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
   #wrap {
     visibility: hidden;
+  }
+
+  #loader {
+    left: 50%;
+    position: fixed;
+    top: 50%;
   }
 
   #stripe {
@@ -632,6 +656,12 @@ footer div {
     visibility: hidden;
   }
 
+  #loader {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -729,7 +759,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
-  #loading {
+  #loader {
     display: none;
   }
 
@@ -882,7 +912,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
-  #loading {
+  #loader {
     display: none;
   }
 
@@ -1031,7 +1061,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
-  #loading {
+  #loader {
     display: none;
   }
 

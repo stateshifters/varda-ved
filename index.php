@@ -11,7 +11,9 @@
 
 <body>
 <div id="skrollr-body">
-    <div id="loader">LOADING</div>
+    <div id="loader">
+    	<img src="images/loader.gif" />
+    </div>
 	<div id="wrap">
 		<!--div id="info">0</div-->
 		<section id="navigation" class="homeSlide">
