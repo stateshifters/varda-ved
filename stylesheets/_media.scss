@@ -337,6 +337,10 @@ $xwidescreen-: $xwidescreen - .01em;
   #menu_wrap {
     position: fixed;
     top: 10px;
+
+    #menu {
+      width: 700px!important;
+    }
   }
 
   #logo {
@@ -348,7 +352,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #logo_text {
-      top: 80px;
+      top: 27px!important;
     }
   }
 

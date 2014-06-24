@@ -623,6 +623,9 @@ footer div {
     position: fixed;
     top: 10px;
   }
+  #menu_wrap #menu {
+    width: 700px !important;
+  }
 
   #logo #logo_pic img {
     height: 80px;
@@ -630,7 +633,7 @@ footer div {
     top: 80px;
   }
   #logo #logo_text {
-    top: 80px;
+    top: 27px !important;
   }
 
   .text {
