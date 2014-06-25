@@ -15,7 +15,12 @@
     	<p>Betöltés</p>
     	<img src="images/loader.gif" />
     </div>
+
 	<div id="wrap">
+		<div id="arrow">
+	    	<p>Görgessen</p>
+	    	<img src="images/arrow.png" />
+	    </div>
 		<!--div id="info">0</div-->
 		<section id="navigation" class="homeSlide">
 			<nav id="main_nav"

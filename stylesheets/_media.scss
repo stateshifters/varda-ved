@@ -577,6 +577,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) {
+  #arrow,
   #loader {
     display: none;
   }
@@ -760,6 +761,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
+  #arrow,
   #loader {
     display: none;
   }
@@ -936,6 +938,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (max-width: $mobile-) {
+  #arrow,
   #loader {
     display: none;
   }

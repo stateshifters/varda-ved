@@ -204,6 +204,22 @@ a:hover {
   transition: all 0.3s;
 }
 
+#arrow {
+  bottom: 20px;
+  margin: auto 40%;
+  position: fixed;
+  width: 20%;
+  z-index: 9999;
+}
+#arrow img {
+  height: 40px;
+}
+#arrow p {
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: .5em;
+}
+
 #logo img {
   height: 2.625em;
   margin-top: 1em;
@@ -834,6 +850,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
+  #arrow,
   #loader {
     display: none;
   }
@@ -987,6 +1004,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
+  #arrow,
   #loader {
     display: none;
   }
@@ -1136,6 +1154,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
+  #arrow,
   #loader {
     display: none;
   }
