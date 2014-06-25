@@ -69,21 +69,28 @@ a:hover {
   @include transition(all .3s);
 }
 
-#arrow {
-  bottom: 20px;
-  margin: auto 40%;
+#help {
   position: fixed;
-  width: 20%;
+  width: 100%;
   z-index: 9999;
 
-  img {
-    height: 40px;
-  }
+  #arrow {
+    bottom: 20px;
+    margin: auto 40%;
+    position: fixed;
+    width: 20%;
 
-  p {
-    font-size: 1em;
-    font-weight: 300;
-    margin-bottom: .5em;
+    img {
+      color: $pomegranate;
+      height: 55px;
+    }
+
+    p {
+      color: $pomegranate;
+      font-size: 1.2em;
+      font-weight: 600;
+      margin-bottom: .5em;
+    }
   }
 }
 

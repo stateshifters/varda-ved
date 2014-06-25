@@ -17,10 +17,29 @@
     </div>
 
 	<div id="wrap">
-		<div id="arrow">
-	    	<p>Görgessen</p>
-	    	<img src="images/arrow.png" />
+
+		<div id="help">
+			<div id="arrow"
+				data-0="left:0px; opacity: 1;"
+				data-459="left:300px; opacity: 0;"
+			>
+				<p>Görgessen</p>
+	    		<img src="images/arrow-red.png" />
+			</div>
+
+			<div id="help-nav"
+				data-200="opacity:0"
+				data-500="opacity:1"
+				data-6000="opacity:1"
+			>
+				<div class="help-circle"></div>
+				<div class="help-circle"></div>
+				<div class="help-circle"></div>
+				<div class="help-circle"></div>
+				<div class="help-circle"></div>
+			</div>	
 	    </div>
+
 		<!--div id="info">0</div-->
 		<section id="navigation" class="homeSlide">
 			<nav id="main_nav"

@@ -296,6 +296,27 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #help {
+
+    #help-nav {
+      background-color: $lima;
+      height: 400px;
+      position: fixed;
+      right: 20px;
+      top: 100px;
+      width: 5px;
+
+      .help-circle {
+        background-color: $pomegranate;
+        height: 11px;
+        left: -3px;
+        margin-bottom: 87px;
+        position: relative;
+        width: 11px;
+      }
+    }  
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -577,7 +598,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) {
-  #arrow,
+  #help,
   #loader {
     display: none;
   }
@@ -761,7 +782,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
-  #arrow,
+  #help,
   #loader {
     display: none;
   }
@@ -938,7 +959,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (max-width: $mobile-) {
-  #arrow,
+  #help,
   #loader {
     display: none;
   }

@@ -204,19 +204,25 @@ a:hover {
   transition: all 0.3s;
 }
 
-#arrow {
+#help {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+#help #arrow {
   bottom: 20px;
   margin: auto 40%;
   position: fixed;
   width: 20%;
-  z-index: 9999;
 }
-#arrow img {
-  height: 40px;
+#help #arrow img {
+  color: #ee3333;
+  height: 55px;
 }
-#arrow p {
-  font-size: 1em;
-  font-weight: 300;
+#help #arrow p {
+  color: #ee3333;
+  font-size: 1.2em;
+  font-weight: 600;
   margin-bottom: .5em;
 }
 
@@ -627,6 +633,23 @@ footer div {
     margin-bottom: .5em;
   }
 
+  #help #help-nav {
+    background-color: #43c423;
+    height: 400px;
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    width: 5px;
+  }
+  #help #help-nav .help-circle {
+    background-color: #ee3333;
+    height: 11px;
+    left: -3px;
+    margin-bottom: 87px;
+    position: relative;
+    width: 11px;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -850,7 +873,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
-  #arrow,
+  #help,
   #loader {
     display: none;
   }
@@ -1004,7 +1027,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
-  #arrow,
+  #help,
   #loader {
     display: none;
   }
@@ -1154,7 +1177,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
-  #arrow,
+  #help,
   #loader {
     display: none;
   }
