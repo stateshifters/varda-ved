@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300,700' rel='stylesheet'
 	      type='text/css'>
 </head>
 
@@ -134,8 +134,8 @@
 						data-500="opacity:1; top:50px; left:0px;"
 						data-1000="opacity:1; top:50px; left:0px;"
 						data-1320="opacity:0; top:50px; left:-1500px;">
-							Amennyiben olyan <span class="big">szakemberek</span>et keres, <span class="big">akik</span> <span class="regular">megbízhatóan</span> és
-							<span class="regular">hatékonyan</span> <span class="big">képesek</span> ön és üzlete számára <span class="regular">
+							Amennyiben olyan <span class="big">szakemberek</span>et keres, <span class="big">akik</span> <span class="">megbízhatóan</span> és
+							<span class="">hatékonyan</span> <span class="big">képesek</span> ön és üzlete számára <span class="">
 							<span class="big">biztonságos munkakörnyezetet kialakítani</span></span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
 							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
@@ -346,7 +346,7 @@
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png">
 				<h1 class="title upp">Munkavédelem</h1>
-				<p class="text regular relative center"
+				<p class="text relative center"
 					data-13600="opacity:0; left:1500px; display:block;"
 					data-14000="opacity:1; left:0px;"
 					data-14600="opacity:1; left:0px;"
