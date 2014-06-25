@@ -52,49 +52,98 @@
 					data-13900=""
 				></div>
 
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
+				<div class="small-circle"
+					data-3900="background-color:rgb(67,196,35);"
+					data-4200="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-5700="background-color:rgb(67,196,35);"
+					data-6000="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-7300="background-color:rgb(67,196,35);"
+					data-7600="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-8600="background-color:rgb(67,196,35);"
+					data-8900="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-10300="background-color:rgb(67,196,35);"
+					data-10600="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-11900="background-color:rgb(67,196,35);"
+					data-12200="background-color:rgb(255,248,87);"
+				></div>
 
 				<div class="help-circle"
-					data-13600=""
-					data-13900=""
+					data-13600="background-color:rgb(67,196,35);"
+					data-13900="background-color:rgb(255,248,87);"
 					data-27200=""
 					data-27500=""
 				></div>
 
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
+				<div class="small-circle"
+					data-15200="background-color:rgb(67,196,35);"
+					data-15500="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-17500="background-color:rgb(67,196,35);"
+					data-17800="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-19000="background-color:rgb(67,196,35);"
+					data-19300="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-20400="background-color:rgb(67,196,35);"
+					data-20700="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-21600="background-color:rgb(67,196,35);"
+					data-21900="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-22800="background-color:rgb(67,196,35);"
+					data-23100="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-24400="background-color:rgb(67,196,35);"
+					data-24700="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-25600="background-color:rgb(67,196,35);"
+					data-25900="background-color:rgb(255,248,87);"
+				></div>
+
 
 				<div class="help-circle"
-					data-27200=""
-					data-27500=""
+					data-27200="background-color:rgb(67,196,35);"
+					data-27500="background-color:rgb(255,248,87);"
 					data-31900=""
 					data-32200=""
 				></div>
 
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
-
-				<div class="help-circle"
-					data-31900=""
-					data-32200=""
+				<div class="small-circle"
+					data-29100="background-color:rgb(67,196,35);"
+					data-29400="background-color:rgb(255,248,87);"
+				></div>
+				<div class="small-circle"
+					data-30300="background-color:rgb(67,196,35);"
+					data-30600="background-color:rgb(255,248,87);"
 				></div>
 
-				<div class="small-circle"></div>
-				<div class="small-circle"></div>
 
+				<div class="help-circle"
+					data-31900="background-color:rgb(67,196,35);"
+					data-32200="background-color:rgb(255,248,87);"
+				></div>
+
+				<div class="small-circle"
+					data-33900="background-color:rgb(67,196,35);"
+					data-34200="background-color:rgb(255,248,87);"
+				></div>
 			</div>	
 	    </div>
 
