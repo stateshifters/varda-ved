@@ -129,7 +129,7 @@
 					data-2400="height:100%;width:100%;"
 					>
 
-					<p class="relative text center"
+					<p class="relative text center" id="first-p"
 						data-100="opacity:0;  top:50px; left:0px;"
 						data-500="opacity:1; top:50px; left:0px;"
 						data-1000="opacity:1; top:50px; left:0px;"
@@ -150,12 +150,12 @@
 						data-1850="opacity:1; top:-170px;"
 						data-2030="opacity:0; top:-170px;"
 					>
-						<img src="images/references.png">
+						<img id="first-ref" src="images/references.png">
 					</div>	
 
 					<p class="relative text center regular"
-						data-0="opacity:1; top:-50px; left:0px;"
-						data-50="opacity:1; top:-50px; left:0px;"
+						data-0="opacity:1; top:-160px; left:0px;"
+						data-50="opacity:1; top:-160px; left:0px;"
 						data-300="opacity:1; top:0px; left:0px;"
 						data-800="opacity:1; top:0px; left:0px;"
 						data-1530="opacity:0; top:0px; left:1500px;">
