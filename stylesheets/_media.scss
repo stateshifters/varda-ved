@@ -32,6 +32,60 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    width: 20px;
+
+    .help-circle {
+      height: 30px;
+      left: -16px;
+      margin-bottom: 15px;
+      position: relative;
+      width: 26px;
+
+      img {
+        height: 40px;
+        @include opacity(.3);
+      }
+    }
+
+    #help-ext {
+      margin-bottom: 25px;
+
+      img {
+        height: 45px;
+        position: relative;
+        right: -9px;
+        width: 30px;
+      }
+    }
+
+    #help-helmet {
+      height: 20px;
+
+      img {
+        height: 24px;
+        position: relative;
+      }
+    }
+
+    #help-nav {
+
+      .small-circle {
+        background-color: $silver;
+        height: 8px;
+        left: -1px;
+        margin-bottom: 9px;
+        position: relative;
+        width: 8px;
+        @include border-radius(50%);
+      }
+    }  
+  }
+
   .text {
     font-size: 2.2em !important;
     line-height: 1.8em;
@@ -138,33 +192,33 @@ $xwidescreen-: $xwidescreen - .01em;
 
     .help-circle {
       height: 30px;
-      left: -12px;
-      margin-bottom: 5px;
+      left: -16px;
+      margin-bottom: 15px;
       position: relative;
       width: 26px;
 
       img {
-        height: 30px;
+        height: 40px;
         @include opacity(.3);
       }
     }
 
     #help-ext {
-      margin-bottom: 20px;
+      margin-bottom: 25px;
 
       img {
-        height: 40px;
+        height: 45px;
         position: relative;
-        right: -4px;
-        width: 25px;
+        right: -9px;
+        width: 30px;
       }
     }
 
     #help-helmet {
-      height: 25px;
+      height: 20px;
 
       img {
-        height: 20px;
+        height: 24px;
         position: relative;
       }
     }
@@ -173,11 +227,11 @@ $xwidescreen-: $xwidescreen - .01em;
 
       .small-circle {
         background-color: $silver;
-        height: 7px;
+        height: 8px;
         left: -1px;
-        margin-bottom: 8px;
+        margin-bottom: 9px;
         position: relative;
-        width: 7px;
+        width: 8px;
         @include border-radius(50%);
       }
     }  

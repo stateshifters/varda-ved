@@ -409,6 +409,53 @@ footer div {
     margin-bottom: .5em;
   }
 
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -16px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 40px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 25px;
+  }
+  #help #help-ext img {
+    height: 45px;
+    position: relative;
+    right: -9px;
+    width: 30px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 24px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 8px;
+    left: -1px;
+    margin-bottom: 9px;
+    position: relative;
+    width: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
   .text {
     font-size: 2.2em !important;
     line-height: 1.8em;
@@ -498,39 +545,39 @@ footer div {
   }
   #help .help-circle {
     height: 30px;
-    left: -12px;
-    margin-bottom: 5px;
+    left: -16px;
+    margin-bottom: 15px;
     position: relative;
     width: 26px;
   }
   #help .help-circle img {
-    height: 30px;
+    height: 40px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
   #help #help-ext {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   #help #help-ext img {
-    height: 40px;
+    height: 45px;
     position: relative;
-    right: -4px;
-    width: 25px;
+    right: -9px;
+    width: 30px;
   }
   #help #help-helmet {
-    height: 25px;
+    height: 20px;
   }
   #help #help-helmet img {
-    height: 20px;
+    height: 24px;
     position: relative;
   }
   #help #help-nav .small-circle {
     background-color: #c2c2c2;
-    height: 7px;
+    height: 8px;
     left: -1px;
-    margin-bottom: 8px;
+    margin-bottom: 9px;
     position: relative;
-    width: 7px;
+    width: 8px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
