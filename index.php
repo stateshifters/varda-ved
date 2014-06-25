@@ -24,7 +24,7 @@
 				data-459="left:300px; opacity: 0;"
 			>
 				<p>Görgessen</p>
-	    		<img src="images/arrow.png" />
+	    		<img src="images/arrow-red.png" />
 			</div>
 
 			<div id="help-nav"
@@ -45,7 +45,7 @@
 
 				<div class="help-circle" id="help-ext">
 					<img src="images/ext-b.png"
-						data-2100="opacity:.3;"
+						data-2100="opacity:.2;"
 						data-2400="opacity:1;"
 					/>
 				</div>
@@ -77,7 +77,7 @@
 
 				<div class="help-circle" id="help-helmet">
 					<img src="images/helmet-b.png"
-						data-13600="opacity:.3;"
+						data-13600="opacity:.2;"
 						data-13900="opacity:1;"
 					/>
 				</div>
@@ -118,7 +118,7 @@
 
 				<div class="help-circle">
 					<img src="images/references.png" 
-						data-27200="opacity:.3;"
+						data-27200="opacity:.2;"
 						data-27500="opacity:1;"
 					/>
 				</div>
@@ -135,7 +135,7 @@
 
 				<div class="help-circle">
 					<img src="images/contact-3.png" 
-						data-31900="opacity:.3;"
+						data-31900="opacity:.2;"
 						data-32200="opacity:1;"
 					/>
 				</div>
