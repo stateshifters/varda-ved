@@ -24,7 +24,7 @@
 				data-459="left:300px; opacity: 0;"
 			>
 				<p>Görgessen</p>
-	    		<img src="images/arrow-red.png" />
+	    		<img src="images/arrow.png" />
 			</div>
 
 			<div id="help-nav"
@@ -32,117 +32,117 @@
 				data-500="opacity:1"
 				data-6000=""
 			>
-				<div class="help-circle"
-					data-500="background-color:rgb(255,248,87);"
-					data-2100=""
-					data-2400=""
-				>
+				<div class="help-circle">
+					<img src="images/references.png"
+						data-500="opacity:1;"
+					/>
 				</div>
 
 				<div class="small-circle"
-					data-700="background-color:rgb(67,196,35);"
-					data-1000="background-color:rgb(255,248,87);"
+					data-700="background-color:rgb(194,194,194);"
+					data-1000="background-color:rgb(0,0,0);"
 				></div>
 
-				<div class="help-circle"
-					data-2100="background-color:rgb(67,196,35);"
-					data-2400="background-color:rgb(255,248,87);"
-					data-2900=""
-					data-13600=""
-					data-13900=""
-				></div>
+				<div class="help-circle" id="help-ext">
+					<img src="images/ext-b.png"
+						data-2100="opacity:.3;"
+						data-2400="opacity:1;"
+					/>
+				</div>
 
 				<div class="small-circle"
-					data-3900="background-color:rgb(67,196,35);"
-					data-4200="background-color:rgb(255,248,87);"
+					data-3900="background-color:rgb(194,194,194);"
+					data-4200="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-5700="background-color:rgb(67,196,35);"
-					data-6000="background-color:rgb(255,248,87);"
+					data-5700="background-color:rgb(194,194,194);"
+					data-6000="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-7300="background-color:rgb(67,196,35);"
-					data-7600="background-color:rgb(255,248,87);"
+					data-7300="background-color:rgb(194,194,194);"
+					data-7600="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-8600="background-color:rgb(67,196,35);"
-					data-8900="background-color:rgb(255,248,87);"
+					data-8600="background-color:rgb(194,194,194);"
+					data-8900="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-10300="background-color:rgb(67,196,35);"
-					data-10600="background-color:rgb(255,248,87);"
+					data-10300="background-color:rgb(194,194,194);"
+					data-10600="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-11900="background-color:rgb(67,196,35);"
-					data-12200="background-color:rgb(255,248,87);"
+					data-11900="background-color:rgb(194,194,194);"
+					data-12200="background-color:rgb(0,0,0);"
 				></div>
 
-				<div class="help-circle"
-					data-13600="background-color:rgb(67,196,35);"
-					data-13900="background-color:rgb(255,248,87);"
-					data-27200=""
-					data-27500=""
-				></div>
+				<div class="help-circle" id="help-helmet">
+					<img src="images/helmet-b.png"
+						data-13600="opacity:.3;"
+						data-13900="opacity:1;"
+					/>
+				</div>
 
 				<div class="small-circle"
-					data-15200="background-color:rgb(67,196,35);"
-					data-15500="background-color:rgb(255,248,87);"
+					data-15200="background-color:rgb(194,194,194);"
+					data-15500="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-17500="background-color:rgb(67,196,35);"
-					data-17800="background-color:rgb(255,248,87);"
+					data-17500="background-color:rgb(194,194,194);"
+					data-17800="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-19000="background-color:rgb(67,196,35);"
-					data-19300="background-color:rgb(255,248,87);"
+					data-19000="background-color:rgb(194,194,194);"
+					data-19300="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-20400="background-color:rgb(67,196,35);"
-					data-20700="background-color:rgb(255,248,87);"
+					data-20400="background-color:rgb(194,194,194);"
+					data-20700="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-21600="background-color:rgb(67,196,35);"
-					data-21900="background-color:rgb(255,248,87);"
+					data-21600="background-color:rgb(194,194,194);"
+					data-21900="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-22800="background-color:rgb(67,196,35);"
-					data-23100="background-color:rgb(255,248,87);"
+					data-22800="background-color:rgb(194,194,194);"
+					data-23100="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-24400="background-color:rgb(67,196,35);"
-					data-24700="background-color:rgb(255,248,87);"
+					data-24400="background-color:rgb(194,194,194);"
+					data-24700="background-color:rgb(0,0,0);"
 				></div>
 				<div class="small-circle"
-					data-25600="background-color:rgb(67,196,35);"
-					data-25900="background-color:rgb(255,248,87);"
-				></div>
-
-
-				<div class="help-circle"
-					data-27200="background-color:rgb(67,196,35);"
-					data-27500="background-color:rgb(255,248,87);"
-					data-31900=""
-					data-32200=""
-				></div>
-
-				<div class="small-circle"
-					data-29100="background-color:rgb(67,196,35);"
-					data-29400="background-color:rgb(255,248,87);"
-				></div>
-				<div class="small-circle"
-					data-30300="background-color:rgb(67,196,35);"
-					data-30600="background-color:rgb(255,248,87);"
+					data-25600="background-color:rgb(194,194,194);"
+					data-25900="background-color:rgb(0,0,0);"
 				></div>
 
 
-				<div class="help-circle"
-					data-31900="background-color:rgb(67,196,35);"
-					data-32200="background-color:rgb(255,248,87);"
-				></div>
+				<div class="help-circle">
+					<img src="images/references.png" 
+						data-27200="opacity:.3;"
+						data-27500="opacity:1;"
+					/>
+				</div>
 
 				<div class="small-circle"
-					data-33900="background-color:rgb(67,196,35);"
-					data-34200="background-color:rgb(255,248,87);"
+					data-29100="background-color:rgb(194,194,194);"
+					data-29400="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-30300="background-color:rgb(194,194,194);"
+					data-30600="background-color:rgb(0,0,0);"
+				></div>
+
+
+				<div class="help-circle">
+					<img src="images/contact-3.png" 
+						data-31900="opacity:.3;"
+						data-32200="opacity:1;"
+					/>
+				</div>
+
+				<div class="small-circle"
+					data-33900="background-color:rgb(194,194,194);"
+					data-34200="background-color:rgb(0,0,0);"
 				></div>
 			</div>	
 	    </div>

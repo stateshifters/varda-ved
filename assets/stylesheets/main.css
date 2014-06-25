@@ -633,27 +633,43 @@ footer div {
     margin-bottom: .5em;
   }
 
-  #help #help-nav {
-    background-color: black;
-    height: 400px;
+  #help {
+    height: 450px;
     position: fixed;
-    right: 20px;
+    right: 13px;
     top: 100px;
-    width: 5px;
+    width: 20px;
   }
-  #help #help-nav .help-circle {
-    background-color: #43c423;
-    height: 17px;
-    left: -6px;
-    margin-bottom: 9px;
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
     position: relative;
-    width: 17px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 20px;
+  }
+  #help #help-ext img {
+    height: 40px;
+    position: relative;
+    right: -4px;
+    width: 25px;
+  }
+  #help #help-helmet {
+    height: 25px;
+  }
+  #help #help-helmet img {
+    height: 20px;
+    position: relative;
   }
   #help #help-nav .small-circle {
-    background-color: #43c423;
+    background-color: #c2c2c2;
     height: 7px;
     left: -1px;
     margin-bottom: 8px;
