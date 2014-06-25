@@ -398,8 +398,16 @@ footer div {
 
   .title {
     font-size: 4em;
-    margin-bottom: 1em;
+    margin-bottom: 4.5em;
     padding-bottom: 1em;
+  }
+
+  #first-p {
+    margin-top: 2.9em;
+  }
+
+  #first-ref {
+    margin: 13em auto 15em;
   }
 
   .menu-icon {
