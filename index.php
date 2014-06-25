@@ -134,9 +134,9 @@
 						data-500="opacity:1; top:50px; left:0px;"
 						data-1000="opacity:1; top:50px; left:0px;"
 						data-1320="opacity:0; top:50px; left:-1500px;">
-							Amennyiben olyan szakembereket keres, akik <span class="regular">megbízhatóan</span> és
-							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
-							biztonságos munkakörnyezetet kialakítani</span> – akár
+							Amennyiben olyan <span class="big">szakemberek</span>et keres, <span class="big">akik</span> <span class="regular">megbízhatóan</span> és
+							<span class="regular">hatékonyan</span> <span class="big">képesek</span> ön és üzlete számára <span class="regular">
+							<span class="big">biztonságos munkakörnyezetet kialakítani</span></span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
 							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
 					</p>	
@@ -170,9 +170,9 @@
 						data-1850="opacity:1; top: -320px;"
 						data-2030="opacity:0;"
 					>
-						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja 
-						azokat a munkavédelmi feltételeket,
-						amelyeket a törvény kötelező jelleggel előír, 
+						<span class="big">A VÁRDA-VÉD segítségével</span> ön gond nélkül <span class="big">kialakíthatja</span>
+						azokat <span class="big">a</span> munkavédelmi <span class="big">feltételeket</span>,
+						<span class="big">amelyeket a törvény</span> kötelező jelleggel <span class="big">előír</span>,
 						képzett szakértőink emellett a szükséges
 						dokumentáció elkészítésében is segítséget nyújtanak, 
 						hogy vállalkozása törvényi
@@ -282,11 +282,11 @@
 					data-8200="opacity:1; left:0px; "
 					data-8700="opacity:0; left:-1500px; display:none;"
 				>
-					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
-					műszaki- és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
+					<span class="big">A VÁRDA-VÉD</span> tűzvédelmi tevékenységének <span class="big">célja</span> a jogszabályi megfelelésen túl az, <span class="big">hogy</span>
+					műszaki- és emberi tényezők miatt <span class="big">tűzeset ne fordulhasson elő cégénél.</span><br/>
 					Mint bizonyára tudja, a munkáltató kötelessége a hatályos tűzvédelmi előírások alapján
 					saját tűzvédelmi szabályzat kialakítása, megfelelően képzett szakember segítségével.
-					Cégünk ezen felül a munkavállalók teljes körű munka-, és tűzvédelmi oktatását is elvégzi,
+					<span class="big">Cégünk</span> ezen felül <span class="big">a munkavállalók</span> teljes körű munka-, és tűzvédelmi <span class="big">oktatását is elvégzi</span>,
 					hogy munkatársai biztonságát és a törvények betartását teljes körűen szavatolhassa.
 				</p>
 
@@ -353,9 +353,9 @@
 					data-15100="opacity:0; left:0px; display:none;"
 
 				>
-					Ahogy azt bizonyára tudja, a munkavédelem előírásainak megvalósítása és betartása minden
-					munkavállalónak és a munkáltatónak érdeke és törvényi kötelezettsége. Ha önnek legalább
-					egy fő alkalmazottja van, akkor a Munkavédelemről szóló 1993. évi XCIII. törvény önre és
+					Ahogy azt bizonyára tudja, <span class="big">a munkavédelem előírásainak</span> megvalósítása és <span class="big">betartása</span> minden
+					munkavállalónak és a munkáltatónak érdeke és <span class="big">törvényi kötelezettség</span>e. <span class="big">Ha</span> önnek <span class="big">legalább
+					egy fő alkalmazottja van</span>, akkor a Munkavédelemről szóló 1993. évi XCIII. törvény önre és
 					cégére is vonatkozik.
 				</p>
 
@@ -445,8 +445,8 @@
 					data-24400="opacity:0; display:none;"
 				>
 					<p class="text center">
-						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
-						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
+						Ahogy azzal bizonyára ön is tisztában van: <span class="big">a szakfeladatok ellátására</span> 2004. május 1. óta
+						minden munkáltatónak megfelelő munkavédelmi képzettségű <span class="big">szakembert kell megbíznia</span>.
 					</p>
 					<img id="certificate" src="images/certificate.png">
 				</div>
@@ -457,10 +457,10 @@
 					data-25200="opacity:1; "
 					data-25600="opacity:0; display:none;"
 				>
-					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
-					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
-					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
-					szabályzatot, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
+					<span class="big">A VÁRDA-VÉD tanácsadói</span> hatékony segítséget nyújtanak cége megelőzési stratégiájának
+					kialakításában. Szakértőink <span class="big">segítségével</span> nem csupán sablon-dokumentumokhoz jut, hanem <span class="big">a
+					cég</span> profilját figyelembe véve, annak <span class="big">sajátosságaira szabva elkészített munkavédelmi
+					szabályzatot kap</span>, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
 					fakadó sajátosságokra is, hogy dolgozói egészségének védelmét teljes körűen szavatolni
 					tudja.
 				</p>
@@ -471,10 +471,10 @@
 					data-26400="opacity:1; "
 					data-26800="opacity:0; display:none;"
 				>
-					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
+					<span class="big">Ne pazarolja idejét és</span> ne bízza a törvény előírásainak betartását amatőrökre!
 					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
-					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!
+					munkavédelmi törvények értelmezését, nyomon követését és <span class="big">a feladatok ellátását bízza a
+					Várda-Véd Kft. szakembereire!</span>
 				</p>
 			</div>
 		</section>

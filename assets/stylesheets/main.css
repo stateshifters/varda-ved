@@ -179,6 +179,10 @@ h1 {
   font-weight: 400;
 }
 
+.big {
+  font-size: 1.7em;
+}
+
 a {
   color: black;
   -webkit-transition: all 0.3s;
