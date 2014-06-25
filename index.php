@@ -33,33 +33,68 @@
 				data-6000=""
 			>
 				<div class="help-circle"
-					data-500="height:21px; width:21px; left: -8px;"
-					data-2100="height:21px; width:21px; left: -8px;"
-					data-2400="height:11px; width:11px; left: -3px;"
+					data-500="background-color:rgb(255,248,87);"
+					data-2100=""
+					data-2400=""
+				>
+				</div>
+
+				<div class="small-circle"
+					data-700="background-color:rgb(67,196,35);"
+					data-1000="background-color:rgb(255,248,87);"
 				></div>
+
 				<div class="help-circle"
-					data-2100="height:11px; width:11px; left: -3px;"
-					data-2400="height:21px; width:21px; left: -8px;"
-					data-2900="height:21px; width:21px; left: -8px;"
-					data-13600="height:21px; width:21px; left: -8px;"
-					data-13900="height:11px; width:11px; left: -3px;"
+					data-2100="background-color:rgb(67,196,35);"
+					data-2400="background-color:rgb(255,248,87);"
+					data-2900=""
+					data-13600=""
+					data-13900=""
 				></div>
+
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+
 				<div class="help-circle"
-					data-13600="height:11px; width:11px; left: -3px;"
-					data-13900="height:21px; width:21px; left: -8px;"
-					data-27200="height:21px; width:21px; left: -8px;"
-					data-27500="height:11px; width:11px; left: -3px;"
+					data-13600=""
+					data-13900=""
+					data-27200=""
+					data-27500=""
 				></div>
+
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+
 				<div class="help-circle"
-					data-27200="height:11px; width:11px; left: -3px;"
-					data-27500="height:21px; width:21px; left: -8px;"
-					data-31900="height:21px; width:21px; left: -8px;"
-					data-32200="height:11px; width:11px; left: -3px;"
+					data-27200=""
+					data-27500=""
+					data-31900=""
+					data-32200=""
 				></div>
+
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+
 				<div class="help-circle"
-					data-31900="height:11px; width:11px; left: -3px;"
-					data-32200="height:21px; width:21px; left: -8px;"
+					data-31900=""
+					data-32200=""
 				></div>
+
+				<div class="small-circle"></div>
+				<div class="small-circle"></div>
+
 			</div>	
 	    </div>
 

@@ -297,9 +297,8 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   #help {
-
     #help-nav {
-      background-color: $lima;
+      background-color: $black;
       height: 400px;
       position: fixed;
       right: 20px;
@@ -307,12 +306,22 @@ $xwidescreen-: $xwidescreen - .01em;
       width: 5px;
 
       .help-circle {
-        background-color: $black;
-        height: 11px;
-        left: -3px;
-        margin-bottom: 86px;
+        background-color: $lima;
+        height: 17px;
+        left: -6px;
+        margin-bottom: 9px;
         position: relative;
-        width: 11px;
+        width: 17px;
+        @include border-radius(50%);
+      }
+
+      .small-circle {
+        background-color: $lima;
+        height: 7px;
+        left: -1px;
+        margin-bottom: 8px;
+        position: relative;
+        width: 7px;
         @include border-radius(50%);
       }
     }  

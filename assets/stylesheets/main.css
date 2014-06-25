@@ -634,7 +634,7 @@ footer div {
   }
 
   #help #help-nav {
-    background-color: #43c423;
+    background-color: black;
     height: 400px;
     position: fixed;
     right: 20px;
@@ -642,12 +642,23 @@ footer div {
     width: 5px;
   }
   #help #help-nav .help-circle {
-    background-color: black;
-    height: 11px;
-    left: -3px;
-    margin-bottom: 86px;
+    background-color: #43c423;
+    height: 17px;
+    left: -6px;
+    margin-bottom: 9px;
     position: relative;
-    width: 11px;
+    width: 17px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+  #help #help-nav .small-circle {
+    background-color: #43c423;
+    height: 7px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 7px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
