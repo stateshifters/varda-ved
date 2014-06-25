@@ -30,13 +30,36 @@
 			<div id="help-nav"
 				data-200="opacity:0"
 				data-500="opacity:1"
-				data-6000="opacity:1"
+				data-6000=""
 			>
-				<div class="help-circle"></div>
-				<div class="help-circle"></div>
-				<div class="help-circle"></div>
-				<div class="help-circle"></div>
-				<div class="help-circle"></div>
+				<div class="help-circle"
+					data-500="height:21px; width:21px; left: -8px;"
+					data-2100="height:21px; width:21px; left: -8px;"
+					data-2400="height:11px; width:11px; left: -3px;"
+				></div>
+				<div class="help-circle"
+					data-2100="height:11px; width:11px; left: -3px;"
+					data-2400="height:21px; width:21px; left: -8px;"
+					data-2900="height:21px; width:21px; left: -8px;"
+					data-13600="height:21px; width:21px; left: -8px;"
+					data-13900="height:11px; width:11px; left: -3px;"
+				></div>
+				<div class="help-circle"
+					data-13600="height:11px; width:11px; left: -3px;"
+					data-13900="height:21px; width:21px; left: -8px;"
+					data-27200="height:21px; width:21px; left: -8px;"
+					data-27500="height:11px; width:11px; left: -3px;"
+				></div>
+				<div class="help-circle"
+					data-27200="height:11px; width:11px; left: -3px;"
+					data-27500="height:21px; width:21px; left: -8px;"
+					data-31900="height:21px; width:21px; left: -8px;"
+					data-32200="height:11px; width:11px; left: -3px;"
+				></div>
+				<div class="help-circle"
+					data-31900="height:11px; width:11px; left: -3px;"
+					data-32200="height:21px; width:21px; left: -8px;"
+				></div>
 			</div>	
 	    </div>
 

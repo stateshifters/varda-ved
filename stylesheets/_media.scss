@@ -307,12 +307,13 @@ $xwidescreen-: $xwidescreen - .01em;
       width: 5px;
 
       .help-circle {
-        background-color: $pomegranate;
+        background-color: $black;
         height: 11px;
         left: -3px;
-        margin-bottom: 87px;
+        margin-bottom: 86px;
         position: relative;
         width: 11px;
+        @include border-radius(50%);
       }
     }  
   }
