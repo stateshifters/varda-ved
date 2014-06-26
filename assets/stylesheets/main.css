@@ -204,6 +204,33 @@ a:hover {
   transition: all 0.3s;
 }
 
+#help {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+#help #arrow {
+  bottom: 20px;
+  margin: auto 40%;
+  position: fixed;
+  width: 20%;
+}
+#help #arrow img {
+  color: #ee3333;
+  height: 30px;
+}
+#help #arrow p {
+  color: #ee3333;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+#help #help-nav-bg {
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+
 #logo img {
   height: 2.625em;
   margin-top: 1em;
@@ -387,6 +414,59 @@ footer div {
     margin-bottom: .5em;
   }
 
+  #help-nav-bg {
+    right: 35px;
+    top: 60px;
+    width: 80px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -16px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 40px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 25px;
+  }
+  #help #help-ext img {
+    height: 45px;
+    position: relative;
+    right: -9px;
+    width: 30px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 24px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 8px;
+    left: -1px;
+    margin-bottom: 9px;
+    position: relative;
+    width: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
   .text {
     font-size: 2.2em !important;
     line-height: 1.8em;
@@ -467,6 +547,59 @@ footer div {
     margin-bottom: .5em;
   }
 
+  #help-nav-bg {
+    right: 20px;
+    top: 60px;
+    width: 65px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 25px;
+    top: 250px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -16px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 40px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 25px;
+  }
+  #help #help-ext img {
+    height: 45px;
+    position: relative;
+    right: -9px;
+    width: 30px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 24px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 8px;
+    left: -1px;
+    margin-bottom: 9px;
+    position: relative;
+    width: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
@@ -529,7 +662,6 @@ footer div {
   #loader {
     left: 40%;
     margin: auto;
-    position: fixed;
     top: 20%;
     width: 20%;
   }
@@ -537,6 +669,60 @@ footer div {
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    position: fixed;
+    right: 21px;
+    top: 60px;
+    width: 55px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 20px;
+    top: 200px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 20px;
+  }
+  #help #help-ext img {
+    height: 40px;
+    position: relative;
+    right: -4px;
+    width: 25px;
+  }
+  #help #help-helmet {
+    height: 25px;
+  }
+  #help #help-helmet img {
+    height: 20px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 7px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 7px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
   }
 
   .text {
@@ -601,7 +787,6 @@ footer div {
   #loader {
     left: 40%;
     margin: auto;
-    position: fixed;
     top: 20%;
     width: 20%;
   }
@@ -609,6 +794,59 @@ footer div {
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    position: fixed;
+    top: 70px;
+    width: 50px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 13px;
+    top: 100px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 20px;
+  }
+  #help #help-ext img {
+    height: 40px;
+    position: relative;
+    right: -4px;
+    width: 25px;
+  }
+  #help #help-helmet {
+    height: 25px;
+  }
+  #help #help-helmet img {
+    height: 20px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 7px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 7px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
   }
 
   #stripe {
@@ -729,6 +967,59 @@ footer div {
     margin-bottom: .5em;
   }
 
+  #help-nav-bg {
+    right: 15px;
+    top: 70px;
+    width: 50px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 13px;
+    top: 100px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 25px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 15px;
+  }
+  #help #help-ext img {
+    height: 35px;
+    position: relative;
+    right: -4px;
+    width: 22px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 17px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 5px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -754,10 +1045,10 @@ footer div {
   }
 
   .text {
-    font-size: 1.6em !important;
+    font-size: 1.5em !important;
     line-height: 1.6em;
     margin: 1.5em auto 0;
-    max-width: 965px;
+    max-width: 900px;
     width: 95%;
   }
 
@@ -834,6 +1125,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
+  #help,
   #loader {
     display: none;
   }
@@ -987,6 +1279,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
+  #help,
   #loader {
     display: none;
   }
@@ -1136,6 +1429,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
+  #help,
   #loader {
     display: none;
   }

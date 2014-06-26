@@ -24,9 +24,11 @@ $alabaster: #f8f8f8;
 $alto: #d2d2d2;
 $black: #000;
 $cerulean: #00a3d8;
+$gorse: #fff857;
 $lima: #43c423;
 $pomegranate: #e33;
 $pizazz: #ff9000;
+$silver: #c2c2c2;
 $white: #fff;
 
 html,
@@ -67,6 +69,37 @@ a:hover {
   text-decoration: none;
 
   @include transition(all .3s);
+}
+
+#help {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+
+  #arrow {
+    bottom: 20px;
+    margin: auto 40%;
+    position: fixed;
+    width: 20%;
+
+    img {
+      color: $pomegranate;
+      height: 30px;
+    }
+
+    p {
+      color: $pomegranate;
+      font-size: 1.2em;
+      font-weight: 600;
+      margin-bottom: .5em;
+    }
+  }
+
+  #help-nav-bg {
+    height: 100%;
+    position: fixed;
+    right: 0;
+  }
 }
 
 #logo {

@@ -32,6 +32,66 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #help-nav-bg {
+    right: 35px;
+    top: 60px;
+    width: 80px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    width: 20px;
+
+    .help-circle {
+      height: 30px;
+      left: -16px;
+      margin-bottom: 15px;
+      position: relative;
+      width: 26px;
+
+      img {
+        height: 40px;
+        @include opacity(.3);
+      }
+    }
+
+    #help-ext {
+      margin-bottom: 25px;
+
+      img {
+        height: 45px;
+        position: relative;
+        right: -9px;
+        width: 30px;
+      }
+    }
+
+    #help-helmet {
+      height: 20px;
+
+      img {
+        height: 24px;
+        position: relative;
+      }
+    }
+
+    #help-nav {
+
+      .small-circle {
+        background-color: $silver;
+        height: 8px;
+        left: -1px;
+        margin-bottom: 9px;
+        position: relative;
+        width: 8px;
+        @include border-radius(50%);
+      }
+    }  
+  }
+
   .text {
     font-size: 2.2em !important;
     line-height: 1.8em;
@@ -129,6 +189,66 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #help-nav-bg {
+    right: 20px;
+    top: 60px;
+    width: 65px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 25px;
+    top: 250px;
+    width: 20px;
+
+    .help-circle {
+      height: 30px;
+      left: -16px;
+      margin-bottom: 15px;
+      position: relative;
+      width: 26px;
+
+      img {
+        height: 40px;
+        @include opacity(.3);
+      }
+    }
+
+    #help-ext {
+      margin-bottom: 25px;
+
+      img {
+        height: 45px;
+        position: relative;
+        right: -9px;
+        width: 30px;
+      }
+    }
+
+    #help-helmet {
+      height: 20px;
+
+      img {
+        height: 24px;
+        position: relative;
+      }
+    }
+
+    #help-nav {
+
+      .small-circle {
+        background-color: $silver;
+        height: 8px;
+        left: -1px;
+        margin-bottom: 9px;
+        position: relative;
+        width: 8px;
+        @include border-radius(50%);
+      }
+    }  
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
@@ -202,7 +322,6 @@ $xwidescreen-: $xwidescreen - .01em;
   #loader {
     left: 40%;
     margin: auto;
-    position: fixed;
     top: 20%;
     width: 20%;
 
@@ -211,6 +330,67 @@ $xwidescreen-: $xwidescreen - .01em;
       font-weight: 300;
       margin-bottom: .5em;
     }
+  }
+
+  #help-nav-bg {
+    position: fixed;
+    right: 21px;
+    top: 60px;
+    width: 55px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 20px;
+    top: 200px;
+    width: 20px;
+
+    .help-circle {
+      height: 30px;
+      left: -12px;
+      margin-bottom: 5px;
+      position: relative;
+      width: 26px;
+
+      img {
+        height: 30px;
+        @include opacity(.3);
+      }
+    }
+
+    #help-ext {
+      margin-bottom: 20px;
+
+      img {
+        height: 40px;
+        position: relative;
+        right: -4px;
+        width: 25px;
+      }
+    }
+
+    #help-helmet {
+      height: 25px;
+
+      img {
+        height: 20px;
+        position: relative;
+      }
+    }
+
+    #help-nav {
+
+      .small-circle {
+        background-color: $silver;
+        height: 7px;
+        left: -1px;
+        margin-bottom: 8px;
+        position: relative;
+        width: 7px;
+        @include border-radius(50%);
+      }
+    }  
   }
 
   .text {
@@ -285,7 +465,6 @@ $xwidescreen-: $xwidescreen - .01em;
   #loader {
     left: 40%;
     margin: auto;
-    position: fixed;
     top: 20%;
     width: 20%;
 
@@ -294,6 +473,66 @@ $xwidescreen-: $xwidescreen - .01em;
       font-weight: 300;
       margin-bottom: .5em;
     }
+  }
+
+  #help-nav-bg {
+    position: fixed;
+    top: 70px;
+    width: 50px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 13px;
+    top: 100px;
+    width: 20px;
+
+    .help-circle {
+      height: 30px;
+      left: -12px;
+      margin-bottom: 5px;
+      position: relative;
+      width: 26px;
+
+      img {
+        height: 30px;
+        @include opacity(.3);
+      }
+    }
+
+    #help-ext {
+      margin-bottom: 20px;
+
+      img {
+        height: 40px;
+        position: relative;
+        right: -4px;
+        width: 25px;
+      }
+    }
+
+    #help-helmet {
+      height: 25px;
+
+      img {
+        height: 20px;
+        position: relative;
+      }
+    }
+
+    #help-nav {
+
+      .small-circle {
+        background-color: $silver;
+        height: 7px;
+        left: -1px;
+        margin-bottom: 8px;
+        position: relative;
+        width: 7px;
+        @include border-radius(50%);
+      }
+    }  
   }
 
   #stripe {
@@ -443,6 +682,66 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #help-nav-bg {
+    right: 15px;
+    top: 70px;
+    width: 50px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 13px;
+    top: 100px;
+    width: 20px;
+
+    .help-circle {
+      height: 30px;
+      left: -12px;
+      margin-bottom: 5px;
+      position: relative;
+      width: 26px;
+
+      img {
+        height: 25px;
+        @include opacity(.3);
+      }
+    }
+
+    #help-ext {
+      margin-bottom: 15px;
+
+      img {
+        height: 35px;
+        position: relative;
+        right: -4px;
+        width: 22px;
+      }
+    }
+
+    #help-helmet {
+      height: 20px;
+
+      img {
+        height: 17px;
+        position: relative;
+      }
+    }
+
+    #help-nav {
+
+      .small-circle {
+        background-color: $silver;
+        height: 5px;
+        left: -1px;
+        margin-bottom: 8px;
+        position: relative;
+        width: 5px;
+        @include border-radius(50%);
+      }
+    }  
+  }
+
   #stripe {
     height: 10px;
     position: fixed;
@@ -473,10 +772,10 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .text {
-    font-size: 1.6em !important;
+    font-size: 1.5em !important;
     line-height: 1.6em;
     margin: 1.5em auto 0;
-    max-width: 965px;
+    max-width: 900px;
     width: 95%;
   }
 
@@ -577,6 +876,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) {
+  #help,
   #loader {
     display: none;
   }
@@ -760,6 +1060,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
+  #help,
   #loader {
     display: none;
   }
@@ -936,6 +1237,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (max-width: $mobile-) {
+  #help,
   #loader {
     display: none;
   }
