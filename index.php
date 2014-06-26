@@ -32,23 +32,23 @@
 				data-500="opacity:1"
 				data-6000=""
 			>
-				<div class="help-circle">
+                <a href="#bemutatkozas" data-menu-top="0"><div class="help-circle">
 					<img src="images/references.png"
 						data-500="opacity:1;"
 					/>
-				</div>
+				</div></a>
 
 				<div class="small-circle"
 					data-700="background-color:rgb(194,194,194);"
 					data-1000="background-color:rgb(0,0,0);"
 				></div>
 
-				<div class="help-circle" id="help-ext">
-					<img src="images/ext-b.png"
+                <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle" id="help-ext">
+                    <img src="images/ext-b.png"
 						data-2100="opacity:.2;"
 						data-2400="opacity:1;"
 					/>
-				</div>
+				</div></a>
 
 				<div class="small-circle"
 					data-3900="background-color:rgb(194,194,194);"
@@ -75,12 +75,12 @@
 					data-12200="background-color:rgb(0,0,0);"
 				></div>
 
-				<div class="help-circle" id="help-helmet">
+                <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle" id="help-helmet">
 					<img src="images/helmet-b.png"
 						data-13600="opacity:.2;"
 						data-13900="opacity:1;"
 					/>
-				</div>
+				</div></a>
 
 				<div class="small-circle"
 					data-15200="background-color:rgb(194,194,194);"
@@ -116,12 +116,12 @@
 				></div>
 
 
-				<div class="help-circle">
+                <a href="#referenciak" data-menu-top="28800"><div class="help-circle">
 					<img src="images/references.png" 
 						data-27200="opacity:.2;"
 						data-27500="opacity:1;"
 					/>
-				</div>
+				</div></a>
 
 				<div class="small-circle"
 					data-29100="background-color:rgb(194,194,194);"
@@ -133,12 +133,12 @@
 				></div>
 
 
-				<div class="help-circle">
+                <a href="#kapcsolat" data-menu-top="32700"><div class="help-circle">
 					<img src="images/contact-3.png" 
 						data-31900="opacity:.2;"
 						data-32200="opacity:1;"
 					/>
-				</div>
+				</div></a>
 
 				<div class="small-circle"
 					data-33900="background-color:rgb(194,194,194);"
