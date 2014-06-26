@@ -435,7 +435,7 @@
 				</p>
 
 				<p class="text relative regular center"
-					data-8600="opacity:0; left:1500px;  display:block;"
+					data-8701="opacity:0; left:1500px;  display:block;"
 					data-9000="opacity:1; left:0px; "
 					data-9800="opacity:1; left:0px; "
 					data-10300="opacity:0; left:0px; display:none; "
