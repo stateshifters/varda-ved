@@ -226,6 +226,7 @@ a:hover {
   margin-bottom: .5em;
 }
 #help #help-nav-bg {
+  height: 100%;
   position: fixed;
   right: 0;
 }
@@ -414,9 +415,8 @@ footer div {
   }
 
   #help-nav-bg {
-    height: 560px;
     right: 35px;
-    top: 300px;
+    top: 60px;
     width: 80px;
   }
 
@@ -548,9 +548,8 @@ footer div {
   }
 
   #help-nav-bg {
-    height: 550px;
     right: 20px;
-    top: 250px;
+    top: 60px;
     width: 65px;
   }
 
@@ -673,10 +672,9 @@ footer div {
   }
 
   #help-nav-bg {
-    height: 450px;
     position: fixed;
     right: 21px;
-    top: 200px;
+    top: 60px;
     width: 55px;
   }
 
@@ -799,9 +797,8 @@ footer div {
   }
 
   #help-nav-bg {
-    height: 450px;
     position: fixed;
-    top: 100px;
+    top: 70px;
     width: 50px;
   }
 
@@ -971,9 +968,8 @@ footer div {
   }
 
   #help-nav-bg {
-    height: 450px;
     right: 15px;
-    top: 100px;
+    top: 70px;
     width: 50px;
   }
 
