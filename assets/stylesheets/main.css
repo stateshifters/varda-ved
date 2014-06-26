@@ -227,6 +227,7 @@ a:hover {
 }
 #help #help-nav-bg {
   position: fixed;
+  right: 0;
 }
 
 #logo img {
@@ -413,10 +414,10 @@ footer div {
   }
 
   #help-nav-bg {
-    height: 550px;
+    height: 560px;
     right: 35px;
     top: 300px;
-    width: 40px;
+    width: 80px;
   }
 
   #help {
@@ -550,7 +551,7 @@ footer div {
     height: 550px;
     right: 20px;
     top: 250px;
-    width: 40px;
+    width: 65px;
   }
 
   #help {
@@ -676,7 +677,7 @@ footer div {
     position: fixed;
     right: 21px;
     top: 200px;
-    width: 30px;
+    width: 55px;
   }
 
   #help {
@@ -800,9 +801,8 @@ footer div {
   #help-nav-bg {
     height: 450px;
     position: fixed;
-    right: 15px;
     top: 100px;
-    width: 30px;
+    width: 50px;
   }
 
   #help {
@@ -974,7 +974,7 @@ footer div {
     height: 450px;
     right: 15px;
     top: 100px;
-    width: 30px;
+    width: 50px;
   }
 
   #help {

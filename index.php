@@ -39,7 +39,7 @@
 				<p>Görgessen</p>
 	    		<img src="images/arrow-red.png" />
 			</div>
-
+			
 			<div id="help-nav"
 				data-200="opacity:0"
 				data-500="opacity:1"
