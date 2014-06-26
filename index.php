@@ -19,6 +19,19 @@
 	<div id="wrap">
 
 		<div id="help">
+			<div id="help-nav-bg"
+				data-0="visibility:hidden;"
+				data-800="visibility:visible; background-color: rgb(248,248,248);"
+				data-1550="visibility:hidden;"
+				data-3899="visibility:visible; background-color: rgb(238,51,51);"
+				data-9001="visibility:hidden;"
+
+				data-13200="visibility:visible; background-color: rgb(238,51,51);"
+				data-13877="visibility:visible; background-color: rgb(238,51,51);"
+				data-13878="visibility:visible; background-color: rgb(255,144,0);"
+				data-14200="visibility:hidden;"
+
+			></div>
 			<div id="arrow"
 				data-0="left:0px; opacity: 1;"
 				data-459="left:300px; opacity: 0;"
