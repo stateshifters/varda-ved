@@ -381,9 +381,6 @@ a:hover {
   top: 0%;
   width: 100%;
 }
-.b .box a {
-  color: white !important;
-}
 .b .box .box-place,
 .b .box .box-web {
   display: table;

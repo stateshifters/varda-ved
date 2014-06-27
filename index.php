@@ -664,14 +664,13 @@
 						<div class="box-place">
 							<span class="box-text upp bold">Kisvárda</span>
 						</div>
-						<div class="box-web">
-							<span class="box-text">
-								<a href="http://www.madisonpub.hu">
+						<a href="http://www.madisonpub.hu">
+							<div class="box-web">
+								<span class="box-text">
 									www.madisonpub.hu
-								</a>
-							</span>
-							
-						</div>
+								</span>
+							</div>
+						</a>
 					</div>
 
 					<div class="box">
@@ -688,13 +687,13 @@
 						<div class="box-place">
 							<span class="box-text upp bold">Kisvárda</span>
 						</div>
-						<div class="box-web">
-							<span class="box-text">
-								<a href="http://www.caroflex.hu">
-								www.caroflex.hu
-								</a>
-							</span>
-						</div>
+						<a href="http://www.caroflex.hu">
+							<div class="box-web">
+								<span class="box-text">
+									www.caroflex.hu
+								</span>
+							</div>
+						</a>
 					</div>
 
 					<div class="box">
@@ -711,13 +710,13 @@
 						<div class="box-place">
 							<span class="box-text upp bold">Debrecen</span>
 						</div>
-						<div class="box-web">
-							<span class="box-text">
-								<a href="http://www.pirehab.hu">
+						<a href="http://www.pirehab.hu">
+							<div class="box-web">
+								<span class="box-text">
 									www.pirehab.hu
-								</a>
-							</span>
-						</div>
+								</span>
+							</div>
+						</a>
 					</div>
 
 					<!--img class="ref-img" src="images/caroflex.png" />
