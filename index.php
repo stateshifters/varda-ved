@@ -650,17 +650,10 @@
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
-<<<<<<< HEAD
-					<img src="images/" />
-					<img src="" />
-					<img src="" />
-					<img src="" />
-=======
-					Mint bizonyára tudja, egy cég szabályos működéséhez nem csak a megfelelő munka-, és
-					tűzvédelmi körülmények kialakítására van szükség, hanem a precíz, pontos dokumentáció
-					meglétére is. Ezzel elkerülhető, hogy felesleges kockázatot vállaljon a cég, hiszen a
-					hiányos, vagy pontatlan dokumentumok miatt cégét jelentős bírság sújthatja.
->>>>>>> master
+					<img class="ref-img" src="images/caroflex.png" />
+					<img class="ref-img" src="images/madison.png" />
+					<img src="images/pirehab.png" />
+
 				</p>
 
 				<p class="text center"
@@ -669,10 +662,9 @@
 					data-31200="opacity:1; "
 					data-31500="opacity:0; display:none;"
 				>
-					A VÁRDA-VÉD-et az elvégzett munka minősége mellett az is megkülönbözteti a
-					versenytársaktól, hogy munkatársaink szakértelme szavatolja: az elvégzett munka mellett a
-					törvényileg szükséges dokumentáció is naprakészen és a jogi követelményeknek megfelelően
-					kerül a megrendelő birtokába a szükséges átalakítások elvégzését követően.
+					<span>City Cars autókereskedés</span>
+					<span>Opál étterem</span>
+					<span>Kisvárdai Intézményműködtető Kft.</span>
 				</p>
 			</div>
 		</section>
