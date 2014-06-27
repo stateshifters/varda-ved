@@ -268,23 +268,10 @@ a:hover {
       width: 100%;
     }
 
+    
+
     .box-place,
     .box-web {
-
-      background-color: #000;
-      background-image: -o-linear-gradient(left , $from 0%, $to 100%);
-      background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
-      background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
-      background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
-      background-image: linear-gradient(left , $from 0%, $to 100%);
-      background-image: -webkit-gradient(
-         linear,
-          left top,
-          right top,
-          color-stop(0, $from),
-          color-stop(1, $to)
-      );
-      @include box-shadow(1px 0 1px #065363);
       display: table;
       float: left;
       height: 25%;
@@ -292,7 +279,22 @@ a:hover {
     }
 
     .box-place {
-//      background-color: #cc2726;
+      $darkblue: #0a7395;
+      $darkblue2: #0a6887;
+      background-color: #fff;
+      background-image: -o-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -moz-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -ms-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-gradient(
+         linear,
+          left top,
+          right top,
+          color-stop(0, $darkblue),
+          color-stop(1, $darkblue2)
+      );
+      @include box-shadow(1px 0 1px #065363);
       width: 35%;
     }
 
@@ -302,7 +304,22 @@ a:hover {
     }
 
     .box-web {
-//      background-color: #ab2322;
+      $darkblue: #005b79;
+      $darkblue2: #00536e;
+      background-color: #fff;
+      background-image: -o-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -moz-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -ms-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-gradient(
+         linear,
+          left top,
+          right top,
+          color-stop(0, $darkblue),
+          color-stop(1, $darkblue2)
+      );
+      @include box-shadow(1px 0 1px #065363);
       width: 65%;
     }
   }

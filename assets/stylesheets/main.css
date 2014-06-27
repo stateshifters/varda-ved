@@ -383,22 +383,22 @@ a:hover {
 }
 .b .box .box-place,
 .b .box .box-web {
-  background-color: #000;
-  background-image: -o-linear-gradient(left, #007ea6 0%, #008cb9 100%);
-  background-image: -moz-linear-gradient(left, #007ea6 0%, #008cb9 100%);
-  background-image: -webkit-linear-gradient(left, #007ea6 0%, #008cb9 100%);
-  background-image: -ms-linear-gradient(left, #007ea6 0%, #008cb9 100%);
-  background-image: linear-gradient(to right, #007ea6 0%, #008cb9 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #007ea6), color-stop(1, #008cb9));
-  -moz-box-shadow: 1px 0 1px #065363;
-  -webkit-box-shadow: 1px 0 1px #065363;
-  box-shadow: 1px 0 1px #065363;
   display: table;
   float: left;
   height: 25%;
   position: relative;
 }
 .b .box .box-place {
+  background-color: #fff;
+  background-image: -o-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -moz-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -webkit-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -ms-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: linear-gradient(to right, #0a7395 0%, #0a6887 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0a7395), color-stop(1, #0a6887));
+  -moz-box-shadow: 1px 0 1px #065363;
+  -webkit-box-shadow: 1px 0 1px #065363;
+  box-shadow: 1px 0 1px #065363;
   width: 35%;
 }
 .b .box .box-text {
@@ -406,6 +406,16 @@ a:hover {
   vertical-align: middle;
 }
 .b .box .box-web {
+  background-color: #fff;
+  background-image: -o-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -moz-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -webkit-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -ms-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: linear-gradient(to right, #005b79 0%, #00536e 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #005b79), color-stop(1, #00536e));
+  -moz-box-shadow: 1px 0 1px #065363;
+  -webkit-box-shadow: 1px 0 1px #065363;
+  box-shadow: 1px 0 1px #065363;
   width: 65%;
 }
 .b .box:nth-child(even) {
