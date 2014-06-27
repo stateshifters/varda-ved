@@ -268,7 +268,9 @@ a:hover {
       width: 100%;
     }
 
-    
+    a {
+      color: $white!important;
+    }
 
     .box-place,
     .box-web {
