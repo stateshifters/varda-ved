@@ -219,7 +219,24 @@ a:hover {
   width: 1100px;
 
   .box {
-    background-color: $pomegranate;
+    background-color: #008cb9;
+    background-image: -o-linear-gradient(left , #00839a 0%, #00a1b3 100%);
+    background-image: -moz-linear-gradient(left , #00839a 0%, #00a1b3 100%);
+    background-image: -webkit-linear-gradient(left , #00839a 0%, #00a1b3 100%);
+    background-image: -ms-linear-gradient(left , #00839a 0%, #00a1b3 100%);
+    background-image: linear-gradient(left , #00839a 0%, #00a1b3 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        right top,
+        color-stop(0, #00839a),
+        color-stop(1, #00a1b3)
+    );
+    
+    @include box-shadow(1px 0 1px #065363);
+
+    
+
     @include inline-block;
     height: 200px;
     margin: 2.57em auto 0;
@@ -273,8 +290,8 @@ a:hover {
   }
 
   .box:nth-child(even) {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .box:nth-child(2) {
