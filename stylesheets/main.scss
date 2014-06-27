@@ -296,7 +296,7 @@ a:hover {
           color-stop(0, $darkblue),
           color-stop(1, $darkblue2)
       );
-      @include box-shadow(1px 0 1px #065363);
+//      @include box-shadow(1px 0 1px #065363);
       width: 35%;
     }
 
@@ -321,7 +321,7 @@ a:hover {
           color-stop(0, $darkblue),
           color-stop(1, $darkblue2)
       );
-      @include box-shadow(1px 0 1px #065363);
+//      @include box-shadow(1px 0 1px #065363);
       width: 65%;
     }
   }

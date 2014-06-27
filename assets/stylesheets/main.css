@@ -401,9 +401,6 @@ a:hover {
   background-image: -ms-linear-gradient(left, #0a7395 0%, #0a6887 100%);
   background-image: linear-gradient(to right, #0a7395 0%, #0a6887 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0a7395), color-stop(1, #0a6887));
-  -moz-box-shadow: 1px 0 1px #065363;
-  -webkit-box-shadow: 1px 0 1px #065363;
-  box-shadow: 1px 0 1px #065363;
   width: 35%;
 }
 .b .box .box-text {
@@ -418,9 +415,6 @@ a:hover {
   background-image: -ms-linear-gradient(left, #005b79 0%, #00536e 100%);
   background-image: linear-gradient(to right, #005b79 0%, #00536e 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #005b79), color-stop(1, #00536e));
-  -moz-box-shadow: 1px 0 1px #065363;
-  -webkit-box-shadow: 1px 0 1px #065363;
-  box-shadow: 1px 0 1px #065363;
   width: 65%;
 }
 .b .box:nth-child(even) {
@@ -1365,6 +1359,14 @@ footer div {
     display: none;
   }
 
+  .b {
+    margin: 0 auto;
+    width: 700px;
+  }
+  .b .box {
+    width: 60%;
+  }
+
   #kapcsolat {
     height: initial;
     width: 100%;
@@ -1513,6 +1515,14 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  .b {
+    margin: 0 auto;
+    width: 360px;
+  }
+  .b .box {
+    width: 100%;
   }
 
   #kapcsolat {
@@ -1664,6 +1674,28 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  .b {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .b .box-text img {
+    width: 140px;
+  }
+  .b .box {
+    height: 130px;
+    margin: 1em auto 0;
+    width: 100%;
+  }
+  .b .box:first-child {
+    margin: 0 auto 0;
+  }
+  .b .box:nth-child(2) {
+    margin: 1em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 1em;
   }
 
   #kapcsolat {

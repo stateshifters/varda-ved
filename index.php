@@ -738,11 +738,6 @@
 							</div>
 						</a>
 					</div>
-
-					<!--img class="ref-img" src="images/caroflex.png" />
-					<img class="ref-img" src="images/madison.png" />
-					<img src="images/pirehab.png" /-->
-
 				</div>
 
 				<p class="text center"
