@@ -754,11 +754,20 @@
 					<span>City Cars autókereskedés</span>
 					<span>Opál étterem</span>
 					<span>Kisvárdai Intézményműködtető Kft.</span>
-					<br />
+					<br>
 					<span>Polgármesteri Hivatal</span>
 					<span>Nox Club</span>
 					<span>Református Egyházközösség</span>
-
+					<br>
+					<span>Kisvárdai Egészségügyi Alapellátás</span>
+					<span>Rétközi Gabona Rt.</span>
+					<span>Tündérkert Szeretetotthon</span>
+					<br>
+					<span>Várda-Garden Kft.</span>
+					<span>Yellow Western Pub</span>
+					<span>Nagy József Autókarosszéria javítás és fényezés.</span>
+					<br>
+					<span>Cédrus Idősek Otthona</span>
 				</p>
 			</div>
 		</section>

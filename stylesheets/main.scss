@@ -213,11 +213,15 @@ a:hover {
   margin-right: 1em;
 }
 
+.ref-ul {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 .b {
   color: $white;
   margin: 0 auto;
   width: 1100px;
-
 
   $from: #007ea6;
   $to: #008cb9;

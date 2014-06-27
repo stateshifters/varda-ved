@@ -336,6 +336,11 @@ a:hover {
   margin-right: 1em;
 }
 
+.ref-ul {
+  list-style-position: inside;
+  list-style-type: circle;
+}
+
 .b {
   color: white;
   margin: 0 auto;
