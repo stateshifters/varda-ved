@@ -1003,6 +1003,10 @@ footer div {
     height: 60px;
   }
 
+  .b .box {
+    margin: 5.5em auto 0;
+  }
+
   #kapcsolat #five-kapcs div:nth-child(3) {
     margin-top: 3em;
   }
