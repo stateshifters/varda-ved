@@ -213,6 +213,96 @@ a:hover {
   margin-right: 1em;
 }
 
+.b {
+  color: $white;
+  margin: 0 auto;
+  width: 1100px;
+
+  .box {
+    background-color: $pomegranate;
+    @include inline-block;
+    height: 200px;
+    margin: 2.57em auto 0;
+    width: 30%;
+
+    .box-logo-frame {
+      display: table;
+      height: 75%;
+    }
+
+    .box-logo {
+      display: table;
+      float: left;
+      height: 55%;
+      position: relative;
+      top: 0%;
+      width: 100%;
+    }
+
+    .box-logo-nev {
+      display: table;
+      float: left;
+      height: 20%;
+      position: relative;
+      top: 0%;
+      width: 100%;
+    }
+
+    .box-place,
+    .box-web {
+      display: table;
+      float: left;
+      height: 25%;
+      position: relative;
+    }
+
+    .box-place {
+      background-color: #cc2726;
+      width: 35%;
+    }
+
+    .box-text {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .box-web {
+      background-color: #ab2322;
+      width: 65%;
+    }
+  }
+
+  .box:nth-child(even) {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .box:nth-child(2) {
+    background-color: $lima;
+
+    .box-place {
+      background-color: #29ac19;
+    }
+
+    .box-web {
+      background-color: #1a980d;
+    }
+  }
+
+  .box:nth-child(3) {
+    background-color: #058bb7;
+
+    .box-place {
+      background-color: #0c7294;
+    }
+
+    .box-web {
+      background-color: #025a78;
+    }
+  }
+
+}
+
 #kapcsolat {
   background-color: $lima;
 

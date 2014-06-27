@@ -336,6 +336,84 @@ a:hover {
   margin-right: 1em;
 }
 
+.b {
+  color: white;
+  margin: 0 auto;
+  width: 1100px;
+}
+.b .box {
+  background-color: #ee3333;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 200px;
+  margin: 2.57em auto 0;
+  width: 30%;
+}
+.b .box .box-logo-frame {
+  display: table;
+  height: 75%;
+}
+.b .box .box-logo {
+  display: table;
+  float: left;
+  height: 55%;
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.b .box .box-logo-nev {
+  display: table;
+  float: left;
+  height: 20%;
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.b .box .box-place,
+.b .box .box-web {
+  display: table;
+  float: left;
+  height: 25%;
+  position: relative;
+}
+.b .box .box-place {
+  background-color: #cc2726;
+  width: 35%;
+}
+.b .box .box-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.b .box .box-web {
+  background-color: #ab2322;
+  width: 65%;
+}
+.b .box:nth-child(even) {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.b .box:nth-child(2) {
+  background-color: #43c423;
+}
+.b .box:nth-child(2) .box-place {
+  background-color: #29ac19;
+}
+.b .box:nth-child(2) .box-web {
+  background-color: #1a980d;
+}
+.b .box:nth-child(3) {
+  background-color: #058bb7;
+}
+.b .box:nth-child(3) .box-place {
+  background-color: #0c7294;
+}
+.b .box:nth-child(3) .box-web {
+  background-color: #025a78;
+}
+
 #kapcsolat {
   background-color: #43c423;
 }

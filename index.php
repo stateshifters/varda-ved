@@ -644,17 +644,74 @@
 					Akik már minket választottak:
 				</p>
 
-				<p class="text center"
-					data-29101="opacity:0; display:block;"
+				<div class="b"
+					data-29101="opacity:0; display:table;"
 					data-29500="opacity:1; "
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
-					<img class="ref-img" src="images/caroflex.png" />
-					<img class="ref-img" src="images/madison.png" />
-					<img src="images/pirehab.png" />
+					<div class="box">
+						<div class="box-logo">
+							<span class="box-text">
+								<img src="images/madison.png" />
+							</span>
+						</div>
+						<div class="box-logo-nev">
+							<span class="box-text">
+								Madison Pub & Restaurant
+							</span>
+						</div>
+						<div class="box-place">
+							<span class="box-text upp bold">Kisvárda</span>
+						</div>
+						<div class="box-web">
+							<span class="box-text">www.madisonpub.hu</span>
+						</div>
+					</div>
 
-				</p>
+					<div class="box">
+						<div class="box-logo">
+							<span class="box-text">
+								<img src="images/caroflex.png" />
+							</span>
+						</div>
+						<div class="box-logo-nev">
+							<span class="box-text">
+								Caroflex Fékbetétgyár Kft.
+							</span>
+						</div>
+						<div class="box-place">
+							<span class="box-text upp bold">Kisvárda</span>
+						</div>
+						<div class="box-web">
+							<span class="box-text">www.caroflex.hu</span>
+						</div>
+					</div>
+
+					<div class="box">
+						<div class="box-logo">
+							<span class="box-text">
+								<img src="images/pirehab.png" />
+							</span>
+						</div>
+						<div class="box-logo-nev">
+							<span class="box-text">
+								Pirehab Kft.
+							</span>
+						</div>
+						<div class="box-place">
+							<span class="box-text upp bold">Debrecen</span>
+						</div>
+						<div class="box-web">
+							<span class="box-text">www.pirehab.hu</span>
+						</div>
+					</div>
+
+					<!--img class="ref-img" src="images/caroflex.png" />
+					<img class="ref-img" src="images/madison.png" />
+					<img src="images/pirehab.png" /-->
+
+				</div>
 
 				<p class="text center"
 					data-30301="opacity:0; display:block;"
@@ -665,6 +722,11 @@
 					<span>City Cars autókereskedés</span>
 					<span>Opál étterem</span>
 					<span>Kisvárdai Intézményműködtető Kft.</span>
+					<br />
+					<span>Polgármesteri Hivatal</span>
+					<span>Nox Club</span>
+					<span>Református Egyházközösség</span>
+
 				</p>
 			</div>
 		</section>
