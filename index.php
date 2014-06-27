@@ -18,10 +18,10 @@
 
     <meta property="og:locale" content="hu_HU">
 
-    <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
+    <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!">
-    <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
+    <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!" />
 
