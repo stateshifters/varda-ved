@@ -650,10 +650,17 @@
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
+<<<<<<< HEAD
 					<img src="images/" />
 					<img src="" />
 					<img src="" />
 					<img src="" />
+=======
+					Mint bizonyára tudja, egy cég szabályos működéséhez nem csak a megfelelő munka-, és
+					tűzvédelmi körülmények kialakítására van szükség, hanem a precíz, pontos dokumentáció
+					meglétére is. Ezzel elkerülhető, hogy felesleges kockázatot vállaljon a cég, hiszen a
+					hiányos, vagy pontatlan dokumentumok miatt cégét jelentős bírság sújthatja.
+>>>>>>> master
 				</p>
 
 				<p class="text center"
