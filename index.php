@@ -10,8 +10,8 @@
 
     <meta property="og:site_name" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
 
-    <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved.min.svg">
-    <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved.min.svg" />
+    <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
+    <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png" />
 
     <meta property="og:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
     <meta property="twitter:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem" />
