@@ -1177,6 +1177,10 @@ footer div {
     height: 60px;
   }
 
+  .b {
+    width: 900px;
+  }
+
   #kapcsolat #five-kapcs div:nth-child(3) {
     margin-top: 3em;
   }
