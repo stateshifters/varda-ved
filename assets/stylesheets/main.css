@@ -714,6 +714,10 @@ footer div {
     border-radius: 50%;
   }
 
+  .b .box {
+    margin: 1em auto 0;
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;

@@ -249,6 +249,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }  
   }
 
+  .b {
+
+    .box {
+      margin: 1em auto 0;
+    }
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
