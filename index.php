@@ -46,7 +46,7 @@
 				data-6000=""
 			>
                 <a href="#bemutatkozas" data-menu-top="0"><div class="help-circle">
-					<img src="images/references.png"
+					<img src="images/references.png" alt="Bemutatkozás"
 						data-500="opacity:1;"
 					/>
 				</div></a>
@@ -57,7 +57,7 @@
 				></div>
 
                 <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle" id="help-ext">
-                    <img src="images/ext-b.png"
+                    <img src="images/ext-b.png" alt="Tűzvédelem"
 						data-2100="opacity:.2;"
 						data-2400="opacity:1;"
 					/>
@@ -89,7 +89,7 @@
 				></div>
 
                 <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle" id="help-helmet">
-					<img src="images/helmet-b.png"
+					<img src="images/helmet-b.png" alt="Munkavédelem"
 						data-13600="opacity:.2;"
 						data-13900="opacity:1;"
 					/>
@@ -130,7 +130,7 @@
 
 
                 <a href="#referenciak" data-menu-top="28800"><div class="help-circle">
-					<img src="images/references.png" 
+					<img src="images/references.png" alt="Referenciák"
 						data-27200="opacity:.2;"
 						data-27500="opacity:1;"
 					/>
@@ -147,7 +147,7 @@
 
 
                 <a href="#kapcsolat" data-menu-top="32700"><div class="help-circle">
-					<img src="images/contact-3.png" 
+					<img src="images/contact-3.png" alt="Kapcsolat"
 						data-31900="opacity:.2;"
 						data-32200="opacity:1;"
 					/>
