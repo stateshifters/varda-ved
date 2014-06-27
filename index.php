@@ -650,7 +650,7 @@
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
-					<img src="" />
+					<img src="images/" />
 					<img src="" />
 					<img src="" />
 					<img src="" />
@@ -693,7 +693,7 @@
 					<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
 					<p class="text center">
 						<span class="bold">Tel:</span>
-						<span> 06 / 45 / 000-000</span>
+						<span>06 / 45 / 405-587</span>
 					</p>
 					<p class="text center">
 						<span class="bold">E-mail: </span>
