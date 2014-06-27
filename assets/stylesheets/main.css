@@ -1219,7 +1219,11 @@ footer div {
     width: 900px;
   }
   .b .box {
+    height: 200px;
     margin: 3em auto 0;
+  }
+  .b .box-text img {
+    width: 180px;
   }
 
   #kapcsolat #five-kapcs div:nth-child(3) {

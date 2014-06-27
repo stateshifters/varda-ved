@@ -856,7 +856,12 @@ $xwidescreen-: $xwidescreen - .01em;
     width: 900px;
 
     .box {
+      height: 200px;
       margin: 3em auto 0;
+    }
+
+    .box-text img {
+      width: 180px;
     }
   }
 
@@ -1052,7 +1057,6 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   #kapcsolat {
-
     height: initial;
     width: 100%;
 
