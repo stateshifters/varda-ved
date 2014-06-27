@@ -650,7 +650,7 @@
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
-					<div class="box blue">
+					<div class="box">
 						<div class="box-logo">
 							<span class="box-text">
 								<img src="images/madison.png" />
@@ -669,7 +669,7 @@
 						</div>
 					</div>
 
-					<div class="box red">
+					<div class="box">
 						<div class="box-logo">
 							<span class="box-text">
 								<img src="images/caroflex.png" />
@@ -688,7 +688,7 @@
 						</div>
 					</div>
 
-					<div class="box green">
+					<div class="box">
 						<div class="box-logo">
 							<span class="box-text">
 								<img src="images/pirehab.png" />
