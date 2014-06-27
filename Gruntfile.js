@@ -216,7 +216,7 @@ module.exports = function (grunt) {
 				policy: [
 					{
 						ua: 'Twitterbot',
-						disallow: ''
+						disallow: ' '
 					},
 					{
 						ua: '*',
