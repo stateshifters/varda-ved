@@ -15,7 +15,151 @@
     	<p>Betöltés</p>
     	<img src="images/loader.gif" />
     </div>
+
 	<div id="wrap">
+
+		<div id="help">
+			<div id="help-nav-bg"
+				data-0="visibility:hidden;"
+				data-800="visibility:visible; background-color: rgb(248,248,248);"
+				data-1550="visibility:hidden;"
+				data-3899="visibility:visible; background-color: rgb(238,51,51);"
+				data-9001="visibility:hidden;"
+
+				data-13200="visibility:visible; background-color: rgb(238,51,51);"
+				data-13877="visibility:visible; background-color: rgb(238,51,51);"
+				data-13878="visibility:visible; background-color: rgb(255,144,0);"
+				data-14200="visibility:hidden;"
+
+			></div>
+			<div id="arrow"
+				data-0="left:0px; opacity: 1;"
+				data-459="left:300px; opacity: 0;"
+			>
+				<p>Görgessen</p>
+	    		<img src="images/arrow-red.png" />
+			</div>
+			
+			<div id="help-nav"
+				data-200="opacity:0"
+				data-500="opacity:1"
+				data-6000=""
+			>
+                <a href="#bemutatkozas" data-menu-top="0"><div class="help-circle">
+					<img src="images/references.png"
+						data-500="opacity:1;"
+					/>
+				</div></a>
+
+				<div class="small-circle"
+					data-700="background-color:rgb(194,194,194);"
+					data-1000="background-color:rgb(0,0,0);"
+				></div>
+
+                <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle" id="help-ext">
+                    <img src="images/ext-b.png"
+						data-2100="opacity:.2;"
+						data-2400="opacity:1;"
+					/>
+				</div></a>
+
+				<div class="small-circle"
+					data-3900="background-color:rgb(194,194,194);"
+					data-4200="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-5700="background-color:rgb(194,194,194);"
+					data-6000="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-7300="background-color:rgb(194,194,194);"
+					data-7600="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-8600="background-color:rgb(194,194,194);"
+					data-8900="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-10300="background-color:rgb(194,194,194);"
+					data-10600="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-11900="background-color:rgb(194,194,194);"
+					data-12200="background-color:rgb(0,0,0);"
+				></div>
+
+                <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle" id="help-helmet">
+					<img src="images/helmet-b.png"
+						data-13600="opacity:.2;"
+						data-13900="opacity:1;"
+					/>
+				</div></a>
+
+				<div class="small-circle"
+					data-15200="background-color:rgb(194,194,194);"
+					data-15500="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-17500="background-color:rgb(194,194,194);"
+					data-17800="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-19000="background-color:rgb(194,194,194);"
+					data-19300="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-20400="background-color:rgb(194,194,194);"
+					data-20700="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-21600="background-color:rgb(194,194,194);"
+					data-21900="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-22800="background-color:rgb(194,194,194);"
+					data-23100="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-24400="background-color:rgb(194,194,194);"
+					data-24700="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-25600="background-color:rgb(194,194,194);"
+					data-25900="background-color:rgb(0,0,0);"
+				></div>
+
+
+                <a href="#referenciak" data-menu-top="28800"><div class="help-circle">
+					<img src="images/references.png" 
+						data-27200="opacity:.2;"
+						data-27500="opacity:1;"
+					/>
+				</div></a>
+
+				<div class="small-circle"
+					data-29100="background-color:rgb(194,194,194);"
+					data-29400="background-color:rgb(0,0,0);"
+				></div>
+				<div class="small-circle"
+					data-30300="background-color:rgb(194,194,194);"
+					data-30600="background-color:rgb(0,0,0);"
+				></div>
+
+
+                <a href="#kapcsolat" data-menu-top="32700"><div class="help-circle">
+					<img src="images/contact-3.png" 
+						data-31900="opacity:.2;"
+						data-32200="opacity:1;"
+					/>
+				</div></a>
+
+				<div class="small-circle"
+					data-33900="background-color:rgb(194,194,194);"
+					data-34200="background-color:rgb(0,0,0);"
+				></div>
+			</div>	
+	    </div>
+
 		<!--div id="info">0</div-->
 		<section id="navigation" class="homeSlide">
 			<nav id="main_nav"
@@ -291,7 +435,7 @@
 				</p>
 
 				<p class="text relative regular center"
-					data-8600="opacity:0; left:1500px;  display:block;"
+					data-8701="opacity:0; left:1500px;  display:block;"
 					data-9000="opacity:1; left:0px; "
 					data-9800="opacity:1; left:0px; "
 					data-10300="opacity:0; left:0px; display:none; "
