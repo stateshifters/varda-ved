@@ -425,6 +425,13 @@ $xwidescreen-: $xwidescreen - .01em;
     height: 70px;
   }
 
+  .b {
+
+    .box {
+      margin: 1em auto 0;
+    }
+  }
+
   #kapcsolat {
 
     .text {
@@ -840,6 +847,10 @@ $xwidescreen-: $xwidescreen - .01em;
 
   .b {
     width: 900px;
+
+    .box {
+      margin: 3em auto 0;
+    }
   }
 
   #kapcsolat {

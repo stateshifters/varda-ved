@@ -839,6 +839,10 @@ footer div {
     height: 70px;
   }
 
+  .b .box {
+    margin: 1em auto 0;
+  }
+
   #kapcsolat .text {
     margin: .5em auto 0;
   }
@@ -1183,6 +1187,9 @@ footer div {
 
   .b {
     width: 900px;
+  }
+  .b .box {
+    margin: 3em auto 0;
   }
 
   #kapcsolat #five-kapcs div:nth-child(3) {
