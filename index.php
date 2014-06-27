@@ -641,7 +641,7 @@
 					data-28800="opacity:1; margin-top:1em;"
 					data-29100="opacity:0; display:none; margin-top:1em;"
 				>
-					Akik már minket választottak:
+					Miért válassza a VÁRDA-VÉD szolgáltatásait?
 				</p>
 
 				<p class="text center"
@@ -650,10 +650,17 @@
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
+<<<<<<< HEAD
 					<img src="images/" />
 					<img src="" />
 					<img src="" />
 					<img src="" />
+=======
+					Mint bizonyára tudja, egy cég szabályos működéséhez nem csak a megfelelő munka-, és
+					tűzvédelmi körülmények kialakítására van szükség, hanem a precíz, pontos dokumentáció
+					meglétére is. Ezzel elkerülhető, hogy felesleges kockázatot vállaljon a cég, hiszen a
+					hiányos, vagy pontatlan dokumentumok miatt cégét jelentős bírság sújthatja.
+>>>>>>> parent of c03a7b1... added reference images
 				</p>
 
 				<p class="text center"
