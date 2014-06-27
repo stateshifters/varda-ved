@@ -7,6 +7,26 @@
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
 	      type='text/css'>
+
+    <meta property="og:site_name" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
+
+    <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved.min.svg">
+    <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved.min.svg" />
+
+    <meta property="og:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
+    <meta property="twitter:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem" />
+
+    <meta property="og:locale" content="hu_HU">
+
+    <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
+					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
+					Várda-Véd Kft. szakembereire!">
+    <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
+					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
+					Várda-Véd Kft. szakembereire!" />
+
+    <meta property="twitter:card" content="summary" />
+
 </head>
 
 <body>
