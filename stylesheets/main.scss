@@ -213,9 +213,12 @@ a:hover {
   margin-right: 1em;
 }
 
-.ref-ul {
-  list-style-position: inside;
-  list-style-type: circle;
+.bl {
+
+  li {
+    display: table-cell;
+    line-height: 1em;
+  }
 }
 
 .b {

@@ -336,9 +336,9 @@ a:hover {
   margin-right: 1em;
 }
 
-.ref-ul {
-  list-style-position: inside;
-  list-style-type: circle;
+.bl li {
+  display: table-cell;
+  line-height: 1em;
 }
 
 .b {
@@ -915,7 +915,7 @@ footer div {
 
   #help-nav-bg {
     position: fixed;
-    top: 70px;
+    top: 60px;
     width: 50px;
   }
 
@@ -1021,10 +1021,6 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  li {
-    line-height: 1.8em !important;
-  }
-
   #tuzvedelem #extinguish {
     height: 60px;
   }
@@ -1090,7 +1086,7 @@ footer div {
 
   #help-nav-bg {
     right: 15px;
-    top: 70px;
+    top: 60px;
     width: 50px;
   }
 
@@ -1197,10 +1193,6 @@ footer div {
 
   .menu-icon {
     margin: 1em auto .5em;
-  }
-
-  li {
-    line-height: 1.8em !important;
   }
 
   #tuzvedelem #extinguish {

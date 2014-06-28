@@ -740,30 +740,32 @@
 					</div>
 				</div>
 
-				<p class="text center"
+				<div class="text center"
 					data-30301="opacity:0; display:block;"
 					data-30700="opacity:1; "
 					data-31200="opacity:1; "
 					data-31500="opacity:0; display:none;"
 				>
-					<span>City Cars autókereskedés</span>
-					<span>Opál étterem</span>
-					<span>Kisvárdai Intézményműködtető Kft.</span>
-					<br>
-					<span>Polgármesteri Hivatal</span>
-					<span>Nox Club</span>
-					<span>Református Egyházközösség</span>
-					<br>
-					<span>Kisvárdai Egészségügyi Alapellátás</span>
-					<span>Rétközi Gabona Rt.</span>
-					<span>Tündérkert Szeretetotthon</span>
-					<br>
-					<span>Várda-Garden Kft.</span>
-					<span>Yellow Western Pub</span>
-					<span>Nagy József Autókarosszéria javítás és fényezés.</span>
-					<br>
-					<span>Cédrus Idősek Otthona</span>
-				</p>
+					<ul class="bl">
+						<li>City Cars autókereskedés</li>
+						<li>Opál étterem</li>
+						<li>Kisvárdai Intézményműködtető Kft.</li>
+						<br>
+						<li>Polgármesteri Hivatal</li>
+						<li>Nox Club</li>
+						<li>Református Egyházközösség</li>
+						<br>
+						<li>Kisvárdai Egészségügyi Alapellátás</li>
+						<li>Rétközi Gabona Rt.</li>
+						<li>Tündérkert Szeretetotthon</li>
+						<br>
+						<li>Várda-Garden Kft.</li>
+						<li>Yellow Western Pub</li>
+						<li>Nagy József Autókarosszéria javítás és fényezés.</li>
+						<br>
+						<li>Cédrus Idősek Otthona</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 
