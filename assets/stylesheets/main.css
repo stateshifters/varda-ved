@@ -337,8 +337,7 @@ a:hover {
 }
 
 .bl li {
-  display: table-cell;
-  line-height: 1em;
+  display: initial;
 }
 
 .b {
@@ -1355,6 +1354,10 @@ footer div {
     display: none;
   }
 
+  .bl li {
+    display: block;
+  }
+
   .b {
     margin: 0 auto;
     width: 700px;
@@ -1520,6 +1523,10 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  .bl li {
+    display: block;
   }
 
   .b {
@@ -1693,6 +1700,10 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  .bl li {
+    display: block;
   }
 
   .b {

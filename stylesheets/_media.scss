@@ -827,10 +827,6 @@ $xwidescreen-: $xwidescreen - .01em;
     margin: 1em auto .5em;
   }
 
-//  li {
-//    line-height: 1.8em !important;
-//  }
-
   #tuzvedelem {
 
     #extinguish {
@@ -1035,6 +1031,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  .bl {
+
+    li {
+      display: block;
+    }
+  }
+
   .b {
     margin: 0 auto;
     width: 700px;
@@ -1229,6 +1232,13 @@ $xwidescreen-: $xwidescreen - .01em;
       .square:nth-child(even) {
         display: none;
       }
+    }
+  }
+
+  .bl {
+
+    li {
+      display: block;
     }
   }
 
@@ -1437,6 +1447,13 @@ $xwidescreen-: $xwidescreen - .01em;
       .square:nth-child(even) {
         display: none;
       }
+    }
+  }
+
+  .bl {
+
+    li {
+      display: block;
     }
   }
 
