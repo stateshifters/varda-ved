@@ -339,6 +339,10 @@ a:hover {
 
 .bl li {
   display: initial;
+  margin-right: 1em;
+}
+.bl li:nth-child(even) {
+  font-weight: 600;
 }
 
 .b {
