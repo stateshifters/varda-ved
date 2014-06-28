@@ -1031,6 +1031,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  #referenciak {
+
+    .text {
+      text-align: center;
+    }
+  }
+
   .bl {
 
     li {
@@ -1232,6 +1239,13 @@ $xwidescreen-: $xwidescreen - .01em;
       .square:nth-child(even) {
         display: none;
       }
+    }
+  }
+
+  #referenciak {
+
+    .text {
+      text-align: center;
     }
   }
 
@@ -1447,6 +1461,13 @@ $xwidescreen-: $xwidescreen - .01em;
       .square:nth-child(even) {
         display: none;
       }
+    }
+  }
+
+  #referenciak {
+
+    .text {
+      text-align: center;
     }
   }
 

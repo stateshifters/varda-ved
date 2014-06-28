@@ -1359,6 +1359,10 @@ footer div {
     display: none;
   }
 
+  #referenciak .text {
+    text-align: center;
+  }
+
   .bl li {
     display: block;
   }
@@ -1528,6 +1532,10 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
   }
 
   .bl li {
@@ -1705,6 +1713,10 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
   }
 
   .bl li {
