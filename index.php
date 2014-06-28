@@ -767,6 +767,7 @@
 <script src="assets/js/history.js"></script>
 <script src="assets/js/history.adapter.jquery.js"></script>
 <script src="assets/js/varda-ved.js"></script>
+<script src="assets/js/analytics.js"></script>
 <!--script src="assets/js/info.js"></script-->
 <!--script type="text/javascript">
 	$(function () {
