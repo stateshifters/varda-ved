@@ -136,6 +136,16 @@ module.exports = function (grunt) {
 						dest: staticTargetDir
 					}
 				]
+			},
+			analytics: {
+				files: [
+					{
+						expand: false,
+						flatten: true,
+						src: 'templates/google_analytics.js',
+						dest: staticTargetDir+'/js/analytics.js'
+					}
+				]
 			}
 		},
 		cssmin: {
@@ -147,7 +157,10 @@ module.exports = function (grunt) {
 		},
 		watch: {
 			js: {
-				files: ['js/**/*.js'],
+				files: [
+					'js/**/*.js',
+					'templates/**/*.js'
+				],
 				tasks: ['compile:js'],
 				options: {
 					spawn: false
@@ -205,6 +218,12 @@ module.exports = function (grunt) {
 		'file-creator': {
 			'debug': {
 				'assets/debug.css': function (fs, fd, done) {
+					fs.writeSync(fd, '');
+					done();
+				}
+			},
+			'analytics': {
+				'assets/js/analytics.js': function (fs, fd, done) {
 					fs.writeSync(fd, '');
 					done();
 				}
@@ -384,8 +403,7 @@ module.exports = function (grunt) {
 		grunt.task.run([
 			'compile:css',
 			'compile:js',
-			'compile:images',
-			'create:cache'
+			'compile:images'
 		]);
 	});
 
@@ -417,7 +435,8 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('compile:js', [
 		'jshint',
-		'copy:js'
+		'copy:js',
+		'create:tracking'
 	]);
 
 	grunt.registerTask('compile:images', [
@@ -452,6 +471,18 @@ module.exports = function (grunt) {
 		if (isProd) {
 			grunt.task.run([
 				'file-creator:debug'
+			]);
+		}
+	});
+
+	grunt.registerTask('create:tracking', function() {
+		grunt.task.run([
+			'file-creator:analytics'
+		]);
+
+		if (isProd) {
+			grunt.task.run([
+				'copy:analytics'
 			]);
 		}
 	});
