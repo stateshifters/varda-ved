@@ -207,6 +207,7 @@ a:hover {
 
 #referenciak {
   background-color: $cerulean;
+  color: $black;
 }
 
 .ref-img {
@@ -217,6 +218,11 @@ a:hover {
 
   li {
     display: initial;
+    margin-right: 1em;
+  }
+
+  li:nth-child(even) {
+    font-weight: 600;
   }
 }
 

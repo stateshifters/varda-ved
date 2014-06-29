@@ -330,6 +330,7 @@ a:hover {
 
 #referenciak {
   background-color: #00a3d8;
+  color: black;
 }
 
 .ref-img {
@@ -338,6 +339,10 @@ a:hover {
 
 .bl li {
   display: initial;
+  margin-right: 1em;
+}
+.bl li:nth-child(even) {
+  font-weight: 600;
 }
 
 .b {
@@ -1354,6 +1359,10 @@ footer div {
     display: none;
   }
 
+  #referenciak .text {
+    text-align: center;
+  }
+
   .bl li {
     display: block;
   }
@@ -1523,6 +1532,10 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
   }
 
   .bl li {
@@ -1700,6 +1713,10 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
   }
 
   .bl li {
