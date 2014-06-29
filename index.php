@@ -335,7 +335,7 @@
 						data-2030="opacity:0;"
 					>
 						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja 
-						azokat a munkavédelmi feltételeket,
+						azokat a munka-, és tűzvédelmi feltételeket,
 						amelyeket a törvény kötelező jelleggel előír, 
 						képzett szakértőink emellett a szükséges
 						dokumentáció elkészítésében is segítséget nyújtanak, 
@@ -380,7 +380,7 @@
 					data-3800="left:0px; opacity:0;"
 					data-3801="display:none;"
 				>
-					A tűzvédelem jogszabályi hátterét Magyarországon két fontos jogszabály biztosítja. 
+					A tűzvédelem szabályzati hátterét Magyarországon két fontos jogszabály biztosítja.
 				</p>
 
 				<img 
@@ -447,7 +447,7 @@
 					data-8700="opacity:0; left:-1500px; display:none;"
 				>
 					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
-					műszaki- és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
+					műszaki-, és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
 					Mint bizonyára tudja, a munkáltató kötelessége a hatályos tűzvédelmi előírások alapján
 					saját tűzvédelmi szabályzat kialakítása, megfelelően képzett szakember segítségével.
 					Cégünk ezen felül a munkavállalók teljes körű munka-, és tűzvédelmi oktatását is elvégzi,
@@ -530,7 +530,7 @@
 					data-17000="opacity:0;"
 					data-17500="display:none;"
 				>
-					Magyarországon a munkavédelmi tevékenységet megfelelő végzettséggel rendelkező
+					Magyarországon a munkavédelmi tevékenységet, csak megfelelő végzettséggel rendelkező
 					(munkavédelmi technikus, szakmérnök) szakember végezheti.
 				</p>
 
@@ -596,7 +596,7 @@
 				>
 					<ul class="list">
 						<li><div class="square"></div>Orvosi alkalmassági vizsgálatok rendjének szabályozása<div class="square"></div></li>
-						<li><div class="square"></div>Gépek berendezések munkavédelmi üzembe helyezése<div class="square"></div></li>
+						<li><div class="square"></div>Gépek, berendezések munkavédelmi üzembe helyezése<div class="square"></div></li>
 						<li><div class="square"></div>Időszakos biztonsági felülvizsgálat elvégzése<div class="square"></div></li>
 						<li><div class="square"></div>Munkabalesetek teljes körű kivizsgálása<div class="square"></div></li>
 					</ul>
@@ -624,7 +624,7 @@
 					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
 					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
-					szabályzatot, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
+					szabályzathoz, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
 					fakadó sajátosságokra is, hogy dolgozói egészségének védelmét teljes körűen szavatolni
 					tudja.
 				</p>
@@ -636,7 +636,7 @@
 					data-26800="opacity:0; display:none;"
 				>
 					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
-					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik, a
+					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik. A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!
 				</p>
@@ -815,16 +815,16 @@
 							data-33901="opacity:0; height:0px; width:0px; "
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
-						<p class="name center upp bold">Ferenc Horvath</p>
+						<p class="name center upp bold">Szűrös Gyula</p>
 						<p class="center">Tűzvédelmi szakértő</p>
 					</div>
 
 					<div id="right">
-						<img class="rounded" src="images/gyula.jpg"
+						<img class="rounded" src="images/csaba.jpg"
 							data-33901="opacity:0; height:0px; width:0px;"
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
-						<p class="name center upp bold">Ferenc Horvath</p>
+						<p class="name center upp bold">Szűrös Csaba</p>
 						<p class="center">Munkavédelmi szakértő</p>
 					</div>
 				</div>
@@ -850,6 +850,7 @@
 <script src="assets/js/history.js"></script>
 <script src="assets/js/history.adapter.jquery.js"></script>
 <script src="assets/js/varda-ved.js"></script>
+<script src="assets/js/analytics.js"></script>
 <!--script src="assets/js/info.js"></script-->
 <!--script type="text/javascript">
 	$(function () {
