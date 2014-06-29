@@ -168,6 +168,11 @@ $xwidescreen-: $xwidescreen - .01em;
       font-size: 2.5em;
     }
   }
+
+  a.tel {
+    text-decoration: none;
+  }
+
 }
 
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {
@@ -312,6 +317,10 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  a.tel {
+    text-decoration: none;
+  }
+
 }
 
 @media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
@@ -454,6 +463,10 @@ $xwidescreen-: $xwidescreen - .01em;
     .name {
       font-size: 2.2em;
     }
+  }
+
+  a.tel {
+    text-decoration: none;
   }
 }
 
@@ -662,6 +675,11 @@ $xwidescreen-: $xwidescreen - .01em;
       font-size: 1.8em;
     }
   }
+
+  a.tel {
+    text-decoration: none;
+  }
+
 }
 
 @media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
@@ -874,6 +892,11 @@ $xwidescreen-: $xwidescreen - .01em;
       margin-bottom: .2em;
     }
   }
+
+  a.tel {
+    text-decoration: none;
+  }
+
 }
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) {
@@ -1058,6 +1081,11 @@ $xwidescreen-: $xwidescreen - .01em;
       width: 100%;
     }
   }
+
+  a.tel {
+    text-decoration: none;
+  }
+
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
@@ -1235,6 +1263,11 @@ $xwidescreen-: $xwidescreen - .01em;
       width: 100%;
     }
   }
+
+  a.tel {
+    text-decoration: underline;
+  }
+
 }
 
 @media only screen and (max-width: $mobile-) {
@@ -1409,6 +1442,10 @@ $xwidescreen-: $xwidescreen - .01em;
       height: 100%;
       width: 100%;
     }
+  }
+
+  a.tel {
+    text-decoration: underline;
   }
 
   //  footer {
