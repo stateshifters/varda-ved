@@ -732,12 +732,12 @@
 							data-33901="opacity:0; height:0px; width:0px; "
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
-						<p class="name center upp bold">Ferenc Horvath</p>
+						<p class="name center upp bold">Szűrös Gyula</p>
 						<p class="center">Tűzvédelmi szakértő</p>
 					</div>
 
 					<div id="right">
-						<img class="rounded" src="images/gyula.jpg"
+						<img class="rounded" src="images/csaba.jpg"
 							data-33901="opacity:0; height:0px; width:0px;"
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
