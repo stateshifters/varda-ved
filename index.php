@@ -788,11 +788,11 @@
 					<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
 					<p class="text center">
 						<span class="bold">Tel:</span>
-						<span>06 / 45 / 405-587</span>
+						<span><a href="tel:+3645405587" class="tel">06 / 45 / 405-587</a></span>
 					</p>
 					<p class="text center">
 						<span class="bold">E-mail: </span>
-						<span>info@varda-ved.eu</span>
+						<span><a href="mailto:info@varda-ved.eu">info@varda-ved.eu</a></span>
 					</p>
 				</div>
 
