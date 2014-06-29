@@ -664,13 +664,13 @@
 					Akik már minket választottak:
 				</p>
 
-				<div class="b"
+				<ul class="b"
 					data-29101="opacity:0; display:table;"
 					data-29500="opacity:1; "
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
-					<div class="box">
+					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
 								<img src="images/madison.png" />
@@ -691,9 +691,9 @@
 								</span>
 							</div>
 						</a>
-					</div>
+					</li>
 
-					<div class="box">
+					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
 								<img src="images/caroflex.png" />
@@ -714,9 +714,9 @@
 								</span>
 							</div>
 						</a>
-					</div>
+					</li>
 
-					<div class="box">
+					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
 								<img src="images/pirehab.png" />
@@ -737,8 +737,8 @@
 								</span>
 							</div>
 						</a>
-					</div>
-				</div>
+					</li>
+				</ul>
 
 				<div class="text center"
 					data-30301="opacity:0; display:block;"
@@ -750,17 +750,13 @@
 						<li>City Cars autókereskedés</li>
 						<li>Opál étterem</li>
 						<li>Kisvárdai Intézményműködtető Kft.</li>
-					
 						<li>Polgármesteri Hivatal</li>
 						<li>Nox Club</li>
 						<li>Református Egyházközösség</li>
-					
 						<li>Kisvárdai Egészségügyi Alapellátás</li>
 						<li>Rétközi Gabona Rt.</li>
 						<li>Tündérkert Szeretetotthon</li>
-					
 						<li>Nagy József Autókarosszéria javítás és fényezés.</li>
-					
 						<li>Várda-Garden Kft.</li>
 						<li>Yellow Western Pub</li>
 						<li>Cédrus Idősek Otthona</li>
