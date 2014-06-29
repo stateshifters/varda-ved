@@ -741,7 +741,7 @@
 							data-33901="opacity:0; height:0px; width:0px;"
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
-						<p class="name center upp bold">Ferenc Horvath</p>
+						<p class="name center upp bold">Szűrös Csaba</p>
 						<p class="center">Munkavédelmi szakértő</p>
 					</div>
 				</div>
