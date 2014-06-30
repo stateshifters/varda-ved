@@ -805,10 +805,6 @@ $xwidescreen-: $xwidescreen - .01em;
       position: relative;
       top: 80px;
     }
-
-    #logo_text {
-      top: 27px !important;
-    }
   }
 
   .text {
@@ -956,7 +952,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #logo_pic img {
     height: 35px;
-    left: 10px;
+    left: 15px;
     position: fixed;
     top: 0;
     z-index: 5;
@@ -968,7 +964,7 @@ $xwidescreen-: $xwidescreen - .01em;
     #logo {
 
       #logo_text {
-        left: 50px;
+        left: 70px;
         position: fixed;
         top: 20px;
         z-index: 5;
@@ -1179,7 +1175,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #logo_pic img {
     height: 35px;
-    left: 10px;
+    left: -8px;
     position: fixed;
     top: 0;
     z-index: 5;
@@ -1402,7 +1398,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #logo_pic img {
     height: 35px;
-    left: 10px;
+    left: -12px;
     position: fixed;
     top: 0;
     z-index: 5;
@@ -1414,7 +1410,7 @@ $xwidescreen-: $xwidescreen - .01em;
     #logo {
 
       #logo_text {
-        left: 50px;
+        left: 43px;
         position: fixed;
         top: 20px;
         z-index: 5;

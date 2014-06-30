@@ -198,8 +198,8 @@
 								 data-0="height: 4.1875em; position: initial; display:inline;float:none;margin-top:3em; top:0px;"
 							     data-100="height:3.125em; display:inline;float:none;opacity:100;"
 							     data-270="height:0;"
-							     data-271="height:2.625em; position:fixed; left:-150px; top:15px; margin-top:0; z-index:5;"
-							     data-500="height:2.625em; left:15px; top:15px;"
+							     data-271="height:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
+							     data-500="height:2.625em; left:10px; top:12px;"
 							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft. logo"
 							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px">
 						</div>
@@ -207,7 +207,7 @@
 							data-0="position:initial; display:inline; padding:.3em 0;"
 							     data-150=""
 							     data-151="position:fixed; left:65px; top:-80px; z-index:5;"
-							     data-400="left:65px; top:25px;"
+							     data-400="left:65px; top:21px;"
 						>
 							<a href="#"
 								 data-0="font-size:1em;"
