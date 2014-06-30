@@ -11,11 +11,21 @@ before_deploy:
 deploy:
   strategy: git
   provider: heroku
-  buildpack: https://github.com/meza/heroku-buildpack-php.git#nonprod
   api_key:
-    secure: hdbwGfTfyzUcf9hKk/4TlAHU9EneHNDh79XOr4qwR/OJIDonp8jQFVzO/zyVrhYbcq82rN75g0+6aX83XOyJ0ryQhL5LNA6kzxbQylt9FB05vsF86rtHwbSEbscCB2/1gDeF1P8MlrU1I7IwnCv7A1T9lbGaFKevnQLqkbKS7D4=
-  app: varda-ved-beta
-  on:
-    repo: stateshifters/varda-ved
+    varda-ved-beta:
+      secure: hdbwGfTfyzUcf9hKk/4TlAHU9EneHNDh79XOr4qwR/OJIDonp8jQFVzO/zyVrhYbcq82rN75g0+6aX83XOyJ0ryQhL5LNA6kzxbQylt9FB05vsF86rtHwbSEbscCB2/1gDeF1P8MlrU1I7IwnCv7A1T9lbGaFKevnQLqkbKS7D4=
+    varda-ved:
+      secure: RP9w4zODRDTFpFmzuOAa0oZZfobqcc1/r58sneeyDd4A4nE8t6vu7B0KpqRcpueUHnxB5AypxPlhb1zlDCV0kWeQUarM08vd3OQWGpwBTk74QeGmhIFYizSLeiJ+pkT4kN9lnUJ1Q7OVJ2mpz/RbIXynK3McrVSeI3hr0chR3jg=
+
+  app:
+    varda-ved-beta:
+      on:
+        repo: stateshifters/varda-ved
+    varda-ved:
+      on:
+        repo: stateshifters/varda-ved
+        all_branches: true
+        tags: true
+
 notifications:
   slack: tatu:heB5CcyJ80t4IDuIoXsAt7Wc
