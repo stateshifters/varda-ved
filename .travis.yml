@@ -6,22 +6,22 @@ install:
   - npm install
 
 before_deploy:
-- git fetch --unshallow
+  - git fetch --unshallow
 
 deploy:
-  strategy: git
-  provider: heroku
-  api_key:
-    varda-ved-beta:
+  - provider: heroku
+    strategy: git
+    api_key:
       secure: hdbwGfTfyzUcf9hKk/4TlAHU9EneHNDh79XOr4qwR/OJIDonp8jQFVzO/zyVrhYbcq82rN75g0+6aX83XOyJ0ryQhL5LNA6kzxbQylt9FB05vsF86rtHwbSEbscCB2/1gDeF1P8MlrU1I7IwnCv7A1T9lbGaFKevnQLqkbKS7D4=
-    varda-ved:
-      secure: RP9w4zODRDTFpFmzuOAa0oZZfobqcc1/r58sneeyDd4A4nE8t6vu7B0KpqRcpueUHnxB5AypxPlhb1zlDCV0kWeQUarM08vd3OQWGpwBTk74QeGmhIFYizSLeiJ+pkT4kN9lnUJ1Q7OVJ2mpz/RbIXynK3McrVSeI3hr0chR3jg=
-
-  app:
-    varda-ved-beta:
+    app: varda-ved-beta
       on:
         repo: stateshifters/varda-ved
-    varda-ved:
+
+  - provider: heroku
+    strategy: git
+    api_key:
+      secure: RP9w4zODRDTFpFmzuOAa0oZZfobqcc1/r58sneeyDd4A4nE8t6vu7B0KpqRcpueUHnxB5AypxPlhb1zlDCV0kWeQUarM08vd3OQWGpwBTk74QeGmhIFYizSLeiJ+pkT4kN9lnUJ1Q7OVJ2mpz/RbIXynK3McrVSeI3hr0chR3jg=
+    app: varda-ved
       on:
         repo: stateshifters/varda-ved
         all_branches: true
