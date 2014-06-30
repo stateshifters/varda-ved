@@ -104,7 +104,7 @@ body {
   background-color: #43c423;
 }
 
-nav {
+#main_nav {
   background-color: #f8f8f8;
   font-size: 1em;
   height: 12.875em;
@@ -114,36 +114,36 @@ nav {
   width: 100%;
   z-index: 100;
 }
-nav #logo {
+#main_nav #logo {
   background-color: #f8f8f8;
 }
-nav #logo #logo_pic {
+#main_nav #logo #logo_pic {
   position: relative;
 }
-nav #logo #logo_text {
+#main_nav #logo #logo_text {
   font-weight: 600;
   height: 2em;
   padding-bottom: 1em;
   padding-top: .5em;
   position: relative;
 }
-nav .menu-wrap {
+#main_nav .menu-wrap {
   background-color: white;
   font-weight: 300;
   width: 100%;
 }
-nav .menu-wrap #menu {
+#main_nav .menu-wrap #menu {
   display: table;
   margin: 0 auto;
   width: 800px;
 }
-nav #menu li {
+#main_nav #menu li {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
   z-index: 1001;
 }
-nav #menu #sandwich {
+#main_nav #menu #sandwich {
   display: none;
 }
 
@@ -243,8 +243,8 @@ a:hover {
   height: inherit;
 }
 .mobile-menu-wrap #menu li {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .mobile-menu-wrap .menu-1 {
   display: none;
@@ -1415,10 +1415,10 @@ footer div {
     display: none;
   }
 
-  nav {
-    height: 4.5em;
+  #main_nav {
+    height: 3.75em;
   }
-  nav #logo #logo_text {
+  #main_nav #logo #logo_text {
     left: 70px;
     position: fixed;
     top: 20px;
@@ -1429,7 +1429,7 @@ footer div {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 23px;
     visibility: visible;
   }
   #sandwich #menu-link:hover {
@@ -1590,10 +1590,10 @@ footer div {
     z-index: 5;
   }
 
-  nav {
-    height: 4.5em;
+  #main_nav {
+    height: 3.75em;
   }
-  nav #logo #logo_text {
+  #main_nav #logo #logo_text {
     left: 50px;
     position: fixed;
     top: 20px;
@@ -1608,7 +1608,7 @@ footer div {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 23px;
     visibility: visible;
   }
   #sandwich #menu-link:hover {
@@ -1770,10 +1770,10 @@ footer div {
     z-index: 5;
   }
 
-  nav {
-    height: 4.5em;
+  #main_nav {
+    height: 3.75em;
   }
-  nav #logo #logo_text {
+  #main_nav #logo #logo_text {
     left: 43px;
     position: fixed;
     top: 20px;
@@ -1788,7 +1788,7 @@ footer div {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 23px;
     visibility: visible;
   }
   #sandwich #menu-link:hover {

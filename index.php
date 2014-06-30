@@ -182,8 +182,8 @@
 	    </div>
 
 		<!--div id="info">0</div-->
-		<section id="navigation" class="homeSlide">
-			<nav id="main_nav"
+		<header id="navigation" class="homeSlide">
+			<div id="main_nav"
 			     data-0="height: 16em;position:fixed;top:0;"
 			     data-400="position:fixed;height:3.75em;top:0;">
 
@@ -252,7 +252,7 @@
 						</div>
 					</div>
 
-					<div class="menu-wrap"
+					<nav class="menu-wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
@@ -274,9 +274,9 @@
 								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
 							</li>
 						</ul>
-					</div>
+					</nav>
 
-					<div class="mobile-menu-wrap"
+					<nav class="mobile-menu-wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
@@ -313,12 +313,12 @@
 								</li>
 							</a>
 						</ul>
-					</div>
+					</nav>
 
 
 				</ul>
-			</nav>
-		</section>
+			</div>
+		</header>
 
 
 		<section id="bemutatkozas" class="homeSlide"
