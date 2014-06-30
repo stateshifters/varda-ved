@@ -252,7 +252,7 @@
 						</div>
 					</div>
 
-					<!--div id="menu_wrap"
+					<!--div id="menu-wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
@@ -279,10 +279,7 @@
 						</ul>
 					</div-->
 
-					<div class="menu_wrap"
-						data-0="position:relative;top:0px;"
-						data-500="top:0px;"
-					>
+					<div class="mobile-menu-wrap">
 						<ul id="menu">
 							<a id="menu-link"	>
 								<li id="sandwich">

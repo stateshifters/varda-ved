@@ -103,8 +103,20 @@ a:hover {
 }
 
 
-.menu_wrap_sandwich {
-  background-color: $pomegranate;
+.mobile-menu-wrap {
+  background-color: $white;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 4;
+
+  .menu-1 {
+    visibility: hidden;
+  }
+}
+
+
+.on {
   display: block;
   height: 100%;
   position: fixed;
@@ -114,6 +126,10 @@ a:hover {
   ul {
     clear: both;
     height: 100%;
+  }
+
+  .menu-1 {
+    visibility: visible;
   }
 
   a:first-child {
@@ -218,6 +234,7 @@ a:hover {
 #referenciak,
 #kapcsolat {
   height: 100%;
+  padding-bottom: .0001em;
   position: relative;
   width: 100%;
 }

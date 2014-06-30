@@ -184,10 +184,10 @@ window.onload = function () {
 
 	$(function() {
 		$('#sandwich').click(function() {
-		  $('.menu_wrap').removeClass('menu_wrap').addClass('menu_wrap_sandwich');
+		  $('div.mobile-menu-wrap').toggleClass('on');
 		});
 		$('.menu-1').click(function() {
-		  $('.menu_wrap_sandwich').removeClass('menu_wrap_sandwich').addClass('menu_wrap');
+		  $('div.mobile-menu-wrap').toggleClass('on');
 		});
 	});
 };
