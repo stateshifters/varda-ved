@@ -323,6 +323,12 @@ a:hover {
 }
 .on a:nth-of-type(5) {
   background-color: #00a3d8;
+  background-image: -o-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -moz-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -webkit-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -ms-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: linear-gradient(to right, #0c85ac 0%, #00a3d8 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0c85ac), color-stop(1, #00a3d8));
 }
 .on a:nth-of-type(6) {
   background-color: #43c423;
