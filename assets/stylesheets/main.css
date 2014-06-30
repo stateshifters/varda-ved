@@ -1527,6 +1527,7 @@ footer div {
     height: 100%;
   }
   #menu_wrap_sandwich a:first-child {
+    height: 26px;
     position: fixed;
     right: 15px;
     top: 25px;
