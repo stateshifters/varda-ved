@@ -252,7 +252,7 @@
 						</div>
 					</div>
 
-					<!--div id="menu-wrap"
+					<div class="menu-wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
@@ -277,7 +277,7 @@
 								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
 							</li>
 						</ul>
-					</div-->
+					</div>
 
 					<div class="mobile-menu-wrap">
 						<ul id="menu">

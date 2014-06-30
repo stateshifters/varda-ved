@@ -127,17 +127,17 @@ nav #logo #logo_text {
   padding-top: .5em;
   position: relative;
 }
-nav .menu_wrap {
+nav .menu-wrap {
   background-color: white;
   font-weight: 300;
   width: 100%;
 }
-nav .menu_wrap #menu {
+nav .menu-wrap #menu {
   display: table;
   margin: 0 auto;
   width: 800px;
 }
-nav #menu a {
+nav #menu li {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
@@ -1072,7 +1072,7 @@ footer div {
     z-index: 100;
   }
 
-  .menu_wrap {
+  .menu-wrap {
     position: fixed;
     top: 10px;
   }
@@ -1251,11 +1251,11 @@ footer div {
     z-index: 100;
   }
 
-  .menu_wrap {
+  .menu-wrap {
     position: fixed;
     top: 10px;
   }
-  .menu_wrap #menu {
+  .menu-wrap #menu {
     width: 700px !important;
   }
 
