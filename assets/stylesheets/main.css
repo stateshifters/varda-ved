@@ -478,6 +478,9 @@ a:hover {
   margin: 3em 0 5em;
   width: 50%;
 }
+#five-kapcs a {
+  color: #fff;
+}
 
 .name {
   font-size: 1.5625em;
@@ -640,6 +643,10 @@ footer div {
   #kapcsolat .name {
     font-size: 2.5em;
   }
+
+  a.tel {
+    text-decoration: none;
+  }
 }
 @media only screen and (min-width: 100em) and (max-width: 119.99em) {
   #wrap {
@@ -769,6 +776,10 @@ footer div {
   #kapcsolat .name {
     font-size: 2.3em;
   }
+
+  a.tel {
+    text-decoration: none;
+  }
 }
 @media only screen and (min-width: 89em) and (max-width: 99.99em) {
   #wrap {
@@ -897,6 +908,10 @@ footer div {
   }
   #kapcsolat .name {
     font-size: 2.2em;
+  }
+
+  a.tel {
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
@@ -1068,6 +1083,10 @@ footer div {
   }
   #kapcsolat .name {
     font-size: 1.8em;
+  }
+
+  a.tel {
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 64em) and (max-width: 79.99em) {
@@ -1251,6 +1270,10 @@ footer div {
     font-size: 1.6em;
     margin-bottom: .2em;
   }
+
+  a.tel {
+    text-decoration: none;
+  }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
   #help,
@@ -1429,6 +1452,10 @@ footer div {
   #map iframe {
     height: 100%;
     width: 100%;
+  }
+
+  a.tel {
+    text-decoration: none;
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
@@ -1610,6 +1637,10 @@ footer div {
     height: 100%;
     width: 100%;
   }
+
+  a.tel {
+    text-decoration: underline;
+  }
 }
 @media only screen and (max-width: 29.99em) {
   #help,
@@ -1787,5 +1818,9 @@ footer div {
   #map iframe {
     height: 100%;
     width: 100%;
+  }
+
+  a.tel {
+    text-decoration: underline;
   }
 }
