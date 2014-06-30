@@ -186,5 +186,8 @@ window.onload = function () {
 		$('#sandwich').click(function() {
 		  $('.menu_wrap').removeClass('menu_wrap').addClass('menu_wrap_sandwich');
 		});
+		$('.menu-1').click(function() {
+		  $('.menu_wrap_sandwich').removeClass('menu_wrap_sandwich').addClass('menu_wrap');
+		});
 	});
 };
