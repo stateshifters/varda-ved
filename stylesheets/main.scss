@@ -102,9 +102,65 @@ a:hover {
   }
 }
 
+
 #menu_wrap_sandwich {
-  display: none;
+  background-color: $pomegranate;
+  display: block;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  ul {
+    clear: both;
+    height: 100%;
+  }
+
+  a:first-child {
+    height: 26px;
+    position: fixed;
+    right: 15px;
+    top: 25px;
+    width: 32px;
+  }
+
+  a:nth-of-type(2) {
+    background-color: $alto;
+    height: 20%;
+    width: 100%;
+  }
+
+  a:nth-of-type(3) {
+    background-color: $pomegranate;
+  }
+
+  a:nth-of-type(4) {
+    background-color: $pizazz;
+  }
+
+  a:nth-of-type(5) {
+    background-color: $cerulean;
+  }
+
+  a:nth-of-type(6) {
+    background-color: $lima;
+  }
+
+  ul>a {
+    display: table;
+    float: left;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    z-index: 15;
+  }
+
+  li {
+    vertical-align: middle;
+  }
 }
+
 
 #logo {
 
