@@ -231,6 +231,10 @@ a:hover {
   right: 0;
 }
 
+#menu_wrap_sandwich {
+  display: none;
+}
+
 #logo img {
   height: 2.625em;
   margin-top: 1em;
@@ -1508,6 +1512,50 @@ footer div {
     background-color: white;
     margin: 0;
     padding: 0;
+  }
+
+  #menu_wrap_sandwich {
+    background-color: #ee3333;
+    display: block;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  #menu_wrap_sandwich ul {
+    clear: both;
+    height: 100%;
+  }
+  #menu_wrap_sandwich li:first-child {
+    position: fixed;
+    right: 15px;
+    top: 25px;
+    width: 32px;
+  }
+  #menu_wrap_sandwich li:nth-of-type(2) {
+    background-color: #d2d2d2;
+    height: 20%;
+    width: 100%;
+  }
+  #menu_wrap_sandwich li:nth-of-type(3) {
+    background-color: #ee3333;
+  }
+  #menu_wrap_sandwich li:nth-of-type(4) {
+    background-color: #ff9000;
+  }
+  #menu_wrap_sandwich li:nth-of-type(5) {
+    background-color: #00a3d8;
+  }
+  #menu_wrap_sandwich li:nth-of-type(6) {
+    background-color: #43c423;
+  }
+  #menu_wrap_sandwich ul > li {
+    float: left;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    z-index: 15;
   }
 
   #icon img {

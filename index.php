@@ -278,6 +278,35 @@
 							</li>
 						</ul>
 					</div>
+
+					<div id="menu_wrap_sandwich"
+						data-0="position:relative;top:0px;"
+						data-500="top:0px;"
+					>
+						<ul id="menu">
+							<li id="sandwich">
+								<a id="menu-link" href="">
+									<img src="images/sandwich.png"></li>
+								</a>
+							<li>
+								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
+							</li>
+							<li>
+								<a href="#tuzvedelem" data-menu-top="3400"><span>tűzvédelem</span></a>
+							</li>
+							<li>
+								<a href="#munkavedelem" data-menu-top="14600"><span>munkavédelem</span></a>
+							</li>
+							<li>
+								<a href="#referenciak" data-menu-top="28800"><span>referenciák</span></a>
+							</li>
+							<li>
+								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
+							</li>
+						</ul>
+					</div>
+
+
 				</ul>
 			</nav>
 		</section>
