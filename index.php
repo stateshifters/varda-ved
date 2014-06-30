@@ -284,25 +284,36 @@
 						data-500="top:0px;"
 					>
 						<ul id="menu">
-							<li id="sandwich">
-								<a id="menu-link" href="">
-									<img src="images/sandwich.png"></li>
-								</a>
-							<li>
-								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
-							</li>
-							<li>
-								<a href="#tuzvedelem" data-menu-top="3400"><span>tűzvédelem</span></a>
-							</li>
-							<li>
-								<a href="#munkavedelem" data-menu-top="14600"><span>munkavédelem</span></a>
-							</li>
-							<li>
-								<a href="#referenciak" data-menu-top="28800"><span>referenciák</span></a>
-							</li>
-							<li>
-								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
-							</li>
+							<a id="menu-link" href="">
+								<li id="sandwich">
+									<img src="images/sandwich.png">
+								</li>
+							</a>
+							<a href="#bemutatkozas" data-menu-top="0">
+								<li>
+								<span>bemutatkozás</span>
+								</li>
+							</a>
+							<a href="#tuzvedelem" data-menu-top="3400">
+								<li>
+								<span>tűzvédelem</span>
+								</li>
+							</a>
+							<a href="#munkavedelem" data-menu-top="14600">
+								<li>
+								<span>munkavédelem</span>
+								</li>
+							</a>
+							<a href="#referenciak" data-menu-top="28800">
+								<li>
+								<span>referenciák</span>
+								</li>
+							</a>
+							<a href="#kapcsolat" data-menu-top="32700">
+								<li>
+								<span>kapcsolat</span>
+								</li>
+							</a>
 						</ul>
 					</div>
 
