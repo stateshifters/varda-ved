@@ -305,6 +305,12 @@ a:hover {
 }
 .on a:nth-of-type(3) {
   background-color: #ee3333;
+  background-image: -o-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -moz-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -webkit-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -ms-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: linear-gradient(to right, #d21a1a 0%, #ee3333 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
 }
 .on a:nth-of-type(4) {
   background-color: #ff9000;
