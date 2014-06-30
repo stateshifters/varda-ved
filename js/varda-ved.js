@@ -182,4 +182,9 @@ window.onload = function () {
 	initHistory(false);
 	enquire.register('screen and (min-width : 1024px)', initAdjustWindow(), false);
 
+	$(function() {
+		$('#sandwich').click(function() {
+		  $('.menu_wrap').removeClass('menu_wrap').addClass('menu_wrap_sandwich');
+		});
+	});
 };

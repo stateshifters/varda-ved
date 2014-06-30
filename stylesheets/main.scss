@@ -103,7 +103,7 @@ a:hover {
 }
 
 
-#menu_wrap_sandwich {
+.menu_wrap_sandwich {
   background-color: $pomegranate;
   display: block;
   height: 100%;
@@ -152,11 +152,11 @@ a:hover {
   }
 
   ul>a {
-    display: table;
+    display: table!important;
     float: left;
     height: 40%;
-    margin: 0;
-    padding: 0;
+    margin: 0!important;
+    padding: 0!important;
     width: 50%;
     z-index: 15;
   }
@@ -177,7 +177,7 @@ a:hover {
 }
 
 #menu,
-#menu_wrap {
+.menu_wrap {
   z-index: 1;
 }
 

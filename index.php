@@ -279,7 +279,7 @@
 						</ul>
 					</div-->
 
-					<div id="menu_wrap"
+					<div class="menu_wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
