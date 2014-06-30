@@ -4,6 +4,7 @@
 	<title>Várda-Véd Kft. | Tűzvédelem, Munkavédelem</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
 	      type='text/css'>
@@ -661,32 +662,107 @@
 					data-28800="opacity:1; margin-top:1em;"
 					data-29100="opacity:0; display:none; margin-top:1em;"
 				>
-					Miért válassza a VÁRDA-VÉD szolgáltatásait?
+					Akik már minket választottak:
 				</p>
 
-				<p class="text center"
-					data-29101="opacity:0; display:block;"
+				<ul class="b"
+					data-29101="opacity:0; display:table;"
 					data-29500="opacity:1; "
 					data-30000="opacity:1; "
 					data-30300="opacity:0; display:none;"
 				>
-					Mint bizonyára tudja, egy cég szabályos működéséhez nem csak a megfelelő munka-, és
-					tűzvédelmi körülmények kialakítására van szükség, hanem a precíz, pontos dokumentáció
-					meglétére is. Ezzel elkerülhető, hogy felesleges kockázatot vállaljon a cég, hiszen a
-					hiányos, vagy pontatlan dokumentumok miatt cégét jelentős bírság sújthatja.
-				</p>
+					<li class="box">
+						<div class="box-logo">
+							<span class="box-text">
+								<img src="images/madison.png" />
+							</span>
+						</div>
+						<div class="box-logo-nev">
+							<span class="box-text">
+								Madison Pub & Restaurant
+							</span>
+						</div>
+						<div class="box-place">
+							<span class="box-text upp bold">Kisvárda</span>
+						</div>
+						<a href="http://www.madisonpub.hu">
+							<div class="box-web">
+								<span class="box-text">
+									www.madisonpub.hu
+								</span>
+							</div>
+						</a>
+					</li>
 
-				<p class="text center"
+					<li class="box">
+						<div class="box-logo">
+							<span class="box-text">
+								<img src="images/caroflex.png" />
+							</span>
+						</div>
+						<div class="box-logo-nev">
+							<span class="box-text">
+								Caroflex Fékbetétgyár Kft.
+							</span>
+						</div>
+						<div class="box-place">
+							<span class="box-text upp bold">Kisvárda</span>
+						</div>
+						<a href="http://www.caroflex.hu">
+							<div class="box-web">
+								<span class="box-text">
+									www.caroflex.hu
+								</span>
+							</div>
+						</a>
+					</li>
+
+					<li class="box">
+						<div class="box-logo">
+							<span class="box-text">
+								<img src="images/pirehab.png" />
+							</span>
+						</div>
+						<div class="box-logo-nev">
+							<span class="box-text">
+								Pirehab Kft.
+							</span>
+						</div>
+						<div class="box-place">
+							<span class="box-text upp bold">Debrecen</span>
+						</div>
+						<a href="http://www.pirehab.hu">
+							<div class="box-web">
+								<span class="box-text">
+									www.pirehab.hu
+								</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+
+				<div class="text center"
 					data-30301="opacity:0; display:block;"
 					data-30700="opacity:1; "
 					data-31200="opacity:1; "
 					data-31500="opacity:0; display:none;"
 				>
-					A VÁRDA-VÉD-et az elvégzett munka minősége mellett az is megkülönbözteti a
-					versenytársaktól, hogy munkatársaink szakértelme szavatolja: az elvégzett munka mellett a
-					törvényileg szükséges dokumentáció is naprakészen és a jogi követelményeknek megfelelően
-					kerül a megrendelő birtokába a szükséges átalakítások elvégzését követően.
-				</p>
+					<ul class="bl">
+						<li>City Cars autókereskedés</li>
+						<li>Opál étterem</li>
+						<li>Kisvárdai Intézményműködtető Kft.</li>
+						<li>Polgármesteri Hivatal</li>
+						<li>Nox Club</li>
+						<li>Református Egyházközösség</li>
+						<li>Kisvárdai Egészségügyi Alapellátás</li>
+						<li>Rétközi Gabona Rt.</li>
+						<li>Tündérkert Szeretetotthon</li>
+						<li>Nagy József Autókarosszéria javítás és fényezés.</li>
+						<li>Várda-Garden Kft.</li>
+						<li>Yellow Western Pub</li>
+						<li>Cédrus Idősek Otthona</li>
+					</ul>
+				</div>
 			</div>
 		</section>
 
