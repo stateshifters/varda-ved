@@ -284,7 +284,7 @@
 							<a id="menu-link">
 								<li id="sandwich">
 									<img class="sandwich-x" src="images/sandwich.png" />
-									<img class="sandwich-y" src="images/sandwich-y.png" height="32px" width="32px"/>
+									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px"/>
 								</li>
 							</a>
 							<a class="menu-1" href="#bemutatkozas" data-menu-top="0">
