@@ -332,6 +332,12 @@ a:hover {
 }
 .on a:nth-of-type(6) {
   background-color: #43c423;
+  background-image: -o-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -moz-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -webkit-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -ms-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: linear-gradient(to right, #43c423 0%, #2c9d0f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #43c423), color-stop(1, #2c9d0f));
 }
 .on ul > a {
   display: table !important;
