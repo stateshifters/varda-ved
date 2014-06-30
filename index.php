@@ -199,8 +199,8 @@
 							     data-270="height:0;"
 							     data-271="height:2.625em; position:fixed; left:-150px; top:15px; margin-top:0; z-index:5;"
 							     data-500="height:2.625em; left:15px; top:15px;"
-							      src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
-							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
+							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft. logo"
+							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px">
 						</div>
 						<div id="logo_text"
 							data-0="position:initial; display:inline; padding:.3em 0;"
