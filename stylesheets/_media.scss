@@ -969,6 +969,10 @@ $xwidescreen-: $xwidescreen - .01em;
     z-index: 5;
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
   nav {
     height: 4.5em;
 
@@ -1197,6 +1201,10 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
   #sandwich {
     display: block !important;
     position: fixed;
@@ -1410,6 +1418,10 @@ $xwidescreen-: $xwidescreen - .01em;
         z-index: 5;
       }
     }
+  }
+
+  .menu-wrap {
+    display: none;
   }
 
   #sandwich {

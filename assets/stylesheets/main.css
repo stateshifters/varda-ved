@@ -233,13 +233,27 @@ a:hover {
 
 .mobile-menu-wrap {
   background-color: white;
+  height: 50px;
   position: fixed;
   top: 10px;
   width: 100%;
   z-index: 4;
 }
+.mobile-menu-wrap #menu {
+  height: inherit;
+}
+.mobile-menu-wrap #menu li {
+  margin: 0;
+  padding: 0;
+}
 .mobile-menu-wrap .menu-1 {
-  visibility: hidden;
+  display: none;
+}
+.mobile-menu-wrap .sandwich-y {
+  display: none;
+}
+.mobile-menu-wrap .sandwich-x {
+  display: block;
 }
 
 .on {
@@ -254,7 +268,14 @@ a:hover {
   height: 100%;
 }
 .on .menu-1 {
-  visibility: visible;
+  display: block;
+}
+.on a:first-child:hover {
+  background-color: #d2d2d2;
+  -webkit-transition: all 0s;
+  -moz-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
 }
 .on a:first-child {
   height: 26px;
@@ -266,6 +287,12 @@ a:hover {
 .on a:first-child #sandwich {
   right: inherit;
   top: inherit;
+}
+.on a:first-child .sandwich-y {
+  display: block;
+}
+.on a:first-child .sandwich-x {
+  display: none;
 }
 .on a:nth-of-type(2) {
   background-color: #d2d2d2;
@@ -1384,6 +1411,10 @@ footer div {
     z-index: 5;
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
   nav {
     height: 4.5em;
   }
@@ -1569,6 +1600,10 @@ footer div {
     z-index: 5;
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
   #sandwich {
     display: block !important;
     position: fixed;
@@ -1743,6 +1778,10 @@ footer div {
     position: fixed;
     top: 20px;
     z-index: 5;
+  }
+
+  .menu-wrap {
+    display: none;
   }
 
   #sandwich {

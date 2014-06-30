@@ -257,10 +257,7 @@
 						data-500="top:0px;"
 					>
 						<ul id="menu">
-							<li id="sandwich">
-								<a id="menu-link" href="">
-									<img src="images/sandwich.png"></li>
-								</a>
+							
 							<li>
 								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>
@@ -279,11 +276,15 @@
 						</ul>
 					</div>
 
-					<div class="mobile-menu-wrap">
+					<div class="mobile-menu-wrap"
+						data-0="position:relative;top:0px;"
+						data-500="top:0px;"
+					>
 						<ul id="menu">
-							<a id="menu-link"	>
+							<a id="menu-link">
 								<li id="sandwich">
-									<img src="images/sandwich.png">
+									<img class="sandwich-x" src="images/sandwich.png" />
+									<img class="sandwich-y" src="images/sandwich-y.png" height="32px" width="32px"/>
 								</li>
 							</a>
 							<a class="menu-1" href="#bemutatkozas" data-menu-top="0">
