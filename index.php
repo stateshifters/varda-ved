@@ -4,6 +4,8 @@
 	<title>Várda-Véd Kft. | Tűzvédelem, Munkavédelem</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="Tűzvédelem, Munkavédelem, Munkavédelemi oktatás, Tűzvédelemi oktatás,
+    Tűzvédelemi felmérés, Munkavédelemi felmérés, Tűzvédelemi tanácsadás, Munkavédelemi tanácsadás">
     <meta name="description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!">
