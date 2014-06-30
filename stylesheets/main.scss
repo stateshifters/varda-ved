@@ -207,6 +207,162 @@ a:hover {
 
 #referenciak {
   background-color: $cerulean;
+  color: $black;
+}
+
+.ref-img {
+  margin-right: 1em;
+}
+
+.bl {
+
+  li {
+    display: initial;
+    margin-right: 1em;
+  }
+
+  li:nth-child(even) {
+    font-weight: 600;
+  }
+}
+
+.b {
+  color: $white;
+  margin: 0 auto;
+  width: 1100px;
+
+  $from: #007ea6;
+  $to: #008cb9;
+
+  .box {
+    background-color: #000;
+    background-image: -o-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
+    background-image: linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        right top,
+        color-stop(0, $from),
+        color-stop(1, $to)
+    );
+    @include box-shadow(1px 0 1px #065363);
+
+    
+
+    @include inline-block;
+    height: 200px;
+    margin: 2.57em auto 0;
+    width: 30%;
+
+    .box-logo-frame {
+      display: table;
+      height: 75%;
+    }
+
+    .box-logo {
+      display: table;
+      float: left;
+      height: 55%;
+      position: relative;
+      top: 0%;
+      width: 100%;
+    }
+
+    .box-logo-nev {
+      display: table;
+      float: left;
+      height: 20%;
+      position: relative;
+      top: 0%;
+      width: 100%;
+    }
+
+    .box-place,
+    .box-web {
+      display: table;
+      float: left;
+      height: 25%;
+      position: relative;
+    }
+
+    .box-place {
+      $darkblue: #0a7395;
+      $darkblue2: #0a6887;
+      background-color: #fff;
+      background-image: -o-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -moz-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -ms-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-gradient(
+         linear,
+          left top,
+          right top,
+          color-stop(0, $darkblue),
+          color-stop(1, $darkblue2)
+      );
+//      @include box-shadow(1px 0 1px #065363);
+      width: 35%;
+    }
+
+    .box-text {
+      display: table-cell;
+      vertical-align: middle;
+    }
+
+    .box-web {
+      $darkblue: #005b79;
+      $darkblue2: #00536e;
+      background-color: #fff;
+      background-image: -o-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -moz-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -ms-linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: linear-gradient(left , $darkblue 0%, $darkblue2 100%);
+      background-image: -webkit-gradient(
+         linear,
+          left top,
+          right top,
+          color-stop(0, $darkblue),
+          color-stop(1, $darkblue2)
+      );
+//      @include box-shadow(1px 0 1px #065363);
+      width: 65%;
+    }
+  }
+
+  .box:nth-child(even) {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .box:nth-child(2) {
+    background-color: $lima;
+
+    .box-place {
+      background-color: #29ac19;
+    }
+
+    .box-web {
+      background-color: #1a980d;
+    }
+  }
+
+  .box:nth-child(3) {
+    background-color: #058bb7;
+
+    .box-place {
+      background-color: #0c7294;
+    }
+
+    .box-web {
+      background-color: #025a78;
+    }
+  }
+
 }
 
 #kapcsolat {

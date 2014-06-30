@@ -330,6 +330,118 @@ a:hover {
 
 #referenciak {
   background-color: #00a3d8;
+  color: black;
+}
+
+.ref-img {
+  margin-right: 1em;
+}
+
+.bl li {
+  display: initial;
+  margin-right: 1em;
+}
+.bl li:nth-child(even) {
+  font-weight: 600;
+}
+
+.b {
+  color: white;
+  margin: 0 auto;
+  width: 1100px;
+}
+.b .box {
+  background-color: #000;
+  background-image: -o-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: -moz-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: -webkit-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: -ms-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: linear-gradient(to right, #007ea6 0%, #008cb9 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #007ea6), color-stop(1, #008cb9));
+  -moz-box-shadow: 1px 0 1px #065363;
+  -webkit-box-shadow: 1px 0 1px #065363;
+  box-shadow: 1px 0 1px #065363;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 200px;
+  margin: 2.57em auto 0;
+  width: 30%;
+}
+.b .box .box-logo-frame {
+  display: table;
+  height: 75%;
+}
+.b .box .box-logo {
+  display: table;
+  float: left;
+  height: 55%;
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.b .box .box-logo-nev {
+  display: table;
+  float: left;
+  height: 20%;
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.b .box .box-place,
+.b .box .box-web {
+  display: table;
+  float: left;
+  height: 25%;
+  position: relative;
+}
+.b .box .box-place {
+  background-color: #fff;
+  background-image: -o-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -moz-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -webkit-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -ms-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: linear-gradient(to right, #0a7395 0%, #0a6887 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0a7395), color-stop(1, #0a6887));
+  width: 35%;
+}
+.b .box .box-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.b .box .box-web {
+  background-color: #fff;
+  background-image: -o-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -moz-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -webkit-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -ms-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: linear-gradient(to right, #005b79 0%, #00536e 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #005b79), color-stop(1, #00536e));
+  width: 65%;
+}
+.b .box:nth-child(even) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.b .box:nth-child(2) {
+  background-color: #43c423;
+}
+.b .box:nth-child(2) .box-place {
+  background-color: #29ac19;
+}
+.b .box:nth-child(2) .box-web {
+  background-color: #1a980d;
+}
+.b .box:nth-child(3) {
+  background-color: #058bb7;
+}
+.b .box:nth-child(3) .box-place {
+  background-color: #0c7294;
+}
+.b .box:nth-child(3) .box-web {
+  background-color: #025a78;
 }
 
 #kapcsolat {
@@ -600,6 +712,10 @@ footer div {
     border-radius: 50%;
   }
 
+  .b .box {
+    margin: 1em auto 0;
+  }
+
   .text {
     font-size: 2em !important;
     line-height: 1.7em;
@@ -757,6 +873,10 @@ footer div {
     height: 70px;
   }
 
+  .b .box {
+    margin: 1em auto 0;
+  }
+
   #kapcsolat .text {
     margin: .5em auto 0;
   }
@@ -799,7 +919,7 @@ footer div {
 
   #help-nav-bg {
     position: fixed;
-    top: 70px;
+    top: 60px;
     width: 50px;
   }
 
@@ -905,10 +1025,6 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  li {
-    line-height: 1.8em !important;
-  }
-
   #tuzvedelem #extinguish {
     height: 60px;
   }
@@ -919,6 +1035,10 @@ footer div {
 
   #munkavedelem #helmet {
     height: 60px;
+  }
+
+  .b .box {
+    margin: 5.5em auto 0;
   }
 
   #kapcsolat #five-kapcs div:nth-child(3) {
@@ -970,7 +1090,7 @@ footer div {
 
   #help-nav-bg {
     right: 15px;
-    top: 70px;
+    top: 60px;
     width: 50px;
   }
 
@@ -1079,10 +1199,6 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  li {
-    line-height: 1.8em !important;
-  }
-
   #tuzvedelem #extinguish {
     height: 60px;
   }
@@ -1093,6 +1209,17 @@ footer div {
 
   #munkavedelem #helmet {
     height: 60px;
+  }
+
+  .b {
+    width: 900px;
+  }
+  .b .box {
+    height: 200px;
+    margin: 3em auto 0;
+  }
+  .b .box-text img {
+    width: 180px;
   }
 
   #kapcsolat #five-kapcs div:nth-child(3) {
@@ -1230,6 +1357,31 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
+  }
+
+  .bl li {
+    display: block;
+  }
+
+  .b {
+    margin: 0 auto;
+    width: 700px;
+  }
+  .b .box {
+    width: 60%;
+  }
+  .b .box:first-child {
+    margin: 0 auto 0;
+  }
+  .b .box:nth-child(2) {
+    margin: 2em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 2em;
   }
 
   #kapcsolat {
@@ -1382,6 +1534,36 @@ footer div {
     display: none;
   }
 
+  #referenciak .text {
+    text-align: center;
+  }
+
+  .bl li {
+    display: block;
+  }
+
+  .b {
+    margin: 0 auto;
+    width: 360px;
+  }
+  .b .box-text img {
+    width: 160px;
+  }
+  .b .box {
+    height: 160px;
+    margin: 1em auto 0;
+    width: 100%;
+  }
+  .b .box:first-child {
+    margin: 0 auto 0;
+  }
+  .b .box:nth-child(2) {
+    margin: 1em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 1em;
+  }
+
   #kapcsolat {
     height: initial;
     width: 100%;
@@ -1531,6 +1713,36 @@ footer div {
 
   .list li .square:nth-child(even) {
     display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
+  }
+
+  .bl li {
+    display: block;
+  }
+
+  .b {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .b .box-text img {
+    width: 140px;
+  }
+  .b .box {
+    height: 130px;
+    margin: 1em auto 0;
+    width: 100%;
+  }
+  .b .box:first-child {
+    margin: 0 auto 0;
+  }
+  .b .box:nth-child(2) {
+    margin: 1em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 1em;
   }
 
   #kapcsolat {
