@@ -263,6 +263,10 @@ a:hover {
   width: 100%;
   z-index: 10;
 }
+.on span {
+  color: white;
+  font-weight: 600;
+}
 .on ul {
   clear: both;
   height: 100%;
@@ -1425,6 +1429,10 @@ footer div {
     z-index: 5;
   }
 
+  .mobile-menu-wrap span {
+    font-size: 2.1em;
+  }
+
   #sandwich {
     display: block !important;
     position: fixed;
@@ -1602,6 +1610,10 @@ footer div {
 
   .menu-wrap {
     display: none;
+  }
+
+  .mobile-menu-wrap span {
+    font-size: 1.5em;
   }
 
   #sandwich {
