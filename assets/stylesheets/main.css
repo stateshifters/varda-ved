@@ -137,7 +137,7 @@ nav #menu_wrap #menu {
   margin: 0 auto;
   width: 800px;
 }
-nav #menu li {
+nav #menu a {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
@@ -250,6 +250,10 @@ a:hover {
   top: 25px;
   width: 32px;
 }
+#menu_wrap_sandwich a:first-child #sandwich {
+  right: inherit;
+  top: inherit;
+}
 #menu_wrap_sandwich a:nth-of-type(2) {
   background-color: #d2d2d2;
   height: 20%;
@@ -277,6 +281,7 @@ a:hover {
   z-index: 15;
 }
 #menu_wrap_sandwich li {
+  display: table-cell;
   vertical-align: middle;
 }
 
@@ -1387,7 +1392,7 @@ footer div {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: -9px;
+    top: 20px;
     visibility: visible;
   }
   #sandwich #menu-link:hover {
@@ -1570,7 +1575,7 @@ footer div {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: -9px;
+    top: 20px;
     visibility: visible;
   }
   #sandwich #menu-link:hover {
@@ -1754,7 +1759,7 @@ footer div {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: -9px;
+    top: 20px;
     visibility: visible;
   }
   #sandwich #menu-link:hover {

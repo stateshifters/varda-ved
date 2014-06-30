@@ -252,7 +252,7 @@
 						</div>
 					</div>
 
-					<div id="menu_wrap"
+					<!--div id="menu_wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
@@ -277,9 +277,9 @@
 								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
 							</li>
 						</ul>
-					</div>
+					</div-->
 
-					<div id="menu_wrap_sandwich"
+					<div id="menu_wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>

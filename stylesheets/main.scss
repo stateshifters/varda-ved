@@ -122,6 +122,11 @@ a:hover {
     right: 15px;
     top: 25px;
     width: 32px;
+
+    #sandwich {
+      right: inherit;
+      top: inherit;
+    }
   }
 
   a:nth-of-type(2) {
@@ -157,6 +162,7 @@ a:hover {
   }
 
   li {
+    display: table-cell;
     vertical-align: middle;
   }
 }
