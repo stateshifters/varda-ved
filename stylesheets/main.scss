@@ -62,15 +62,6 @@ a:active {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: $pomegranate;
-  color: $white;
-  padding: .3em 0;
-  text-decoration: none;
-
-  @include transition(all .3s);
-}
-
 #help {
   position: fixed;
   width: 100%;
@@ -158,10 +149,10 @@ a:hover {
     display: block;
   }
 
-  .menu-link:hover {
-    background-color: $alto;
-    @include transition(all 0s);
-  }
+//  .menu-link:hover {
+//    background-color: $alto;
+//    @include transition(all 0s);
+//  }
 
   .menu-link {
     height: 26px;
@@ -196,7 +187,7 @@ a:hover {
     background-image: -webkit-gradient(
        linear,
         left top,
-        right top,
+        left top,
         color-stop(0, $from),
         color-stop(1, $to)
     );

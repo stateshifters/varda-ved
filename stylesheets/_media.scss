@@ -1021,7 +1021,7 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: visible;
 
     .menu-link:hover {
-      background-color: $white;
+     // background-color: $white;
       margin: 0;
       padding: 0;
     }
@@ -1258,7 +1258,7 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: visible;
 
     .menu-link:hover {
-      background-color: $white;
+    //  background-color: $white;
       margin: 0;
       padding: 0;
     }
@@ -1274,7 +1274,7 @@ $xwidescreen-: $xwidescreen - .01em;
     color: $black;
     font-size: 1.4em;
     font-weight: 400;
-    line-height: 1.65em;
+    line-height: 1.8em;
     padding: 0;
     text-align: left;
     width: 95% !important;
@@ -1490,7 +1490,7 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: visible;
 
     .menu-link:hover {
-      background-color: $white;
+      //background-color: $white;
       margin: 0;
       padding: 0;
     }
@@ -1503,9 +1503,9 @@ $xwidescreen-: $xwidescreen - .01em;
 
   .text {
     color: $black;
-    font-size: 1.2em;
+    font-size: 1.15em;
     font-weight: 400;
-    line-height: 1.5em;
+    line-height: 1.8em;
     padding: 0;
     text-align: left;
     width: 95% !important;
@@ -1611,7 +1611,7 @@ $xwidescreen-: $xwidescreen - .01em;
     width: 100%;
 
     .text {
-      line-height: .7em;
+      line-height: 1em;
       text-align: center;
     }
 
@@ -1672,6 +1672,20 @@ $xwidescreen-: $xwidescreen - .01em;
   //    height: 30px;
   //  }
 }
+
+@media only screen and (min-width: $monitor) {
+  a:hover {
+    background-color: $pomegranate;
+    color: $white;
+    padding: .3em 0;
+    text-decoration: none;
+
+    @include transition(all .3s);
+  }
+}
+
+
+
 
 @media only screen and (max-width: $tablet-) and (orientation : landscape) {
   .mobile-menu-wrap-open {
