@@ -152,16 +152,22 @@ a:active {
   .menu-link {
     height: 26px;
     position: fixed;
-    right: 15px;
-    top: 25px;
-    width: 32px;
-
-    .sandwich-y {
-      display: block;
-    }    
+    width: 32px;    
 
     .sandwich-x {
       display: none;
+    }
+
+    .sandwich-y {
+      display: block;
+    }
+
+    #sandwich2 {
+      margin: 0!important;
+      padding: 0!important;
+      position: fixed;
+      right: 20px; 
+      top: 23px;
     }
   }
 

@@ -270,15 +270,20 @@ a:active {
 .mobile-menu-wrap-open .menu-link {
   height: 26px;
   position: fixed;
-  right: 15px;
-  top: 25px;
   width: 32px;
+}
+.mobile-menu-wrap-open .menu-link .sandwich-x {
+  display: none;
 }
 .mobile-menu-wrap-open .menu-link .sandwich-y {
   display: block;
 }
-.mobile-menu-wrap-open .menu-link .sandwich-x {
-  display: none;
+.mobile-menu-wrap-open .menu-link #sandwich2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: fixed;
+  right: 20px;
+  top: 23px;
 }
 .mobile-menu-wrap-open .bemutatkozas {
   background-color: #d2d2d2;
