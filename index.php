@@ -281,33 +281,33 @@
 						data-500="top:0px;"
 					>
 						<ul id="menu">
-							<a id="menu-link">
+							<a class="menu-link">
 								<li id="sandwich">
 									<img class="sandwich-x" src="images/sandwich.png" />
 									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px"/>
 								</li>
 							</a>
-							<a class="menu-1" href="#bemutatkozas" data-menu-top="0">
+							<a class="bemutatkozas menu-1" href="#bemutatkozas" data-menu-top="0">
 								<li>
 								<span>bemutatkozás</span>
 								</li>
 							</a>
-							<a class="menu-1" href="#tuzvedelem" data-menu-top="3400">
+							<a class="tuzvedelem menu-1" href="#tuzvedelem" data-menu-top="3400">
 								<li>
 								<span>tűzvédelem</span>
 								</li>
 							</a>
-							<a class="menu-1" href="#munkavedelem" data-menu-top="14600">
+							<a class="munkavedelem menu-1" href="#munkavedelem" data-menu-top="14600">
 								<li>
 								<span>munkavédelem</span>
 								</li>
 							</a>
-							<a class="menu-1" href="#referenciak" data-menu-top="28800">
+							<a class="referenciak menu-1" href="#referenciak" data-menu-top="28800">
 								<li>
 								<span>referenciák</span>
 								</li>
 							</a>
-							<a class="menu-1" href="#kapcsolat" data-menu-top="32700">
+							<a class="kapcsolatok menu-1" href="#kapcsolat" data-menu-top="32700">
 								<li>
 								<span>kapcsolat</span>
 								</li>

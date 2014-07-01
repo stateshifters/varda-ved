@@ -155,12 +155,12 @@ a:hover {
     display: block;
   }
 
-  a:first-child:hover {
+  .menu-link:hover {
     background-color: $alto;
     @include transition(all 0s);
   }
 
-  a:first-child {
+  .menu-link {
     height: 26px;
     position: fixed;
     right: 15px;
@@ -181,7 +181,7 @@ a:hover {
     }
   }
 
-  a:nth-of-type(2) {
+  .bemutatkozas {
     $from: #b6b6b6;
     $to: $alto;
     background-color: $alto;
@@ -201,7 +201,7 @@ a:hover {
     width: 100%;
   }
 
-  a:nth-of-type(3) {
+  .tuzvedelem {
     $from: #d21a1a;
     $to: $pomegranate;
     background-color: $pomegranate;
@@ -219,7 +219,7 @@ a:hover {
     );
   }
 
-  a:nth-of-type(4) {
+  .munkavedelem {
     $from: $pizazz;
     $to: #fa7103;
     background-color: $pizazz;
@@ -237,7 +237,7 @@ a:hover {
     );
   }
 
-  a:nth-of-type(5) {
+  .referenciak {
     $from: #0c85ac;
     $to: $cerulean;
     background-color: $cerulean;
@@ -255,7 +255,7 @@ a:hover {
     );
   }
 
-  a:nth-of-type(6) {
+  .kapcsolatok {
     $from: $lima;
     $to: #2c9d0f;
     background-color: $lima;
