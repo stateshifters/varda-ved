@@ -1758,6 +1758,24 @@ $xwidescreen-: $xwidescreen - .01em;
       );
     }
 
+    .kapcsolatok:active {
+      $from: $lima;
+      $to: #2c9d0f;
+      background-color: $lima;
+      background-image: -o-linear-gradient(top , $from 0%, $to 100%);
+      background-image: -moz-linear-gradient(top , $from 0%, $to 100%);
+      background-image: -webkit-linear-gradient(top , $from 0%, $to 100%);
+      background-image: -ms-linear-gradient(top , $from 0%, $to 100%);
+      background-image: linear-gradient(top , $from 0%, $to 100%);
+      background-image: -webkit-gradient(
+         linear,
+          left top,
+          left top,
+          color-stop(0, $from),
+          color-stop(1, $to)
+      );
+    }
+
     a:active {
       text-decoration: none;
     }
