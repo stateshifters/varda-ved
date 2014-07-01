@@ -184,10 +184,13 @@ window.onload = function () {
 
 	$(function() {
 		$('#sandwich').click(function() {
-		  $('nav.mobile-menu-wrap').toggleClass('on');
+		  $('nav.mobile-menu-wrap-open').toggleClass('off');
 		});
 		$('.menu-1').click(function() {
-		  $('nav.mobile-menu-wrap').toggleClass('on');
+		  $('nav.mobile-menu-wrap-open').toggleClass('off');
+		});
+		$('#sandwich2').click(function() {
+		  $('nav.mobile-menu-wrap-open').toggleClass('off');
 		});
 	});
 };

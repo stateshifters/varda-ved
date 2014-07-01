@@ -18,6 +18,10 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none!important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -184,6 +188,10 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none!important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -343,6 +351,10 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none!important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -499,6 +511,10 @@ $xwidescreen-: $xwidescreen - .01em;
 @media only screen and (min-width: $widescreen) and (max-width: $mwidescreen-) {
   #wrap {
     visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none!important;
   }
 
   #loader {
@@ -722,6 +738,10 @@ $xwidescreen-: $xwidescreen - .01em;
 @media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
   #wrap {
     visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none!important;
   }
 
   #loader {
@@ -1615,7 +1635,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (max-width: $tablet-) and (orientation : landscape) {
-  .on {
+  .mobile-menu-wrap-open {
 
 //    a:nth-of-type(2) {
 //      height: 20%;

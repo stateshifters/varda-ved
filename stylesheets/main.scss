@@ -102,6 +102,9 @@ a:hover {
   }
 }
 
+.off {
+  display: none!important;
+}
 
 .mobile-menu-wrap {
   background-color: $white;
@@ -134,12 +137,12 @@ a:hover {
 }
 
 
-.on {
+.mobile-menu-wrap-open {
   display: block;
   height: 100%;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
 
   span {
     color: $white;

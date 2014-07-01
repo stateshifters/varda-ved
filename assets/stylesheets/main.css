@@ -231,6 +231,10 @@ a:hover {
   right: 0;
 }
 
+.off {
+  display: none !important;
+}
+
 .mobile-menu-wrap {
   background-color: white;
   height: 50px;
@@ -256,49 +260,49 @@ a:hover {
   display: block;
 }
 
-.on {
+.mobile-menu-wrap-open {
   display: block;
   height: 100%;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
 }
-.on span {
+.mobile-menu-wrap-open span {
   color: white;
   font-weight: 600;
 }
-.on ul {
+.mobile-menu-wrap-open ul {
   clear: both;
   height: 100%;
 }
-.on .menu-1 {
+.mobile-menu-wrap-open .menu-1 {
   display: block;
 }
-.on .menu-link:hover {
+.mobile-menu-wrap-open .menu-link:hover {
   background-color: #d2d2d2;
   -webkit-transition: all 0s;
   -moz-transition: all 0s;
   -o-transition: all 0s;
   transition: all 0s;
 }
-.on .menu-link {
+.mobile-menu-wrap-open .menu-link {
   height: 26px;
   position: fixed;
   right: 15px;
   top: 25px;
   width: 32px;
 }
-.on .menu-link #sandwich {
+.mobile-menu-wrap-open .menu-link #sandwich {
   right: inherit;
   top: inherit;
 }
-.on .menu-link .sandwich-y {
+.mobile-menu-wrap-open .menu-link .sandwich-y {
   display: block;
 }
-.on .menu-link .sandwich-x {
+.mobile-menu-wrap-open .menu-link .sandwich-x {
   display: none;
 }
-.on .bemutatkozas {
+.mobile-menu-wrap-open .bemutatkozas {
   background-color: #d2d2d2;
   background-image: -o-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
   background-image: -moz-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
@@ -309,7 +313,7 @@ a:hover {
   height: 20%;
   width: 100%;
 }
-.on .tuzvedelem {
+.mobile-menu-wrap-open .tuzvedelem {
   background-color: #ee3333;
   background-image: -o-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
   background-image: -moz-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
@@ -318,7 +322,7 @@ a:hover {
   background-image: linear-gradient(to right, #d21a1a 0%, #ee3333 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
 }
-.on .munkavedelem {
+.mobile-menu-wrap-open .munkavedelem {
   background-color: #ff9000;
   background-image: -o-linear-gradient(left, #ff9000 0%, #fa7103 100%);
   background-image: -moz-linear-gradient(left, #ff9000 0%, #fa7103 100%);
@@ -327,7 +331,7 @@ a:hover {
   background-image: linear-gradient(to right, #ff9000 0%, #fa7103 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff9000), color-stop(1, #fa7103));
 }
-.on .referenciak {
+.mobile-menu-wrap-open .referenciak {
   background-color: #00a3d8;
   background-image: -o-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
   background-image: -moz-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
@@ -336,7 +340,7 @@ a:hover {
   background-image: linear-gradient(to right, #0c85ac 0%, #00a3d8 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0c85ac), color-stop(1, #00a3d8));
 }
-.on .kapcsolatok {
+.mobile-menu-wrap-open .kapcsolatok {
   background-color: #43c423;
   background-image: -o-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
   background-image: -moz-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
@@ -345,7 +349,7 @@ a:hover {
   background-image: linear-gradient(to right, #43c423 0%, #2c9d0f 100%);
   background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #43c423), color-stop(1, #2c9d0f));
 }
-.on ul > a {
+.mobile-menu-wrap-open ul > a {
   display: table !important;
   float: left;
   height: 40%;
@@ -354,7 +358,7 @@ a:hover {
   width: 50%;
   z-index: 15;
 }
-.on li {
+.mobile-menu-wrap-open li {
   display: table-cell;
   vertical-align: middle;
 }
@@ -645,6 +649,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -786,6 +794,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -923,6 +935,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -1058,6 +1074,10 @@ footer div {
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
   #wrap {
     visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
   }
 
   #loader {
@@ -1237,6 +1257,10 @@ footer div {
 @media only screen and (min-width: 64em) and (max-width: 79.99em) {
   #wrap {
     visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
   }
 
   #loader {
@@ -1967,7 +1991,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 47.99em) and (orientation: landscape) {
-  .on ul > a {
+  .mobile-menu-wrap-open ul > a {
     display: table !important;
     float: left;
     height: 20%;
