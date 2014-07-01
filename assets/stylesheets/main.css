@@ -1966,3 +1966,14 @@ footer div {
     text-decoration: underline;
   }
 }
+@media only screen and (max-width: 47.99em) and (orientation: landscape) {
+  .on ul > a {
+    display: table !important;
+    float: left;
+    height: 20%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    z-index: 15;
+  }
+}
