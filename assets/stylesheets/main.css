@@ -1483,7 +1483,7 @@ footer div {
     z-index: 5;
   }
 
-  .mobile-menu-wrap span {
+  .mobile-menu-wrap-open span {
     font-size: 2.1em;
   }
 
@@ -1666,7 +1666,7 @@ footer div {
     display: none;
   }
 
-  .mobile-menu-wrap span {
+  .mobile-menu-wrap-open span {
     font-size: 1.5em;
   }
 
