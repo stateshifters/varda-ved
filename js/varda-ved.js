@@ -161,7 +161,7 @@ window.onload = function () {
 			$('#wrap').hide();
 			$('#wrap').css('visibility', 'visible');
 			$('#loader').hide();
-			$('#wrap').show({duration:1000});
+			$('#wrap').show({duration:300});
 			$('#loader').remove();
 		} else {
 			$('#loader').remove();
