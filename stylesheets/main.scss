@@ -149,22 +149,12 @@ a:active {
     display: block;
   }
 
-//  .menu-link:hover {
-//    background-color: $alto;
-//    @include transition(all 0s);
-//  }
-
   .menu-link {
     height: 26px;
     position: fixed;
     right: 15px;
     top: 25px;
     width: 32px;
-
-    #sandwich {
-      right: inherit;
-      top: inherit;
-    }
 
     .sandwich-y {
       display: block;

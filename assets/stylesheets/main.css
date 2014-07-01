@@ -274,10 +274,6 @@ a:active {
   top: 25px;
   width: 32px;
 }
-.mobile-menu-wrap-open .menu-link #sandwich {
-  right: inherit;
-  top: inherit;
-}
 .mobile-menu-wrap-open .menu-link .sandwich-y {
   display: block;
 }
