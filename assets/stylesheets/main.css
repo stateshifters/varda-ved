@@ -2008,6 +2008,29 @@ footer div {
     transition: all 0.3s;
   }
 }
+@media only screen and (max-width: 63.99em) {
+  .mobile-menu-wrap-open .bemutatkozas:active {
+    background-color: #d2d2d2;
+    background-image: -o-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -moz-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -webkit-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -ms-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: linear-gradient(to bottom, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b6b6b6), color-stop(1, #d2d2d2));
+  }
+  .mobile-menu-wrap-open .tuzvedelem:active {
+    background-color: #ee3333;
+    background-image: -o-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -moz-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -webkit-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -ms-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: linear-gradient(to bottom, #d21a1a 0%, #ee3333 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
+  }
+  .mobile-menu-wrap-open a:active {
+    text-decoration: none;
+  }
+}
 @media only screen and (max-width: 47.99em) and (orientation: landscape) {
   .mobile-menu-wrap-open ul > a {
     display: table !important;
