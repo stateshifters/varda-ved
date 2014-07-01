@@ -187,7 +187,7 @@
 			     data-0="height: 16em;position:fixed;top:0;"
 			     data-400="position:fixed;height:3.75em;top:0;">
 
-				<ul class="navigation">
+				<div class="navigation">
 					<div id="logo"
 					     data-0="height:12.5em;"
 					     data-150="height:8em;"
@@ -316,7 +316,7 @@
 					</nav>
 
 
-				</ul>
+				</div>
 			</div>
 		</header>
 
