@@ -1033,6 +1033,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .text {
+    color: $black;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.7em;
@@ -1086,6 +1087,11 @@ $xwidescreen-: $xwidescreen - .01em;
   .list {
 
     li {
+
+      .square {
+        background: $black;
+      }
+
       .square:nth-child(even) {
         display: none;
       }
@@ -1137,6 +1143,11 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #five-kapcs {
+
+      a {
+        color: $black;
+      }
+
       text-align: center;
       width: 100%;
     }
@@ -1156,6 +1167,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
       #left,
       #right {
+        color: $black;
         margin: 1em 0;
         width: 100%;
       }
@@ -1259,6 +1271,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .text {
+    color: $black;
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1.65em;
@@ -1305,6 +1318,11 @@ $xwidescreen-: $xwidescreen - .01em;
   .list {
 
     li {
+
+      .square {
+        background: $black;
+      }
+
       .square:nth-child(even) {
         display: none;
       }
@@ -1363,6 +1381,11 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #five-kapcs {
+
+      a {
+        color: $black;
+      }
+
       text-align: center;
       width: 100%;
     }
@@ -1382,6 +1405,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
       #left,
       #right {
+        color: $black;
         margin: 1em 0;
         width: 100%;
       }
@@ -1478,6 +1502,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .text {
+    color: $black;
     font-size: 1.2em;
     font-weight: 400;
     line-height: 1.5em;
@@ -1528,6 +1553,11 @@ $xwidescreen-: $xwidescreen - .01em;
   .list {
 
     li {
+
+      .square {
+        background: $black;
+      }
+
       .square:nth-child(even) {
         display: none;
       }
@@ -1586,6 +1616,11 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #five-kapcs {
+
+      a {
+        color: $black;
+      }
+
       text-align: center;
       width: 100%;
     }
@@ -1605,6 +1640,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
       #left,
       #right {
+        color: $black;
         margin: 1em 0;
         width: 100%;
       }
