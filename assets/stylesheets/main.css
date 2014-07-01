@@ -2027,6 +2027,15 @@ footer div {
     background-image: linear-gradient(to bottom, #d21a1a 0%, #ee3333 100%);
     background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
   }
+  .mobile-menu-wrap-open .munkavedelem:active {
+    background-color: #ff9000;
+    background-image: -o-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -moz-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -webkit-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -ms-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: linear-gradient(to bottom, #ff9000 0%, #fa7103 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #ff9000), color-stop(1, #fa7103));
+  }
   .mobile-menu-wrap-open a:active {
     text-decoration: none;
   }
