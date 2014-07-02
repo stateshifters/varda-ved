@@ -188,12 +188,12 @@
 	    </div>
 
 		<!--div id="info">0</div-->
-		<section id="navigation" class="homeSlide">
-			<nav id="main_nav"
+		<header id="navigation" class="homeSlide">
+			<div id="main_nav"
 			     data-0="height: 16em;position:fixed;top:0;"
 			     data-400="position:fixed;height:3.75em;top:0;">
 
-				<ul class="navigation">
+				<div class="navigation">
 					<div id="logo"
 					     data-0="height:12.5em;"
 					     data-150="height:8em;"
@@ -259,15 +259,12 @@
 						</div>
 					</div>
 
-					<div id="menu_wrap"
+					<nav class="menu-wrap"
 						data-0="position:relative;top:0px;"
 						data-500="top:0px;"
 					>
 						<ul id="menu">
-							<li id="sandwich">
-								<a id="menu-link" href="">
-									<img src="images/sandwich.png"></li>
-								</a>
+							
 							<li>
 								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>
@@ -284,10 +281,83 @@
 								<a href="#kapcsolat" data-menu-top="32700"><span>kapcsolat</span></a>
 							</li>
 						</ul>
-					</div>
-				</ul>
-			</nav>
-		</section>
+					</nav>
+
+					<nav class="mobile-menu-wrap">
+						<ul id="menu">
+							<a class="menu-link">
+								<li id="sandwich">
+									<img class="sandwich-x" src="images/sandwich.png" />
+								</li>
+							</a>
+							<a class="bemutatkozas menu-1" href="#bemutatkozas" data-menu-top="0">
+								<li>
+								<span>bemutatkozás</span>
+								</li>
+							</a>
+							<a class="tuzvedelem menu-1" href="#tuzvedelem" data-menu-top="3400">
+								<li>
+								<span>tűzvédelem</span>
+								</li>
+							</a>
+							<a class="munkavedelem menu-1" href="#munkavedelem" data-menu-top="14600">
+								<li>
+								<span>munkavédelem</span>
+								</li>
+							</a>
+							<a class="referenciak menu-1" href="#referenciak" data-menu-top="28800">
+								<li>
+								<span>referenciák</span>
+								</li>
+							</a>
+							<a class="kapcsolatok menu-1" href="#kapcsolat" data-menu-top="32700">
+								<li>
+								<span>kapcsolat</span>
+								</li>
+							</a>
+						</ul>
+					</nav>
+
+
+					<nav class="mobile-menu-wrap-open off">
+						<ul id="menu">
+							<a class="menu-link">
+								<li id="sandwich2">
+									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px"/>
+								</li>
+							</a>
+							<a class="bemutatkozas menu-1" href="#bemutatkozas" data-menu-top="0">
+								<li>
+								<span>bemutatkozás</span>
+								</li>
+							</a>
+							<a class="tuzvedelem menu-1" href="#tuzvedelem" data-menu-top="3400">
+								<li>
+								<span>tűzvédelem</span>
+								</li>
+							</a>
+							<a class="munkavedelem menu-1" href="#munkavedelem" data-menu-top="14600">
+								<li>
+								<span>munkavédelem</span>
+								</li>
+							</a>
+							<a class="referenciak menu-1" href="#referenciak" data-menu-top="28800">
+								<li>
+								<span>referenciák</span>
+								</li>
+							</a>
+							<a class="kapcsolatok menu-1" href="#kapcsolat" data-menu-top="32700">
+								<li>
+								<span>kapcsolat</span>
+								</li>
+							</a>
+						</ul>
+					</nav>
+
+
+				</div>
+			</div>
+		</header>
 
 
 		<section id="bemutatkozas" class="homeSlide"
@@ -811,7 +881,7 @@
 					data-35200="opacity:1; "
 				>
 					<div id="left">
-						<img class="rounded" src="images/gyula.jpg"
+						<img class="rounded" src="images/gyula-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px; "
 							data-34500="opacity:1; height:120px; width:120px;"
                             alt="Szűrös Gyula" title="Szűrös Gyula"
@@ -821,7 +891,7 @@
 					</div>
 
 					<div id="right">
-						<img class="rounded" src="images/csaba.jpg"
+						<img class="rounded" src="images/csaba-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px;"
 							data-34500="opacity:1; height:120px; width:120px;"
                             alt="Szűrös Csaba" title="Szűrös Csaba"
