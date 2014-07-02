@@ -27,7 +27,9 @@
 					Várda-Véd Kft. szakembereire!" />
 
     <meta property="twitter:card" content="summary" />
-
+    <script type="application/javascript">
+        document.addEventListener("touchstart", function(){}, true);
+    </script>
 </head>
 
 <body>

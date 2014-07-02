@@ -65,6 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 a,
 img {
+  -webkit-tap-highlight-color: transparent;
   border: 0;
   outline: none;
 }
