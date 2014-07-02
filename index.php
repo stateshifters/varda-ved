@@ -745,7 +745,7 @@
 						<div class="box-place">
 							<span class="box-text upp bold">Kisvárda</span>
 						</div>
-						<a href="http://www.madisonpub.hu">
+						<a href="http://www.madisonpub.hu" target="_blank">
 							<div class="box-web">
 								<span class="box-text">
 									www.madisonpub.hu
@@ -768,7 +768,7 @@
 						<div class="box-place">
 							<span class="box-text upp bold">Kisvárda</span>
 						</div>
-						<a href="http://www.caroflex.hu">
+						<a href="http://www.caroflex.hu" target="_blank">
 							<div class="box-web">
 								<span class="box-text">
 									www.caroflex.hu
@@ -791,7 +791,7 @@
 						<div class="box-place">
 							<span class="box-text upp bold">Debrecen</span>
 						</div>
-						<a href="http://www.pirehab.hu">
+						<a href="http://www.pirehab.hu" target="_blank">
 							<div class="box-web">
 								<span class="box-text">
 									www.pirehab.hu
