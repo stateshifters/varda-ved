@@ -2071,3 +2071,9 @@ footer div {
     z-index: 15;
   }
 }
+@media screen and (min-width: 64em) {
+  #map {
+    height: calc(100% - 60px) !important;
+    margin-top: 60px;
+  }
+}
