@@ -11,5 +11,6 @@ RewriteEngine ON
 
 RewriteBase /
 RewriteCond  %{REQUEST_FILENAME} !robots.txt
+RewriteCond  %{REQUEST_FILENAME} !sitemap.xml
 RewriteCond  %{REQUEST_URI} !^/(robots\.txt|fonts|images|stylesheets|assets|manifest\.appcache).*$
 RewriteRule  ^(.*)$ index.php [QSA,L]
