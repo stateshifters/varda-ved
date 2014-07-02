@@ -62,15 +62,6 @@ a:active {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: $pomegranate;
-  color: $white;
-  padding: .3em 0;
-  text-decoration: none;
-
-  @include transition(all .3s);
-}
-
 #help {
   position: fixed;
   width: 100%;
@@ -102,6 +93,194 @@ a:hover {
   }
 }
 
+.off {
+  display: none!important;
+}
+
+.mobile-menu-wrap {
+  background-color: $white;
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 4;
+
+  #menu {
+    height: inherit;
+
+    li {
+      margin: 0!important;
+      padding: 0!important;
+    }
+  }
+
+  .menu-1 {
+    display: none;
+  }
+
+  .sandwich-y {
+    display: none;
+  }
+
+  .sandwich-x {
+    display: block;
+  }
+}
+
+
+.mobile-menu-wrap-open {
+  display: block;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+
+  span {
+    color: $white;
+    font-weight: 600;
+  }
+
+  ul {
+    clear: both;
+    height: 100%;
+  }
+
+  .menu-1 {
+    display: block;
+  }
+
+  .menu-link {
+    height: 26px;
+    position: fixed;
+    width: 32px;    
+
+    .sandwich-x {
+      display: none;
+    }
+
+    .sandwich-y {
+      display: block;
+    }
+
+    #sandwich2 {
+      margin: 0!important;
+      padding: 0!important;
+      position: fixed;
+      right: 20px; 
+      top: 23px;
+    }
+  }
+
+  .bemutatkozas {
+    $from: #b6b6b6;
+    $to: $alto;
+    background-color: $alto;
+    background-image: -o-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
+    background-image: linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        left top,
+        color-stop(0, $from),
+        color-stop(1, $to)
+    );
+    height: 20%;
+    width: 100%;
+  }
+
+  .tuzvedelem {
+    $from: #d21a1a;
+    $to: $pomegranate;
+    background-color: $pomegranate;
+    background-image: -o-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
+    background-image: linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        right top,
+        color-stop(0, $from),
+        color-stop(1, $to)
+    );
+  }
+
+  .munkavedelem {
+    $from: $pizazz;
+    $to: #fa7103;
+    background-color: $pizazz;
+    background-image: -o-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
+    background-image: linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        right top,
+        color-stop(0, $from),
+        color-stop(1, $to)
+    );
+  }
+
+  .referenciak {
+    $from: #0c85ac;
+    $to: $cerulean;
+    background-color: $cerulean;
+    background-image: -o-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
+    background-image: linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        right top,
+        color-stop(0, $from),
+        color-stop(1, $to)
+    );
+  }
+
+  .kapcsolatok {
+    $from: $lima;
+    $to: #2c9d0f;
+    background-color: $lima;
+    background-image: -o-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);
+    background-image: -ms-linear-gradient(left , $from 0%, $to 100%);
+    background-image: linear-gradient(left , $from 0%, $to 100%);
+    background-image: -webkit-gradient(
+       linear,
+        left top,
+        right top,
+        color-stop(0, $from),
+        color-stop(1, $to)
+    );
+  }
+
+  ul>a {
+    display: table!important;
+    float: left;
+    height: 40%;
+    margin: 0!important;
+    padding: 0!important;
+    width: 50%;
+    z-index: 15;
+  }
+
+  li {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  
+}
+
 #logo {
 
   img {
@@ -111,7 +290,7 @@ a:hover {
 }
 
 #menu,
-#menu_wrap {
+.menu_wrap {
   z-index: 1;
 }
 
@@ -152,6 +331,7 @@ a:hover {
 #referenciak,
 #kapcsolat {
   height: 100%;
+  padding-bottom: .0001em;
   position: relative;
   width: 100%;
 }
