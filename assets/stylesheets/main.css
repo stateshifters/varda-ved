@@ -2073,6 +2073,8 @@ footer div {
 }
 @media screen and (min-width: 64em) {
   #map {
+    height: -moz-calc(100% - 60px) !important;
+    height: -webkit-calc(100% - 60px) !important;
     height: calc(100% - 60px) !important;
     margin-top: 60px;
   }
