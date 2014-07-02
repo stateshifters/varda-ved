@@ -1,3 +1,4 @@
+/* global enquire: false, Modernizr: false, History: false, ga: false*/
 window.onload = function () {
 
 	var s;
@@ -110,7 +111,7 @@ window.onload = function () {
 
 	function initMenu(s) {
 		skrollr.menu.init(s, {
-			
+
 			animate: false,
 
 			easing: 'sqrt',
