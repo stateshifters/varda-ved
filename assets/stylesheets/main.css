@@ -1,0 +1,2081 @@
+html {
+  height: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+img {
+  border: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  background-color: #f8f8f8;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+#stripe {
+  height: .3125em;
+  width: 100%;
+  z-index: 1000;
+}
+#stripe .stripe_all {
+  float: left;
+  height: inherit;
+  width: 20%;
+}
+#stripe #stripe_1 {
+  background-color: #d2d2d2;
+}
+#stripe #stripe_2 {
+  background-color: #ee3333;
+}
+#stripe #stripe_3 {
+  background-color: #ff9000;
+}
+#stripe #stripe_4 {
+  background-color: #00a3d8;
+}
+#stripe #stripe_5 {
+  background-color: #43c423;
+}
+
+#main_nav {
+  background-color: #f8f8f8;
+  font-size: 1em;
+  height: 12.875em;
+  left: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 100;
+}
+#main_nav #logo {
+  background-color: #f8f8f8;
+}
+#main_nav #logo #logo_pic {
+  position: relative;
+}
+#main_nav #logo #logo_text {
+  font-weight: 600;
+  height: 2em;
+  padding-bottom: 1em;
+  padding-top: .5em;
+  position: relative;
+}
+#main_nav .menu-wrap {
+  background-color: white;
+  font-weight: 300;
+  width: 100%;
+}
+#main_nav .menu-wrap #menu {
+  display: table;
+  margin: 0 auto;
+  width: 800px;
+}
+#main_nav #menu li {
+  display: table-cell;
+  margin-top: 1em;
+  padding: 1em 0;
+  z-index: 1001;
+}
+#main_nav #menu #sandwich {
+  display: none;
+}
+
+h1 {
+  font-size: 2em;
+  padding-bottom: 1.5em;
+}
+
+.title {
+  color: black;
+}
+
+.upp {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.text {
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  max-width: 1000px;
+  padding: 1em 0;
+  text-align: center;
+  width: 95%;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+a {
+  color: black;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+#help {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+#help #arrow {
+  bottom: 20px;
+  margin: auto 40%;
+  position: fixed;
+  width: 20%;
+}
+#help #arrow img {
+  color: #ee3333;
+  height: 30px;
+}
+#help #arrow p {
+  color: #ee3333;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+#help #help-nav-bg {
+  height: 100%;
+  position: fixed;
+  right: 0;
+}
+
+.off {
+  display: none !important;
+}
+
+.mobile-menu-wrap {
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 4;
+}
+.mobile-menu-wrap #menu {
+  height: inherit;
+}
+.mobile-menu-wrap #menu li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.mobile-menu-wrap .menu-1 {
+  display: none;
+}
+.mobile-menu-wrap .sandwich-y {
+  display: none;
+}
+.mobile-menu-wrap .sandwich-x {
+  display: block;
+}
+
+.mobile-menu-wrap-open {
+  display: block;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.mobile-menu-wrap-open span {
+  color: white;
+  font-weight: 600;
+}
+.mobile-menu-wrap-open ul {
+  clear: both;
+  height: 100%;
+}
+.mobile-menu-wrap-open .menu-1 {
+  display: block;
+}
+.mobile-menu-wrap-open .menu-link {
+  height: 26px;
+  position: fixed;
+  width: 32px;
+}
+.mobile-menu-wrap-open .menu-link .sandwich-x {
+  display: none;
+}
+.mobile-menu-wrap-open .menu-link .sandwich-y {
+  display: block;
+}
+.mobile-menu-wrap-open .menu-link #sandwich2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: fixed;
+  right: 20px;
+  top: 23px;
+}
+.mobile-menu-wrap-open .bemutatkozas {
+  background-color: #d2d2d2;
+  background-image: -o-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -moz-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -webkit-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -ms-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: linear-gradient(to right, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #b6b6b6), color-stop(1, #d2d2d2));
+  height: 20%;
+  width: 100%;
+}
+.mobile-menu-wrap-open .tuzvedelem {
+  background-color: #ee3333;
+  background-image: -o-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -moz-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -webkit-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -ms-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: linear-gradient(to right, #d21a1a 0%, #ee3333 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
+}
+.mobile-menu-wrap-open .munkavedelem {
+  background-color: #ff9000;
+  background-image: -o-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: -moz-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: -webkit-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: -ms-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: linear-gradient(to right, #ff9000 0%, #fa7103 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff9000), color-stop(1, #fa7103));
+}
+.mobile-menu-wrap-open .referenciak {
+  background-color: #00a3d8;
+  background-image: -o-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -moz-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -webkit-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -ms-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: linear-gradient(to right, #0c85ac 0%, #00a3d8 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0c85ac), color-stop(1, #00a3d8));
+}
+.mobile-menu-wrap-open .kapcsolatok {
+  background-color: #43c423;
+  background-image: -o-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -moz-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -webkit-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -ms-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: linear-gradient(to right, #43c423 0%, #2c9d0f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #43c423), color-stop(1, #2c9d0f));
+}
+.mobile-menu-wrap-open ul > a {
+  display: table !important;
+  float: left;
+  height: 40%;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50%;
+  z-index: 15;
+}
+.mobile-menu-wrap-open li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#logo img {
+  height: 2.625em;
+  margin-top: 1em;
+}
+
+#menu,
+.menu_wrap {
+  z-index: 1;
+}
+
+#menu {
+  margin: 0 0 0 auto;
+}
+
+.relative {
+  position: relative;
+  width: 100%;
+}
+
+.menu-icon {
+  padding: 5em 0 1em;
+}
+
+.list {
+  list-style-type: none;
+}
+.list li {
+  line-height: 2em;
+}
+.list li .square {
+  background: white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 10px;
+  margin: 0 .5em;
+  vertical-align: middle;
+  width: 10px;
+}
+
+#bemutatkozas,
+#tuzvedelem,
+#munkavedelem,
+#referenciak,
+#kapcsolat {
+  height: 100%;
+  padding-bottom: .0001em;
+  position: relative;
+  width: 100%;
+}
+
+#bemutatkozas #one {
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+#bemutatkozas #one #icon {
+  padding: 1em 0 .5em;
+}
+
+#tuzvedelem,
+#munkavedelem,
+#referenciak {
+  color: white;
+}
+
+#tuzvedelem {
+  background-color: #ee3333;
+}
+#tuzvedelem #extinguish {
+  height: 70px;
+}
+#tuzvedelem .number img {
+  height: 80px;
+}
+
+#munkavedelem {
+  background-color: #ff9000;
+  color: black;
+}
+#munkavedelem .square {
+  background: black;
+}
+#munkavedelem #helmet {
+  height: 70px;
+}
+#munkavedelem #certificate,
+#munkavedelem #screw {
+  height: 80px;
+}
+
+#referenciak {
+  background-color: #00a3d8;
+  color: black;
+}
+
+.ref-img {
+  margin-right: 1em;
+}
+
+.bl li {
+  display: initial;
+  margin-right: 1em;
+}
+.bl li:nth-child(even) {
+  font-weight: 600;
+}
+
+.b {
+  color: white;
+  margin: 0 auto;
+  width: 1100px;
+}
+.b .box {
+  background-color: #000;
+  background-image: -o-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: -moz-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: -webkit-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: -ms-linear-gradient(left, #007ea6 0%, #008cb9 100%);
+  background-image: linear-gradient(to right, #007ea6 0%, #008cb9 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #007ea6), color-stop(1, #008cb9));
+  -moz-box-shadow: 1px 0 1px #065363;
+  -webkit-box-shadow: 1px 0 1px #065363;
+  box-shadow: 1px 0 1px #065363;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  height: 200px;
+  margin: 2.57em auto 0;
+  width: 30%;
+}
+.b .box .box-logo-frame {
+  display: table;
+  height: 75%;
+}
+.b .box .box-logo {
+  display: table;
+  float: left;
+  height: 55%;
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.b .box .box-logo-nev {
+  display: table;
+  float: left;
+  height: 20%;
+  position: relative;
+  top: 0%;
+  width: 100%;
+}
+.b .box .box-place,
+.b .box .box-web {
+  display: table;
+  float: left;
+  height: 25%;
+  position: relative;
+}
+.b .box .box-place {
+  background-color: #fff;
+  background-image: -o-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -moz-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -webkit-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: -ms-linear-gradient(left, #0a7395 0%, #0a6887 100%);
+  background-image: linear-gradient(to right, #0a7395 0%, #0a6887 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0a7395), color-stop(1, #0a6887));
+  width: 35%;
+}
+.b .box .box-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.b .box .box-web {
+  background-color: #fff;
+  background-image: -o-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -moz-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -webkit-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: -ms-linear-gradient(left, #005b79 0%, #00536e 100%);
+  background-image: linear-gradient(to right, #005b79 0%, #00536e 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #005b79), color-stop(1, #00536e));
+  width: 65%;
+}
+.b .box:nth-child(even) {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.b .box:nth-child(2) {
+  background-color: #43c423;
+}
+.b .box:nth-child(2) .box-place {
+  background-color: #29ac19;
+}
+.b .box:nth-child(2) .box-web {
+  background-color: #1a980d;
+}
+.b .box:nth-child(3) {
+  background-color: #058bb7;
+}
+.b .box:nth-child(3) .box-place {
+  background-color: #0c7294;
+}
+.b .box:nth-child(3) .box-web {
+  background-color: #025a78;
+}
+
+#kapcsolat {
+  background-color: #43c423;
+}
+#kapcsolat #contact {
+  height: 80px;
+}
+#kapcsolat p {
+  padding: 0;
+}
+
+#one {
+  background-color: #f8f8f8;
+}
+
+#five-kapcs {
+  background-color: #43c423;
+  color: white;
+  float: left;
+  width: 66.66%;
+}
+#five-kapcs #profile_pic img {
+  border: 7px solid white;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+#five-kapcs #profile_pic #left,
+#five-kapcs #profile_pic #right {
+  float: left;
+  margin: 3em 0 5em;
+  width: 50%;
+}
+#five-kapcs a {
+  color: #fff;
+}
+
+.name {
+  font-size: 1.5625em;
+}
+
+#map {
+  background-color: #f8f8f8;
+  float: right;
+  height: 100%;
+  width: 33.33%;
+}
+#map iframe {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  background-color: #f8f8f8;
+  color: black;
+  display: table;
+  font-size: 1em;
+  height: 80px;
+  text-align: center;
+  width: 100%;
+}
+footer div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 120em) {
+  #wrap {
+    visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
+  #loader {
+    left: 40%;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    width: 20%;
+  }
+  #loader p {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    right: 35px;
+    top: 60px;
+    width: 80px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 40px;
+    top: 300px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -16px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 40px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 25px;
+  }
+  #help #help-ext img {
+    height: 45px;
+    position: relative;
+    right: -9px;
+    width: 30px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 24px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 8px;
+    left: -1px;
+    margin-bottom: 9px;
+    position: relative;
+    width: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
+  }
+
+  .text {
+    font-size: 2.2em !important;
+    line-height: 1.8em;
+    margin: .5em auto 2em;
+    max-width: 1710px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 4em;
+    margin-bottom: 4.5em;
+    padding-bottom: 1em;
+  }
+
+  #first-p {
+    margin-top: 2.9em;
+  }
+
+  #first-ref {
+    margin: 13em auto 15em;
+  }
+
+  .menu-icon {
+    margin: 3.5em auto;
+    padding-bottom: 0;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 130px;
+  }
+
+  #munkavedelem #helmet {
+    height: 130px;
+  }
+
+  #ref-icon {
+    height: 130px;
+  }
+
+  #kapcsolat .text {
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 13px solid white;
+    height: 230px !important;
+    margin-bottom: 1.6em;
+    width: 230px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin-top: 3em;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.9em;
+    font-weight: 300;
+  }
+  #kapcsolat .name {
+    font-size: 2.5em;
+  }
+
+  a.tel {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 100em) and (max-width: 119.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
+  #loader {
+    left: 40%;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    width: 20%;
+  }
+  #loader p {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    right: 20px;
+    top: 60px;
+    width: 65px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 25px;
+    top: 250px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -16px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 40px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 25px;
+  }
+  #help #help-ext img {
+    height: 45px;
+    position: relative;
+    right: -9px;
+    width: 30px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 24px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 8px;
+    left: -1px;
+    margin-bottom: 9px;
+    position: relative;
+    width: 8px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
+  }
+
+  .b .box {
+    margin: 1em auto 0;
+  }
+
+  .text {
+    font-size: 2em !important;
+    line-height: 1.7em;
+    margin: .5em auto 2em;
+    max-width: 1400px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.6em;
+    margin-bottom: 1.3em;
+    padding-bottom: 1em;
+  }
+
+  #first-p {
+    margin-top: .5em;
+  }
+
+  #first-ref {
+    margin: 1em auto 6.25em;
+  }
+
+  .menu-icon {
+    margin: 2em auto;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 75px;
+  }
+
+  #kapcsolat .text {
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 10px solid white;
+    height: 170px !important;
+    margin-bottom: 1.4em;
+    width: 170px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin-top: 3em;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.7em;
+    font-weight: 300;
+  }
+  #kapcsolat .name {
+    font-size: 2.3em;
+  }
+
+  a.tel {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 89em) and (max-width: 99.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
+  #loader {
+    left: 40%;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    width: 20%;
+  }
+  #loader p {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    right: 21px;
+    top: 60px;
+    width: 55px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 20px;
+    top: 200px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 20px;
+  }
+  #help #help-ext img {
+    height: 40px;
+    position: relative;
+    right: -4px;
+    width: 25px;
+  }
+  #help #help-helmet {
+    height: 25px;
+  }
+  #help #help-helmet img {
+    height: 20px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 7px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 7px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
+  }
+
+  .text {
+    font-size: 1.625em !important;
+    line-height: 1.7em;
+    margin: .5em auto 2em;
+    max-width: 1200px;
+    padding: 0;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 1.8em;
+    padding-bottom: 1em;
+  }
+
+  #first-p {
+    margin-top: 1.23em;
+  }
+
+  #first-ref {
+    margin: 3.125em auto 6.25em;
+  }
+
+  .menu-icon {
+    margin: 2em auto;
+    padding-bottom: 0;
+  }
+
+  #ref-icon {
+    height: 70px;
+  }
+
+  .b .box {
+    margin: 1em auto 0;
+  }
+
+  #kapcsolat .text {
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 10px solid white;
+    height: 170px !important;
+    margin-bottom: 1.3em;
+    width: 170px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin-top: 3em;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.7em;
+    font-weight: 300;
+  }
+  #kapcsolat .name {
+    font-size: 2.2em;
+  }
+
+  a.tel {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 80em) and (max-width: 88.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
+  #loader {
+    left: 40%;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    width: 20%;
+  }
+  #loader p {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    position: fixed;
+    top: 60px;
+    width: 50px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 13px;
+    top: 100px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 20px;
+  }
+  #help #help-ext img {
+    height: 40px;
+    position: relative;
+    right: -4px;
+    width: 25px;
+  }
+  #help #help-helmet {
+    height: 25px;
+  }
+  #help #help-helmet img {
+    height: 20px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 7px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 7px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+
+  .menu-wrap {
+    position: fixed;
+    top: 10px;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
+  }
+
+  #logo #logo_pic img {
+    height: 80px;
+    position: relative;
+    top: 80px;
+  }
+  #logo #logo_text {
+    top: 80px;
+  }
+
+  .text {
+    font-size: 1.7em !important;
+    line-height: 1.65em;
+    margin: 2.57em auto 0;
+    max-width: 1100px;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.3em;
+    padding-bottom: 0;
+  }
+
+  #first-p {
+    margin-top: -.2em;
+  }
+
+  #first-ref {
+    margin: 2.1em auto 0;
+  }
+
+  #ref-icon {
+    height: 60px;
+  }
+
+  #screw,
+  #certificate {
+    margin-top: -1em;
+  }
+
+  .menu-icon {
+    margin: 1em auto .5em;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 60px;
+  }
+
+  .number img {
+    margin: 3em 0 -1.5em;
+  }
+
+  #munkavedelem #helmet {
+    height: 60px;
+  }
+
+  .b .box {
+    margin: 5.5em auto 0;
+  }
+
+  #kapcsolat #five-kapcs div:nth-child(3) {
+    margin-top: 3em;
+  }
+  #kapcsolat .text {
+    line-height: 1.3em;
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 8px solid white;
+    height: 135px !important;
+    margin-bottom: .8em;
+    width: 135px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin: 2em 0 5em !important;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.4em;
+    font-weight: 300;
+  }
+  #kapcsolat #map {
+    height: 900px;
+  }
+  #kapcsolat .name {
+    font-size: 1.8em;
+  }
+
+  a.tel {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 64em) and (max-width: 79.99em) {
+  #wrap {
+    visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
+  #loader {
+    left: 40%;
+    margin: auto;
+    position: fixed;
+    top: 20%;
+    width: 20%;
+  }
+  #loader p {
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: .5em;
+  }
+
+  #help-nav-bg {
+    right: 15px;
+    top: 60px;
+    width: 50px;
+  }
+
+  #help {
+    height: 450px;
+    position: fixed;
+    right: 13px;
+    top: 100px;
+    width: 20px;
+  }
+  #help .help-circle {
+    height: 30px;
+    left: -12px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 26px;
+  }
+  #help .help-circle img {
+    height: 25px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+  }
+  #help #help-ext {
+    margin-bottom: 15px;
+  }
+  #help #help-ext img {
+    height: 35px;
+    position: relative;
+    right: -4px;
+    width: 22px;
+  }
+  #help #help-helmet {
+    height: 20px;
+  }
+  #help #help-helmet img {
+    height: 17px;
+    position: relative;
+  }
+  #help #help-nav .small-circle {
+    background-color: #c2c2c2;
+    height: 5px;
+    left: -1px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+
+  .menu-wrap {
+    position: fixed;
+    top: 10px;
+  }
+  .menu-wrap #menu {
+    width: 700px !important;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
+  }
+
+  #logo #logo_pic img {
+    height: 80px;
+    position: relative;
+    top: 80px;
+  }
+
+  .text {
+    font-size: 1.5em !important;
+    line-height: 1.6em;
+    margin: 1.5em auto 0;
+    max-width: 900px;
+    width: 95%;
+  }
+
+  .title {
+    font-size: 2.1em;
+    padding-bottom: 0;
+  }
+
+  #first-p {
+    margin-top: 0;
+  }
+
+  #first-ref {
+    margin: 2em auto 1.5em;
+  }
+
+  #ref-icon {
+    height: 60px;
+  }
+
+  #screw,
+  #certificate {
+    margin-top: -1em;
+  }
+
+  .menu-icon {
+    margin: 1em auto .5em;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 60px;
+  }
+
+  .number img {
+    margin: 3em 0 -1.5em;
+  }
+
+  #munkavedelem #helmet {
+    height: 60px;
+  }
+
+  .b {
+    width: 900px;
+  }
+  .b .box {
+    height: 200px;
+    margin: 3em auto 0;
+  }
+  .b .box-text img {
+    width: 180px;
+  }
+
+  #kapcsolat #five-kapcs div:nth-child(3) {
+    margin-top: 3em;
+  }
+  #kapcsolat .text {
+    line-height: 1.3em;
+    margin: .5em auto 0;
+  }
+  #kapcsolat #profile_pic img {
+    border: 5px solid white;
+    height: 110px !important;
+    margin-bottom: 1.2em;
+    width: 110px !important;
+  }
+  #kapcsolat #left,
+  #kapcsolat #right {
+    margin: 2em 0 5em !important;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.3em;
+    font-weight: 300;
+  }
+  #kapcsolat #map {
+    height: 900px;
+  }
+  #kapcsolat .name {
+    font-size: 1.6em;
+    margin-bottom: .2em;
+  }
+
+  a.tel {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 48em) and (max-width: 63.99em) {
+  #help,
+  #loader {
+    display: none;
+  }
+
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+
+  #logo_pic img {
+    height: 35px;
+    left: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
+
+  .menu-wrap {
+    display: none;
+  }
+
+  #main_nav {
+    height: 3.75em;
+  }
+  #main_nav #logo #logo_text {
+    left: 70px;
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .mobile-menu-wrap-open span {
+    font-size: 2.1em;
+  }
+
+  #sandwich {
+    display: block !important;
+    position: fixed;
+    right: 20px;
+    top: 23px;
+    visibility: visible;
+  }
+  #sandwich .menu-link:hover {
+    margin: 0;
+    padding: 0;
+  }
+
+  #icon img {
+    height: 85px;
+    margin: -1em auto 1em;
+  }
+
+  .text {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.7em;
+    padding: 0;
+    text-align: left;
+    width: 90% !important;
+  }
+
+  .title {
+    font-size: 2.1em;
+  }
+
+  .circle {
+    height: 55px !important;
+  }
+
+  #munkavedelem #certificate,
+  #munkavedelem #helmet,
+  #munkavedelem #screw {
+    height: 80px;
+  }
+  #munkavedelem #certificate,
+  #munkavedelem #screw {
+    margin-bottom: 1em;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 80px;
+  }
+
+  #ref-icon {
+    height: 80px;
+  }
+
+  #law {
+    height: 60px !important;
+    margin-top: .8em;
+  }
+
+  #law {
+    margin: 1em 0 3em;
+  }
+
+  .list li .square {
+    background: black;
+  }
+  .list li .square:nth-child(even) {
+    display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
+  }
+
+  .bl li {
+    display: block;
+  }
+
+  .b {
+    margin: 0 auto;
+    width: 700px;
+  }
+  .b .box {
+    width: 60%;
+  }
+  .b .box:first-child {
+    margin: 0 auto;
+  }
+  .b .box:nth-child(2) {
+    margin: 2em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 2em;
+  }
+
+  #kapcsolat {
+    height: initial;
+    width: 100%;
+  }
+  #kapcsolat .text {
+    line-height: .7em;
+    text-align: center;
+  }
+  #kapcsolat #five-kapcs {
+    text-align: center;
+    width: 100%;
+  }
+  #kapcsolat #five-kapcs a {
+    color: black;
+  }
+  #kapcsolat #contact {
+    height: 80px;
+  }
+  #kapcsolat #profile_pic img {
+    border: 5px solid white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+  }
+  #kapcsolat #profile_pic #left,
+  #kapcsolat #profile_pic #right {
+    color: black;
+    margin: 1em 0;
+    width: 100%;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.1em;
+  }
+
+  .name {
+    margin: .3em 0;
+  }
+
+  #map {
+    background-color: #f8f8f8;
+    height: 250px;
+    width: 100%;
+  }
+  #map iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  a.tel {
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 30em) and (max-width: 47.99em) {
+  #help,
+  #loader {
+    display: none;
+  }
+
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+
+  #logo_pic img {
+    height: 35px;
+    left: -8px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
+
+  #main_nav {
+    height: 3.75em;
+  }
+  #main_nav #logo #logo_text {
+    left: 50px;
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .menu-wrap {
+    display: none;
+  }
+
+  .mobile-menu-wrap-open span {
+    font-size: 1.5em;
+  }
+
+  #sandwich {
+    display: block !important;
+    position: fixed;
+    right: 20px;
+    top: 23px;
+    visibility: visible;
+  }
+  #sandwich .menu-link:hover {
+    margin: 0;
+    padding: 0;
+  }
+
+  #icon img {
+    height: 85px;
+    margin: -1em auto 1em;
+  }
+
+  .text {
+    color: black;
+    font-size: 1.4em;
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 0;
+    text-align: left;
+    width: 95% !important;
+  }
+
+  .title {
+    font-size: 2em;
+  }
+
+  .circle {
+    height: 55px !important;
+  }
+
+  #munkavedelem #certificate,
+  #munkavedelem #helmet,
+  #munkavedelem #screw {
+    height: 70px;
+  }
+  #munkavedelem #certificate,
+  #munkavedelem #screw {
+    margin-bottom: 1em;
+  }
+
+  #ref-icon {
+    height: 70px;
+  }
+
+  #law {
+    height: 50px !important;
+    margin-top: .8em;
+  }
+
+  #law {
+    margin: 1em 0 2em;
+  }
+
+  .list li .square {
+    background: black;
+  }
+  .list li .square:nth-child(even) {
+    display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
+  }
+
+  .bl li {
+    display: block;
+  }
+
+  .b {
+    margin: 0 auto;
+    width: 360px;
+  }
+  .b .box-text img {
+    width: 160px;
+  }
+  .b .box {
+    height: 160px;
+    margin: 1em auto 0;
+    width: 100%;
+  }
+  .b .box:first-child {
+    margin: 0 auto;
+  }
+  .b .box:nth-child(2) {
+    margin: 1em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 1em;
+  }
+
+  #kapcsolat {
+    height: initial;
+    width: 100%;
+  }
+  #kapcsolat .text {
+    line-height: .7em;
+    text-align: center;
+  }
+  #kapcsolat #five-kapcs {
+    text-align: center;
+    width: 100%;
+  }
+  #kapcsolat #five-kapcs a {
+    color: black;
+  }
+  #kapcsolat #contact {
+    height: 70px;
+  }
+  #kapcsolat #profile_pic img {
+    border: 5px solid white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+  }
+  #kapcsolat #profile_pic #left,
+  #kapcsolat #profile_pic #right {
+    color: black;
+    margin: 1em 0;
+    width: 100%;
+  }
+  #kapcsolat #left p:nth-child(3),
+  #kapcsolat #right p:nth-child(3) {
+    font-size: 1.1em;
+  }
+
+  .name {
+    margin: .3em 0;
+  }
+
+  #map {
+    background-color: #f8f8f8;
+    height: 200px;
+    width: 100%;
+  }
+  #map iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  a.tel {
+    text-decoration: underline;
+  }
+}
+@media only screen and (max-width: 29.99em) {
+  #help,
+  #loader {
+    display: none;
+  }
+
+  #stripe {
+    height: 10px;
+    position: fixed;
+    top: 0;
+  }
+
+  #logo {
+    padding-bottom: 10px;
+  }
+
+  #logo_pic img {
+    height: 35px;
+    left: -12px;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+  }
+
+  #main_nav {
+    height: 3.75em;
+  }
+  #main_nav #logo #logo_text {
+    left: 43px;
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+  }
+
+  .menu-wrap {
+    display: none;
+  }
+
+  #sandwich {
+    display: block !important;
+    position: fixed;
+    right: 20px;
+    top: 23px;
+    visibility: visible;
+  }
+  #sandwich .menu-link:hover {
+    margin: 0;
+    padding: 0;
+  }
+
+  #icon img {
+    height: 70px;
+    margin-top: -1em;
+  }
+
+  .text {
+    color: black;
+    font-size: 1.15em;
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 0;
+    text-align: left;
+    width: 95% !important;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  #tuzvedelem #extinguish {
+    height: 50px;
+  }
+
+  #munkavedelem #certificate,
+  #munkavedelem #helmet,
+  #munkavedelem #screw {
+    height: 50px;
+  }
+  #munkavedelem #certificate,
+  #munkavedelem #screw {
+    margin-bottom: 1em;
+  }
+
+  #ref-icon {
+    height: 50px;
+  }
+
+  .circle,
+  #law {
+    height: 50px !important;
+    margin-top: .8em;
+  }
+
+  #law {
+    margin: 1em 0 2em;
+  }
+
+  .list li .square {
+    background: black;
+  }
+  .list li .square:nth-child(even) {
+    display: none;
+  }
+
+  #referenciak .text {
+    text-align: center;
+  }
+
+  .bl li {
+    display: block;
+  }
+
+  .b {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .b .box-text img {
+    width: 140px;
+  }
+  .b .box {
+    height: 130px;
+    margin: 1em auto 0;
+    width: 100%;
+  }
+  .b .box:first-child {
+    margin: 0 auto;
+  }
+  .b .box:nth-child(2) {
+    margin: 1em auto 0 !important;
+  }
+  .b .box:nth-child(3) {
+    margin-bottom: 1em;
+  }
+
+  #kapcsolat {
+    height: initial;
+    width: 100%;
+  }
+  #kapcsolat .text {
+    line-height: 1em;
+    text-align: center;
+  }
+  #kapcsolat #five-kapcs {
+    text-align: center;
+    width: 100%;
+  }
+  #kapcsolat #five-kapcs a {
+    color: black;
+  }
+  #kapcsolat #contact {
+    height: 50px;
+  }
+  #kapcsolat #profile_pic img {
+    border: 3px solid white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+  }
+  #kapcsolat #profile_pic #left,
+  #kapcsolat #profile_pic #right {
+    color: black;
+    margin: 1em 0;
+    width: 100%;
+  }
+
+  .name {
+    font-size: 1.2em;
+    margin: .3em 0;
+  }
+
+  #map {
+    background-color: #f8f8f8;
+    height: 150px;
+    width: 100%;
+  }
+  #map iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  a.tel {
+    text-decoration: underline;
+  }
+}
+@media only screen and (min-width: 64em) {
+  a:hover {
+    background-color: #ee3333;
+    color: white;
+    padding: .3em 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+@media only screen and (max-width: 63.99em) {
+  .mobile-menu-wrap-open .bemutatkozas:active {
+    background-color: #d2d2d2;
+    background-image: -o-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -moz-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -webkit-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -ms-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: linear-gradient(to bottom, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b6b6b6), color-stop(1, #d2d2d2));
+  }
+  .mobile-menu-wrap-open .tuzvedelem:active {
+    background-color: #ee3333;
+    background-image: -o-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -moz-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -webkit-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -ms-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: linear-gradient(to bottom, #d21a1a 0%, #ee3333 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
+  }
+  .mobile-menu-wrap-open .munkavedelem:active {
+    background-color: #ff9000;
+    background-image: -o-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -moz-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -webkit-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -ms-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: linear-gradient(to bottom, #ff9000 0%, #fa7103 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #ff9000), color-stop(1, #fa7103));
+  }
+  .mobile-menu-wrap-open .referenciak:active {
+    background-color: #00a3d8;
+    background-image: -o-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: -moz-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: -webkit-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: -ms-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: linear-gradient(to bottom, #0c85ac 0%, #00a3d8 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #0c85ac), color-stop(1, #00a3d8));
+  }
+  .mobile-menu-wrap-open .kapcsolatok:active {
+    background-color: #43c423;
+    background-image: -o-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: -moz-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: -webkit-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: -ms-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: linear-gradient(to bottom, #43c423 0%, #2c9d0f 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #43c423), color-stop(1, #2c9d0f));
+  }
+  .mobile-menu-wrap-open a:active {
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 47.99em) and (orientation: landscape) {
+  .mobile-menu-wrap-open ul > a {
+    display: table !important;
+    float: left;
+    height: 20%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    z-index: 15;
+  }
+}
+@media screen and (min-width: 64em) {
+  #map {
+    margin-top: 60px;
+    height: -webkit-calc(100% - 60px);
+    height: -moz-calc(100% - 60px);
+    height: calc(100% - 60px);
+  }
+}
