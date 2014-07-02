@@ -804,7 +804,7 @@
 					data-35200="opacity:1; "
 				>
 					<div id="left">
-						<img class="rounded" src="images/gyula.jpg"
+						<img class="rounded" src="images/gyula-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px; "
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
@@ -813,7 +813,7 @@
 					</div>
 
 					<div id="right">
-						<img class="rounded" src="images/csaba.jpg"
+						<img class="rounded" src="images/csaba-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px;"
 							data-34500="opacity:1; height:120px; width:120px;"
 						>
