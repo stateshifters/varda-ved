@@ -654,10 +654,6 @@ $xwidescreen-: $xwidescreen - .01em;
     margin: 1em auto .5em;
   }
 
-//  li {
-//    line-height: 1.8em !important;
-//  }
-
   #tuzvedelem {
 
     #extinguish {
@@ -1021,7 +1017,6 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: visible;
 
     .menu-link:hover {
-     // background-color: $white;
       margin: 0;
       padding: 0;
     }
@@ -1121,7 +1116,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .box:first-child {
-      margin: 0 auto 0;
+      margin: 0 auto;
     }
 
     .box:nth-child(2) {
@@ -1143,13 +1138,12 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #five-kapcs {
+      text-align: center;
+      width: 100%;
 
       a {
         color: $black;
       }
-
-      text-align: center;
-      width: 100%;
     }
 
     #contact {
@@ -1258,7 +1252,6 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: visible;
 
     .menu-link:hover {
-    //  background-color: $white;
       margin: 0;
       padding: 0;
     }
@@ -1358,7 +1351,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .box:first-child {
-      margin: 0 auto 0;
+      margin: 0 auto;
     }
 
     .box:nth-child(2) {
@@ -1381,13 +1374,12 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #five-kapcs {
+      text-align: center;
+      width: 100%;
 
       a {
         color: $black;
       }
-
-      text-align: center;
-      width: 100%;
     }
 
     #contact {
@@ -1490,7 +1482,6 @@ $xwidescreen-: $xwidescreen - .01em;
     visibility: visible;
 
     .menu-link:hover {
-      //background-color: $white;
       margin: 0;
       padding: 0;
     }
@@ -1593,7 +1584,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .box:first-child {
-      margin: 0 auto 0;
+      margin: 0 auto;
     }
 
     .box:nth-child(2) {
@@ -1616,13 +1607,12 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     #five-kapcs {
+      text-align: center;
+      width: 100%;
 
       a {
         color: $black;
       }
-
-      text-align: center;
-      width: 100%;
     }
 
     #contact {
@@ -1666,11 +1656,6 @@ $xwidescreen-: $xwidescreen - .01em;
   a.tel {
     text-decoration: underline;
   }
-
-  //  footer {
-  //    font-size: .7em;
-  //    height: 30px;
-  //  }
 }
 
 @media only screen and (min-width: $monitor) {
@@ -1785,12 +1770,6 @@ $xwidescreen-: $xwidescreen - .01em;
 
 @media only screen and (max-width: $tablet-) and (orientation : landscape) {
   .mobile-menu-wrap-open {
-
-//    a:nth-of-type(2) {
-//      height: 20%;
-//      width: 100%;
-//    }
-
     ul>a {
       display: table!important;
       float: left;
@@ -1805,9 +1784,14 @@ $xwidescreen-: $xwidescreen - .01em;
 
 @media screen and (min-width: $monitor) {
   #map {
-    height: -moz-calc(100% - 60px)!important;
-    height: -webkit-calc(100% - 60px)!important;
-    height: calc(100% - 60px)!important;
     margin-top: 60px;
+
+    @mixin calc($property, $expression) { 
+      #{$property}: -webkit-calc(#{$expression}); 
+      #{$property}: -moz-calc(#{$expression});
+      #{$property}: calc(#{$expression}); 
+    } 
+
+    @include calc(height, '100% - 60px');
   }
 }

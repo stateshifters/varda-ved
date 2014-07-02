@@ -111,22 +111,13 @@ window.onload = function () {
 
 	function initMenu(s) {
 		skrollr.menu.init(s, {
-			//skrollr will smoothly animate to the new position using `animateTo`.
+
 			animate: false,
 
-			//The easing function to use.
 			easing: 'sqrt',
 
-			//Multiply your data-[offset] values so they match those set in skrollr.init
-//			scale: 2,
-
-			//How long the animation should take in ms.
 			duration: function () {
-//				By default, the duration is hardcoded at 500ms.
 				return 0;
-
-				//But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
-				//return Math.abs(currentTop - targetTop) * 10;
 			}
 		});
 
@@ -134,11 +125,9 @@ window.onload = function () {
 
 	function adjustWindow(match) {
 
-		// Get window size
 		var winH = $(window).height();
 		var winW = $(window).width();
 
-		// Keep minimum height 550
 		if (winH <= 550) {
 			winH = 550;
 		}
@@ -155,7 +144,7 @@ window.onload = function () {
 		initHistory(match);
 
 		var hasSkrollr = true;
-		// Init Skrollr for 1024 and up
+
 		if (winW < 1024) {
 			initHistory(false);
 			hasSkrollr = false;

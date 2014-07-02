@@ -189,7 +189,6 @@
 			</div>	
 	    </div>
 
-		<!--div id="info">0</div-->
 		<header id="navigation" class="homeSlide">
 			<div id="main_nav"
 			     data-0="height: 16em;position:fixed;top:0;"
@@ -225,24 +224,6 @@
 							     data-400="font-size:1em;">
 							   Várda-Véd</a>
 						</div>
-
-
-						<!--div class="logo_pic">
-							<img style="display:none;" data-0="position:fixed;height:42px;width:42px;top:16px;left:-60px;margin:0;display:block;"
-							     data-120="position:fixed;left:-60px;top:16px;"
-							     data-500="position:fixed;left:16px;top:5px;left:16px;top:16px;"
-							     src="images/vardaved-logo.svg" alt="Varda-Ved Kft. logo"
-							     onerror="this.onerror=null; this.src='images/vardaved-logo.png'">
-						</div>
-						<div id="logo_text"
-						     data-0="display:none;"
-						     data-100="text-size:0.7em;display:inline;"
-						     data-350="text-size:0;display:none;">
-							<a href="#"
-							   data-0="display:none;opacity:100;font-size:1em;position:relative;top:0px;"
-							   data-100="opacity:0;font-size:.6em;display:inline;position:relative;top:-14px;"
-							   data-350="font-size:0;top:20px">Várda-Véd</a>
-						</div-->
 						
 					</div>
 
@@ -909,9 +890,6 @@
 				        frameborder="0" style="border:0"></iframe>
 			</div>
 		</section>
-		<!--footer>
-			<div>Copyright © Várda-Véd Kft.</div>
-		</footer-->
 	</div>
 
 </div>
@@ -925,21 +903,5 @@
 <script src="assets/js/history.adapter.jquery.js"></script>
 <script src="assets/js/varda-ved.js"></script>
 <script src="assets/js/analytics.js"></script>
-<!--script src="assets/js/info.js"></script-->
-<!--script type="text/javascript">
-	$(function () {
-	  // initialize skrollr if the window width is large enough
-	  if ($(window).width() > 767) {
-	    skrollr.init(yourOptions);
-	  }
-
-	  // disable skrollr if the window is resized below 768px wide
-	  $(window).on('resize', function () {
-	    if ($(window).width() <= 767) {
-	      skrollr.init().destroy(); // skrollr.init() returns the singleton created above
-	    }
-	  });
-	});
-</script-->
 </body>
 </html>

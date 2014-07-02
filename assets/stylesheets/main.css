@@ -65,9 +65,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 a,
 img {
-  -webkit-tap-highlight-color: transparent;
   border: 0;
   outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html,
@@ -1556,7 +1556,7 @@ footer div {
     width: 60%;
   }
   .b .box:first-child {
-    margin: 0 auto 0;
+    margin: 0 auto;
   }
   .b .box:nth-child(2) {
     margin: 2em auto 0 !important;
@@ -1748,7 +1748,7 @@ footer div {
     width: 100%;
   }
   .b .box:first-child {
-    margin: 0 auto 0;
+    margin: 0 auto;
   }
   .b .box:nth-child(2) {
     margin: 1em auto 0 !important;
@@ -1937,7 +1937,7 @@ footer div {
     width: 100%;
   }
   .b .box:first-child {
-    margin: 0 auto 0;
+    margin: 0 auto;
   }
   .b .box:nth-child(2) {
     margin: 1em auto 0 !important;
@@ -2073,9 +2073,9 @@ footer div {
 }
 @media screen and (min-width: 64em) {
   #map {
-    height: -moz-calc(100% - 60px) !important;
-    height: -webkit-calc(100% - 60px) !important;
-    height: calc(100% - 60px) !important;
     margin-top: 60px;
+    height: -webkit-calc(100% - 60px);
+    height: -moz-calc(100% - 60px);
+    height: calc(100% - 60px);
   }
 }
