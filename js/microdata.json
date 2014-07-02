@@ -1,0 +1,36 @@
+{
+	"@context": "http://schema.org",
+	"@type": "Organization",
+	"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Kisvárda, Hungary",
+		"postalCode": "4600",
+		"streetAddress": "Mátyás király u. 15"
+	},
+	"email": "info@varda-ved.eu",
+	"member": [
+		{
+			"@type": "Person",
+			"name": "Szűrös Gyula",
+			"email": "szuros.gyula@varda-ved.eu",
+			"jobTitle": "Tűzvédelmi szakértő",
+			"owns": {
+				"@type": "Product",
+				"name": "Tűzvédelem"
+			}
+		},
+		{
+			"@type": "Person",
+			"name": "Szűrös Csaba",
+			"email": "szuros.csaba@varda-ved.eu",
+			"jobTitle": "Munkavédelmi szakértő",
+			"owns": {
+				"@type": "Product",
+				"name": "Munkavédelem"
+			}
+		}
+	],
+	"name": "Várda-Véd Kft.",
+	"telephone": "+3645405587",
+	"logo": "http://www.varda-ved.eu/assets/images/vardaved-logo.png"
+}
