@@ -516,7 +516,7 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('sitemap', function() {
 		if(isProd) {
-			grunt.task.run('copy:sitemap')
+			grunt.task.run('copy:sitemap');
 		}
 	});
 
