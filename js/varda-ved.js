@@ -186,4 +186,14 @@ window.onload = function () {
 		}
 	});
 
+	$('#contact-tel').click(function(e) {
+		e.stopPropagation();
+		ga('send', 'event', 'contact', 'click', 'telephone');
+	});
+
+	$('#contact-email').click(function(e) {
+		e.stopPropagation();
+		ga('send', 'event', 'contact', 'click', 'email');
+	});
+
 };
