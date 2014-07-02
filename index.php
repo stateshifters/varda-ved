@@ -902,6 +902,7 @@
 <script src="assets/js/history.js"></script>
 <script src="assets/js/history.adapter.jquery.js"></script>
 <script src="assets/js/varda-ved.js"></script>
+<script charset="UTF-8" type="application/ld+json" src="assets/js/microdata.json" defer></script>
 <script src="assets/js/analytics.js"></script>
 </body>
 </html>
