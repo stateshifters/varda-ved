@@ -146,6 +146,16 @@ module.exports = function (grunt) {
 						dest: staticTargetDir+'/js/analytics.js'
 					}
 				]
+			},
+			sitemap: {
+				files: [
+					{
+						expand: false,
+						flatten: true,
+						src: 'templates/sitemap.xml',
+						dest: './sitemap.xml'
+					}
+				]
 			}
 		},
 		cssmin: {
@@ -396,7 +406,8 @@ module.exports = function (grunt) {
 		'clean:all',
 		'compile',
 		'create:hash',
-		'robots'
+		'robots',
+		'sitemap'
 	]);
 
 	grunt.registerTask('compile', function () {
@@ -415,7 +426,8 @@ module.exports = function (grunt) {
 			'cssmin',
 			'create:hash',
 			'create:cache',
-			'robots'
+			'robots',
+			'sitemap'
 		]);
 	});
 
@@ -499,6 +511,12 @@ module.exports = function (grunt) {
 				'replace:production-hash'
 //				'clean:hashless'
 			]);
+		}
+	});
+
+	grunt.registerTask('sitemap', function() {
+		if(isProd) {
+			grunt.task.run('copy:sitemap');
 		}
 	});
 
