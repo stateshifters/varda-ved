@@ -65,6 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 a,
 img {
+  -webkit-tap-highlight-color: transparent;
   border: 0;
   outline: none;
 }
@@ -104,7 +105,7 @@ body {
   background-color: #43c423;
 }
 
-nav {
+#main_nav {
   background-color: #f8f8f8;
   font-size: 1em;
   height: 12.875em;
@@ -114,36 +115,36 @@ nav {
   width: 100%;
   z-index: 100;
 }
-nav #logo {
+#main_nav #logo {
   background-color: #f8f8f8;
 }
-nav #logo #logo_pic {
+#main_nav #logo #logo_pic {
   position: relative;
 }
-nav #logo #logo_text {
+#main_nav #logo #logo_text {
   font-weight: 600;
   height: 2em;
   padding-bottom: 1em;
   padding-top: .5em;
   position: relative;
 }
-nav #menu_wrap {
+#main_nav .menu-wrap {
   background-color: white;
   font-weight: 300;
   width: 100%;
 }
-nav #menu_wrap #menu {
+#main_nav .menu-wrap #menu {
   display: table;
   margin: 0 auto;
   width: 800px;
 }
-nav #menu li {
+#main_nav #menu li {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
   z-index: 1001;
 }
-nav #menu #sandwich {
+#main_nav #menu #sandwich {
   display: none;
 }
 
@@ -193,17 +194,6 @@ a:active {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: #ee3333;
-  color: white;
-  padding: .3em 0;
-  text-decoration: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 #help {
   position: fixed;
   width: 100%;
@@ -231,13 +221,139 @@ a:hover {
   right: 0;
 }
 
+.off {
+  display: none !important;
+}
+
+.mobile-menu-wrap {
+  background-color: white;
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  z-index: 4;
+}
+.mobile-menu-wrap #menu {
+  height: inherit;
+}
+.mobile-menu-wrap #menu li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.mobile-menu-wrap .menu-1 {
+  display: none;
+}
+.mobile-menu-wrap .sandwich-y {
+  display: none;
+}
+.mobile-menu-wrap .sandwich-x {
+  display: block;
+}
+
+.mobile-menu-wrap-open {
+  display: block;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.mobile-menu-wrap-open span {
+  color: white;
+  font-weight: 600;
+}
+.mobile-menu-wrap-open ul {
+  clear: both;
+  height: 100%;
+}
+.mobile-menu-wrap-open .menu-1 {
+  display: block;
+}
+.mobile-menu-wrap-open .menu-link {
+  height: 26px;
+  position: fixed;
+  width: 32px;
+}
+.mobile-menu-wrap-open .menu-link .sandwich-x {
+  display: none;
+}
+.mobile-menu-wrap-open .menu-link .sandwich-y {
+  display: block;
+}
+.mobile-menu-wrap-open .menu-link #sandwich2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: fixed;
+  right: 20px;
+  top: 23px;
+}
+.mobile-menu-wrap-open .bemutatkozas {
+  background-color: #d2d2d2;
+  background-image: -o-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -moz-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -webkit-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -ms-linear-gradient(left, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: linear-gradient(to right, #b6b6b6 0%, #d2d2d2 100%);
+  background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #b6b6b6), color-stop(1, #d2d2d2));
+  height: 20%;
+  width: 100%;
+}
+.mobile-menu-wrap-open .tuzvedelem {
+  background-color: #ee3333;
+  background-image: -o-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -moz-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -webkit-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: -ms-linear-gradient(left, #d21a1a 0%, #ee3333 100%);
+  background-image: linear-gradient(to right, #d21a1a 0%, #ee3333 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
+}
+.mobile-menu-wrap-open .munkavedelem {
+  background-color: #ff9000;
+  background-image: -o-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: -moz-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: -webkit-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: -ms-linear-gradient(left, #ff9000 0%, #fa7103 100%);
+  background-image: linear-gradient(to right, #ff9000 0%, #fa7103 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #ff9000), color-stop(1, #fa7103));
+}
+.mobile-menu-wrap-open .referenciak {
+  background-color: #00a3d8;
+  background-image: -o-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -moz-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -webkit-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: -ms-linear-gradient(left, #0c85ac 0%, #00a3d8 100%);
+  background-image: linear-gradient(to right, #0c85ac 0%, #00a3d8 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #0c85ac), color-stop(1, #00a3d8));
+}
+.mobile-menu-wrap-open .kapcsolatok {
+  background-color: #43c423;
+  background-image: -o-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -moz-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -webkit-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: -ms-linear-gradient(left, #43c423 0%, #2c9d0f 100%);
+  background-image: linear-gradient(to right, #43c423 0%, #2c9d0f 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #43c423), color-stop(1, #2c9d0f));
+}
+.mobile-menu-wrap-open ul > a {
+  display: table !important;
+  float: left;
+  height: 40%;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50%;
+  z-index: 15;
+}
+.mobile-menu-wrap-open li {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 #logo img {
   height: 2.625em;
   margin-top: 1em;
 }
 
 #menu,
-#menu_wrap {
+.menu_wrap {
   z-index: 1;
 }
 
@@ -282,6 +398,7 @@ a:hover {
 #referenciak,
 #kapcsolat {
   height: 100%;
+  padding-bottom: .0001em;
   position: relative;
   width: 100%;
 }
@@ -516,6 +633,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -580,6 +701,10 @@ footer div {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
   }
 
   .text {
@@ -653,6 +778,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -717,6 +846,10 @@ footer div {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
   }
 
   .b .box {
@@ -786,6 +919,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -850,6 +987,10 @@ footer div {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
   }
 
   .text {
@@ -917,6 +1058,10 @@ footer div {
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
   #wrap {
     visibility: hidden;
+  }
+
+  .mobile-menu-wrap-open {
+    display: none !important;
   }
 
   #loader {
@@ -992,9 +1137,13 @@ footer div {
     z-index: 100;
   }
 
-  #menu_wrap {
+  .menu-wrap {
     position: fixed;
     top: 10px;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
   }
 
   #logo #logo_pic img {
@@ -1094,6 +1243,10 @@ footer div {
     visibility: hidden;
   }
 
+  .mobile-menu-wrap-open {
+    display: none !important;
+  }
+
   #loader {
     left: 40%;
     margin: auto;
@@ -1167,12 +1320,16 @@ footer div {
     z-index: 100;
   }
 
-  #menu_wrap {
+  .menu-wrap {
     position: fixed;
     top: 10px;
   }
-  #menu_wrap #menu {
+  .menu-wrap #menu {
     width: 700px !important;
+  }
+
+  .mobile-menu-wrap {
+    display: none;
   }
 
   #logo #logo_pic img {
@@ -1284,14 +1441,6 @@ footer div {
     top: 0;
   }
 
-  #menu_wrap {
-    position: fixed;
-    top: 10px;
-  }
-  #menu_wrap #menu {
-    visibility: hidden;
-  }
-
   #logo {
     padding-bottom: 10px;
   }
@@ -1304,25 +1453,32 @@ footer div {
     z-index: 5;
   }
 
-  nav {
-    height: 4.5em;
+  .menu-wrap {
+    display: none;
   }
-  nav #logo #logo_text {
+
+  #main_nav {
+    height: 3.75em;
+  }
+  #main_nav #logo #logo_text {
     left: 70px;
     position: fixed;
     top: 20px;
     z-index: 5;
   }
 
+  .mobile-menu-wrap-open span {
+    font-size: 2.1em;
+  }
+
   #sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: -9px;
+    top: 23px;
     visibility: visible;
   }
-  #sandwich #menu-link:hover {
-    background-color: white;
+  #sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
@@ -1333,7 +1489,9 @@ footer div {
   }
 
   .text {
+    color: black;
     font-size: 1.5em;
+    font-weight: 400;
     line-height: 1.7em;
     padding: 0;
     text-align: left;
@@ -1375,6 +1533,9 @@ footer div {
     margin: 1em 0 3em;
   }
 
+  .list li .square {
+    background: black;
+  }
   .list li .square:nth-child(even) {
     display: none;
   }
@@ -1416,6 +1577,9 @@ footer div {
     text-align: center;
     width: 100%;
   }
+  #kapcsolat #five-kapcs a {
+    color: black;
+  }
   #kapcsolat #contact {
     height: 80px;
   }
@@ -1429,6 +1593,7 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
+    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1467,14 +1632,6 @@ footer div {
     top: 0;
   }
 
-  #menu_wrap {
-    position: fixed;
-    top: 10px;
-  }
-  #menu_wrap #menu {
-    visibility: hidden;
-  }
-
   #logo {
     padding-bottom: 10px;
   }
@@ -1487,25 +1644,32 @@ footer div {
     z-index: 5;
   }
 
-  nav {
-    height: 4.5em;
+  #main_nav {
+    height: 3.75em;
   }
-  nav #logo #logo_text {
+  #main_nav #logo #logo_text {
     left: 50px;
     position: fixed;
     top: 20px;
     z-index: 5;
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
+  .mobile-menu-wrap-open span {
+    font-size: 1.5em;
+  }
+
   #sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: -9px;
+    top: 23px;
     visibility: visible;
   }
-  #sandwich #menu-link:hover {
-    background-color: white;
+  #sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
@@ -1516,8 +1680,10 @@ footer div {
   }
 
   .text {
+    color: black;
     font-size: 1.4em;
-    line-height: 1.65em;
+    font-weight: 400;
+    line-height: 1.8em;
     padding: 0;
     text-align: left;
     width: 95% !important;
@@ -1554,6 +1720,9 @@ footer div {
     margin: 1em 0 2em;
   }
 
+  .list li .square {
+    background: black;
+  }
   .list li .square:nth-child(even) {
     display: none;
   }
@@ -1600,6 +1769,9 @@ footer div {
     text-align: center;
     width: 100%;
   }
+  #kapcsolat #five-kapcs a {
+    color: black;
+  }
   #kapcsolat #contact {
     height: 70px;
   }
@@ -1613,6 +1785,7 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
+    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1651,14 +1824,6 @@ footer div {
     top: 0;
   }
 
-  #menu_wrap {
-    position: fixed;
-    top: 10px;
-  }
-  #menu_wrap #menu {
-    visibility: hidden;
-  }
-
   #logo {
     padding-bottom: 10px;
   }
@@ -1671,25 +1836,28 @@ footer div {
     z-index: 5;
   }
 
-  nav {
-    height: 4.5em;
+  #main_nav {
+    height: 3.75em;
   }
-  nav #logo #logo_text {
+  #main_nav #logo #logo_text {
     left: 43px;
     position: fixed;
     top: 20px;
     z-index: 5;
   }
 
+  .menu-wrap {
+    display: none;
+  }
+
   #sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
-    top: -9px;
+    top: 23px;
     visibility: visible;
   }
-  #sandwich #menu-link:hover {
-    background-color: white;
+  #sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
@@ -1700,8 +1868,10 @@ footer div {
   }
 
   .text {
-    font-size: 1.2em;
-    line-height: 1.5em;
+    color: black;
+    font-size: 1.15em;
+    font-weight: 400;
+    line-height: 1.8em;
     padding: 0;
     text-align: left;
     width: 95% !important;
@@ -1739,6 +1909,9 @@ footer div {
     margin: 1em 0 2em;
   }
 
+  .list li .square {
+    background: black;
+  }
   .list li .square:nth-child(even) {
     display: none;
   }
@@ -1778,12 +1951,15 @@ footer div {
     width: 100%;
   }
   #kapcsolat .text {
-    line-height: .7em;
+    line-height: 1em;
     text-align: center;
   }
   #kapcsolat #five-kapcs {
     text-align: center;
     width: 100%;
+  }
+  #kapcsolat #five-kapcs a {
+    color: black;
   }
   #kapcsolat #contact {
     height: 50px;
@@ -1798,6 +1974,7 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
+    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1819,5 +1996,78 @@ footer div {
 
   a.tel {
     text-decoration: underline;
+  }
+}
+@media only screen and (min-width: 64em) {
+  a:hover {
+    background-color: #ee3333;
+    color: white;
+    padding: .3em 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+@media only screen and (max-width: 63.99em) {
+  .mobile-menu-wrap-open .bemutatkozas:active {
+    background-color: #d2d2d2;
+    background-image: -o-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -moz-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -webkit-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -ms-linear-gradient(top, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: linear-gradient(to bottom, #b6b6b6 0%, #d2d2d2 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b6b6b6), color-stop(1, #d2d2d2));
+  }
+  .mobile-menu-wrap-open .tuzvedelem:active {
+    background-color: #ee3333;
+    background-image: -o-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -moz-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -webkit-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: -ms-linear-gradient(top, #d21a1a 0%, #ee3333 100%);
+    background-image: linear-gradient(to bottom, #d21a1a 0%, #ee3333 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #d21a1a), color-stop(1, #ee3333));
+  }
+  .mobile-menu-wrap-open .munkavedelem:active {
+    background-color: #ff9000;
+    background-image: -o-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -moz-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -webkit-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: -ms-linear-gradient(top, #ff9000 0%, #fa7103 100%);
+    background-image: linear-gradient(to bottom, #ff9000 0%, #fa7103 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #ff9000), color-stop(1, #fa7103));
+  }
+  .mobile-menu-wrap-open .referenciak:active {
+    background-color: #00a3d8;
+    background-image: -o-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: -moz-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: -webkit-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: -ms-linear-gradient(top, #0c85ac 0%, #00a3d8 100%);
+    background-image: linear-gradient(to bottom, #0c85ac 0%, #00a3d8 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #0c85ac), color-stop(1, #00a3d8));
+  }
+  .mobile-menu-wrap-open .kapcsolatok:active {
+    background-color: #43c423;
+    background-image: -o-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: -moz-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: -webkit-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: -ms-linear-gradient(top, #43c423 0%, #2c9d0f 100%);
+    background-image: linear-gradient(to bottom, #43c423 0%, #2c9d0f 100%);
+    background-image: -webkit-gradient(linear, left top, left top, color-stop(0, #43c423), color-stop(1, #2c9d0f));
+  }
+  .mobile-menu-wrap-open a:active {
+    text-decoration: none;
+  }
+}
+@media only screen and (max-width: 47.99em) and (orientation: landscape) {
+  .mobile-menu-wrap-open ul > a {
+    display: table !important;
+    float: left;
+    height: 20%;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    z-index: 15;
   }
 }

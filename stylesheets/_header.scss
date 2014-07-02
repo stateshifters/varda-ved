@@ -34,7 +34,7 @@ $height-speed: height .5s;
 $width-speed: width .5s;
 $all-speed: all .5s;
 
-nav {
+#main_nav {
   background-color: $alabaster;
   font-size: 1em;
   height: 12.875em;
@@ -60,7 +60,7 @@ nav {
     }
   }
 
-  #menu_wrap {
+  .menu-wrap {
     background-color: $white;
     font-weight: 300;
     width: 100%;
