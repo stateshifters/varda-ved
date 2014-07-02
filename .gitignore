@@ -5,6 +5,9 @@ node_modules
 
 robots.txt
 
+sitemap.xml
+!templates/sitemap.xml
+
 assets/js
 assets/debug.css
 assets/images/**/*.*

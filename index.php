@@ -4,6 +4,12 @@
 	<title>Várda-Véd Kft. | Tűzvédelem, Munkavédelem</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="Tűzvédelem, Munkavédelem, Munkavédelemi oktatás, Tűzvédelemi oktatás,
+    Tűzvédelemi felmérés, Munkavédelemi felmérés, Tűzvédelemi tanácsadás, Munkavédelemi tanácsadás">
+    <meta name="description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
+					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
+					Várda-Véd Kft. szakembereire!">
+
     <link rel="icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
@@ -60,7 +66,7 @@
 				data-459="left:300px; opacity: 0;"
 			>
 				<p>Görgessen</p>
-	    		<img src="images/arrow-red.png" />
+	    		<img src="images/arrow-red.png" title="Görgessen" alt="Görgessen" />
 			</div>
 			
 			<div id="help-nav"
@@ -69,7 +75,7 @@
 				data-6000=""
 			>
                 <a href="#bemutatkozas" data-menu-top="0"><div class="help-circle">
-					<img src="images/references.png" alt="Bemutatkozás"
+					<img src="images/references.png" alt="Bemutatkozás" title="Bemutatkozás"
 						data-500="opacity:1;"
 					/>
 				</div></a>
@@ -80,7 +86,7 @@
 				></div>
 
                 <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle" id="help-ext">
-                    <img src="images/ext-b.png" alt="Tűzvédelem"
+                    <img src="images/ext-b.png" alt="Tűzvédelem" title="Tűzvédelem"
 						data-2100="opacity:.2;"
 						data-2400="opacity:1;"
 					/>
@@ -112,7 +118,7 @@
 				></div>
 
                 <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle" id="help-helmet">
-					<img src="images/helmet-b.png" alt="Munkavédelem"
+					<img src="images/helmet-b.png" alt="Munkavédelem" title="Munkavédelem"
 						data-13600="opacity:.2;"
 						data-13900="opacity:1;"
 					/>
@@ -153,7 +159,7 @@
 
 
                 <a href="#referenciak" data-menu-top="28800"><div class="help-circle">
-					<img src="images/references.png" alt="Referenciák"
+					<img src="images/references.png" alt="Referenciák" title="Referenciák"
 						data-27200="opacity:.2;"
 						data-27500="opacity:1;"
 					/>
@@ -170,7 +176,7 @@
 
 
                 <a href="#kapcsolat" data-menu-top="32700"><div class="help-circle">
-					<img src="images/contact-3.png" alt="Kapcsolat"
+					<img src="images/contact-3.png" alt="Kapcsolat" title="Kapcsolat"
 						data-31900="opacity:.2;"
 						data-32200="opacity:1;"
 					/>
@@ -202,8 +208,9 @@
 							     data-270="height:0;"
 							     data-271="height:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
 							     data-500="height:2.625em; left:10px; top:12px;"
-							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft. logo"
-							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px">
+							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft." title="Varda-Ved Kft."
+							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
+                                >
 						</div>
 						<div id="logo_text"
 							data-0="position:initial; display:inline; padding:.3em 0;"
@@ -387,7 +394,7 @@
 						data-1850="opacity:1; top:-170px;"
 						data-2030="opacity:0; top:-170px;"
 					>
-						<img id="first-ref" src="images/references.png">
+						<img id="first-ref" src="images/references.png" alt="" title="">
 					</div>	
 
 					<p class="relative text center regular"
@@ -440,7 +447,7 @@
 					data-3400=""
 					data-3700=""
 					>
-						<img class="menu-icon" id="extinguish" src="images/ext-b.png">
+						<img class="menu-icon" id="extinguish" src="images/ext-b.png" alt="" title="">
 				</div>	
 
 				<h1 class="title upp">Tűzvédelem</h1>
@@ -463,7 +470,7 @@
 					data-3500="height:80px;"
 					data-3800="height:0px"
 					data-3801="display:none;"
-				id="law" src="images/law.png">
+				id="law" src="images/law.png"  alt="" title="">
 
 
 
@@ -474,7 +481,7 @@
 						data-5200="opacity:1; "
 						data-5600="opacity:0; display:none;"
 				>
-					<img class="circle" src="images/1_3.png">
+					<img class="circle" src="images/1_3.png"  alt="" title="">
 				</div>
 
 
@@ -499,7 +506,7 @@
 						data-7200="opacity:0; "
 						data-7201="display:none;"
 				>
-					<img class="circle" src="images/2.png">
+					<img class="circle" src="images/2.png"  alt="" title="">
 				</div>
 
 				<p class="text relative center"
@@ -581,7 +588,7 @@
 				data-27250="opacity:0;"
 			>
 			
-				<img class="menu-icon" id="helmet" src="images/helmet.png">
+				<img class="menu-icon" id="helmet" src="images/helmet.png" alt="" title="">
 				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
 					data-13600="opacity:0; left:1500px; display:block;"
@@ -618,7 +625,7 @@
 						data-15800="transform:rotate(0deg); "
 						data-16600="transform:rotate(-90deg); "
 						data-17500="transform:rotate(720deg);"
-					>
+                        alt="" title="">
 				</div>
 
 				<p class="text relative center"
@@ -685,7 +692,7 @@
 						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
 						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
 					</p>
-					<img id="certificate" src="images/certificate.png">
+					<img id="certificate" src="images/certificate.png" alt="" title="">
 				</div>
 
 				<p class="text center" id="long"
@@ -726,7 +733,7 @@
 		>
 			<div id="four-ref">
 				
-				<img id="ref-icon" class="menu-icon" src="images/references-2.png">
+				<img id="ref-icon" class="menu-icon" src="images/references-2.png" alt="" title="">
 				<h1 class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
@@ -746,7 +753,7 @@
 					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
-								<img src="images/madison.png" />
+								<img src="images/madison.png" alt="Madison Pub & Restaurant" title="Madison Pub & Restaurant"/>
 							</span>
 						</div>
 						<div class="box-logo-nev">
@@ -769,7 +776,7 @@
 					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
-								<img src="images/caroflex.png" />
+								<img src="images/caroflex.png" alt="Caroflex Fékbetétgyár Kft." title="Caroflex Fékbetétgyár Kft."/>
 							</span>
 						</div>
 						<div class="box-logo-nev">
@@ -792,7 +799,7 @@
 					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
-								<img src="images/pirehab.png" />
+								<img src="images/pirehab.png" alt="Pirehab Kft." title="Pirehab Kft."/>
 							</span>
 						</div>
 						<div class="box-logo-nev">
@@ -848,7 +855,7 @@
 
 		>
 			<div id="five-kapcs">
-				<img class="menu-icon" id="contact" src="images/contact-3.png">
+				<img class="menu-icon" id="contact" src="images/contact-3.png" alt="" title="">
 				<h1 class="title upp">Kapcsolat</h1>
 		
 				<div class="relative"
@@ -879,6 +886,7 @@
 						<img class="rounded" src="images/gyula-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px; "
 							data-34500="opacity:1; height:120px; width:120px;"
+                            alt="Szűrös Gyula" title="Szűrös Gyula"
 						>
 						<p class="name center upp bold">Szűrös Gyula</p>
 						<p class="center">Tűzvédelmi szakértő</p>
@@ -888,6 +896,7 @@
 						<img class="rounded" src="images/csaba-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px;"
 							data-34500="opacity:1; height:120px; width:120px;"
+                            alt="Szűrös Csaba" title="Szűrös Csaba"
 						>
 						<p class="name center upp bold">Szűrös Csaba</p>
 						<p class="center">Munkavédelmi szakértő</p>
