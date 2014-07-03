@@ -363,7 +363,7 @@
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
 							biztonságos munkakörnyezetet kialakítani</span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
-							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
+							baleset-; és tűzvédelmi kialakításáról van szó – akkor jó helyen jár!
 					</p>	
 
 					<div class="relative" id="icon"
@@ -386,7 +386,7 @@
 						data-1530="opacity:0; top:0px; left:1500px;">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
 						tűzvédelem terén szerzett sok
-						éves szakmai tapaszatalattal.
+						éves szakmai tapasztalattal.
 					</p>
 
 					<p class="text relative center"
