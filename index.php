@@ -893,7 +893,7 @@
 	</div>
 
 </div>
-<script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script class="cssdeck" src="assets/js/jquery.1.8.0.min.js"></script>
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>
