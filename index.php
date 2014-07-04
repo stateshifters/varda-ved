@@ -10,7 +10,7 @@
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					Várda-Véd Kft. szakembereire!">
 
-    <link rel="icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
 	      type='text/css'>
