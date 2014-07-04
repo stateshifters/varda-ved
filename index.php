@@ -12,9 +12,6 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
-	      type='text/css'>
-
     <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
 
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
@@ -893,7 +890,7 @@
 	</div>
 
 </div>
-<script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script class="cssdeck" src="assets/js/jquery.1.8.0.min.js"></script>
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>
