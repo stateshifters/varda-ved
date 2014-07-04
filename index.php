@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-	<title>Várda-Véd Kft. | Tűzvédelem, Munkavédelem</title>
+	<title>VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="Tűzvédelem, Munkavédelem, Munkavédelemi oktatás, Tűzvédelemi oktatás,
     Tűzvédelemi felmérés, Munkavédelemi felmérés, Tűzvédelemi tanácsadás, Munkavédelemi tanácsadás">
     <meta name="description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!">
+					VÁRDA-VÉD Kft. szakembereire!">
 
-    <link rel="icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
-    <meta property="og:site_name" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
+	      type='text/css'>
+
+    <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
 
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
     <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png" />
 
-    <meta property="og:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
-    <meta property="twitter:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem" />
+    <meta property="og:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
+    <meta property="twitter:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem" />
 
     <meta property="og:locale" content="hu_HU">
 
     <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!">
+					VÁRDA-VÉD Kft. szakembereire!">
     <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!" />
+					VÁRDA-VÉD Kft. szakembereire!" />
 
     <meta property="twitter:card" content="summary" />
     <script type="application/javascript">
@@ -219,7 +222,7 @@
 							     data-150="font-size:0em;"
 							     data-151="font-size:1em;"
 							     data-400="font-size:1em;">
-							   Várda-Véd</a>
+							   VÁRDA-VÉD</a>
 						</div>
 						
 					</div>
@@ -360,7 +363,7 @@
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
 							biztonságos munkakörnyezetet kialakítani</span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
-							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
+							baleset-, és tűzvédelmi kialakításáról van szó – akkor jó helyen jár!
 					</p>	
 
 					<div class="relative" id="icon"
@@ -383,7 +386,7 @@
 						data-1530="opacity:0; top:0px; left:1500px;">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
 						tűzvédelem terén szerzett sok
-						éves szakmai tapaszatalattal.
+						éves szakmai tapasztalattal.
 					</p>
 
 					<p class="text relative center"
@@ -504,7 +507,7 @@
 					data-8200="opacity:1; left:0px; "
 					data-8700="opacity:0; left:-1500px; display:none;"
 				>
-					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
+					A VÁRDA-VÉD Kft. tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki-, és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
 					Mint bizonyára tudja, a munkáltató kötelessége a hatályos tűzvédelmi előírások alapján
 					saját tűzvédelmi szabályzat kialakítása, megfelelően képzett szakember segítségével.
@@ -518,7 +521,7 @@
 					data-9800="opacity:1; left:0px; "
 					data-10300="opacity:0; left:0px; display:none; "
 				>
-					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
+					A VÁRDA-VÉD Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
 				<div class="text center"
@@ -613,7 +616,7 @@
 					data-19000="opacity:0;"
 					data-19001="display:none;"
 				>
-					A Várda-Véd Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
+					A VÁRDA-VÉD Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
 					munkavédelemmel kapcsolatos kötelezettségeinek maradéktalanul eleget tehessen:
 				</p>
 
@@ -679,7 +682,7 @@
 					data-25200="opacity:1; "
 					data-25600="opacity:0; display:none;"
 				>
-					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
+					A VÁRDA-VÉD Kft. tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
 					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
 					szabályzathoz, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
@@ -696,7 +699,7 @@
 					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
 					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik. A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!
+					VÁRDA-VÉD Kft. szakembereire!
 				</p>
 			</div>
 		</section>
@@ -842,7 +845,7 @@
 					data-33500="opacity:1; left:0px;"
 					data-33900="opacity:0; display:none;"
 				>
-					<p class="text center bold">Várda-Véd Kft.</p>
+					<p class="text center bold">VÁRDA-VÉD Kft.</p>
 					<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
 					<p class="text center">
 						<span class="bold">Tel:</span>

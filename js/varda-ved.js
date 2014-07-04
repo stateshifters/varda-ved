@@ -78,7 +78,6 @@ window.onload = function () {
 			if (History.getState().hash !== '/' + candidate.state) {
 				History.pushState(null, null, candidate.state);
 				if(ga!==undefined) {
-					ga('send', 'pageview', candidate.state);
 					ga('send', 'screenview', {
 						'screenName': candidate.state.substring(1)
 					});
@@ -96,7 +95,6 @@ window.onload = function () {
 				$(breakpoint.state).waypoint(function(){
 					History.pushState(null, null, breakpoint.state);
 					if(ga!==undefined) {
-						ga('send', 'pageview', breakpoint.state);
 						ga('send', 'screenview', {
 							'screenName': breakpoint.state.substring(1)
 						});
