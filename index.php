@@ -527,9 +527,9 @@
 					data-11500="opacity:1;"
 					data-11900="opacity:0; display:none;">
 					<ul class="list">
-						<li><div class="square"></div>Tűzvédelmi szabályzat készítése<div class="square"></div></li>
-						<li><div class="square"></div>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként<div class="square"></div></li>
-						<li class="last"><div class="square"></div>Tűzriadó terv elkészítése<div class="square"></div></li>
+						<li>Tűzvédelmi szabályzat készítése</li>
+						<li>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként</li>
+						<li class="last">Tűzriadó terv elkészítése</li>
 					</ul>
 				</div>
 
@@ -539,10 +539,10 @@
 					data-12900="opacity:1;"
 					data-13200="opacity:0; display:none;">
 					<ul class="list">
-						<li><div class="square"></div>Tűzveszélyességi osztályok szerinti besorolás elkészítése<div class="square"></div></li>
-						<li><div class="square"></div>Tűzoltó készülékek beszerzése, karbantartása<div class="square"></div></li>
-						<li><div class="square"></div>Tűzvédelmi szakszemlék megtartása<div class="square"></div></li>
-						<li><div class="square"></div>Tűzvédelmi szakvizsgák szervezése, lebonyolítása<div class="square"></div></li>
+						<li>Tűzveszélyességi osztályok szerinti besorolás elkészítése</li>
+						<li>Tűzoltó készülékek beszerzése, karbantartása</li>
+						<li>Tűzvédelmi szakszemlék megtartása</li>
+						<li>Tűzvédelmi szakvizsgák szervezése, lebonyolítása</li>
 					</ul>
 				</div>
 			</div>
@@ -624,10 +624,10 @@
 					data-20400="opacity:0;display:none;"
 				>
 					<ul class="list">
-						<li><div class="square"></div>Munkavédelmi szabályzat teljes körű elkészítése<div class="square"></div></li>
-						<li><div class="square"></div>Munkavédelmi oktatási tematika kidolgozása<div class="square"></div></li>
-						<li><div class="square"></div>Munkabiztonsági kockázatok értékelése<div class="square"></div></li>
-						<li class="last"><div class="square"></div>Egyéni védőeszközök juttatási rendjének kidolgozása<div class="square"></div></li>
+						<li>Munkavédelmi szabályzat teljes körű elkészítése</li>
+						<li>Munkavédelmi oktatási tematika kidolgozása</li>
+						<li>Munkabiztonsági kockázatok értékelése</li>
+						<li class="last">Egyéni védőeszközök juttatási rendjének kidolgozása</li>
 					</ul>
 				</div>
 
@@ -638,11 +638,11 @@
 					data-21600="opacity:0; display:none;"
 				>
 					<ul class="list">
-						<li><div class="square"></div>Soron kívüli ellenőrzés elvégzése<div class="square"></div></li>
-						<li><div class="square"></div>Mentési terv elkészítése<div class="square"></div></li>
-						<li><div class="square"></div>Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
-						dokumentálása<div class="square"></div></li>
-						<li class="last"><div class="square"></div>Folyamatos havi munkavédelmi szaktevékenység ellátása<div class="square"></div></li>
+						<li>Soron kívüli ellenőrzés elvégzése</li>
+						<li>Mentési terv elkészítése</li>
+						<li>Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
+						dokumentálása</li>
+						<li class="last">Folyamatos havi munkavédelmi szaktevékenység ellátása</li>
 					</ul>
 				</div>
 
@@ -653,10 +653,10 @@
 					data-22800="opacity:0; display:none;"
 				>
 					<ul class="list">
-						<li><div class="square"></div>Orvosi alkalmassági vizsgálatok rendjének szabályozása<div class="square"></div></li>
-						<li><div class="square"></div>Gépek, berendezések munkavédelmi üzembe helyezése<div class="square"></div></li>
-						<li><div class="square"></div>Időszakos biztonsági felülvizsgálat elvégzése<div class="square"></div></li>
-						<li><div class="square"></div>Munkabalesetek teljes körű kivizsgálása<div class="square"></div></li>
+						<li>Orvosi alkalmassági vizsgálatok rendjének szabályozása</li>
+						<li>Gépek, berendezések munkavédelmi üzembe helyezése</li>
+						<li>Időszakos biztonsági felülvizsgálat elvégzése</li>
+						<li>Munkabalesetek teljes körű kivizsgálása</li>
 					</ul>
 				</div>
 
