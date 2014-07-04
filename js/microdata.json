@@ -8,7 +8,7 @@
 		"streetAddress": "Mátyás király u. 15"
 	},
 	"email": "info@varda-ved.eu",
-	"member": [
+	"members": [
 		{
 			"@type": "Person",
 			"name": "Szűrös Gyula",
