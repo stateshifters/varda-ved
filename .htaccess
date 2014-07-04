@@ -9,6 +9,9 @@ RewriteEngine ON
 
 </IfModule>
 
+AddDefaultCharset UTF-8
+Header append X-FRAME-OPTIONS "SAMEORIGIN"
+
 RewriteBase /
 RewriteCond  %{REQUEST_FILENAME} !robots.txt
 RewriteCond  %{REQUEST_FILENAME} !sitemap.xml
