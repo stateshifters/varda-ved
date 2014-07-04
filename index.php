@@ -12,9 +12,6 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
-	      type='text/css'>
-
     <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
 
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
