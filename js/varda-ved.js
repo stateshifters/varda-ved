@@ -79,6 +79,7 @@ window.onload = function () {
 			if (top.location.hash !== candidate.state) {
 				History.pushState(null, null, candidate.state);
 				if(typeof(ga) !== 'undefined') {
+					ga('send', 'pageview', breakpoint.state);
 					ga('send', 'screenview', {
 						'screenName': candidate.state.substring(1)
 					});
@@ -95,7 +96,8 @@ window.onload = function () {
 			$.each(breakpoints, function (index, breakpoint) {
 				$(breakpoint.state).waypoint(function(){
 					History.pushState(null, null, breakpoint.state);
-					if(typeof (ga) !=='undefined') {
+					if(typeof(ga) !== 'undefined') {
+						ga('send', 'pageview', breakpoint.state);
 						ga('send', 'screenview', {
 							'screenName': breakpoint.state.substring(1)
 						});
