@@ -79,7 +79,7 @@ window.onload = function () {
 			if (top.location.hash !== candidate.state) {
 				History.pushState(null, null, candidate.state);
 				if(typeof(ga) !== 'undefined') {
-					ga('send', 'pageview', breakpoint.state);
+					ga('send', 'pageview', candidate.state);
 					ga('send', 'screenview', {
 						'screenName': candidate.state.substring(1)
 					});
