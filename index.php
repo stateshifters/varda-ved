@@ -49,12 +49,12 @@
 				data-0="visibility:hidden;"
 				data-800="visibility:visible; background-color: rgb(248,248,248);"
 				data-1550="visibility:hidden;"
-				data-3899="visibility:visible; background-color: rgb(238,51,51);"
+				data-3899="visibility:visible; background-color: rgb(188,30,30);"
 				data-9001="visibility:hidden;"
 
-				data-13200="visibility:visible; background-color: rgb(238,51,51);"
-				data-13877="visibility:visible; background-color: rgb(238,51,51);"
-				data-13878="visibility:visible; background-color: rgb(255,144,0);"
+				data-13200="visibility:visible; background-color: rgb(188,30,30);"
+				data-13877="visibility:visible; background-color: rgb(188,30,30);"
+				data-13878="visibility:visible; background-color: rgb(225,101,0);"
 				data-14200="visibility:hidden;"
 
 			></div>
