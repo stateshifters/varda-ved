@@ -25,7 +25,6 @@ $alabaster: #f8f8f8;
 $alto: #d2d2d2;
 $black: #000;
 $gorse: #fff857;
-$lima: #43c423;
 $silver: #c2c2c2;
 $white: #fff;
 
@@ -40,6 +39,9 @@ $roseofsharon: #bf5500;
 
 $cerulean: #00a3d8;
 $elm: #1f778f;
+
+$lima: #43c423;
+$lapalma: #2e9b13;
 
 html,
 body {
@@ -556,7 +558,7 @@ a:active {
 }
 
 #kapcsolat {
-  background-color: $lima;
+  background-color: $lapalma;
 
   #contact {
     height: 80px;
