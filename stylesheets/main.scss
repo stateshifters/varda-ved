@@ -1,5 +1,4 @@
 @charset 'UTF-8';
-@import '_fonts.scss';
 @import 'compass/css3';
 @import 'compass/css3/border-radius';
 @import 'compass/css3/inline-block';
@@ -37,7 +36,6 @@ html,
 body {
   background-color: $alabaster;
   color: $black;
-//  font-family: 'Open Sans', sans-serif;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
   text-align: center;
