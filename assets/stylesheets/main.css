@@ -422,7 +422,7 @@ a:active {
 }
 
 #tuzvedelem {
-  background-color: #811111;
+  background-color: #bc1e1e;
 }
 #tuzvedelem #extinguish {
   height: 70px;
@@ -2082,6 +2082,6 @@ footer div {
 }
 @media tv and (min-width: 700px) and (orientation: landscape) {
   #tuzvedelem {
-    background-color: black;
+    background-color: #811111;
   }
 }
