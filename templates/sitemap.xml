@@ -6,27 +6,27 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://varda-ved.eu/</loc>
+        <loc>http://www.varda-ved.eu/</loc>
         <priority>1.0000</priority>
     </url>
     <url>
-        <loc>http://varda-ved.eu/#bemutatkozas</loc>
+        <loc>http://www.varda-ved.eu/#bemutatkozas</loc>
         <priority>1.0000</priority>
     </url>
     <url>
-        <loc>http://varda-ved.eu/#tuzvedelem</loc>
+        <loc>http://www.varda-ved.eu/#tuzvedelem</loc>
         <priority>0.6000</priority>
     </url>
     <url>
-        <loc>http://varda-ved.eu/#munkavedelem</loc>
+        <loc>http://www.varda-ved.eu/#munkavedelem</loc>
         <priority>0.6000</priority>
     </url>
     <url>
-        <loc>http://varda-ved.eu/#referenciak</loc>
+        <loc>http://www.varda-ved.eu/#referenciak</loc>
         <priority>0.5000</priority>
     </url>
     <url>
-        <loc>http://varda-ved.eu/#kapcsolat</loc>
+        <loc>http://www.varda-ved.eu/#kapcsolat</loc>
         <priority>0.8000</priority>
     </url>
 

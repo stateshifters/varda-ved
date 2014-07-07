@@ -455,6 +455,7 @@ module.exports = function (grunt) {
 		'create:tracking'
 	]);
 
+
 	grunt.registerTask('compile:images', [
 		'copy:images',
 		'svgmin'

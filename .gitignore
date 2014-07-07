@@ -11,6 +11,7 @@ sitemap.xml
 assets/js
 assets/debug.css
 assets/images/**/*.*
+assets/fonts/**/*.*
 assets/debug.*.css
 assets/**/*.*.css
 assets/**/*.map

@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
-	<title>Várda-Véd Kft. | Tűzvédelem, Munkavédelem</title>
+	<title>VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="Tűzvédelem, Munkavédelem, Munkavédelemi oktatás, Tűzvédelemi oktatás,
     Tűzvédelemi felmérés, Munkavédelemi felmérés, Tűzvédelemi tanácsadás, Munkavédelemi tanácsadás">
     <meta name="description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!">
+					VÁRDA-VÉD Kft. szakembereire!">
 
-    <link rel="icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
 	<link href="assets/stylesheets/main.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300' rel='stylesheet'
-	      type='text/css'>
-
-    <meta property="og:site_name" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
+    <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
 
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
     <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png" />
 
-    <meta property="og:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem">
-    <meta property="twitter:title" content="Várda-Véd Kft. | Tűzvédelem, Munkavédelem" />
+    <meta property="og:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
+    <meta property="twitter:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem" />
 
     <meta property="og:locale" content="hu_HU">
 
     <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!">
+					VÁRDA-VÉD Kft. szakembereire!">
     <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!" />
+					VÁRDA-VÉD Kft. szakembereire!" />
 
     <meta property="twitter:card" content="summary" />
     <script type="application/javascript">
@@ -52,12 +49,12 @@
 				data-0="visibility:hidden;"
 				data-800="visibility:visible; background-color: rgb(248,248,248);"
 				data-1550="visibility:hidden;"
-				data-3899="visibility:visible; background-color: rgb(238,51,51);"
+				data-3899="visibility:visible; background-color: rgb(188,30,30);"
 				data-9001="visibility:hidden;"
 
-				data-13200="visibility:visible; background-color: rgb(238,51,51);"
-				data-13877="visibility:visible; background-color: rgb(238,51,51);"
-				data-13878="visibility:visible; background-color: rgb(255,144,0);"
+				data-13200="visibility:visible; background-color: rgb(188,30,30);"
+				data-13877="visibility:visible; background-color: rgb(188,30,30);"
+				data-13878="visibility:visible; background-color: rgb(225,101,0);"
 				data-14200="visibility:hidden;"
 
 			></div>
@@ -222,7 +219,7 @@
 							     data-150="font-size:0em;"
 							     data-151="font-size:1em;"
 							     data-400="font-size:1em;">
-							   Várda-Véd</a>
+							   VÁRDA-VÉD</a>
 						</div>
 						
 					</div>
@@ -363,7 +360,7 @@
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
 							biztonságos munkakörnyezetet kialakítani</span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
-							baleset-; és tűzvédelmi kalakításáról van szó – akkor jó helyen jár!
+							baleset-, és tűzvédelmi kialakításáról van szó – akkor jó helyen jár!
 					</p>	
 
 					<div class="relative" id="icon"
@@ -386,7 +383,7 @@
 						data-1530="opacity:0; top:0px; left:1500px;">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
 						tűzvédelem terén szerzett sok
-						éves szakmai tapaszatalattal.
+						éves szakmai tapasztalattal.
 					</p>
 
 					<p class="text relative center"
@@ -507,7 +504,7 @@
 					data-8200="opacity:1; left:0px; "
 					data-8700="opacity:0; left:-1500px; display:none;"
 				>
-					A VÁRDA-VÉD tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
+					A VÁRDA-VÉD Kft. tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki-, és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
 					Mint bizonyára tudja, a munkáltató kötelessége a hatályos tűzvédelmi előírások alapján
 					saját tűzvédelmi szabályzat kialakítása, megfelelően képzett szakember segítségével.
@@ -521,7 +518,7 @@
 					data-9800="opacity:1; left:0px; "
 					data-10300="opacity:0; left:0px; display:none; "
 				>
-					A Várda-Véd Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
+					A VÁRDA-VÉD Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
 				<div class="text center"
@@ -530,9 +527,9 @@
 					data-11500="opacity:1;"
 					data-11900="opacity:0; display:none;">
 					<ul class="list">
-						<li><div class="square"></div>Tűzvédelmi szabályzat készítése<div class="square"></div></li>
-						<li><div class="square"></div>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként<div class="square"></div></li>
-						<li class="last"><div class="square"></div>Tűzriadó terv elkészítése<div class="square"></div></li>
+						<li>Tűzvédelmi szabályzat készítése</li>
+						<li>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként</li>
+						<li class="last">Tűzriadó terv elkészítése</li>
 					</ul>
 				</div>
 
@@ -542,10 +539,10 @@
 					data-12900="opacity:1;"
 					data-13200="opacity:0; display:none;">
 					<ul class="list">
-						<li><div class="square"></div>Tűzveszélyességi osztályok szerinti besorolás elkészítése<div class="square"></div></li>
-						<li><div class="square"></div>Tűzoltó készülékek beszerzése, karbantartása<div class="square"></div></li>
-						<li><div class="square"></div>Tűzvédelmi szakszemlék megtartása<div class="square"></div></li>
-						<li><div class="square"></div>Tűzvédelmi szakvizsgák szervezése, lebonyolítása<div class="square"></div></li>
+						<li>Tűzveszélyességi osztályok szerinti besorolás elkészítése</li>
+						<li>Tűzoltó készülékek beszerzése, karbantartása</li>
+						<li>Tűzvédelmi szakszemlék megtartása</li>
+						<li>Tűzvédelmi szakvizsgák szervezése, lebonyolítása</li>
 					</ul>
 				</div>
 			</div>
@@ -556,9 +553,9 @@
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
-			data-19000="background-color:rgb(255,144,0);"
-			data-19800="background-color:rgb(255,114,0);"
-			data-22200="background-color:rgb(255,114,0);"
+			data-19000="background-color:rgb(225,101,0);"
+			data-19800="background-color:rgb(225,101,0);"
+			data-22200="background-color:rgb(225,101,0);"
 			data-23000="background-color:rgb(255,144,0);"
 			data-26400="z-index:5;"
 			data-26800="z-index:4;"
@@ -616,7 +613,7 @@
 					data-19000="opacity:0;"
 					data-19001="display:none;"
 				>
-					A Várda-Véd Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
+					A VÁRDA-VÉD Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
 					munkavédelemmel kapcsolatos kötelezettségeinek maradéktalanul eleget tehessen:
 				</p>
 
@@ -627,10 +624,10 @@
 					data-20400="opacity:0;display:none;"
 				>
 					<ul class="list">
-						<li><div class="square"></div>Munkavédelmi szabályzat teljes körű elkészítése<div class="square"></div></li>
-						<li><div class="square"></div>Munkavédelmi oktatási tematika kidolgozása<div class="square"></div></li>
-						<li><div class="square"></div>Munkabiztonsági kockázatok értékelése<div class="square"></div></li>
-						<li class="last"><div class="square"></div>Egyéni védőeszközök juttatási rendjének kidolgozása<div class="square"></div></li>
+						<li>Munkavédelmi szabályzat teljes körű elkészítése</li>
+						<li>Munkavédelmi oktatási tematika kidolgozása</li>
+						<li>Munkabiztonsági kockázatok értékelése</li>
+						<li class="last">Egyéni védőeszközök juttatási rendjének kidolgozása</li>
 					</ul>
 				</div>
 
@@ -641,11 +638,11 @@
 					data-21600="opacity:0; display:none;"
 				>
 					<ul class="list">
-						<li><div class="square"></div>Soron kívüli ellenőrzés elvégzése<div class="square"></div></li>
-						<li><div class="square"></div>Mentési terv elkészítése<div class="square"></div></li>
-						<li><div class="square"></div>Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
-						dokumentálása<div class="square"></div></li>
-						<li class="last"><div class="square"></div>Folyamatos havi munkavédelmi szaktevékenység ellátása<div class="square"></div></li>
+						<li>Soron kívüli ellenőrzés elvégzése</li>
+						<li>Mentési terv elkészítése</li>
+						<li>Előzetes, ismétlődő és rendkívüli munkavédelmi oktatás, illetve a képzés teljes körű
+						dokumentálása</li>
+						<li class="last">Folyamatos havi munkavédelmi szaktevékenység ellátása</li>
 					</ul>
 				</div>
 
@@ -656,10 +653,10 @@
 					data-22800="opacity:0; display:none;"
 				>
 					<ul class="list">
-						<li><div class="square"></div>Orvosi alkalmassági vizsgálatok rendjének szabályozása<div class="square"></div></li>
-						<li><div class="square"></div>Gépek, berendezések munkavédelmi üzembe helyezése<div class="square"></div></li>
-						<li><div class="square"></div>Időszakos biztonsági felülvizsgálat elvégzése<div class="square"></div></li>
-						<li><div class="square"></div>Munkabalesetek teljes körű kivizsgálása<div class="square"></div></li>
+						<li>Orvosi alkalmassági vizsgálatok rendjének szabályozása</li>
+						<li>Gépek, berendezések munkavédelmi üzembe helyezése</li>
+						<li>Időszakos biztonsági felülvizsgálat elvégzése</li>
+						<li>Munkabalesetek teljes körű kivizsgálása</li>
 					</ul>
 				</div>
 
@@ -682,7 +679,7 @@
 					data-25200="opacity:1; "
 					data-25600="opacity:0; display:none;"
 				>
-					A VÁRDA-VÉD tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
+					A VÁRDA-VÉD Kft. tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
 					cég profilját figyelembe véve, annak sajátosságaira szabva elkészített munkavédelmi
 					szabályzathoz, amely a törvényileg kötelező szabályozáson túl kitér cége tevékenységéből
@@ -699,7 +696,7 @@
 					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
 					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik. A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					Várda-Véd Kft. szakembereire!
+					VÁRDA-VÉD Kft. szakembereire!
 				</p>
 			</div>
 		</section>
@@ -708,7 +705,7 @@
 		<section id="referenciak" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
-			data-28900="z-index:5;background-color:rgb(0,163,216);"
+			data-28900="z-index:5;background-color:rgb(31,119,143);"
 			data-31500="z-index:5;"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
@@ -845,7 +842,7 @@
 					data-33500="opacity:1; left:0px;"
 					data-33900="opacity:0; display:none;"
 				>
-					<p class="text center bold">Várda-Véd Kft.</p>
+					<p class="text center bold">VÁRDA-VÉD Kft.</p>
 					<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
 					<p class="text center">
 						<span class="bold">Tel:</span>
@@ -886,14 +883,13 @@
 			</div>
 
 			<div id="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42524.95636907797!2d22.080855750585656!3d48.2295374337208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738ecf8951891f9%3A0x1d0dbb602468a21c!2zTcOhdHnDoXMga2lyw6FseSB1dGNhIDE1!5e0!3m2!1shu!2suk!4v1402309126742"
-				        frameborder="0" style="border:0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42521.36350349783!2d22.084874!3d48.233861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738ecf8951891f9%3A0x1d0dbb602468a21c!2zTcOhdHnDoXMga2lyw6FseSB1dGNhIDE1!5e0!3m2!1shu!2s!4v1404484671259" frameborder="0" style="border:0"></iframe>
 			</div>
 		</section>
 	</div>
 
 </div>
-<script class="cssdeck" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script class="cssdeck" src="assets/js/jquery.1.8.0.min.js"></script>
 <script src="assets/js/modernizr.min.js"></script>
 <script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/enquire.min.js"></script>

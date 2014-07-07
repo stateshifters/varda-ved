@@ -75,9 +75,10 @@ window.onload = function () {
 					candidate = breakpoint;
 				}
 			});
-			if (History.getState().hash !== '/' + candidate.state) {
+
+			if (top.location.hash !== candidate.state) {
 				History.pushState(null, null, candidate.state);
-				if(ga!==undefined) {
+				if(typeof(ga) !== 'undefined') {
 					ga('send', 'pageview', candidate.state);
 					ga('send', 'screenview', {
 						'screenName': candidate.state.substring(1)
@@ -95,7 +96,7 @@ window.onload = function () {
 			$.each(breakpoints, function (index, breakpoint) {
 				$(breakpoint.state).waypoint(function(){
 					History.pushState(null, null, breakpoint.state);
-					if(ga!==undefined) {
+					if(typeof(ga) !== 'undefined') {
 						ga('send', 'pageview', breakpoint.state);
 						ga('send', 'screenview', {
 							'screenName': breakpoint.state.substring(1)
