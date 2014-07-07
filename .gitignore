@@ -16,6 +16,8 @@ assets/debug.*.css
 assets/**/*.*.css
 assets/**/*.map
 
+stylesheets/**/*.css
+
 # Created by http://www.gitignore.io
 
 ### Windows ###
