@@ -49,12 +49,12 @@
 				data-0="visibility:hidden;"
 				data-800="visibility:visible; background-color: rgb(248,248,248);"
 				data-1550="visibility:hidden;"
-				data-3899="visibility:visible; background-color: rgb(238,51,51);"
+				data-3899="visibility:visible; background-color: rgb(188,30,30);"
 				data-9001="visibility:hidden;"
 
-				data-13200="visibility:visible; background-color: rgb(238,51,51);"
-				data-13877="visibility:visible; background-color: rgb(238,51,51);"
-				data-13878="visibility:visible; background-color: rgb(255,144,0);"
+				data-13200="visibility:visible; background-color: rgb(188,30,30);"
+				data-13877="visibility:visible; background-color: rgb(188,30,30);"
+				data-13878="visibility:visible; background-color: rgb(225,101,0);"
 				data-14200="visibility:hidden;"
 
 			></div>
@@ -553,9 +553,9 @@
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
-			data-19000="background-color:rgb(255,144,0);"
-			data-19800="background-color:rgb(255,114,0);"
-			data-22200="background-color:rgb(255,114,0);"
+			data-19000="background-color:rgb(225,101,0);"
+			data-19800="background-color:rgb(225,101,0);"
+			data-22200="background-color:rgb(225,101,0);"
 			data-23000="background-color:rgb(255,144,0);"
 			data-26400="z-index:5;"
 			data-26800="z-index:4;"
@@ -705,7 +705,7 @@
 		<section id="referenciak" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
-			data-28900="z-index:5;background-color:rgb(0,163,216);"
+			data-28900="z-index:5;background-color:rgb(31,119,143);"
 			data-31500="z-index:5;"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>

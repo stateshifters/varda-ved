@@ -73,7 +73,7 @@ img {
 html,
 body {
   background-color: #f8f8f8;
-  color: black;
+  color: white;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -404,6 +404,9 @@ a:active {
   width: 100%;
 }
 
+#bemutatkozas {
+  color: #000;
+}
 #bemutatkozas #one {
   left: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -422,7 +425,7 @@ a:active {
 }
 
 #tuzvedelem {
-  background-color: #ee3333;
+  background-color: #bc1e1e;
 }
 #tuzvedelem #extinguish {
   height: 70px;
@@ -432,8 +435,7 @@ a:active {
 }
 
 #munkavedelem {
-  background-color: #ff9000;
-  color: black;
+  background-color: #e16500;
 }
 #munkavedelem .square {
   background: black;
@@ -447,8 +449,7 @@ a:active {
 }
 
 #referenciak {
-  background-color: #00a3d8;
-  color: black;
+  background-color: #1f778f;
 }
 
 .ref-img {
@@ -563,7 +564,7 @@ a:active {
 }
 
 #kapcsolat {
-  background-color: #43c423;
+  background-color: #2e9b13;
 }
 #kapcsolat #contact {
   height: 80px;
@@ -577,7 +578,7 @@ a:active {
 }
 
 #five-kapcs {
-  background-color: #43c423;
+  background-color: #2e9b13;
   color: white;
   float: left;
   width: 66.66%;
@@ -646,6 +647,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -791,6 +793,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -932,6 +935,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -1073,6 +1077,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -1256,6 +1261,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -1490,7 +1496,6 @@ footer div {
   }
 
   .text {
-    color: black;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.7em;
@@ -1578,9 +1583,6 @@ footer div {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #five-kapcs a {
-    color: black;
-  }
   #kapcsolat #contact {
     height: 80px;
   }
@@ -1594,7 +1596,6 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
-    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1681,7 +1682,6 @@ footer div {
   }
 
   .text {
-    color: black;
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1.8em;
@@ -1770,9 +1770,6 @@ footer div {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #five-kapcs a {
-    color: black;
-  }
   #kapcsolat #contact {
     height: 70px;
   }
@@ -1786,7 +1783,6 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
-    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1869,7 +1865,6 @@ footer div {
   }
 
   .text {
-    color: black;
     font-size: 1.15em;
     font-weight: 400;
     line-height: 1.8em;
@@ -1959,9 +1954,6 @@ footer div {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #five-kapcs a {
-    color: black;
-  }
   #kapcsolat #contact {
     height: 50px;
   }
@@ -1975,7 +1967,6 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
-    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -2078,5 +2069,14 @@ footer div {
     height: -webkit-calc(100% - 60px);
     height: -moz-calc(100% - 60px);
     height: calc(100% - 60px);
+  }
+}
+@media tv and (min-width: 700px) and (orientation: landscape) {
+  #tuzvedelem {
+    background-color: #811111;
+  }
+
+  #munkavedelem {
+    background-color: #bf5500;
   }
 }

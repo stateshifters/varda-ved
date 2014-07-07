@@ -24,18 +24,29 @@ img {
 $alabaster: #f8f8f8;
 $alto: #d2d2d2;
 $black: #000;
-$cerulean: #00a3d8;
 $gorse: #fff857;
-$lima: #43c423;
-$pomegranate: #e33;
-$pizazz: #ff9000;
 $silver: #c2c2c2;
 $white: #fff;
+
+
+$pomegranate: #e33;
+$thunderbird: #bc1e1e;
+$tamarillo: #811111;
+
+$pizazz: #ff9000;
+$clementine: #e16500;
+$roseofsharon: #bf5500;
+
+$cerulean: #00a3d8;
+$elm: #1f778f;
+
+$lima: #43c423;
+$lapalma: #2e9b13;
 
 html,
 body {
   background-color: $alabaster;
-  color: $black;
+  color: $white;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -127,7 +138,6 @@ a:active {
     display: block;
   }
 }
-
 
 .mobile-menu-wrap-open {
   display: block;
@@ -339,7 +349,9 @@ a:active {
   width: 100%;
 }
 
-#bemutatkozas, {
+#bemutatkozas {
+  color: #000;
+
   #one {
     left: 0;
     @include opacity(1);
@@ -359,7 +371,7 @@ a:active {
 }
 
 #tuzvedelem {
-  background-color: $pomegranate;
+  background-color: $thunderbird;
 
   #extinguish {
     height: 70px;
@@ -371,8 +383,7 @@ a:active {
 }
 
 #munkavedelem {
-  background-color: $pizazz;
-  color: $black;
+  background-color: $clementine;
 
   .square {
     background: $black;
@@ -389,8 +400,7 @@ a:active {
 }
 
 #referenciak {
-  background-color: $cerulean;
-  color: $black;
+  background-color: $elm;
 }
 
 .ref-img {
@@ -547,7 +557,7 @@ a:active {
 }
 
 #kapcsolat {
-  background-color: $lima;
+  background-color: $lapalma;
 
   #contact {
     height: 80px;
