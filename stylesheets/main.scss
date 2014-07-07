@@ -32,6 +32,8 @@ $pizazz: #ff9000;
 $silver: #c2c2c2;
 $white: #fff;
 
+$thunderbird: #bc1e1e;
+
 html,
 body {
   background-color: $alabaster;
@@ -359,8 +361,8 @@ a:active {
 }
 
 #tuzvedelem {
-  background-color: $pomegranate;
-
+//  background-color: $pomegranate;
+  background-color: $thunderbird;
   #extinguish {
     height: 70px;
   }
