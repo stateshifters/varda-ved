@@ -27,14 +27,16 @@ $black: #000;
 $cerulean: #00a3d8;
 $gorse: #fff857;
 $lima: #43c423;
-$pomegranate: #e33;
-$pizazz: #ff9000;
 $silver: #c2c2c2;
 $white: #fff;
 
-$thunderbird: #bc1e1e;
 
+$pomegranate: #e33;
+$thunderbird: #bc1e1e;
 $tamarillo: #811111;
+
+$pizazz: #ff9000;
+$clementine: #e16500;
 
 html,
 body {
@@ -375,7 +377,7 @@ a:active {
 }
 
 #munkavedelem {
-  background-color: $pizazz;
+  background-color: $clementine;
   color: $black;
 
   .square {
