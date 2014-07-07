@@ -2080,3 +2080,8 @@ footer div {
     height: calc(100% - 60px);
   }
 }
+@media tv and (min-width: 700px) and (orientation: landscape) {
+  #tuzvedelem {
+    background-color: black;
+  }
+}
