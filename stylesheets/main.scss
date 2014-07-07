@@ -313,6 +313,8 @@ a:active {
 
   li {
     line-height: 2em;
+    list-style-position: inside;
+    list-style-type: disc;
 
     .square {
       background: $white;
