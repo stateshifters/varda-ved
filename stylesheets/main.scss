@@ -46,7 +46,8 @@ $lapalma: #2e9b13;
 html,
 body {
   background-color: $alabaster;
-  color: $black;
+//  color: $black;
+  color: $white;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -138,7 +139,6 @@ a:active {
     display: block;
   }
 }
-
 
 .mobile-menu-wrap-open {
   display: block;
@@ -350,7 +350,9 @@ a:active {
   width: 100%;
 }
 
-#bemutatkozas, {
+#bemutatkozas {
+  color: #000;
+
   #one {
     left: 0;
     @include opacity(1);
@@ -383,7 +385,7 @@ a:active {
 
 #munkavedelem {
   background-color: $clementine;
-  color: $black;
+//  color: $black;
 
   .square {
     background: $black;
@@ -401,7 +403,7 @@ a:active {
 
 #referenciak {
   background-color: $elm;
-  color: $black;
+//  color: $black;
 }
 
 .ref-img {

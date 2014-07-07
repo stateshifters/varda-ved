@@ -73,7 +73,7 @@ img {
 html,
 body {
   background-color: #f8f8f8;
-  color: black;
+  color: white;
   font-family: Tahoma, sans-serif;
   font-size: 16px;
   text-align: center;
@@ -404,6 +404,9 @@ a:active {
   width: 100%;
 }
 
+#bemutatkozas {
+  color: #000;
+}
 #bemutatkozas #one {
   left: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -433,7 +436,6 @@ a:active {
 
 #munkavedelem {
   background-color: #e16500;
-  color: black;
 }
 #munkavedelem .square {
   background: black;
@@ -448,7 +450,6 @@ a:active {
 
 #referenciak {
   background-color: #1f778f;
-  color: black;
 }
 
 .ref-img {
@@ -646,6 +647,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -791,6 +793,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -932,6 +935,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -1073,6 +1077,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -1256,6 +1261,7 @@ footer div {
     width: 20%;
   }
   #loader p {
+    color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
@@ -1490,7 +1496,6 @@ footer div {
   }
 
   .text {
-    color: black;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.7em;
@@ -1578,9 +1583,6 @@ footer div {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #five-kapcs a {
-    color: black;
-  }
   #kapcsolat #contact {
     height: 80px;
   }
@@ -1594,7 +1596,6 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
-    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1681,7 +1682,6 @@ footer div {
   }
 
   .text {
-    color: black;
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1.8em;
@@ -1770,9 +1770,6 @@ footer div {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #five-kapcs a {
-    color: black;
-  }
   #kapcsolat #contact {
     height: 70px;
   }
@@ -1786,7 +1783,6 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
-    color: black;
     margin: 1em 0;
     width: 100%;
   }
@@ -1869,7 +1865,6 @@ footer div {
   }
 
   .text {
-    color: black;
     font-size: 1.15em;
     font-weight: 400;
     line-height: 1.8em;
@@ -1959,9 +1954,6 @@ footer div {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #five-kapcs a {
-    color: black;
-  }
   #kapcsolat #contact {
     height: 50px;
   }
@@ -1975,7 +1967,6 @@ footer div {
   }
   #kapcsolat #profile_pic #left,
   #kapcsolat #profile_pic #right {
-    color: black;
     margin: 1em 0;
     width: 100%;
   }
