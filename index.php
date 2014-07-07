@@ -199,8 +199,8 @@
 					     data-500="height:0;">
 						<div id="logo_pic">
 							<img 
-								 data-0="height:4.1875em; position:initial; display:inline; float:none; margin-top:3em; left:0; top:0px;"
-							     data-100="height:3.125em; display:inline; float:none; left:0; top:0; opacity:1;"
+								 data-0="height:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1;"
+							     data-100="height:3.125em; "
 							     data-270="height:0;"
 							     data-271="height:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
 							     data-500="height:2.625em; left:10px; top:12px;"
@@ -209,7 +209,7 @@
                                 >
 						</div>
 						<div id="logo_text"
-							data-0="position:initial; left:0; top:0; display:inline; padding:.3em 0;"
+							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0;"
 					     	data-150=""
 					     	data-151="position:fixed; left:65px; top:-80px; z-index:5;"
 					     	data-400="left:65px; top:21px;"
