@@ -130,15 +130,6 @@ module.exports = function (grunt) {
 					}
 				]
 			},
-			fonts: {
-				files: [
-					{
-						expand: true,
-						src: ['fonts/**/*.*'],
-						dest: staticTargetDir
-					}
-				]
-			},
 			debug: {
 				files: [
 					{
@@ -426,8 +417,7 @@ module.exports = function (grunt) {
 		grunt.task.run([
 			'compile:css',
 			'compile:js',
-			'compile:images',
-			'compile:fonts'
+			'compile:images'
 		]);
 	});
 
@@ -436,7 +426,6 @@ module.exports = function (grunt) {
 			'copy:js',
 			'create:tracking',
 			'compile:images',
-			'compile:fonts',
 			'create:debugCss',
 			'cssmin',
 			'create:hash',
@@ -466,9 +455,6 @@ module.exports = function (grunt) {
 		'create:tracking'
 	]);
 
-	grunt.registerTask('compile:fonts', [
-		'copy:fonts'
-	]);
 
 	grunt.registerTask('compile:images', [
 		'copy:images',
