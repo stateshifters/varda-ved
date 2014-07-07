@@ -705,7 +705,7 @@
 		<section id="referenciak" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
 			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
-			data-28900="z-index:5;background-color:rgb(0,163,216);"
+			data-28900="z-index:5;background-color:rgb(31,119,143);"
 			data-31500="z-index:5;"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>

@@ -447,7 +447,7 @@ a:active {
 }
 
 #referenciak {
-  background-color: #00a3d8;
+  background-color: #1f778f;
   color: black;
 }
 
@@ -2083,5 +2083,9 @@ footer div {
 @media tv and (min-width: 700px) and (orientation: landscape) {
   #tuzvedelem {
     background-color: #811111;
+  }
+
+  #munkavedelem {
+    background-color: #bf5500;
   }
 }
