@@ -199,20 +199,20 @@
 					     data-500="height:0;">
 						<div id="logo_pic">
 							<img 
-								 data-0="height: 4.1875em; position: initial; display:inline;float:none;margin-top:3em; top:0px;"
-							     data-100="height:3.125em; display:inline;float:none;opacity:100;"
-							     data-270="height:0;"
-							     data-271="height:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
-							     data-500="height:2.625em; left:10px; top:12px;"
+								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1;"
+							     data-100="height:3.125em; width:3.125em;"
+							     data-270="height:0; width:0;"
+							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
+							     data-500="height:2.625em; width:2.625em; left:10px; top:12px;"
 							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft." title="Varda-Ved Kft."
 							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
                                 >
 						</div>
 						<div id="logo_text"
-							data-0="position:initial; display:inline; padding:.3em 0;"
-							     data-150=""
-							     data-151="position:fixed; left:65px; top:-80px; z-index:5;"
-							     data-400="left:65px; top:21px;"
+							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0;"
+					     	data-150=""
+					     	data-151="position:fixed; left:65px; top:-80px; z-index:5;"
+					     	data-400="left:65px; top:21px;"
 						>
 							<a href="#bemutatkozas" data-menu-top="0" 
 								 data-0="font-size:1em;"
@@ -226,7 +226,7 @@
 
 					<div id="stripe"
 							 data-0="height:2px; position:relative;"
-						     data-500="height:10px;">
+						     data-500="height:10px; ">
 						<div id="stripe_1" class="stripe_all">
 						</div>
 						<div id="stripe_2" class="stripe_all">
