@@ -1782,13 +1782,3 @@ $xwidescreen-: $xwidescreen - .01em;
     @include calc(height, '100% - 60px');
   }
 }
-
-@media tv and (min-width: 700px) and (orientation: landscape) { 
-  #tuzvedelem {
-    background-color: $tamarillo;
-  }
-
-  #munkavedelem {
-    background-color: $roseofsharon;
-  }
-}

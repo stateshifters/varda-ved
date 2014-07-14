@@ -58,8 +58,8 @@
 
 			></div>
 			<div id="arrow"
-				data-0="left:0px; opacity: 1"
-				data-459="left:300px; opacity: 0"
+				data-0="left:0px; opacity:1"
+				data-459="left:300px; opacity:0"
 			>
 				<p>Görgessen</p>
 	    		<img src="images/arrow-red.png" title="Görgessen" alt="Görgessen" />
@@ -208,7 +208,6 @@
 						</div>
 						<div id="logo_text"
 							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0"
-					     	data-150=""
 					     	data-151="position:fixed; left:65px; top:-80px; z-index:5"
 					     	data-400="left:65px; top:21px"
 						>
@@ -216,7 +215,7 @@
 								 data-0="font-size:1em"
 							     data-150="font-size:0em"
 							     data-151="font-size:1em"
-							     data-400="font-size:1em">
+							     >
 							   VÁRDA-VÉD</a>
 						</div>
 						
@@ -332,25 +331,23 @@
 						</ul>
 					</nav>
 
-
 				</div>
 			</div>
 		</header>
 
 
 		<section id="bemutatkozas" class="homeSlide"
-			data-0="z-index:5; position:fixed; height:100%; width: 100%"
+			data-0="z-index:5; position:fixed; height:100%; width:100%"
 			data-2000="z-index:5"
 			data-2001="z-index:4"
 		>
 				<div id="one"
-					data-0="height:100%;width:100%"
-					data-1900="height:100%;width:100%"
-					data-2400="height:100%;width:100%"
+					data-0="height:100%; width:100%"
+					data-1900="height:100%; width:100%"
 					>
 
 					<p class="relative text center" id="first-p"
-						data-100="opacity:0;  top:50px; left:0px"
+						data-100="opacity:0; top:50px; left:0px"
 						data-500="opacity:1; top:50px; left:0px"
 						data-1000="opacity:1; top:50px; left:0px"
 						data-1320="opacity:0; top:50px; left:-1850px">
@@ -362,7 +359,6 @@
 					</p>	
 
 					<div class="relative" id="icon"
-						data-0="opacity:0; top:0px"
 						data-50="opacity:0; top:0px"
 						data-500="opacity:1; top:0px"
 						data-900="opacity:1; top:0px"
@@ -374,7 +370,6 @@
 					</div>	
 
 					<p class="relative text center regular"
-						data-0="opacity:1; top:-160px; left:0px"
 						data-50="opacity:1; top:-160px; left:0px"
 						data-300="opacity:1; top:0px; left:0px"
 						data-800="opacity:1; top:0px; left:0px"
@@ -387,7 +382,7 @@
 					<p class="text relative center"
 						data-1130="opacity:0; top:-320px; font-size:0em"
 						data-1430="opacity:1; top:-320px; font-size:1.7em"
-						data-1850="opacity:1; top: -320px"
+						data-1850="opacity:1; top:-320px"
 						data-2030="opacity:0"
 					>
 						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja 
@@ -406,29 +401,19 @@
 		<section id="tuzvedelem" class="homeSlide"
 			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%"
 			data-2600="z-index:5; top:0%"
-			data-5400="z-index:5"
 			data-13000="z-index:5"
 			data-13200="z-index:4"
 		>
 			<div id="two-tuz"
 				data-2100="height:0%; width:100%"
-				data-2400="height:100%; width:100%"
-				data-5400="height:100%; width:100%">
+				data-2400="height:100%; width:100%">
 
-				<div class="relative"
-					data-2600=""
-					data-2800=""
-					data-3000=""
-					data-3200=""
-					data-3400=""
-					data-3700=""
-					>
-						<img class="menu-icon" id="extinguish" src="images/ext-b.png" alt="" title="">
+				<div class="relative">
+					<img class="menu-icon" id="extinguish" src="images/ext-b.png" alt="" title="">
 				</div>	
 
 				<h1 class="title upp">Tűzvédelem</h1>
 				
-
 				<p class="text regular relative center"
 					data-2200="left:-1850px; opacity:1; display:block"
 					data-2800="left:0px; opacity:1"
@@ -490,7 +475,7 @@
 					data-6000="opacity:1; left:0px"
 					data-6800="opacity:1; left:0px"
 					data-7300="opacity:0; left:-1850px; display:none"
-					>
+				>
 					A másik hasonlóan fontos jogszabály, az Országos Tűzvédelmi Szabályzat határozza meg a
 					tűzvédelmi megelőzési és kárelhárítási feladatokat és azok pontos végrehajtását.
 				</p>
@@ -550,9 +535,7 @@
 		<section id="munkavedelem" class="homeSlide"
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%"
 			data-13900="z-index:5; right:0%"
-			data-18000="z-index:5"
 			data-22000="background-color:rgb(225,101,0)"
-			data-22800="background-color:rgb(225,101,0)"
 			data-25400="background-color:rgb(225,101,0)"
 			data-26400="background-color:rgb(255,144,0)"
 			data-26400="z-index:5"
@@ -594,7 +577,6 @@
 				<div class="relative center"
 						data-15200="opacity:0; left:-500px; display:block"
 						data-15800="opacity:1; left:0px"
-						data-16600="opacity:1"
 						data-17000="opacity:1; left:-400px"
 						data-17500="opacity:0; left:-700px; display:none">
 					<img id="screw" src="images/screw.png"
@@ -827,8 +809,6 @@
 			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%"
 			data-32201="z-index:5; top:0%"
 			data-32900="z-index:5; top:0%"
-			data-32901="z-index:5"
-
 		>
 			<div id="five-kapcs">
 				<img class="menu-icon" id="contact" src="images/contact-3.png" alt="" title="">
