@@ -355,7 +355,7 @@
 						data-100="opacity:0;  top:50px; left:0px;"
 						data-500="opacity:1; top:50px; left:0px;"
 						data-1000="opacity:1; top:50px; left:0px;"
-						data-1320="opacity:0; top:50px; left:-1500px;">
+						data-1320="opacity:0; top:50px; left:-1850px;">
 							Amennyiben olyan szakembereket keres, akik <span class="regular">megbízhatóan</span> és
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
 							biztonságos munkakörnyezetet kialakítani</span> – akár
@@ -380,7 +380,7 @@
 						data-50="opacity:1; top:-160px; left:0px;"
 						data-300="opacity:1; top:0px; left:0px;"
 						data-800="opacity:1; top:0px; left:0px;"
-						data-1530="opacity:0; top:0px; left:1500px;">
+						data-1530="opacity:0; top:0px; left:1850px;">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
 						tűzvédelem terén szerzett sok
 						éves szakmai tapasztalattal.
@@ -432,7 +432,7 @@
 				
 
 				<p class="text regular relative center"
-					data-2200="left:-1500px; opacity:1; display:block;"
+					data-2200="left:-1850px; opacity:1; display:block;"
 					data-2800="left:0px; opacity:1;"
 					data-3400="left:0px; opacity:1;"
 					data-3800="left:0px; opacity:0;"
@@ -465,10 +465,10 @@
 
 				<p class="text relative center"
 					data-3600="display:none; opacity:0;"
-					data-3900="display:block; opacity:0; left:1500px;"
+					data-3900="display:block; opacity:0; left:1850px;"
 					data-4400="opacity:1; left:0px;"
 					data-5200="opacity:1; left:0px;"
-					data-5700="opacity:0; left:-1500px; display:none;"
+					data-5700="opacity:0; left:-1850px; display:none;"
 				>
 					Az első
 					a megelőzés és kárelhárítás érdekében teendő legfontosabb kötelező feladatokat határozza
@@ -488,10 +488,10 @@
 				</div>
 
 				<p class="text relative center"
-					data-5701="opacity:0; left:1500px; display:block;"
+					data-5701="opacity:0; left:1850px; display:block;"
 					data-6000="opacity:1; left:0px;"
 					data-6800="opacity:1; left:0px;"
-					data-7300="opacity:0; left:-1500px; display:none;"
+					data-7300="opacity:0; left:-1850px; display:none;"
 					>
 					A másik hasonlóan fontos jogszabály, az Országos Tűzvédelmi Szabályzat határozza meg a
 					tűzvédelmi megelőzési és kárelhárítási feladatokat és azok pontos végrehajtását.
@@ -499,10 +499,10 @@
 
 
 				<p class="text relative center"
-					data-7301="opacity:0; left:1500px;  display:block;"
+					data-7301="opacity:0; left:1850px;  display:block;"
 					data-7600="opacity:1; left:0px; "
 					data-8200="opacity:1; left:0px; "
-					data-8700="opacity:0; left:-1500px; display:none;"
+					data-8700="opacity:0; left:-1850px; display:none;"
 				>
 					A VÁRDA-VÉD Kft. tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki-, és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
@@ -513,7 +513,7 @@
 				</p>
 
 				<p class="text relative regular center"
-					data-8701="opacity:0; left:1500px;  display:block;"
+					data-8701="opacity:0; left:1850px;  display:block;"
 					data-9000="opacity:1; left:0px; "
 					data-9800="opacity:1; left:0px; "
 					data-10300="opacity:0; left:0px; display:none; "
@@ -553,13 +553,14 @@
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
-			data-19000="background-color:rgb(225,101,0);"
-			data-19800="background-color:rgb(225,101,0);"
-			data-22200="background-color:rgb(225,101,0);"
-			data-23000="background-color:rgb(255,144,0);"
+			data-22000="background-color:rgb(225,101,0);"
+			data-22800="background-color:rgb(225,101,0);"
+			data-25400="background-color:rgb(225,101,0);"
+			data-26400="background-color:rgb(255,144,0);"
 			data-26400="z-index:5;"
 			data-26800="z-index:4;"
-			data-30000="background-color:rgb(67,196,35)"
+			data-27500="background-color:rgb(31,119,143);"
+
 		>
 			<div id="three-munka"
 				data-26400="opacity:1;"
@@ -569,7 +570,7 @@
 				<img class="menu-icon" id="helmet" src="images/helmet.png" alt="" title="">
 				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
-					data-13600="opacity:0; left:1500px; display:block;"
+					data-13600="opacity:0; left:1850px; display:block;"
 					data-14000="opacity:1; left:0px;"
 					data-14600="opacity:1; left:0px;"
 					data-15100="opacity:0; left:0px; display:none;"
@@ -704,8 +705,7 @@
 
 		<section id="referenciak" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
-			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
-			data-28900="z-index:5;background-color:rgb(31,119,143);"
+			data-27500="z-index:5; top:0%; background-color:rgb(31,119,143);";
 			data-31500="z-index:5;"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
