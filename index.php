@@ -553,13 +553,14 @@
 			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
 			data-13900="z-index:5; right:0%"
 			data-18000="z-index:5;"
-			data-19000="background-color:rgb(225,101,0);"
-			data-19800="background-color:rgb(225,101,0);"
-			data-22200="background-color:rgb(225,101,0);"
-			data-23000="background-color:rgb(255,144,0);"
+			data-22000="background-color:rgb(225,101,0);"
+			data-22800="background-color:rgb(225,101,0);"
+			data-25400="background-color:rgb(225,101,0);"
+			data-26400="background-color:rgb(255,144,0);"
 			data-26400="z-index:5;"
 			data-26800="z-index:4;"
-			data-30000="background-color:rgb(67,196,35)"
+			data-27500="background-color:rgb(31,119,143);"
+
 		>
 			<div id="three-munka"
 				data-26400="opacity:1;"
@@ -704,8 +705,7 @@
 
 		<section id="referenciak" class="homeSlide"
 			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
-			data-27500="z-index:5; top:0%; background-color:rgb(255,144,0);";
-			data-28900="z-index:5;background-color:rgb(31,119,143);"
+			data-27500="z-index:5; top:0%; background-color:rgb(31,119,143);";
 			data-31500="z-index:5;"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
