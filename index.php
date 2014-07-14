@@ -46,21 +46,20 @@
 
 		<div id="help">
 			<div id="help-nav-bg"
-				data-0="visibility:hidden;"
-				data-800="visibility:visible; background-color: rgb(248,248,248);"
-				data-1550="visibility:hidden;"
-				data-3899="visibility:visible; background-color: rgb(188,30,30);"
-				data-9001="visibility:hidden;"
-
-				data-13200="visibility:visible; background-color: rgb(188,30,30);"
-				data-13877="visibility:visible; background-color: rgb(188,30,30);"
-				data-13878="visibility:visible; background-color: rgb(225,101,0);"
-				data-14200="visibility:hidden;"
+				data-0="visibility:hidden"
+				data-800="visibility:visible; background-color: rgb(248,248,248)"
+				data-1550="visibility:hidden"
+				data-3899="visibility:visible; background-color: rgb(188,30,30)"
+				data-9001="visibility:hidden"
+				data-13200="visibility:visible; background-color: rgb(188,30,30)"
+				data-13877="visibility:visible; background-color: rgb(188,30,30)"
+				data-13878="visibility:visible; background-color: rgb(225,101,0)"
+				data-14200="visibility:hidden"
 
 			></div>
 			<div id="arrow"
-				data-0="left:0px; opacity: 1;"
-				data-459="left:300px; opacity: 0;"
+				data-0="left:0px; opacity: 1"
+				data-459="left:300px; opacity: 0"
 			>
 				<p>Görgessen</p>
 	    		<img src="images/arrow-red.png" title="Görgessen" alt="Görgessen" />
@@ -69,164 +68,163 @@
 			<div id="help-nav"
 				data-200="opacity:0"
 				data-500="opacity:1"
-				data-6000=""
 			>
                 <a href="#bemutatkozas" data-menu-top="0"><div class="help-circle">
 					<img src="images/references.png" alt="Bemutatkozás" title="Bemutatkozás"
-						data-500="opacity:1;"
+						data-500="opacity:1"
 					/>
 				</div></a>
 
 				<div class="small-circle"
-					data-700="background-color:rgb(194,194,194);"
-					data-1000="background-color:rgb(0,0,0);"
+					data-700="background-color:rgb(194,194,194)"
+					data-1000="background-color:rgb(0,0,0)"
 				></div>
 
                 <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle" id="help-ext">
                     <img src="images/ext-b.png" alt="Tűzvédelem" title="Tűzvédelem"
-						data-2100="opacity:.2;"
-						data-2400="opacity:1;"
+						data-2100="opacity:.2"
+						data-2400="opacity:1"
 					/>
 				</div></a>
 
 				<div class="small-circle"
-					data-3900="background-color:rgb(194,194,194);"
-					data-4200="background-color:rgb(0,0,0);"
+					data-3900="background-color:rgb(194,194,194)"
+					data-4200="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-5700="background-color:rgb(194,194,194);"
-					data-6000="background-color:rgb(0,0,0);"
+					data-5700="background-color:rgb(194,194,194)"
+					data-6000="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-7300="background-color:rgb(194,194,194);"
-					data-7600="background-color:rgb(0,0,0);"
+					data-7300="background-color:rgb(194,194,194)"
+					data-7600="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-8600="background-color:rgb(194,194,194);"
-					data-8900="background-color:rgb(0,0,0);"
+					data-8600="background-color:rgb(194,194,194)"
+					data-8900="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-10300="background-color:rgb(194,194,194);"
-					data-10600="background-color:rgb(0,0,0);"
+					data-10300="background-color:rgb(194,194,194)"
+					data-10600="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-11900="background-color:rgb(194,194,194);"
-					data-12200="background-color:rgb(0,0,0);"
+					data-11900="background-color:rgb(194,194,194)"
+					data-12200="background-color:rgb(0,0,0)"
 				></div>
 
                 <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle" id="help-helmet">
 					<img src="images/helmet-b.png" alt="Munkavédelem" title="Munkavédelem"
-						data-13600="opacity:.2;"
-						data-13900="opacity:1;"
+						data-13600="opacity:.2"
+						data-13900="opacity:1"
 					/>
 				</div></a>
 
 				<div class="small-circle"
-					data-15200="background-color:rgb(194,194,194);"
-					data-15500="background-color:rgb(0,0,0);"
+					data-15200="background-color:rgb(194,194,194)"
+					data-15500="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-17500="background-color:rgb(194,194,194);"
-					data-17800="background-color:rgb(0,0,0);"
+					data-17500="background-color:rgb(194,194,194)"
+					data-17800="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-19000="background-color:rgb(194,194,194);"
-					data-19300="background-color:rgb(0,0,0);"
+					data-19000="background-color:rgb(194,194,194)"
+					data-19300="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-20400="background-color:rgb(194,194,194);"
-					data-20700="background-color:rgb(0,0,0);"
+					data-20400="background-color:rgb(194,194,194)"
+					data-20700="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-21600="background-color:rgb(194,194,194);"
-					data-21900="background-color:rgb(0,0,0);"
+					data-21600="background-color:rgb(194,194,194)"
+					data-21900="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-22800="background-color:rgb(194,194,194);"
-					data-23100="background-color:rgb(0,0,0);"
+					data-22800="background-color:rgb(194,194,194)"
+					data-23100="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-24400="background-color:rgb(194,194,194);"
-					data-24700="background-color:rgb(0,0,0);"
+					data-24400="background-color:rgb(194,194,194)"
+					data-24700="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-25600="background-color:rgb(194,194,194);"
-					data-25900="background-color:rgb(0,0,0);"
+					data-25600="background-color:rgb(194,194,194)"
+					data-25900="background-color:rgb(0,0,0)"
 				></div>
 
 
                 <a href="#referenciak" data-menu-top="28800"><div class="help-circle">
 					<img src="images/references.png" alt="Referenciák" title="Referenciák"
-						data-27200="opacity:.2;"
-						data-27500="opacity:1;"
+						data-27200="opacity:.2"
+						data-27500="opacity:1"
 					/>
 				</div></a>
 
 				<div class="small-circle"
-					data-29100="background-color:rgb(194,194,194);"
-					data-29400="background-color:rgb(0,0,0);"
+					data-29100="background-color:rgb(194,194,194)"
+					data-29400="background-color:rgb(0,0,0)"
 				></div>
 				<div class="small-circle"
-					data-30300="background-color:rgb(194,194,194);"
-					data-30600="background-color:rgb(0,0,0);"
+					data-30300="background-color:rgb(194,194,194)"
+					data-30600="background-color:rgb(0,0,0)"
 				></div>
 
 
                 <a href="#kapcsolat" data-menu-top="32700"><div class="help-circle">
 					<img src="images/contact-3.png" alt="Kapcsolat" title="Kapcsolat"
-						data-31900="opacity:.2;"
-						data-32200="opacity:1;"
+						data-31900="opacity:.2"
+						data-32200="opacity:1"
 					/>
 				</div></a>
 
 				<div class="small-circle"
-					data-33900="background-color:rgb(194,194,194);"
-					data-34200="background-color:rgb(0,0,0);"
+					data-33900="background-color:rgb(194,194,194)"
+					data-34200="background-color:rgb(0,0,0)"
 				></div>
 			</div>	
 	    </div>
 
 		<header id="navigation" class="homeSlide">
 			<div id="main_nav"
-			     data-0="height: 16em;position:fixed;top:0;"
-			     data-400="position:fixed;height:3.75em;top:0;">
+			     data-0="height: 16em;position:fixed;top:0"
+			     data-400="position:fixed;height:3.75em;top:0">
 
 				<div class="navigation">
 					<div id="logo"
-					     data-0="height:12.5em;"
-					     data-150="height:8em;"
-					     data-280="height:4em;"
-					     data-500="height:0;">
+					     data-0="height:12.5em"
+					     data-150="height:8em"
+					     data-280="height:4em"
+					     data-500="height:0">
 						<div id="logo_pic">
 							<img 
-								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1;"
-							     data-100="height:3.125em; width:3.125em;"
-							     data-270="height:0; width:0;"
-							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
-							     data-500="height:2.625em; width:2.625em; left:10px; top:12px;"
+								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1"
+							     data-100="height:3.125em; width:3.125em"
+							     data-270="height:0; width:0"
+							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5"
+							     data-500="height:2.625em; width:2.625em; left:10px; top:12px"
 							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft." title="Varda-Ved Kft."
 							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
                                 >
 						</div>
 						<div id="logo_text"
-							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0;"
+							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0"
 					     	data-150=""
-					     	data-151="position:fixed; left:65px; top:-80px; z-index:5;"
-					     	data-400="left:65px; top:21px;"
+					     	data-151="position:fixed; left:65px; top:-80px; z-index:5"
+					     	data-400="left:65px; top:21px"
 						>
 							<a href="#bemutatkozas" data-menu-top="0" 
-								 data-0="font-size:1em;"
-							     data-150="font-size:0em;"
-							     data-151="font-size:1em;"
-							     data-400="font-size:1em;">
+								 data-0="font-size:1em"
+							     data-150="font-size:0em"
+							     data-151="font-size:1em"
+							     data-400="font-size:1em">
 							   VÁRDA-VÉD</a>
 						</div>
 						
 					</div>
 
 					<div id="stripe"
-							 data-0="height:2px; position:relative;"
-						     data-500="height:10px; ">
+							 data-0="height:2px; position:relative"
+						     data-500="height:10px">
 						<div id="stripe_1" class="stripe_all">
 						</div>
 						<div id="stripe_2" class="stripe_all">
@@ -240,8 +238,8 @@
 					</div>
 
 					<nav class="menu-wrap"
-						data-0="position:relative;top:0px;"
-						data-500="top:0px;"
+						data-0="position:relative;top:0px"
+						data-500="top:0px"
 					>
 						<ul id="menu">
 							
@@ -341,21 +339,21 @@
 
 
 		<section id="bemutatkozas" class="homeSlide"
-			data-0="z-index:5; position:fixed; height:100%; width: 100%;"
-			data-2000="z-index:5;"
-			data-2001="z-index:4;"
+			data-0="z-index:5; position:fixed; height:100%; width: 100%"
+			data-2000="z-index:5"
+			data-2001="z-index:4"
 		>
 				<div id="one"
-					data-0="height:100%;width:100%; "
-					data-1900="height:100%;width:100%;"
-					data-2400="height:100%;width:100%;"
+					data-0="height:100%;width:100%"
+					data-1900="height:100%;width:100%"
+					data-2400="height:100%;width:100%"
 					>
 
 					<p class="relative text center" id="first-p"
-						data-100="opacity:0;  top:50px; left:0px;"
-						data-500="opacity:1; top:50px; left:0px;"
-						data-1000="opacity:1; top:50px; left:0px;"
-						data-1320="opacity:0; top:50px; left:-1850px;">
+						data-100="opacity:0;  top:50px; left:0px"
+						data-500="opacity:1; top:50px; left:0px"
+						data-1000="opacity:1; top:50px; left:0px"
+						data-1320="opacity:0; top:50px; left:-1850px">
 							Amennyiben olyan szakembereket keres, akik <span class="regular">megbízhatóan</span> és
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
 							biztonságos munkakörnyezetet kialakítani</span> – akár
@@ -364,33 +362,33 @@
 					</p>	
 
 					<div class="relative" id="icon"
-						data-0="opacity:0; top:0px;"
-						data-50="opacity:0; top:0px;"
-						data-500="opacity:1; top:0px;"
-						data-900="opacity:1; top:0px;"
-						data-1350="opacity:1; top:-170px;"
-						data-1850="opacity:1; top:-170px;"
-						data-2030="opacity:0; top:-170px;"
+						data-0="opacity:0; top:0px"
+						data-50="opacity:0; top:0px"
+						data-500="opacity:1; top:0px"
+						data-900="opacity:1; top:0px"
+						data-1350="opacity:1; top:-170px"
+						data-1850="opacity:1; top:-170px"
+						data-2030="opacity:0; top:-170px"
 					>
 						<img id="first-ref" src="images/references.png" alt="" title="">
 					</div>	
 
 					<p class="relative text center regular"
-						data-0="opacity:1; top:-160px; left:0px;"
-						data-50="opacity:1; top:-160px; left:0px;"
-						data-300="opacity:1; top:0px; left:0px;"
-						data-800="opacity:1; top:0px; left:0px;"
-						data-1530="opacity:0; top:0px; left:1850px;">
+						data-0="opacity:1; top:-160px; left:0px"
+						data-50="opacity:1; top:-160px; left:0px"
+						data-300="opacity:1; top:0px; left:0px"
+						data-800="opacity:1; top:0px; left:0px"
+						data-1530="opacity:0; top:0px; left:1850px">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
 						tűzvédelem terén szerzett sok
 						éves szakmai tapasztalattal.
 					</p>
 
 					<p class="text relative center"
-						data-1130="opacity:0; top:-320px; font-size:0em;"
-						data-1430="opacity:1; top:-320px; font-size:1.7em;"
-						data-1850="opacity:1; top: -320px;"
-						data-2030="opacity:0;"
+						data-1130="opacity:0; top:-320px; font-size:0em"
+						data-1430="opacity:1; top:-320px; font-size:1.7em"
+						data-1850="opacity:1; top: -320px"
+						data-2030="opacity:0"
 					>
 						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja 
 						azokat a munka-, és tűzvédelmi feltételeket,
@@ -406,16 +404,16 @@
 
 
 		<section id="tuzvedelem" class="homeSlide"
-			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
+			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%"
 			data-2600="z-index:5; top:0%"
-			data-5400="z-index:5;"
-			data-13000="z-index:5;"
-			data-13200="z-index:4;"
+			data-5400="z-index:5"
+			data-13000="z-index:5"
+			data-13200="z-index:4"
 		>
 			<div id="two-tuz"
-				data-2100="height:0%; width:100%; "
-				data-2400="height:100%; width:100%; "
-				data-5400="height:100%; width:100%; ">
+				data-2100="height:0%; width:100%"
+				data-2400="height:100%; width:100%"
+				data-5400="height:100%; width:100%">
 
 				<div class="relative"
 					data-2600=""
@@ -432,43 +430,43 @@
 				
 
 				<p class="text regular relative center"
-					data-2200="left:-1850px; opacity:1; display:block;"
-					data-2800="left:0px; opacity:1;"
-					data-3400="left:0px; opacity:1;"
-					data-3800="left:0px; opacity:0;"
-					data-3801="display:none;"
+					data-2200="left:-1850px; opacity:1; display:block"
+					data-2800="left:0px; opacity:1"
+					data-3400="left:0px; opacity:1"
+					data-3800="left:0px; opacity:0"
+					data-3801="display:none"
 				>
 					A tűzvédelem szabályzati hátterét Magyarországon két fontos jogszabály biztosítja.
 				</p>
 
 				<img 
-					data-2400="height:0px; display:inline;"
-					data-2900="height:90px;"
-					data-3100="height:80px;"
-					data-3500="height:80px;"
+					data-2400="height:0px; display:inline"
+					data-2900="height:90px"
+					data-3100="height:80px"
+					data-3500="height:80px"
 					data-3800="height:0px"
-					data-3801="display:none;"
+					data-3801="display:none"
 				id="law" src="images/law.png"  alt="" title="">
 
 
 
 				<div class="number"
-						data-3600="display:none; opacity:0; "
-						data-3900="display:block; opacity:0;"
-						data-4400="opacity:1;"
-						data-5200="opacity:1; "
-						data-5600="opacity:0; display:none;"
+						data-3600="display:none; opacity:0"
+						data-3900="display:block; opacity:0"
+						data-4400="opacity:1"
+						data-5200="opacity:1"
+						data-5600="opacity:0; display:none"
 				>
 					<img class="circle" src="images/1_3.png"  alt="" title="">
 				</div>
 
 
 				<p class="text relative center"
-					data-3600="display:none; opacity:0;"
-					data-3900="display:block; opacity:0; left:1850px;"
-					data-4400="opacity:1; left:0px;"
-					data-5200="opacity:1; left:0px;"
-					data-5700="opacity:0; left:-1850px; display:none;"
+					data-3600="display:none; opacity:0"
+					data-3900="display:block; opacity:0; left:1850px"
+					data-4400="opacity:1; left:0px"
+					data-5200="opacity:1; left:0px"
+					data-5700="opacity:0; left:-1850px; display:none"
 				>
 					Az első
 					a megelőzés és kárelhárítás érdekében teendő legfontosabb kötelező feladatokat határozza
@@ -478,20 +476,20 @@
 
 				
 				<div class="number"
-						data-5701="opacity:0; display:block;"
-						data-6000="opacity:1;"
-						data-6800="opacity:1; "
-						data-7200="opacity:0; "
-						data-7201="display:none;"
+						data-5701="opacity:0; display:block"
+						data-6000="opacity:1"
+						data-6800="opacity:1"
+						data-7200="opacity:0"
+						data-7201="display:none"
 				>
 					<img class="circle" src="images/2.png"  alt="" title="">
 				</div>
 
 				<p class="text relative center"
-					data-5701="opacity:0; left:1850px; display:block;"
-					data-6000="opacity:1; left:0px;"
-					data-6800="opacity:1; left:0px;"
-					data-7300="opacity:0; left:-1850px; display:none;"
+					data-5701="opacity:0; left:1850px; display:block"
+					data-6000="opacity:1; left:0px"
+					data-6800="opacity:1; left:0px"
+					data-7300="opacity:0; left:-1850px; display:none"
 					>
 					A másik hasonlóan fontos jogszabály, az Országos Tűzvédelmi Szabályzat határozza meg a
 					tűzvédelmi megelőzési és kárelhárítási feladatokat és azok pontos végrehajtását.
@@ -499,10 +497,10 @@
 
 
 				<p class="text relative center"
-					data-7301="opacity:0; left:1850px;  display:block;"
-					data-7600="opacity:1; left:0px; "
-					data-8200="opacity:1; left:0px; "
-					data-8700="opacity:0; left:-1850px; display:none;"
+					data-7301="opacity:0; left:1850px;  display:block"
+					data-7600="opacity:1; left:0px"
+					data-8200="opacity:1; left:0px"
+					data-8700="opacity:0; left:-1850px; display:none"
 				>
 					A VÁRDA-VÉD Kft. tűzvédelmi tevékenységének célja a jogszabályi megfelelésen túl az, hogy
 					műszaki-, és emberi tényezők miatt tűzeset ne fordulhasson elő cégénél.
@@ -513,19 +511,19 @@
 				</p>
 
 				<p class="text relative regular center"
-					data-8701="opacity:0; left:1850px;  display:block;"
-					data-9000="opacity:1; left:0px; "
-					data-9800="opacity:1; left:0px; "
-					data-10300="opacity:0; left:0px; display:none; "
+					data-8701="opacity:0; left:1850px;  display:block"
+					data-9000="opacity:1; left:0px"
+					data-9800="opacity:1; left:0px"
+					data-10300="opacity:0; left:0px; display:none"
 				>
 					A VÁRDA-VÉD Kft. az alábbi tevékenységekkel segíti a tűzvédelemmel kapcsolatos jogszabályi
 					kötelezettségek ellátását:
 				</p>
 				<div class="text center"
-					data-10301="opacity:0; display:block;"
-					data-10700="opacity:1;"
-					data-11500="opacity:1;"
-					data-11900="opacity:0; display:none;">
+					data-10301="opacity:0; display:block"
+					data-10700="opacity:1"
+					data-11500="opacity:1"
+					data-11900="opacity:0; display:none">
 					<ul class="list">
 						<li>Tűzvédelmi szabályzat készítése</li>
 						<li>Tűzvédelmi oktatás munkába álláskor és meghatározott időközönként</li>
@@ -534,10 +532,10 @@
 				</div>
 
 				<div class="text center"
-					data-11901="opacity:0; display:block;"
-					data-12300="opacity:1;"
-					data-12900="opacity:1;"
-					data-13200="opacity:0; display:none;">
+					data-11901="opacity:0; display:block"
+					data-12300="opacity:1"
+					data-12900="opacity:1"
+					data-13200="opacity:0; display:none">
 					<ul class="list">
 						<li>Tűzveszélyességi osztályok szerinti besorolás elkészítése</li>
 						<li>Tűzoltó készülékek beszerzése, karbantartása</li>
@@ -550,30 +548,30 @@
 
 
 		<section id="munkavedelem" class="homeSlide"
-			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%;"
+			data-13200="z-index:4; right:100%; position:fixed; height:100%; width: 100%"
 			data-13900="z-index:5; right:0%"
-			data-18000="z-index:5;"
-			data-22000="background-color:rgb(225,101,0);"
-			data-22800="background-color:rgb(225,101,0);"
-			data-25400="background-color:rgb(225,101,0);"
-			data-26400="background-color:rgb(255,144,0);"
-			data-26400="z-index:5;"
-			data-26800="z-index:4;"
-			data-27500="background-color:rgb(31,119,143);"
+			data-18000="z-index:5"
+			data-22000="background-color:rgb(225,101,0)"
+			data-22800="background-color:rgb(225,101,0)"
+			data-25400="background-color:rgb(225,101,0)"
+			data-26400="background-color:rgb(255,144,0)"
+			data-26400="z-index:5"
+			data-26800="z-index:4"
+			data-27500="background-color:rgb(31,119,143)"
 
 		>
 			<div id="three-munka"
-				data-26400="opacity:1;"
-				data-27250="opacity:0;"
+				data-26400="opacity:1"
+				data-27250="opacity:0"
 			>
 			
 				<img class="menu-icon" id="helmet" src="images/helmet.png" alt="" title="">
 				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
-					data-13600="opacity:0; left:1850px; display:block;"
-					data-14000="opacity:1; left:0px;"
-					data-14600="opacity:1; left:0px;"
-					data-15100="opacity:0; left:0px; display:none;"
+					data-13600="opacity:0; left:1850px; display:block"
+					data-14000="opacity:1; left:0px"
+					data-14600="opacity:1; left:0px"
+					data-15100="opacity:0; left:0px; display:none"
 
 				>
 					Ahogy azt bizonyára tudja, a munkavédelem előírásainak megvalósítása és betartása minden
@@ -583,46 +581,46 @@
 				</p>
 
 				<p class="text relative center"
-					data-15200="opacity:0; display:block;"
-					data-15800="opacity:1; "
-					data-16600="opacity:1; "
-					data-17000="opacity:0;"
-					data-17500="display:none;"
+					data-15200="opacity:0; display:block"
+					data-15800="opacity:1"
+					data-16600="opacity:1"
+					data-17000="opacity:0"
+					data-17500="display:none"
 				>
 					Magyarországon a munkavédelmi tevékenységet, csak megfelelő végzettséggel rendelkező
 					(munkavédelmi technikus, szakmérnök) szakember végezheti.
 				</p>
 
 				<div class="relative center"
-						data-15200="opacity:0; left:-500px; display:block;"
-						data-15800="opacity:1; left:0px;"
-						data-16600="opacity:1; "
-						data-17000="opacity:1; left:-400px;"
-						data-17500="opacity:0; left:-700px; display:none;">
+						data-15200="opacity:0; left:-500px; display:block"
+						data-15800="opacity:1; left:0px"
+						data-16600="opacity:1"
+						data-17000="opacity:1; left:-400px"
+						data-17500="opacity:0; left:-700px; display:none">
 					<img id="screw" src="images/screw.png"
-						data-15200="transform:rotate(-360deg); "
-						data-15800="transform:rotate(0deg); "
-						data-16600="transform:rotate(-90deg); "
-						data-17500="transform:rotate(720deg);"
+						data-15200="transform:rotate(-360deg)"
+						data-15800="transform:rotate(0deg)"
+						data-16600="transform:rotate(-90deg)"
+						data-17500="transform:rotate(720deg)"
                         alt="" title="">
 				</div>
 
 				<p class="text relative center"
-					data-17501="opacity:0; display:block;"
-					data-18100="opacity:1; "
-					data-18600="opacity:1; "
-					data-19000="opacity:0;"
-					data-19001="display:none;"
+					data-17501="opacity:0; display:block"
+					data-18100="opacity:1"
+					data-18600="opacity:1"
+					data-19000="opacity:0"
+					data-19001="display:none"
 				>
 					A VÁRDA-VÉD Kft. tapasztalt szakértői a következő tevékenységekkel segítik önt, hogy cége
 					munkavédelemmel kapcsolatos kötelezettségeinek maradéktalanul eleget tehessen:
 				</p>
 
 				<div class="text center"
-					data-19001="opacity:0; display:block;"
-					data-19600="opacity:1; "
-					data-20000="opacity:1; "
-					data-20400="opacity:0;display:none;"
+					data-19001="opacity:0; display:block"
+					data-19600="opacity:1"
+					data-20000="opacity:1"
+					data-20400="opacity:0;display:none"
 				>
 					<ul class="list">
 						<li>Munkavédelmi szabályzat teljes körű elkészítése</li>
@@ -633,10 +631,10 @@
 				</div>
 
 				<div class="text center"
-					data-20401="opacity:0; display:block;"
-					data-20800="opacity:1; "
-					data-21200="opacity:1; "
-					data-21600="opacity:0; display:none;"
+					data-20401="opacity:0; display:block"
+					data-20800="opacity:1"
+					data-21200="opacity:1"
+					data-21600="opacity:0; display:none"
 				>
 					<ul class="list">
 						<li>Soron kívüli ellenőrzés elvégzése</li>
@@ -648,10 +646,10 @@
 				</div>
 
 				<div class="text center"
-					data-21601="opacity:0; display:block;"
-					data-22000="opacity:1; "
-					data-22400="opacity:1; "
-					data-22800="opacity:0; display:none;"
+					data-21601="opacity:0; display:block"
+					data-22000="opacity:1"
+					data-22400="opacity:1"
+					data-22800="opacity:0; display:none"
 				>
 					<ul class="list">
 						<li>Orvosi alkalmassági vizsgálatok rendjének szabályozása</li>
@@ -662,10 +660,10 @@
 				</div>
 
 				<div class="relative"
-					data-22801="opacity:0; display:block;"
-					data-23200="opacity:1; "
-					data-24000="opacity:1; "
-					data-24400="opacity:0; display:none;"
+					data-22801="opacity:0; display:block"
+					data-23200="opacity:1"
+					data-24000="opacity:1"
+					data-24400="opacity:0; display:none"
 				>
 					<p class="text center">
 						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
@@ -675,10 +673,10 @@
 				</div>
 
 				<p class="text center" id="long"
-					data-24401="opacity:0; display:block;"
-					data-24800="opacity:1; "
-					data-25200="opacity:1; "
-					data-25600="opacity:0; display:none;"
+					data-24401="opacity:0; display:block"
+					data-24800="opacity:1"
+					data-25200="opacity:1"
+					data-25600="opacity:0; display:none"
 				>
 					A VÁRDA-VÉD Kft. tanácsadói hatékony segítséget nyújtanak cége megelőzési stratégiájának
 					kialakításában. Szakértőink segítségével nem csupán sablon-dokumentumokhoz jut, hanem a
@@ -689,10 +687,10 @@
 				</p>
 
 				<p class="text center regular"
-					data-25601="opacity:0; display:block;"
-					data-26000="opacity:1; "
-					data-26400="opacity:1; "
-					data-26800="opacity:0; display:none;"
+					data-25601="opacity:0; display:block"
+					data-26000="opacity:1"
+					data-26400="opacity:1"
+					data-26800="opacity:0; display:none"
 				>
 					Ne pazarolja idejét és ne bízza a törvény előírásainak betartását amatőrökre!
 					Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik. A
@@ -704,9 +702,9 @@
 
 
 		<section id="referenciak" class="homeSlide"
-			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%;"
-			data-27500="z-index:5; top:0%; background-color:rgb(31,119,143);";
-			data-31500="z-index:5;"
+			data-26800="z-index:4; top:100%; background-color:rgb(255,144,0); position:fixed; height:100%; width: 100%"
+			data-27500="z-index:5; top:0%; background-color:rgb(31,119,143)";
+			data-31500="z-index:5"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
 			<div id="four-ref">
@@ -715,18 +713,18 @@
 				<h1 class="title upp">Referenciák</h1>
 				
 				<p class="text regular center"
-					data-28500="opacity:1; display:block; margin-top:1em;"
-					data-28800="opacity:1; margin-top:1em;"
-					data-29100="opacity:0; display:none; margin-top:1em;"
+					data-28500="opacity:1; display:block; margin-top:1em"
+					data-28800="opacity:1; margin-top:1em"
+					data-29100="opacity:0; display:none; margin-top:1em"
 				>
 					Akik már minket választottak:
 				</p>
 
 				<ul class="b"
-					data-29101="opacity:0; display:table;"
-					data-29500="opacity:1; "
-					data-30000="opacity:1; "
-					data-30300="opacity:0; display:none;"
+					data-29101="opacity:0; display:table"
+					data-29500="opacity:1"
+					data-30000="opacity:1"
+					data-30300="opacity:0; display:none"
 				>
 					<li class="box">
 						<div class="box-logo">
@@ -799,10 +797,10 @@
 				</ul>
 
 				<div class="text center"
-					data-30301="opacity:0; display:block;"
-					data-30700="opacity:1; "
-					data-31200="opacity:1; "
-					data-31500="opacity:0; display:none;"
+					data-30301="opacity:0; display:block"
+					data-30700="opacity:1"
+					data-31200="opacity:1"
+					data-31500="opacity:0; display:none"
 				>
 					<ul class="bl">
 						<li>City Cars autókereskedés</li>
@@ -826,10 +824,10 @@
 
 
 		<section id="kapcsolat" class="homeSlide"
-			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%;"
-			data-32201="z-index:5; top:0%;"
-			data-32900="z-index:5; top:0%;"
-			data-32901="z-index:5;"
+			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%"
+			data-32201="z-index:5; top:0%"
+			data-32900="z-index:5; top:0%"
+			data-32901="z-index:5"
 
 		>
 			<div id="five-kapcs">
@@ -837,10 +835,10 @@
 				<h1 class="title upp">Kapcsolat</h1>
 		
 				<div class="relative"
-					data-32200="opacity:0; display:block; left:-800px;"
-					data-32700="opacity:1; left:0px;"
-					data-33500="opacity:1; left:0px;"
-					data-33900="opacity:0; display:none;"
+					data-32200="opacity:0; display:block; left:-800px"
+					data-32700="opacity:1; left:0px"
+					data-33500="opacity:1; left:0px"
+					data-33900="opacity:0; display:none"
 				>
 					<p class="text center bold">VÁRDA-VÉD Kft.</p>
 					<p class="text center">4600 Kisvárda, Mátyás király u. 15.</p>
@@ -856,14 +854,14 @@
 
 
 				<div id="profile_pic" class="relative"
-					data-33901="opacity:0; display:block; "
-					data-34500="opacity:1; "
-					data-35200="opacity:1; "
+					data-33901="opacity:0; display:block"
+					data-34500="opacity:1"
+					data-35200="opacity:1"
 				>
 					<div id="left">
 						<img class="rounded" src="images/gyula-color.jpg"
-							data-33901="opacity:0; height:0px; width:0px; "
-							data-34500="opacity:1; height:120px; width:120px;"
+							data-33901="opacity:0; height:0px; width:0px"
+							data-34500="opacity:1; height:120px; width:120px"
                             alt="Szűrös Gyula" title="Szűrös Gyula"
 						>
 						<p class="name center upp bold">Szűrös Gyula</p>
@@ -872,8 +870,8 @@
 
 					<div id="right">
 						<img class="rounded" src="images/csaba-color.jpg"
-							data-33901="opacity:0; height:0px; width:0px;"
-							data-34500="opacity:1; height:120px; width:120px;"
+							data-33901="opacity:0; height:0px; width:0px"
+							data-34500="opacity:1; height:120px; width:120px"
                             alt="Szűrös Csaba" title="Szűrös Csaba"
 						>
 						<p class="name center upp bold">Szűrös Csaba</p>
