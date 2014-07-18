@@ -25,11 +25,49 @@
     <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					VÁRDA-VÉD Kft. szakembereire!">
-    <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
+    <meta    property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					VÁRDA-VÉD Kft. szakembereire!" />
 
     <meta property="twitter:card" content="summary" />
+    <script charset="UTF-8" type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Kisvárda, Hungary",
+                "postalCode": "4600",
+                "streetAddress": "Mátyás király u. 15"
+            },
+            "email": "info@varda-ved.eu",
+            "members": [
+                {
+                    "@type": "Person",
+                    "name": "Szűrös Gyula",
+                    "email": "szuros.gyula@varda-ved.eu",
+                    "jobTitle": "Tűzvédelmi szakértő",
+                    "owns": {
+                        "@type": "Product",
+                        "name": "Tűzvédelem"
+                    }
+                },
+                {
+                    "@type": "Person",
+                    "name": "Szűrös Csaba",
+                    "email": "szuros.csaba@varda-ved.eu",
+                    "jobTitle": "Munkavédelmi szakértő",
+                    "owns": {
+                        "@type": "Product",
+                        "name": "Munkavédelem"
+                    }
+                }
+            ],
+            "name": "Várda-Véd Kft.",
+            "telephone": "+3645405587",
+            "logo": "http://www.varda-ved.eu/assets/images/vardaved-logo.png"
+        }
+    </script>
     <script type="application/javascript">
         document.addEventListener("touchstart", function(){}, true);
     </script>
@@ -65,7 +103,7 @@
 				<p>Görgessen</p>
 	    		<img src="images/arrow-red.png" title="Görgessen" alt="Görgessen" />
 			</div>
-			
+
 			<div id="help-nav"
 				data-200="opacity:0"
 				data-500="opacity:1"
@@ -183,7 +221,7 @@
 					data-33900="background-color:rgb(194,194,194);"
 					data-34200="background-color:rgb(0,0,0);"
 				></div>
-			</div>	
+			</div>
 	    </div>
 
 		<header id="navigation" class="homeSlide">
@@ -198,7 +236,7 @@
 					     data-280="height:4em;"
 					     data-500="height:0;">
 						<div id="logo_pic">
-							<img 
+							<img
 								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1;"
 							     data-100="height:3.125em; width:3.125em;"
 							     data-270="height:0; width:0;"
@@ -214,14 +252,14 @@
 					     	data-151="position:fixed; left:65px; top:-80px; z-index:5;"
 					     	data-400="left:65px; top:21px;"
 						>
-							<a href="#bemutatkozas" data-menu-top="0" 
+							<a href="#bemutatkozas" data-menu-top="0"
 								 data-0="font-size:1em;"
 							     data-150="font-size:0em;"
 							     data-151="font-size:1em;"
 							     data-400="font-size:1em;">
 							   VÁRDA-VÉD</a>
 						</div>
-						
+
 					</div>
 
 					<div id="stripe"
@@ -244,7 +282,7 @@
 						data-500="top:0px;"
 					>
 						<ul id="menu">
-							
+
 							<li>
 								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>
@@ -361,7 +399,7 @@
 							biztonságos munkakörnyezetet kialakítani</span> – akár
 							már meglévő üzlethelyisége vagy üzeme átalakításáról, akár újonnan épülő üzemegységének
 							baleset-, és tűzvédelmi kialakításáról van szó – akkor jó helyen jár!
-					</p>	
+					</p>
 
 					<div class="relative" id="icon"
 						data-0="opacity:0; top:0px;"
@@ -373,7 +411,7 @@
 						data-2030="opacity:0; top:-170px;"
 					>
 						<img id="first-ref" src="images/references.png" alt="" title="">
-					</div>	
+					</div>
 
 					<p class="relative text center regular"
 						data-0="opacity:1; top:-160px; left:0px;"
@@ -381,7 +419,7 @@
 						data-300="opacity:1; top:0px; left:0px;"
 						data-800="opacity:1; top:0px; left:0px;"
 						data-1530="opacity:0; top:0px; left:1850px;">
-						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a 
+						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a
 						tűzvédelem terén szerzett sok
 						éves szakmai tapasztalattal.
 					</p>
@@ -392,11 +430,11 @@
 						data-1850="opacity:1; top: -320px;"
 						data-2030="opacity:0;"
 					>
-						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja 
+						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja
 						azokat a munka-, és tűzvédelmi feltételeket,
-						amelyeket a törvény kötelező jelleggel előír, 
+						amelyeket a törvény kötelező jelleggel előír,
 						képzett szakértőink emellett a szükséges
-						dokumentáció elkészítésében is segítséget nyújtanak, 
+						dokumentáció elkészítésében is segítséget nyújtanak,
 						hogy vállalkozása törvényi
 						szempontból is minden követelménynek megfeleljen.
 					</p>
@@ -426,10 +464,10 @@
 					data-3700=""
 					>
 						<img class="menu-icon" id="extinguish" src="images/ext-b.png" alt="" title="">
-				</div>	
+				</div>
 
 				<h1 class="title upp">Tűzvédelem</h1>
-				
+
 
 				<p class="text regular relative center"
 					data-2200="left:-1850px; opacity:1; display:block;"
@@ -441,7 +479,7 @@
 					A tűzvédelem szabályzati hátterét Magyarországon két fontos jogszabály biztosítja.
 				</p>
 
-				<img 
+				<img
 					data-2400="height:0px; display:inline;"
 					data-2900="height:90px;"
 					data-3100="height:80px;"
@@ -476,7 +514,7 @@
 				</p>
 
 
-				
+
 				<div class="number"
 						data-5701="opacity:0; display:block;"
 						data-6000="opacity:1;"
@@ -566,7 +604,7 @@
 				data-26400="opacity:1;"
 				data-27250="opacity:0;"
 			>
-			
+
 				<img class="menu-icon" id="helmet" src="images/helmet.png" alt="" title="">
 				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
@@ -669,7 +707,7 @@
 				>
 					<p class="text center">
 						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
-						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia. 
+						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia.
 					</p>
 					<img id="certificate" src="images/certificate.png" alt="" title="">
 				</div>
@@ -710,10 +748,10 @@
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
 			<div id="four-ref">
-				
+
 				<img id="ref-icon" class="menu-icon" src="images/references-2.png" alt="" title="">
 				<h1 class="title upp">Referenciák</h1>
-				
+
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em;"
 					data-28800="opacity:1; margin-top:1em;"
@@ -835,7 +873,7 @@
 			<div id="five-kapcs">
 				<img class="menu-icon" id="contact" src="images/contact-3.png" alt="" title="">
 				<h1 class="title upp">Kapcsolat</h1>
-		
+
 				<div class="relative"
 					data-32200="opacity:0; display:block; left:-800px;"
 					data-32700="opacity:1; left:0px;"
@@ -898,7 +936,6 @@
 <script src="assets/js/history.js"></script>
 <script src="assets/js/history.adapter.jquery.js"></script>
 <script src="assets/js/varda-ved.js"></script>
-<script charset="UTF-8" type="application/ld+json" src="assets/js/microdata.json" defer></script>
 <script src="assets/js/analytics.js"></script>
 </body>
 </html>
