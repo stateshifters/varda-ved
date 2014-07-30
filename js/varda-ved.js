@@ -158,11 +158,11 @@ window.onload = function () {
 		if(hasSkrollr) {
 			$('#wrap').hide();
 			$('#wrap').css('visibility', 'visible');
-			$('#loader').hide();
+			$('.loader').hide();
 			$('#wrap').show({duration:300});
-			$('#loader').remove();
+			$('.loader').remove();
 		} else {
-			$('#loader').remove();
+			$('.loader').remove();
 		}
 	}
 

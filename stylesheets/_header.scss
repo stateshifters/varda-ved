@@ -1,4 +1,4 @@
-#stripe {
+.stripe {
   height: .3125em;
   width: 100%;
   z-index: 1000;
@@ -9,23 +9,23 @@
     width: 20%;
   }
 
-  #stripe_1 {
+  .stripe_1 {
     background-color: $alto;
   }
 
-  #stripe_2 {
+  .stripe_2 {
     background-color: $pomegranate;
   }
 
-  #stripe_3 {
+  .stripe_3 {
     background-color: $pizazz;
   }
 
-  #stripe_4 {
+  .stripe_4 {
     background-color: $cerulean;
   }
 
-  #stripe_5 {
+  .stripe_5 {
     background-color: $lima;
   }
 }

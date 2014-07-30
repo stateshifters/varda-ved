@@ -75,7 +75,7 @@
 
 <body>
 <div id="skrollr-body">
-    <div id="loader">
+    <div class="loader">
     	<p>Betöltés</p>
     	<img src="images/loader.gif" />
     </div>
@@ -246,7 +246,8 @@
 						</div>
 						<div id="logo_text"
 							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0"
-					     	data-151="position:fixed; left:65px; top:-80px; z-index:5"
+					     	data-151="position:fixed; left:0; top:-80px; z-index:5"
+					     	data-152="left:65px; top-80px"
 					     	data-400="left:65px; top:21px"
 						>
 							<a href="#bemutatkozas" data-menu-top="0"
@@ -259,18 +260,18 @@
 
 					</div>
 
-					<div id="stripe"
+					<div class="stripe"
 							 data-0="height:2px; position:relative"
 						     data-500="height:10px">
-						<div id="stripe_1" class="stripe_all">
+						<div class="stripe_1 stripe_all">
 						</div>
-						<div id="stripe_2" class="stripe_all">
+						<div class="stripe_2 stripe_all">
 						</div>
-						<div id="stripe_3" class="stripe_all">
+						<div class="stripe_3 stripe_all">
 						</div>
-						<div id="stripe_4" class="stripe_all">
+						<div class="stripe_4 stripe_all">
 						</div>
-						<div id="stripe_5" class="stripe_all">
+						<div class="stripe_5 stripe_all">
 						</div>
 					</div>
 
