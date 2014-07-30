@@ -32,8 +32,8 @@ body {
   text-align: center;
 }
 
-@import '_header.scss';
-@import '_text.scss';
+@import 'header';
+@import 'text';
 
 @mixin transition($parameters) {
   -webkit-transition: $parameters;
@@ -523,7 +523,7 @@ a:active {
   background-color: $alabaster;
 }
 
-@import '_kapcsolat.scss';
+@import 'kapcsolat';
 
 footer {
   background-color: $alabaster;
@@ -540,4 +540,4 @@ footer {
   }
 }
 
-@import '_media.scss';
+@import 'media';
