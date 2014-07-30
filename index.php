@@ -82,8 +82,8 @@
 
 	<div id="wrap">
 
-		<div id="help">
-			<div id="help-nav-bg"
+		<div class="help">
+			<div class="help-nav-bg"
 				data-0="visibility:hidden"
 				data-800="visibility:visible; background-color: rgb(248,248,248)"
 				data-1550="visibility:hidden"
@@ -103,7 +103,7 @@
 	    		<img src="images/arrow-red.png" title="Görgessen" alt="Görgessen" />
 			</div>
 
-			<div id="help-nav"
+			<div class="help-nav"
 				data-200="opacity:0"
 				data-500="opacity:1"
 			>
@@ -118,7 +118,7 @@
 					data-1000="background-color:rgb(0,0,0)"
 				></div>
 
-                <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle" id="help-ext">
+                <a href="#tuzvedelem" data-menu-top="3400"><div class="help-circle help-ext">
                     <img src="images/ext-b.png" alt="Tűzvédelem" title="Tűzvédelem"
 						data-2100="opacity:.2"
 						data-2400="opacity:1"
@@ -150,7 +150,7 @@
 					data-12200="background-color:rgb(0,0,0)"
 				></div>
 
-                <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle" id="help-helmet">
+                <a href="#munkavedelem" data-menu-top="14600"><div class="help-circle help-helmet">
 					<img src="images/helmet-b.png" alt="Munkavédelem" title="Munkavédelem"
 						data-13600="opacity:.2"
 						data-13900="opacity:1"
@@ -278,8 +278,7 @@
 						data-0="position:relative;top:0px"
 						data-500="top:0px"
 					>
-						<ul id="menu">
-
+						<ul class="menu">
 							<li>
 								<a href="#bemutatkozas" data-menu-top="0"><span>bemutatkozás</span></a>
 							</li>
@@ -299,7 +298,7 @@
 					</nav>
 
 					<nav class="mobile-menu-wrap">
-						<ul id="menu">
+						<ul class="menu">
 							<a class="menu-link">
 								<li id="sandwich">
 									<img class="sandwich-x" src="images/sandwich.png" />
@@ -335,7 +334,7 @@
 
 
 					<nav class="mobile-menu-wrap-open off">
-						<ul id="menu">
+						<ul class="menu">
 							<a class="menu-link">
 								<li id="sandwich2">
 									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px"/>

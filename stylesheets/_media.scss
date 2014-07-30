@@ -37,13 +37,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 35px;
     top: 60px;
     width: 80px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 40px;
@@ -63,7 +63,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 25px;
 
       img {
@@ -74,7 +74,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 20px;
 
       img {
@@ -83,7 +83,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -208,13 +208,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 20px;
     top: 60px;
     width: 65px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 25px;
@@ -234,7 +234,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 25px;
 
       img {
@@ -245,7 +245,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 20px;
 
       img {
@@ -254,7 +254,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -372,13 +372,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 21px;
     top: 60px;
     width: 55px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 20px;
@@ -398,7 +398,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 20px;
 
       img {
@@ -409,7 +409,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 25px;
 
       img {
@@ -418,7 +418,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -535,13 +535,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     position: fixed;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
@@ -561,7 +561,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 20px;
 
       img {
@@ -572,7 +572,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 25px;
 
       img {
@@ -581,7 +581,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -759,13 +759,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 15px;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
@@ -785,7 +785,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 15px;
 
       img {
@@ -796,7 +796,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 20px;
 
       img {
@@ -805,7 +805,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -830,7 +830,7 @@ $xwidescreen-: $xwidescreen - .01em;
     position: fixed;
     top: 10px;
 
-    #menu {
+    .menu {
       width: 700px !important;
     }
   }
@@ -967,7 +967,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) {
-  #help,
+  .help,
   #loader {
     display: none;
   }
@@ -1196,7 +1196,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
-  #help,
+  .help,
   #loader {
     display: none;
   }

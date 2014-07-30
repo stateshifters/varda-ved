@@ -132,18 +132,18 @@ body {
   font-weight: 300;
   width: 100%;
 }
-#main_nav .menu-wrap #menu {
+#main_nav .menu-wrap .menu {
   display: table;
   margin: 0 auto;
   width: 800px;
 }
-#main_nav #menu li {
+#main_nav .menu li {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
   z-index: 1001;
 }
-#main_nav #menu #sandwich {
+#main_nav .menu #sandwich {
   display: none;
 }
 
@@ -193,28 +193,28 @@ a:active {
   text-decoration: none;
 }
 
-#help {
+.help {
   position: fixed;
   width: 100%;
   z-index: 9999;
 }
-#help #arrow {
+.help #arrow {
   bottom: 20px;
   margin: auto 40%;
   position: fixed;
   width: 20%;
 }
-#help #arrow img {
+.help #arrow img {
   color: #ee3333;
   height: 30px;
 }
-#help #arrow p {
+.help #arrow p {
   color: #ee3333;
   font-size: 1.2em;
   font-weight: 600;
   margin-bottom: .5em;
 }
-#help #help-nav-bg {
+.help .help-nav-bg {
   height: 100%;
   position: fixed;
   right: 0;
@@ -232,10 +232,10 @@ a:active {
   width: 100%;
   z-index: 4;
 }
-.mobile-menu-wrap #menu {
+.mobile-menu-wrap .menu {
   height: inherit;
 }
-.mobile-menu-wrap #menu li {
+.mobile-menu-wrap .menu li {
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -351,12 +351,12 @@ a:active {
   margin-top: 1em;
 }
 
-#menu,
+.menu,
 .menu_wrap {
   z-index: 1;
 }
 
-#menu {
+.menu {
   margin: 0 0 0 auto;
 }
 
@@ -635,48 +635,48 @@ footer div {
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 35px;
     top: 60px;
     width: 80px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 40px;
     top: 300px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -16px;
     margin-bottom: 15px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 40px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 25px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 45px;
     position: relative;
     right: -9px;
     width: 30px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 20px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 24px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 8px;
     left: -1px;
@@ -781,48 +781,48 @@ footer div {
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 20px;
     top: 60px;
     width: 65px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 25px;
     top: 250px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -16px;
     margin-bottom: 15px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 40px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 25px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 45px;
     position: relative;
     right: -9px;
     width: 30px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 20px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 24px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 8px;
     left: -1px;
@@ -923,48 +923,48 @@ footer div {
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 21px;
     top: 60px;
     width: 55px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 20px;
     top: 200px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -12px;
     margin-bottom: 5px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 20px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 40px;
     position: relative;
     right: -4px;
     width: 25px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 25px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 20px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 7px;
     left: -1px;
@@ -1065,48 +1065,48 @@ footer div {
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     position: fixed;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
     top: 100px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -12px;
     margin-bottom: 5px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 20px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 40px;
     position: relative;
     right: -4px;
     width: 25px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 25px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 20px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 7px;
     left: -1px;
@@ -1249,48 +1249,48 @@ footer div {
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 15px;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
     top: 100px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -12px;
     margin-bottom: 5px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 25px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 15px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 35px;
     position: relative;
     right: -4px;
     width: 22px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 20px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 17px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 5px;
     left: -1px;
@@ -1313,7 +1313,7 @@ footer div {
     position: fixed;
     top: 10px;
   }
-  .menu-wrap #menu {
+  .menu-wrap .menu {
     width: 700px !important;
   }
 
@@ -1419,7 +1419,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
-  #help,
+  .help,
   #loader {
     display: none;
   }
@@ -1605,7 +1605,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
-  #help,
+  .help,
   #loader {
     display: none;
   }

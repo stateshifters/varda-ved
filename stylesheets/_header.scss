@@ -64,21 +64,21 @@ $all-speed: all .5s;
     font-weight: 300;
     width: 100%;
 
-    #menu {
+    .menu {
       display: table;
       margin: 0 auto;
       width: 800px;
     }
   }
 
-  #menu li {
+  .menu li {
     display: table-cell;
     margin-top: 1em;
     padding: 1em 0;
     z-index: 1001;
   }
 
-  #menu #sandwich {
+  .menu #sandwich {
     display: none;
   }
 }
