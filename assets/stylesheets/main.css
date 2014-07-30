@@ -544,24 +544,6 @@ a:active {
   margin-left: 2%;
   margin-right: 2%;
 }
-.b .box:nth-child(2) {
-  background-color: #43c423;
-}
-.b .box:nth-child(2) .box-place {
-  background-color: #29ac19;
-}
-.b .box:nth-child(2) .box-web {
-  background-color: #1a980d;
-}
-.b .box:nth-child(3) {
-  background-color: #058bb7;
-}
-.b .box:nth-child(3) .box-place {
-  background-color: #0c7294;
-}
-.b .box:nth-child(3) .box-web {
-  background-color: #025a78;
-}
 
 #kapcsolat {
   background-color: #2e9b13;
