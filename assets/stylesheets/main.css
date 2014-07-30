@@ -531,7 +531,7 @@ a:active {
   vertical-align: middle;
 }
 .b .box .box-web {
-  background-color: #fff;
+  background-color: white;
   background-image: -o-linear-gradient(left, #005b79 0%, #00536e 100%);
   background-image: -moz-linear-gradient(left, #005b79 0%, #00536e 100%);
   background-image: -webkit-linear-gradient(left, #005b79 0%, #00536e 100%);
