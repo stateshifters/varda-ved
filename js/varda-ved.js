@@ -44,7 +44,7 @@ window.onload = function () {
 
 
 	var breakpoints = (function () {
-		var menuItems = $('#menu').find('a');
+		var menuItems = $('.menu').find('a');
 		var points = [];
 		$.each(menuItems, function (i, elem) {
 

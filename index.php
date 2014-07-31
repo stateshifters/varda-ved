@@ -577,7 +577,6 @@
 			data-26400="z-index:5"
 			data-26800="z-index:4"
 			data-27500="background-color:rgb(31,119,143)"
-
 		>
 			<div
 				data-26400="opacity:1"
