@@ -440,7 +440,7 @@
 			data-13000="z-index:5"
 			data-13200="z-index:4"
 		>
-			<div 
+			<div class="two-tuz"
 				data-2100="height:0%; width:100%"
 				data-2400="height:100%">
 
@@ -578,7 +578,7 @@
 			data-26800="z-index:4"
 			data-27500="background-color:rgb(31,119,143)"
 		>
-			<div
+			<div class="three-munka"
 				data-26400="opacity:1"
 				data-27250="opacity:0"
 			>
@@ -724,7 +724,7 @@
 			data-31500="z-index:5"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
-			<div>
+			<div class="four-ref">
 
 				<img class="menu-icon ref-icon" src="images/references-2.png" alt="" title="">
 				<h1 class="title upp">Referenciák</h1>
