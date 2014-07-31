@@ -327,7 +327,7 @@ a:active {
 }
 
 #bemutatkozas {
-  color: #000;
+  color: $black;
 
   .one {
     left: 0;
@@ -418,7 +418,7 @@ a:active {
         color-stop(0, $from),
         color-stop(1, $to)
     );
-    @include box-shadow(1px 0 1px #065363);
+    @include box-shadow(1px 0 1px $cornflowerblue);
 
     @include inline-block;
     height: 200px;
@@ -459,7 +459,7 @@ a:active {
     .box-place {
       $from: $atoll;
       $to: $atoll2;
-      background-color: #fff;
+      background-color: $white;
       background-image: -o-linear-gradient(left , $from 0%, $to 100%);
       background-image: -moz-linear-gradient(left , $from 0%, $to 100%);
       background-image: -webkit-linear-gradient(left , $from 0%, $to 100%);

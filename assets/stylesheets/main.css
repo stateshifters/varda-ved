@@ -405,7 +405,7 @@ a:active {
 }
 
 #bemutatkozas {
-  color: #000;
+  color: black;
 }
 #bemutatkozas .one {
   left: 0;
@@ -517,7 +517,7 @@ a:active {
   position: relative;
 }
 .b .box .box-place {
-  background-color: #fff;
+  background-color: white;
   background-image: -o-linear-gradient(left, #0a7395 0%, #0a6887 100%);
   background-image: -moz-linear-gradient(left, #0a7395 0%, #0a6887 100%);
   background-image: -webkit-linear-gradient(left, #0a7395 0%, #0a6887 100%);
@@ -580,7 +580,7 @@ a:active {
   width: 50%;
 }
 .five-kapcs a {
-  color: #fff;
+  color: white;
 }
 
 .name {

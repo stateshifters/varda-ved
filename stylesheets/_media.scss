@@ -1659,7 +1659,7 @@ $xwidescreen-: $xwidescreen - .01em;
 @media only screen and (max-width: $monitor-) {
   .mobile-menu-wrap-open {
     .bemutatkozas:active {
-      $from: #b6b6b6;
+      $from: $nobel;
       $to: $alto;
       background-color: $alto;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
@@ -1677,7 +1677,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .tuzvedelem:active {
-      $from: #d21a1a;
+      $from: $thunderbird2;
       $to: $pomegranate;
       background-color: $pomegranate;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
@@ -1696,7 +1696,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
     .munkavedelem:active {
       $from: $pizazz;
-      $to: #fa7103;
+      $to: $chileanfire;
       background-color: $pizazz;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
       background-image: -moz-linear-gradient(top , $from 0%, $to 100%);
@@ -1713,7 +1713,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .referenciak:active {
-      $from: #0c85ac;
+      $from: $bluechill;
       $to: $cerulean;
       background-color: $cerulean;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
@@ -1732,7 +1732,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
     .kapcsolatok:active {
       $from: $lima;
-      $to: #2c9d0f;
+      $to: $lapalma2;
       background-color: $lima;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
       background-image: -moz-linear-gradient(top , $from 0%, $to 100%);
