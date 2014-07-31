@@ -156,10 +156,10 @@ window.onload = function () {
 		}
 
 		if(hasSkrollr) {
-			$('#wrap').hide();
-			$('#wrap').css('visibility', 'visible');
+			$('.wrap').hide();
+			$('.wrap').css('visibility', 'visible');
 			$('.loader').hide();
-			$('#wrap').show({duration:300});
+			$('.wrap').show({duration:300});
 			$('.loader').remove();
 		} else {
 			$('.loader').remove();
@@ -167,13 +167,13 @@ window.onload = function () {
 	}
 
 
-	$('#sandwich').click(function() {
+	$('.sandwich').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
 	});
 	$('.menu-1').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
 	});
-	$('#sandwich2').click(function() {
+	$('.sandwich2').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
 	});
 

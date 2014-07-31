@@ -115,13 +115,13 @@ body {
   width: 100%;
   z-index: 100;
 }
-#main_nav #logo {
+#main_nav .logo {
   background-color: #f8f8f8;
 }
-#main_nav #logo #logo_pic {
+#main_nav .logo .logo-pic {
   position: relative;
 }
-#main_nav #logo #logo_text {
+#main_nav .logo .logo-text {
   height: 2em;
   padding-bottom: 1em;
   padding-top: .5em;
@@ -143,7 +143,7 @@ body {
   padding: 1em 0;
   z-index: 1001;
 }
-#main_nav .menu #sandwich {
+#main_nav .menu .sandwich {
   display: none;
 }
 
@@ -198,17 +198,17 @@ a:active {
   width: 100%;
   z-index: 9999;
 }
-.help #arrow {
+.help .arrow {
   bottom: 20px;
   margin: auto 40%;
   position: fixed;
   width: 20%;
 }
-.help #arrow img {
+.help .arrow img {
   color: #ee3333;
   height: 30px;
 }
-.help #arrow p {
+.help .arrow p {
   color: #ee3333;
   font-size: 1.2em;
   font-weight: 600;
@@ -278,7 +278,7 @@ a:active {
 .mobile-menu-wrap-open .menu-link .sandwich-y {
   display: block;
 }
-.mobile-menu-wrap-open .menu-link #sandwich2 {
+.mobile-menu-wrap-open .menu-link .sandwich2 {
   margin: 0 !important;
   padding: 0 !important;
   position: fixed;
@@ -346,7 +346,7 @@ a:active {
   vertical-align: middle;
 }
 
-#logo img {
+.logo img {
   height: 2.625em;
   margin-top: 1em;
 }
@@ -407,14 +407,14 @@ a:active {
 #bemutatkozas {
   color: #000;
 }
-#bemutatkozas #one {
+#bemutatkozas .one {
   left: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   position: relative;
   width: 100%;
 }
-#bemutatkozas #one #icon {
+#bemutatkozas .one .icon {
   padding: 1em 0 .5em;
 }
 
@@ -427,7 +427,7 @@ a:active {
 #tuzvedelem {
   background-color: #bc1e1e;
 }
-#tuzvedelem #extinguish {
+#tuzvedelem .extinguish {
   height: 70px;
 }
 #tuzvedelem .number img {
@@ -440,11 +440,11 @@ a:active {
 #munkavedelem .square {
   background: black;
 }
-#munkavedelem #helmet {
+#munkavedelem .helmet {
   height: 70px;
 }
-#munkavedelem #certificate,
-#munkavedelem #screw {
+#munkavedelem .certificate,
+#munkavedelem .screw {
   height: 80px;
 }
 
@@ -548,24 +548,24 @@ a:active {
 #kapcsolat {
   background-color: #2e9b13;
 }
-#kapcsolat #contact {
+#kapcsolat .contact {
   height: 80px;
 }
 #kapcsolat p {
   padding: 0;
 }
 
-#one {
+.one {
   background-color: #f8f8f8;
 }
 
-#five-kapcs {
+.five-kapcs {
   background-color: #2e9b13;
   color: white;
   float: left;
   width: 66.66%;
 }
-#five-kapcs #profile_pic img {
+.five-kapcs #profile_pic img {
   border: 7px solid white;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -573,13 +573,13 @@ a:active {
   height: 120px;
   width: 120px;
 }
-#five-kapcs #profile_pic #left,
-#five-kapcs #profile_pic #right {
+.five-kapcs #profile_pic .left,
+.five-kapcs #profile_pic .right {
   float: left;
   margin: 3em 0 5em;
   width: 50%;
 }
-#five-kapcs a {
+.five-kapcs a {
   color: #fff;
 }
 
@@ -587,13 +587,13 @@ a:active {
   font-size: 1.5625em;
 }
 
-#map {
+.map {
   background-color: #f8f8f8;
   float: right;
   height: 100%;
   width: 33.33%;
 }
-#map iframe {
+.map iframe {
   height: 100%;
   width: 100%;
 }
@@ -613,7 +613,7 @@ footer div {
 }
 
 @media only screen and (min-width: 120em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -707,11 +707,11 @@ footer div {
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 2.9em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 13em auto 15em;
   }
 
@@ -720,15 +720,15 @@ footer div {
     padding-bottom: 0;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 130px;
   }
 
-  #munkavedelem #helmet {
+  #munkavedelem .helmet {
     height: 130px;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 130px;
   }
 
@@ -741,12 +741,12 @@ footer div {
     margin-bottom: 1.6em;
     width: 230px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin-top: 3em;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.9em;
     font-weight: 300;
   }
@@ -759,7 +759,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 100em) and (max-width: 119.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -857,11 +857,11 @@ footer div {
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: .5em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 1em auto 6.25em;
   }
 
@@ -870,7 +870,7 @@ footer div {
     padding-bottom: 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 75px;
   }
 
@@ -883,12 +883,12 @@ footer div {
     margin-bottom: 1.4em;
     width: 170px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin-top: 3em;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.7em;
     font-weight: 300;
   }
@@ -901,7 +901,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 89em) and (max-width: 99.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -995,11 +995,11 @@ footer div {
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 1.23em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 3.125em auto 6.25em;
   }
 
@@ -1008,7 +1008,7 @@ footer div {
     padding-bottom: 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 70px;
   }
 
@@ -1025,12 +1025,12 @@ footer div {
     margin-bottom: 1.3em;
     width: 170px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin-top: 3em;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.7em;
     font-weight: 300;
   }
@@ -1043,7 +1043,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -1134,12 +1134,12 @@ footer div {
     display: none;
   }
 
-  #logo #logo_pic img {
+  .logo .logo-pic img {
     height: 80px;
     position: relative;
     top: 80px;
   }
-  #logo #logo_text {
+  .logo .logo-text {
     top: 80px;
   }
 
@@ -1156,20 +1156,20 @@ footer div {
     padding-bottom: 0;
   }
 
-  #first-p {
+  .first-p {
     margin-top: -.2em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 2.1em auto 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 60px;
   }
 
-  #screw,
-  #certificate {
+  .screw,
+  .certificate {
     margin-top: -1em;
   }
 
@@ -1177,7 +1177,7 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 60px;
   }
 
@@ -1185,7 +1185,7 @@ footer div {
     margin: 3em 0 -1.5em;
   }
 
-  #munkavedelem #helmet {
+  #munkavedelem .helmet {
     height: 60px;
   }
 
@@ -1193,7 +1193,7 @@ footer div {
     margin: 5.5em auto 0;
   }
 
-  #kapcsolat #five-kapcs div:nth-child(3) {
+  #kapcsolat .five-kapcs div:nth-child(3) {
     margin-top: 3em;
   }
   #kapcsolat .text {
@@ -1206,16 +1206,16 @@ footer div {
     margin-bottom: .8em;
     width: 135px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin: 2em 0 5em !important;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.4em;
     font-weight: 300;
   }
-  #kapcsolat #map {
+  #kapcsolat .map {
     height: 900px;
   }
   #kapcsolat .name {
@@ -1227,7 +1227,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 64em) and (max-width: 79.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -1321,7 +1321,7 @@ footer div {
     display: none;
   }
 
-  #logo #logo_pic img {
+  .logo .logo-pic img {
     height: 80px;
     position: relative;
     top: 80px;
@@ -1340,20 +1340,20 @@ footer div {
     padding-bottom: 0;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 0;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 2em auto 1.5em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 60px;
   }
 
-  #screw,
-  #certificate {
+  .screw,
+  .certificate {
     margin-top: -1em;
   }
 
@@ -1361,7 +1361,7 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 60px;
   }
 
@@ -1369,7 +1369,7 @@ footer div {
     margin: 3em 0 -1.5em;
   }
 
-  #munkavedelem #helmet {
+  #munkavedelem .helmet {
     height: 60px;
   }
 
@@ -1384,7 +1384,7 @@ footer div {
     width: 180px;
   }
 
-  #kapcsolat #five-kapcs div:nth-child(3) {
+  #kapcsolat .five-kapcs div:nth-child(3) {
     margin-top: 3em;
   }
   #kapcsolat .text {
@@ -1397,16 +1397,16 @@ footer div {
     margin-bottom: 1.2em;
     width: 110px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin: 2em 0 5em !important;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.3em;
     font-weight: 300;
   }
-  #kapcsolat #map {
+  #kapcsolat .map {
     height: 900px;
   }
   #kapcsolat .name {
@@ -1430,11 +1430,11 @@ footer div {
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: 15px;
     position: fixed;
@@ -1449,7 +1449,7 @@ footer div {
   #main_nav {
     height: 3.75em;
   }
-  #main_nav #logo #logo_text {
+  #main_nav .logo .logo-text {
     left: 70px;
     position: fixed;
     top: 20px;
@@ -1460,19 +1460,19 @@ footer div {
     font-size: 2.1em;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
     top: 23px;
     visibility: visible;
   }
-  #sandwich .menu-link:hover {
+  .sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
 
-  #icon img {
+  .icon img {
     height: 85px;
     margin: -1em auto 1em;
   }
@@ -1494,30 +1494,30 @@ footer div {
     height: 55px !important;
   }
 
-  #munkavedelem #certificate,
-  #munkavedelem #helmet,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .helmet,
+  #munkavedelem .screw {
     height: 80px;
   }
-  #munkavedelem #certificate,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .screw {
     margin-bottom: 1em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 80px;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 80px;
   }
 
-  #law {
+  .law {
     height: 60px !important;
     margin-top: .8em;
   }
 
-  #law {
+  .law {
     margin: 1em 0 3em;
   }
 
@@ -1561,11 +1561,11 @@ footer div {
     line-height: .7em;
     text-align: center;
   }
-  #kapcsolat #five-kapcs {
+  #kapcsolat .five-kapcs {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #contact {
+  #kapcsolat .contact {
     height: 80px;
   }
   #kapcsolat #profile_pic img {
@@ -1576,13 +1576,13 @@ footer div {
     height: 110px;
     width: 110px;
   }
-  #kapcsolat #profile_pic #left,
-  #kapcsolat #profile_pic #right {
+  #kapcsolat #profile_pic .left,
+  #kapcsolat #profile_pic .right {
     margin: 1em 0;
     width: 100%;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.1em;
   }
 
@@ -1590,12 +1590,12 @@ footer div {
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: #f8f8f8;
     height: 250px;
     width: 100%;
   }
-  #map iframe {
+  .map iframe {
     height: 100%;
     width: 100%;
   }
@@ -1616,11 +1616,11 @@ footer div {
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: -8px;
     position: fixed;
@@ -1631,7 +1631,7 @@ footer div {
   #main_nav {
     height: 3.75em;
   }
-  #main_nav #logo #logo_text {
+  #main_nav .logo .logo-text {
     left: 50px;
     position: fixed;
     top: 20px;
@@ -1646,19 +1646,19 @@ footer div {
     font-size: 1.5em;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
     top: 23px;
     visibility: visible;
   }
-  #sandwich .menu-link:hover {
+  .sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
 
-  #icon img {
+  .icon img {
     height: 85px;
     margin: -1em auto 1em;
   }
@@ -1680,26 +1680,26 @@ footer div {
     height: 55px !important;
   }
 
-  #munkavedelem #certificate,
-  #munkavedelem #helmet,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .helmet,
+  #munkavedelem .screw {
     height: 70px;
   }
-  #munkavedelem #certificate,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .screw {
     margin-bottom: 1em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 70px;
   }
 
-  #law {
+  .law {
     height: 50px !important;
     margin-top: .8em;
   }
 
-  #law {
+  .law {
     margin: 1em 0 2em;
   }
 
@@ -1748,11 +1748,11 @@ footer div {
     line-height: .7em;
     text-align: center;
   }
-  #kapcsolat #five-kapcs {
+  #kapcsolat .five-kapcs {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #contact {
+  #kapcsolat .contact {
     height: 70px;
   }
   #kapcsolat #profile_pic img {
@@ -1763,13 +1763,13 @@ footer div {
     height: 90px;
     width: 90px;
   }
-  #kapcsolat #profile_pic #left,
-  #kapcsolat #profile_pic #right {
+  #kapcsolat #profile_pic .left,
+  #kapcsolat #profile_pic .right {
     margin: 1em 0;
     width: 100%;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.1em;
   }
 
@@ -1777,12 +1777,12 @@ footer div {
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: #f8f8f8;
     height: 200px;
     width: 100%;
   }
-  #map iframe {
+  .map iframe {
     height: 100%;
     width: 100%;
   }
@@ -1792,7 +1792,7 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
-  #help,
+  .help,
   .loader {
     display: none;
   }
@@ -1803,11 +1803,11 @@ footer div {
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: -12px;
     position: fixed;
@@ -1818,7 +1818,7 @@ footer div {
   #main_nav {
     height: 3.75em;
   }
-  #main_nav #logo #logo_text {
+  #main_nav .logo .logo-text {
     left: 43px;
     position: fixed;
     top: 20px;
@@ -1829,19 +1829,19 @@ footer div {
     display: none;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
     top: 23px;
     visibility: visible;
   }
-  #sandwich .menu-link:hover {
+  .sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
 
-  #icon img {
+  .icon img {
     height: 70px;
     margin-top: -1em;
   }
@@ -1859,31 +1859,31 @@ footer div {
     font-size: 1.5em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 50px;
   }
 
-  #munkavedelem #certificate,
-  #munkavedelem #helmet,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .helmet,
+  #munkavedelem .screw {
     height: 50px;
   }
-  #munkavedelem #certificate,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .screw {
     margin-bottom: 1em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 50px;
   }
 
   .circle,
-  #law {
+  .law {
     height: 50px !important;
     margin-top: .8em;
   }
 
-  #law {
+  .law {
     margin: 1em 0 2em;
   }
 
@@ -1932,11 +1932,11 @@ footer div {
     line-height: 1em;
     text-align: center;
   }
-  #kapcsolat #five-kapcs {
+  #kapcsolat .five-kapcs {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #contact {
+  #kapcsolat .contact {
     height: 50px;
   }
   #kapcsolat #profile_pic img {
@@ -1947,8 +1947,8 @@ footer div {
     height: 70px;
     width: 70px;
   }
-  #kapcsolat #profile_pic #left,
-  #kapcsolat #profile_pic #right {
+  #kapcsolat #profile_pic .left,
+  #kapcsolat #profile_pic .right {
     margin: 1em 0;
     width: 100%;
   }
@@ -1958,12 +1958,12 @@ footer div {
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: #f8f8f8;
     height: 150px;
     width: 100%;
   }
-  #map iframe {
+  .map iframe {
     height: 100%;
     width: 100%;
   }
@@ -2046,7 +2046,7 @@ footer div {
   }
 }
 @media screen and (min-width: 64em) {
-  #map {
+  .map {
     margin-top: 60px;
     height: -webkit-calc(100% - 60px);
     height: -moz-calc(100% - 60px);

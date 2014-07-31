@@ -80,7 +80,7 @@
     	<img src="images/loader.gif" />
     </div>
 
-	<div id="wrap">
+	<div class="wrap">
 
 		<div class="help">
 			<div class="help-nav-bg"
@@ -95,7 +95,7 @@
 				data-14200="visibility:hidden"
 
 			></div>
-			<div id="arrow"
+			<div class="arrow"
 				data-0="left:0px; opacity:1"
 				data-459="left:300px; opacity:0"
 			>
@@ -228,12 +228,12 @@
 			     data-400="position:fixed;height:3.75em;top:0">
 
 				<div class="navigation">
-					<div id="logo"
+					<div class="logo"
 					     data-0="height:12.5em"
 					     data-150="height:8em"
 					     data-280="height:4em"
 					     data-500="height:0">
-						<div id="logo_pic">
+						<div class="logo-pic">
 							<img
 								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1;"
 							     data-100="height:3.125em; width:3.125em;"
@@ -244,7 +244,7 @@
 							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
                                 >
 						</div>
-						<div id="logo_text"
+						<div class="logo-text"
 							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0"
 					     	data-151="position:fixed; left:0; top:-80px; z-index:5"
 					     	data-152="left:65px; top-80px"
@@ -301,7 +301,7 @@
 					<nav class="mobile-menu-wrap">
 						<ul class="menu">
 							<a class="menu-link">
-								<li id="sandwich">
+								<li class="sandwich">
 									<img class="sandwich-x" src="images/sandwich.png" />
 								</li>
 							</a>
@@ -337,7 +337,7 @@
 					<nav class="mobile-menu-wrap-open off">
 						<ul class="menu">
 							<a class="menu-link">
-								<li id="sandwich2">
+								<li class="sandwich2">
 									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px"/>
 								</li>
 							</a>
@@ -379,12 +379,12 @@
 			data-2000="z-index:5"
 			data-2001="z-index:4"
 		>
-				<div id="one"
+				<div class="one"
 					data-0="height:100%; width:100%"
 					data-1900="height:100%; width:100%"
 					>
 
-					<p class="relative text center" id="first-p"
+					<p class="relative text center first-p"
 						data-100="opacity:0; top:50px; left:0px"
 						data-500="opacity:1; top:50px; left:0px"
 						data-1000="opacity:1; top:50px; left:0px"
@@ -396,7 +396,7 @@
 							baleset-, és tűzvédelmi kialakításáról van szó – akkor jó helyen jár!
 					</p>
 
-					<div class="relative" id="icon"
+					<div class="relative" class="icon"
 						data-50="opacity:0; top:0px"
 						data-500="opacity:1; top:0px"
 						data-900="opacity:1; top:0px"
@@ -404,7 +404,7 @@
 						data-1850="opacity:1; top:-170px"
 						data-2030="opacity:0; top:-170px"
 					>
-						<img id="first-ref" src="images/references.png" alt="" title="">
+						<img class="first-ref" src="images/references.png" alt="" title="">
 					</div>
 
 					<p class="relative text center regular"
@@ -443,7 +443,7 @@
 			data-13000="z-index:5"
 			data-13200="z-index:4"
 		>
-			<div id="two-tuz"
+			<div 
 				data-2100="height:0%; width:100%"
 				data-2400="height:100%; width:100%">
 
@@ -455,7 +455,7 @@
 					data-3400=""
 					data-3700=""
 					>
-						<img class="menu-icon" id="extinguish" src="images/ext-b.png" alt="" title="">
+						<img class="menu-icon extinguish" src="images/ext-b.png" alt="" title="">
 				</div>
 
 				<h1 class="title upp">Tűzvédelem</h1>
@@ -478,7 +478,7 @@
 					data-3500="height:80px;"
 					data-3800="height:0px"
 					data-3801="display:none"
-				id="law" src="images/law.png"  alt="" title="">
+				class="law" src="images/law.png" alt="" title="">
 
 
 
@@ -590,12 +590,12 @@
 			data-27500="background-color:rgb(31,119,143)"
 
 		>
-			<div id="three-munka"
+			<div
 				data-26400="opacity:1"
 				data-27250="opacity:0"
 			>
 
-				<img class="menu-icon" id="helmet" src="images/helmet.png" alt="" title="">
+				<img class="menu-icon helmet" src="images/helmet.png" alt="" title="">
 				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
 					data-13600="opacity:0; left:1850px; display:block"
@@ -626,7 +626,7 @@
 						data-15800="opacity:1; left:0px"
 						data-17000="opacity:1; left:-400px"
 						data-17500="opacity:0; left:-700px; display:none">
-					<img id="screw" src="images/screw.png"
+					<img class="screw" src="images/screw.png"
 						data-15200="transform:rotate(-360deg)"
 						data-15800="transform:rotate(0deg)"
 						data-16600="transform:rotate(-90deg)"
@@ -698,10 +698,10 @@
 						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
 						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia.
 					</p>
-					<img id="certificate" src="images/certificate.png" alt="" title="">
+					<img class="certificate" src="images/certificate.png" alt="" title="">
 				</div>
 
-				<p class="text center" id="long"
+				<p class="text center"
 					data-24401="opacity:0; display:block"
 					data-24800="opacity:1"
 					data-25200="opacity:1"
@@ -736,9 +736,9 @@
 			data-31500="z-index:5"
 			data-32200="z-index:4; top:-100%; background-color:rgb(67,196,35)"
 		>
-			<div id="four-ref">
+			<div>
 
-				<img id="ref-icon" class="menu-icon" src="images/references-2.png" alt="" title="">
+				<img class="menu-icon ref-icon" src="images/references-2.png" alt="" title="">
 				<h1 class="title upp">Referenciák</h1>
 
 				<p class="text regular center"
@@ -857,8 +857,8 @@
 			data-32201="z-index:5; top:0%"
 			data-32900="z-index:5; top:0%"
 		>
-			<div id="five-kapcs">
-				<img class="menu-icon" id="contact" src="images/contact-3.png" alt="" title="">
+			<div class="five-kapcs">
+				<img class="menu-icon contact" src="images/contact-3.png" alt="" title="">
 				<h1 class="title upp">Kapcsolat</h1>
 
 				<div class="relative"
@@ -885,7 +885,7 @@
 					data-34500="opacity:1"
 					data-35200="opacity:1"
 				>
-					<div id="left">
+					<div class="left">
 						<img class="rounded" src="images/gyula-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px"
 							data-34500="opacity:1; height:120px; width:120px"
@@ -895,7 +895,7 @@
 						<p class="center">Tűzvédelmi szakértő</p>
 					</div>
 
-					<div id="right">
+					<div class="right">
 						<img class="rounded" src="images/csaba-color.jpg"
 							data-33901="opacity:0; height:0px; width:0px"
 							data-34500="opacity:1; height:120px; width:120px"
@@ -907,7 +907,7 @@
 				</div>
 			</div>
 
-			<div id="map">
+			<div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42521.36350349783!2d22.084874!3d48.233861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4738ecf8951891f9%3A0x1d0dbb602468a21c!2zTcOhdHnDoXMga2lyw6FseSB1dGNhIDE1!5e0!3m2!1shu!2s!4v1404484671259" frameborder="0" style="border:0"></iframe>
 			</div>
 		</section>

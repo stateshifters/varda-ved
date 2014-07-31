@@ -58,7 +58,7 @@ a:active {
   width: 100%;
   z-index: 9999;
 
-  #arrow {
+  .arrow {
     bottom: 20px;
     margin: auto 40%;
     position: fixed;
@@ -152,7 +152,7 @@ a:active {
       display: block;
     }
 
-    #sandwich2 {
+    .sandwich2 {
       margin: 0!important;
       padding: 0!important;
       position: fixed;
@@ -269,7 +269,7 @@ a:active {
   }
 }
 
-#logo {
+.logo {
 
   img {
     height: 2.625em;
@@ -329,13 +329,13 @@ a:active {
 #bemutatkozas {
   color: #000;
 
-  #one {
+  .one {
     left: 0;
     @include opacity(1);
     position: relative;
     width: 100%;
 
-    #icon {
+    .icon {
       padding: 1em 0 .5em;
     }
   }
@@ -350,7 +350,7 @@ a:active {
 #tuzvedelem {
   background-color: $thunderbird;
 
-  #extinguish {
+  .extinguish {
     height: 70px;
   }
 
@@ -366,12 +366,12 @@ a:active {
     background: $black;
   }
 
-  #helmet {
+  .helmet {
     height: 70px;
   }
 
-  #certificate,
-  #screw {
+  .certificate,
+  .screw {
     height: 80px;
   }
 }
@@ -509,7 +509,7 @@ a:active {
 #kapcsolat {
   background-color: $lapalma;
 
-  #contact {
+  .contact {
     height: 80px;
   }
 
@@ -518,7 +518,7 @@ a:active {
   }
 }
 
-#one {
+.one {
   background-color: $alabaster;
 }
 

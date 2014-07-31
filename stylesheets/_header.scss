@@ -44,14 +44,14 @@ $all-speed: all .5s;
   width: 100%;
   z-index: 100;
 
-  #logo {
+  .logo {
     background-color: $alabaster;
 
-    #logo_pic {
+    .logo-pic {
       position: relative;
     }
 
-    #logo_text {
+    .logo-text {
       height: 2em;
       padding-bottom: 1em;
       padding-top: .5em;
@@ -78,7 +78,7 @@ $all-speed: all .5s;
     z-index: 1001;
   }
 
-  .menu #sandwich {
+  .menu .sandwich {
     display: none;
   }
 }
