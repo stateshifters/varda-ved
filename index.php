@@ -89,8 +89,8 @@
 				data-1550="visibility:hidden"
 				data-3899="visibility:visible; background-color: rgb(188,30,30)"
 				data-9001="visibility:hidden"
-				data-13200="visibility:visible; background-color: rgb(188,30,30)"
-				data-13877="visibility:visible; background-color: rgb(188,30,30)"
+				data-13200="visibility:visible;"
+				data-13877="background-color: rgb(188,30,30)"
 				data-13878="visibility:visible; background-color: rgb(225,101,0)"
 				data-14200="visibility:hidden"
 
@@ -190,7 +190,6 @@
 					data-25900="background-color:rgb(0,0,0)"
 				></div>
 
-
                 <a href="#referenciak" data-menu-top="28800"><div class="help-circle">
 					<img src="images/references.png" alt="Referenciák" title="Referenciák"
 						data-27200="opacity:.2"
@@ -206,7 +205,6 @@
 					data-30300="background-color:rgb(194,194,194)"
 					data-30600="background-color:rgb(0,0,0)"
 				></div>
-
 
                 <a href="#kapcsolat" data-menu-top="32700"><div class="help-circle">
 					<img src="images/contact-3.png" alt="Kapcsolat" title="Kapcsolat"
@@ -224,8 +222,8 @@
 
 		<header id="navigation" class="homeSlide">
 			<div id="main_nav"
-			     data-0="height: 16em;position:fixed;top:0"
-			     data-400="position:fixed;height:3.75em;top:0">
+			     data-0="position:fixed; height:16em; top:0px;"
+			     data-400="position:fixed; height:3.75em; top:0px;">
 
 				<div class="navigation">
 					<div class="logo"
@@ -235,26 +233,25 @@
 					     data-500="height:0">
 						<div class="logo-pic">
 							<img
-								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0; top:0; opacity:1;"
+								 data-0="height:4.1875em; width:4.1875em; position:relative; display:inline; float:none; margin-top:3em; left:0px; top:0px; opacity:1;"
 							     data-100="height:3.125em; width:3.125em;"
 							     data-270="height:0; width:0;"
 							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
-							     data-500="height:2.625em; width:2.625em; left:10px; top:12px;"
+							     data-500="left:10px"
 							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft." title="Varda-Ved Kft."
 							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
                                 >
 						</div>
 						<div class="logo-text"
-							data-0="position:relative; left:0; top:0; display:inline; padding:.3em 0"
-					     	data-151="position:fixed; left:0; top:-80px; z-index:5"
+							data-0="position:relative; left:0px; top:0px; display:inline; padding:.3em 0"
+					     	data-151="position:fixed; left:0px; top:-80px; z-index:5"
 					     	data-152="left:65px; top-80px"
-					     	data-400="left:65px; top:21px"
+					     	data-400="top:21px"
 						>
 							<a href="#bemutatkozas" data-menu-top="0"
-								 data-0="font-size:1em;"
-							     data-150="font-size:0em;"
-							     data-151="font-size:1em;"
-							     data-400="font-size:1em;">
+								 data-0="font-size:1em"
+							     data-150="font-size:0em"
+							     data-151="font-size:1em">
 							   VÁRDA-VÉD</a>
 						</div>
 
@@ -276,7 +273,7 @@
 					</div>
 
 					<nav class="menu-wrap"
-						data-0="position:relative;top:0px"
+						data-0="position:relative; top:0px"
 						data-500="top:0px"
 					>
 						<ul class="menu">
@@ -386,9 +383,9 @@
 
 					<p class="relative text center first-p"
 						data-100="opacity:0; top:50px; left:0px"
-						data-500="opacity:1; top:50px; left:0px"
-						data-1000="opacity:1; top:50px; left:0px"
-						data-1320="opacity:0; top:50px; left:-1850px">
+						data-500="opacity:1"
+						data-1000="opacity:1; left:0px"
+						data-1320="opacity:0; left:-1850px">
 							Amennyiben olyan szakembereket keres, akik <span class="regular">megbízhatóan</span> és
 							<span class="regular">hatékonyan</span> képesek ön és üzlete számára <span class="regular">
 							biztonságos munkakörnyezetet kialakítani</span> – akár
@@ -398,21 +395,21 @@
 
 					<div class="relative" class="icon"
 						data-50="opacity:0; top:0px"
-						data-500="opacity:1; top:0px"
-						data-900="opacity:1; top:0px"
-						data-1350="opacity:1; top:-170px"
-						data-1850="opacity:1; top:-170px"
-						data-2030="opacity:0; top:-170px"
+						data-500="opacity:1"
+						data-900="top:0px"
+						data-1350="top:-170px"
+						data-1850="opacity:1"
+						data-2030="opacity:0"
 					>
 						<img class="first-ref" src="images/references.png" alt="" title="">
 					</div>
 
 					<p class="relative text center regular"
-						data-0="opacity:1; top:-160px; left:0px;"
-						data-50="opacity:1; top:-160px; left:0px;"
-						data-300="opacity:1; top:0px; left:0px;"
-						data-800="opacity:1; top:0px; left:0px;"
-						data-1530="opacity:0; top:0px; left:1850px;">
+						data-0="opacity:1; top:-160px; left:0px"
+						data-50="top:-160px"
+						data-300="top:0px"
+						data-800="opacity:1; left:0px"
+						data-1530="opacity:0; left:1850px">
 						A VÁRDA-VÉD neve egyet jelent a munkavédelem és a
 						tűzvédelem terén szerzett sok
 						éves szakmai tapasztalattal.
@@ -420,8 +417,8 @@
 
 					<p class="text relative center"
 						data-1130="opacity:0; top:-320px; font-size:0em"
-						data-1430="opacity:1; top:-320px; font-size:1.7em"
-						data-1850="opacity:1; top:-320px"
+						data-1430="opacity:1; font-size:1.7em"
+						data-1850="opacity:1"
 						data-2030="opacity:0"
 					>
 						A VÁRDA-VÉD segítségével ön gond nélkül kialakíthatja
@@ -438,44 +435,36 @@
 
 
 		<section id="tuzvedelem" class="homeSlide"
-			data-2100="z-index:4; top:100%; position:fixed; height:100%; width: 100%"
+			data-2100="z-index:4; top:100%; position:fixed; height:100%; width:100%"
 			data-2600="z-index:5; top:0%"
 			data-13000="z-index:5"
 			data-13200="z-index:4"
 		>
 			<div 
 				data-2100="height:0%; width:100%"
-				data-2400="height:100%; width:100%">
+				data-2400="height:100%">
 
-				<div class="relative"
-					data-2600=""
-					data-2800=""
-					data-3000=""
-					data-3200=""
-					data-3400=""
-					data-3700=""
-					>
-						<img class="menu-icon extinguish" src="images/ext-b.png" alt="" title="">
+				<div class="relative">
+					<img class="menu-icon extinguish" src="images/ext-b.png" alt="" title="">
 				</div>
 
 				<h1 class="title upp">Tűzvédelem</h1>
 
-
 				<p class="text regular relative center"
 					data-2200="left:-1850px; opacity:1; display:block"
-					data-2800="left:0px; opacity:1"
-					data-3400="left:0px; opacity:1"
-					data-3800="left:0px; opacity:0"
+					data-2800="left:0px"
+					data-3400="opacity:1"
+					data-3800="opacity:0"
 					data-3801="display:none"
 				>
 					A tűzvédelem szabályzati hátterét Magyarországon két fontos jogszabály biztosítja.
 				</p>
 
 				<img
-					data-2400="height:0px; display:inline;"
-					data-2900="height:90px;"
-					data-3100="height:80px;"
-					data-3500="height:80px;"
+					data-2400="height:0px; display:inline"
+					data-2900="height:90px"
+					data-3100=""
+					data-3500="height:80px"
 					data-3800="height:0px"
 					data-3801="display:none"
 				class="law" src="images/law.png" alt="" title="">
@@ -743,8 +732,8 @@
 
 				<p class="text regular center"
 					data-28500="opacity:1; display:block; margin-top:1em"
-					data-28800="opacity:1; margin-top:1em"
-					data-29100="opacity:0; display:none; margin-top:1em"
+					data-28800="opacity:1"
+					data-29100="opacity:0; display:none"
 				>
 					Akik már minket választottak:
 				</p>
@@ -855,7 +844,7 @@
 		<section id="kapcsolat" class="homeSlide"
 			data-31500="z-index:4; top:100%; position:fixed; height:100%; width: 100%"
 			data-32201="z-index:5; top:0%"
-			data-32900="z-index:5; top:0%"
+			data-32900="z-index:5"
 		>
 			<div class="five-kapcs">
 				<img class="menu-icon contact" src="images/contact-3.png" alt="" title="">
