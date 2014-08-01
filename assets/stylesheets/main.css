@@ -349,6 +349,7 @@ a:active {
 .logo img {
   height: 2.625em;
   margin-top: 1em;
+  width: 2.625em;
 }
 
 .menu,
@@ -1435,10 +1436,8 @@ footer div {
   }
 
   .logo-pic img {
-    height: 35px;
     left: 15px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1617,10 +1616,8 @@ footer div {
   }
 
   .logo-pic img {
-    height: 35px;
     left: -8px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1800,10 +1797,8 @@ footer div {
   }
 
   .logo-pic img {
-    height: 35px;
     left: -12px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -2020,6 +2015,11 @@ footer div {
   }
   .mobile-menu-wrap-open a:active {
     text-decoration: none;
+  }
+
+  .logo img {
+    margin-left: .75em;
+    top: -4px;
   }
 }
 @media only screen and (max-width: 47.99em) and (orientation: landscape) {
