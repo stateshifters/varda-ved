@@ -44,7 +44,7 @@ window.onload = function () {
 
 
 	var breakpoints = (function () {
-		var menuItems = $('#menu').find('a');
+		var menuItems = $('.menu').find('a');
 		var points = [];
 		$.each(menuItems, function (i, elem) {
 
@@ -156,24 +156,24 @@ window.onload = function () {
 		}
 
 		if(hasSkrollr) {
-			$('#wrap').hide();
-			$('#wrap').css('visibility', 'visible');
-			$('#loader').hide();
-			$('#wrap').show({duration:300});
-			$('#loader').remove();
+			$('.wrap').hide();
+			$('.wrap').css('visibility', 'visible');
+			$('.loader').hide();
+			$('.wrap').show({duration:300});
+			$('.loader').remove();
 		} else {
-			$('#loader').remove();
+			$('.loader').remove();
 		}
 	}
 
 
-	$('#sandwich').click(function() {
+	$('.sandwich').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
 	});
 	$('.menu-1').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
 	});
-	$('#sandwich2').click(function() {
+	$('.sandwich2').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
 	});
 

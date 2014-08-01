@@ -79,29 +79,29 @@ body {
   text-align: center;
 }
 
-#stripe {
+.stripe {
   height: .3125em;
   width: 100%;
   z-index: 1000;
 }
-#stripe .stripe_all {
+.stripe .stripe_all {
   float: left;
   height: inherit;
   width: 20%;
 }
-#stripe #stripe_1 {
+.stripe .stripe_1 {
   background-color: #d2d2d2;
 }
-#stripe #stripe_2 {
+.stripe .stripe_2 {
   background-color: #ee3333;
 }
-#stripe #stripe_3 {
+.stripe .stripe_3 {
   background-color: #ff9000;
 }
-#stripe #stripe_4 {
+.stripe .stripe_4 {
   background-color: #00a3d8;
 }
-#stripe #stripe_5 {
+.stripe .stripe_5 {
   background-color: #43c423;
 }
 
@@ -115,13 +115,13 @@ body {
   width: 100%;
   z-index: 100;
 }
-#main_nav #logo {
+#main_nav .logo {
   background-color: #f8f8f8;
 }
-#main_nav #logo #logo_pic {
+#main_nav .logo .logo-pic {
   position: relative;
 }
-#main_nav #logo #logo_text {
+#main_nav .logo .logo-text {
   height: 2em;
   padding-bottom: 1em;
   padding-top: .5em;
@@ -132,18 +132,18 @@ body {
   font-weight: 300;
   width: 100%;
 }
-#main_nav .menu-wrap #menu {
+#main_nav .menu-wrap .menu {
   display: table;
   margin: 0 auto;
   width: 800px;
 }
-#main_nav #menu li {
+#main_nav .menu li {
   display: table-cell;
   margin-top: 1em;
   padding: 1em 0;
   z-index: 1001;
 }
-#main_nav #menu #sandwich {
+#main_nav .menu .sandwich {
   display: none;
 }
 
@@ -193,28 +193,28 @@ a:active {
   text-decoration: none;
 }
 
-#help {
+.help {
   position: fixed;
   width: 100%;
   z-index: 9999;
 }
-#help #arrow {
+.help .arrow {
   bottom: 20px;
   margin: auto 40%;
   position: fixed;
   width: 20%;
 }
-#help #arrow img {
+.help .arrow img {
   color: #ee3333;
   height: 30px;
 }
-#help #arrow p {
+.help .arrow p {
   color: #ee3333;
   font-size: 1.2em;
   font-weight: 600;
   margin-bottom: .5em;
 }
-#help #help-nav-bg {
+.help .help-nav-bg {
   height: 100%;
   position: fixed;
   right: 0;
@@ -232,10 +232,10 @@ a:active {
   width: 100%;
   z-index: 4;
 }
-.mobile-menu-wrap #menu {
+.mobile-menu-wrap .menu {
   height: inherit;
 }
-.mobile-menu-wrap #menu li {
+.mobile-menu-wrap .menu li {
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -278,7 +278,7 @@ a:active {
 .mobile-menu-wrap-open .menu-link .sandwich-y {
   display: block;
 }
-.mobile-menu-wrap-open .menu-link #sandwich2 {
+.mobile-menu-wrap-open .menu-link .sandwich2 {
   margin: 0 !important;
   padding: 0 !important;
   position: fixed;
@@ -346,17 +346,17 @@ a:active {
   vertical-align: middle;
 }
 
-#logo img {
+.logo img {
   height: 2.625em;
   margin-top: 1em;
 }
 
-#menu,
+.menu,
 .menu_wrap {
   z-index: 1;
 }
 
-#menu {
+.menu {
   margin: 0 0 0 auto;
 }
 
@@ -405,16 +405,16 @@ a:active {
 }
 
 #bemutatkozas {
-  color: #000;
+  color: black;
 }
-#bemutatkozas #one {
+#bemutatkozas .one {
   left: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   position: relative;
   width: 100%;
 }
-#bemutatkozas #one #icon {
+#bemutatkozas .one .icon {
   padding: 1em 0 .5em;
 }
 
@@ -427,7 +427,7 @@ a:active {
 #tuzvedelem {
   background-color: #bc1e1e;
 }
-#tuzvedelem #extinguish {
+#tuzvedelem .extinguish {
   height: 70px;
 }
 #tuzvedelem .number img {
@@ -440,11 +440,11 @@ a:active {
 #munkavedelem .square {
   background: black;
 }
-#munkavedelem #helmet {
+#munkavedelem .helmet {
   height: 70px;
 }
-#munkavedelem #certificate,
-#munkavedelem #screw {
+#munkavedelem .certificate,
+#munkavedelem .screw {
   height: 80px;
 }
 
@@ -517,7 +517,7 @@ a:active {
   position: relative;
 }
 .b .box .box-place {
-  background-color: #fff;
+  background-color: white;
   background-image: -o-linear-gradient(left, #0a7395 0%, #0a6887 100%);
   background-image: -moz-linear-gradient(left, #0a7395 0%, #0a6887 100%);
   background-image: -webkit-linear-gradient(left, #0a7395 0%, #0a6887 100%);
@@ -531,7 +531,7 @@ a:active {
   vertical-align: middle;
 }
 .b .box .box-web {
-  background-color: #fff;
+  background-color: white;
   background-image: -o-linear-gradient(left, #005b79 0%, #00536e 100%);
   background-image: -moz-linear-gradient(left, #005b79 0%, #00536e 100%);
   background-image: -webkit-linear-gradient(left, #005b79 0%, #00536e 100%);
@@ -544,46 +544,28 @@ a:active {
   margin-left: 2%;
   margin-right: 2%;
 }
-.b .box:nth-child(2) {
-  background-color: #43c423;
-}
-.b .box:nth-child(2) .box-place {
-  background-color: #29ac19;
-}
-.b .box:nth-child(2) .box-web {
-  background-color: #1a980d;
-}
-.b .box:nth-child(3) {
-  background-color: #058bb7;
-}
-.b .box:nth-child(3) .box-place {
-  background-color: #0c7294;
-}
-.b .box:nth-child(3) .box-web {
-  background-color: #025a78;
-}
 
 #kapcsolat {
   background-color: #2e9b13;
 }
-#kapcsolat #contact {
+#kapcsolat .contact {
   height: 80px;
 }
 #kapcsolat p {
   padding: 0;
 }
 
-#one {
+.one {
   background-color: #f8f8f8;
 }
 
-#five-kapcs {
+.five-kapcs {
   background-color: #2e9b13;
   color: white;
   float: left;
   width: 66.66%;
 }
-#five-kapcs #profile_pic img {
+.five-kapcs #profile_pic img {
   border: 7px solid white;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -591,27 +573,27 @@ a:active {
   height: 120px;
   width: 120px;
 }
-#five-kapcs #profile_pic #left,
-#five-kapcs #profile_pic #right {
+.five-kapcs #profile_pic .left,
+.five-kapcs #profile_pic .right {
   float: left;
   margin: 3em 0 5em;
   width: 50%;
 }
-#five-kapcs a {
-  color: #fff;
+.five-kapcs a {
+  color: white;
 }
 
 .name {
   font-size: 1.5625em;
 }
 
-#map {
+.map {
   background-color: #f8f8f8;
   float: right;
   height: 100%;
   width: 33.33%;
 }
-#map iframe {
+.map iframe {
   height: 100%;
   width: 100%;
 }
@@ -631,7 +613,7 @@ footer div {
 }
 
 @media only screen and (min-width: 120em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -639,62 +621,62 @@ footer div {
     display: none !important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
     top: 20%;
     width: 20%;
   }
-  #loader p {
+  .loader p {
     color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 35px;
     top: 60px;
     width: 80px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 40px;
     top: 300px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -16px;
     margin-bottom: 15px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 40px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 25px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 45px;
     position: relative;
     right: -9px;
     width: 30px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 20px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 24px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 8px;
     left: -1px;
@@ -725,11 +707,11 @@ footer div {
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 2.9em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 13em auto 15em;
   }
 
@@ -738,15 +720,15 @@ footer div {
     padding-bottom: 0;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 130px;
   }
 
-  #munkavedelem #helmet {
+  #munkavedelem .helmet {
     height: 130px;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 130px;
   }
 
@@ -759,12 +741,12 @@ footer div {
     margin-bottom: 1.6em;
     width: 230px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin-top: 3em;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.9em;
     font-weight: 300;
   }
@@ -777,7 +759,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 100em) and (max-width: 119.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -785,62 +767,62 @@ footer div {
     display: none !important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
     top: 20%;
     width: 20%;
   }
-  #loader p {
+  .loader p {
     color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 20px;
     top: 60px;
     width: 65px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 25px;
     top: 250px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -16px;
     margin-bottom: 15px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 40px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 25px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 45px;
     position: relative;
     right: -9px;
     width: 30px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 20px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 24px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 8px;
     left: -1px;
@@ -875,11 +857,11 @@ footer div {
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: .5em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 1em auto 6.25em;
   }
 
@@ -888,7 +870,7 @@ footer div {
     padding-bottom: 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 75px;
   }
 
@@ -901,12 +883,12 @@ footer div {
     margin-bottom: 1.4em;
     width: 170px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin-top: 3em;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.7em;
     font-weight: 300;
   }
@@ -919,7 +901,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 89em) and (max-width: 99.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -927,62 +909,62 @@ footer div {
     display: none !important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
     top: 20%;
     width: 20%;
   }
-  #loader p {
+  .loader p {
     color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 21px;
     top: 60px;
     width: 55px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 20px;
     top: 200px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -12px;
     margin-bottom: 5px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 20px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 40px;
     position: relative;
     right: -4px;
     width: 25px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 25px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 20px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 7px;
     left: -1px;
@@ -1013,11 +995,11 @@ footer div {
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 1.23em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 3.125em auto 6.25em;
   }
 
@@ -1026,7 +1008,7 @@ footer div {
     padding-bottom: 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 70px;
   }
 
@@ -1043,12 +1025,12 @@ footer div {
     margin-bottom: 1.3em;
     width: 170px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin-top: 3em;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.7em;
     font-weight: 300;
   }
@@ -1061,7 +1043,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 80em) and (max-width: 88.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -1069,62 +1051,62 @@ footer div {
     display: none !important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
     top: 20%;
     width: 20%;
   }
-  #loader p {
+  .loader p {
     color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     position: fixed;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
     top: 100px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -12px;
     margin-bottom: 5px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 30px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 20px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 40px;
     position: relative;
     right: -4px;
     width: 25px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 25px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 20px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 7px;
     left: -1px;
@@ -1136,7 +1118,7 @@ footer div {
     border-radius: 50%;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
@@ -1152,12 +1134,12 @@ footer div {
     display: none;
   }
 
-  #logo #logo_pic img {
+  .logo .logo-pic img {
     height: 80px;
     position: relative;
     top: 80px;
   }
-  #logo #logo_text {
+  .logo .logo-text {
     top: 80px;
   }
 
@@ -1174,20 +1156,20 @@ footer div {
     padding-bottom: 0;
   }
 
-  #first-p {
+  .first-p {
     margin-top: -.2em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 2.1em auto 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 60px;
   }
 
-  #screw,
-  #certificate {
+  .screw,
+  .certificate {
     margin-top: -1em;
   }
 
@@ -1195,7 +1177,7 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 60px;
   }
 
@@ -1203,7 +1185,7 @@ footer div {
     margin: 3em 0 -1.5em;
   }
 
-  #munkavedelem #helmet {
+  #munkavedelem .helmet {
     height: 60px;
   }
 
@@ -1211,7 +1193,7 @@ footer div {
     margin: 5.5em auto 0;
   }
 
-  #kapcsolat #five-kapcs div:nth-child(3) {
+  #kapcsolat .five-kapcs div:nth-child(3) {
     margin-top: 3em;
   }
   #kapcsolat .text {
@@ -1224,16 +1206,16 @@ footer div {
     margin-bottom: .8em;
     width: 135px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin: 2em 0 5em !important;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.4em;
     font-weight: 300;
   }
-  #kapcsolat #map {
+  #kapcsolat .map {
     height: 900px;
   }
   #kapcsolat .name {
@@ -1245,7 +1227,7 @@ footer div {
   }
 }
 @media only screen and (min-width: 64em) and (max-width: 79.99em) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -1253,62 +1235,62 @@ footer div {
     display: none !important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
     top: 20%;
     width: 20%;
   }
-  #loader p {
+  .loader p {
     color: black;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: .5em;
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 15px;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
     top: 100px;
     width: 20px;
   }
-  #help .help-circle {
+  .help .help-circle {
     height: 30px;
     left: -12px;
     margin-bottom: 5px;
     position: relative;
     width: 26px;
   }
-  #help .help-circle img {
+  .help .help-circle img {
     height: 25px;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  #help #help-ext {
+  .help .help-ext {
     margin-bottom: 15px;
   }
-  #help #help-ext img {
+  .help .help-ext img {
     height: 35px;
     position: relative;
     right: -4px;
     width: 22px;
   }
-  #help #help-helmet {
+  .help .help-helmet {
     height: 20px;
   }
-  #help #help-helmet img {
+  .help .help-helmet img {
     height: 17px;
     position: relative;
   }
-  #help #help-nav .small-circle {
+  .help .help-nav .small-circle {
     background-color: #c2c2c2;
     height: 5px;
     left: -1px;
@@ -1320,7 +1302,7 @@ footer div {
     border-radius: 50%;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
@@ -1331,7 +1313,7 @@ footer div {
     position: fixed;
     top: 10px;
   }
-  .menu-wrap #menu {
+  .menu-wrap .menu {
     width: 700px !important;
   }
 
@@ -1339,7 +1321,7 @@ footer div {
     display: none;
   }
 
-  #logo #logo_pic img {
+  .logo .logo-pic img {
     height: 80px;
     position: relative;
     top: 80px;
@@ -1358,20 +1340,20 @@ footer div {
     padding-bottom: 0;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 0;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 2em auto 1.5em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 60px;
   }
 
-  #screw,
-  #certificate {
+  .screw,
+  .certificate {
     margin-top: -1em;
   }
 
@@ -1379,7 +1361,7 @@ footer div {
     margin: 1em auto .5em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 60px;
   }
 
@@ -1387,7 +1369,7 @@ footer div {
     margin: 3em 0 -1.5em;
   }
 
-  #munkavedelem #helmet {
+  #munkavedelem .helmet {
     height: 60px;
   }
 
@@ -1402,7 +1384,7 @@ footer div {
     width: 180px;
   }
 
-  #kapcsolat #five-kapcs div:nth-child(3) {
+  #kapcsolat .five-kapcs div:nth-child(3) {
     margin-top: 3em;
   }
   #kapcsolat .text {
@@ -1415,16 +1397,16 @@ footer div {
     margin-bottom: 1.2em;
     width: 110px !important;
   }
-  #kapcsolat #left,
-  #kapcsolat #right {
+  #kapcsolat .left,
+  #kapcsolat .right {
     margin: 2em 0 5em !important;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.3em;
     font-weight: 300;
   }
-  #kapcsolat #map {
+  #kapcsolat .map {
     height: 900px;
   }
   #kapcsolat .name {
@@ -1437,22 +1419,22 @@ footer div {
   }
 }
 @media only screen and (min-width: 48em) and (max-width: 63.99em) {
-  #help,
-  #loader {
+  .help,
+  .loader {
     display: none;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: 15px;
     position: fixed;
@@ -1467,7 +1449,7 @@ footer div {
   #main_nav {
     height: 3.75em;
   }
-  #main_nav #logo #logo_text {
+  #main_nav .logo .logo-text {
     left: 70px;
     position: fixed;
     top: 20px;
@@ -1478,19 +1460,19 @@ footer div {
     font-size: 2.1em;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
     top: 23px;
     visibility: visible;
   }
-  #sandwich .menu-link:hover {
+  .sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
 
-  #icon img {
+  .icon img {
     height: 85px;
     margin: -1em auto 1em;
   }
@@ -1512,30 +1494,26 @@ footer div {
     height: 55px !important;
   }
 
-  #munkavedelem #certificate,
-  #munkavedelem #helmet,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .helmet,
+  #munkavedelem .screw {
     height: 80px;
   }
-  #munkavedelem #certificate,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .screw {
     margin-bottom: 1em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 80px;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 80px;
   }
 
-  #law {
+  .law {
     height: 60px !important;
-    margin-top: .8em;
-  }
-
-  #law {
     margin: 1em 0 3em;
   }
 
@@ -1579,11 +1557,11 @@ footer div {
     line-height: .7em;
     text-align: center;
   }
-  #kapcsolat #five-kapcs {
+  #kapcsolat .five-kapcs {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #contact {
+  #kapcsolat .contact {
     height: 80px;
   }
   #kapcsolat #profile_pic img {
@@ -1594,13 +1572,13 @@ footer div {
     height: 110px;
     width: 110px;
   }
-  #kapcsolat #profile_pic #left,
-  #kapcsolat #profile_pic #right {
+  #kapcsolat #profile_pic .left,
+  #kapcsolat #profile_pic .right {
     margin: 1em 0;
     width: 100%;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.1em;
   }
 
@@ -1608,12 +1586,12 @@ footer div {
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: #f8f8f8;
     height: 250px;
     width: 100%;
   }
-  #map iframe {
+  .map iframe {
     height: 100%;
     width: 100%;
   }
@@ -1623,22 +1601,22 @@ footer div {
   }
 }
 @media only screen and (min-width: 30em) and (max-width: 47.99em) {
-  #help,
-  #loader {
+  .help,
+  .loader {
     display: none;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: -8px;
     position: fixed;
@@ -1649,7 +1627,7 @@ footer div {
   #main_nav {
     height: 3.75em;
   }
-  #main_nav #logo #logo_text {
+  #main_nav .logo .logo-text {
     left: 50px;
     position: fixed;
     top: 20px;
@@ -1664,19 +1642,19 @@ footer div {
     font-size: 1.5em;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
     top: 23px;
     visibility: visible;
   }
-  #sandwich .menu-link:hover {
+  .sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
 
-  #icon img {
+  .icon img {
     height: 85px;
     margin: -1em auto 1em;
   }
@@ -1698,26 +1676,22 @@ footer div {
     height: 55px !important;
   }
 
-  #munkavedelem #certificate,
-  #munkavedelem #helmet,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .helmet,
+  #munkavedelem .screw {
     height: 70px;
   }
-  #munkavedelem #certificate,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .screw {
     margin-bottom: 1em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 70px;
   }
 
-  #law {
+  .law {
     height: 50px !important;
-    margin-top: .8em;
-  }
-
-  #law {
     margin: 1em 0 2em;
   }
 
@@ -1766,11 +1740,11 @@ footer div {
     line-height: .7em;
     text-align: center;
   }
-  #kapcsolat #five-kapcs {
+  #kapcsolat .five-kapcs {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #contact {
+  #kapcsolat .contact {
     height: 70px;
   }
   #kapcsolat #profile_pic img {
@@ -1781,13 +1755,13 @@ footer div {
     height: 90px;
     width: 90px;
   }
-  #kapcsolat #profile_pic #left,
-  #kapcsolat #profile_pic #right {
+  #kapcsolat #profile_pic .left,
+  #kapcsolat #profile_pic .right {
     margin: 1em 0;
     width: 100%;
   }
-  #kapcsolat #left p:nth-child(3),
-  #kapcsolat #right p:nth-child(3) {
+  #kapcsolat .left p:nth-child(3),
+  #kapcsolat .right p:nth-child(3) {
     font-size: 1.1em;
   }
 
@@ -1795,12 +1769,12 @@ footer div {
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: #f8f8f8;
     height: 200px;
     width: 100%;
   }
-  #map iframe {
+  .map iframe {
     height: 100%;
     width: 100%;
   }
@@ -1810,22 +1784,22 @@ footer div {
   }
 }
 @media only screen and (max-width: 29.99em) {
-  #help,
-  #loader {
+  .help,
+  .loader {
     display: none;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: -12px;
     position: fixed;
@@ -1836,7 +1810,7 @@ footer div {
   #main_nav {
     height: 3.75em;
   }
-  #main_nav #logo #logo_text {
+  #main_nav .logo .logo-text {
     left: 43px;
     position: fixed;
     top: 20px;
@@ -1847,19 +1821,19 @@ footer div {
     display: none;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
     top: 23px;
     visibility: visible;
   }
-  #sandwich .menu-link:hover {
+  .sandwich .menu-link:hover {
     margin: 0;
     padding: 0;
   }
 
-  #icon img {
+  .icon img {
     height: 70px;
     margin-top: -1em;
   }
@@ -1877,31 +1851,27 @@ footer div {
     font-size: 1.5em;
   }
 
-  #tuzvedelem #extinguish {
+  #tuzvedelem .extinguish {
     height: 50px;
   }
 
-  #munkavedelem #certificate,
-  #munkavedelem #helmet,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .helmet,
+  #munkavedelem .screw {
     height: 50px;
   }
-  #munkavedelem #certificate,
-  #munkavedelem #screw {
+  #munkavedelem .certificate,
+  #munkavedelem .screw {
     margin-bottom: 1em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 50px;
   }
 
   .circle,
-  #law {
+  .law {
     height: 50px !important;
-    margin-top: .8em;
-  }
-
-  #law {
     margin: 1em 0 2em;
   }
 
@@ -1950,11 +1920,11 @@ footer div {
     line-height: 1em;
     text-align: center;
   }
-  #kapcsolat #five-kapcs {
+  #kapcsolat .five-kapcs {
     text-align: center;
     width: 100%;
   }
-  #kapcsolat #contact {
+  #kapcsolat .contact {
     height: 50px;
   }
   #kapcsolat #profile_pic img {
@@ -1965,8 +1935,8 @@ footer div {
     height: 70px;
     width: 70px;
   }
-  #kapcsolat #profile_pic #left,
-  #kapcsolat #profile_pic #right {
+  #kapcsolat #profile_pic .left,
+  #kapcsolat #profile_pic .right {
     margin: 1em 0;
     width: 100%;
   }
@@ -1976,12 +1946,12 @@ footer div {
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: #f8f8f8;
     height: 150px;
     width: 100%;
   }
-  #map iframe {
+  .map iframe {
     height: 100%;
     width: 100%;
   }
@@ -2064,7 +2034,7 @@ footer div {
   }
 }
 @media screen and (min-width: 64em) {
-  #map {
+  .map {
     margin-top: 60px;
     height: -webkit-calc(100% - 60px);
     height: -moz-calc(100% - 60px);

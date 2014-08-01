@@ -1,4 +1,4 @@
-#stripe {
+.stripe {
   height: .3125em;
   width: 100%;
   z-index: 1000;
@@ -9,30 +9,26 @@
     width: 20%;
   }
 
-  #stripe_1 {
+  .stripe_1 {
     background-color: $alto;
   }
 
-  #stripe_2 {
+  .stripe_2 {
     background-color: $pomegranate;
   }
 
-  #stripe_3 {
+  .stripe_3 {
     background-color: $pizazz;
   }
 
-  #stripe_4 {
+  .stripe_4 {
     background-color: $cerulean;
   }
 
-  #stripe_5 {
+  .stripe_5 {
     background-color: $lima;
   }
 }
-
-$height-speed: height .5s;
-$width-speed: width .5s;
-$all-speed: all .5s;
 
 #main_nav {
   background-color: $alabaster;
@@ -44,14 +40,14 @@ $all-speed: all .5s;
   width: 100%;
   z-index: 100;
 
-  #logo {
+  .logo {
     background-color: $alabaster;
 
-    #logo_pic {
+    .logo-pic {
       position: relative;
     }
 
-    #logo_text {
+    .logo-text {
       height: 2em;
       padding-bottom: 1em;
       padding-top: .5em;
@@ -64,21 +60,21 @@ $all-speed: all .5s;
     font-weight: 300;
     width: 100%;
 
-    #menu {
+    .menu {
       display: table;
       margin: 0 auto;
       width: 800px;
     }
   }
 
-  #menu li {
+  .menu li {
     display: table-cell;
     margin-top: 1em;
     padding: 1em 0;
     z-index: 1001;
   }
 
-  #menu #sandwich {
+  .menu .sandwich {
     display: none;
   }
 }

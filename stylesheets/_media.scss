@@ -14,7 +14,7 @@ $xwidescreen: 120em;
 $xwidescreen-: $xwidescreen - .01em;
 
 @media only screen and (min-width: $xwidescreen) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -22,7 +22,7 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none!important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
@@ -37,13 +37,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 35px;
     top: 60px;
     width: 80px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 40px;
@@ -63,7 +63,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 25px;
 
       img {
@@ -74,7 +74,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 20px;
 
       img {
@@ -83,7 +83,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -116,11 +116,11 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 2.9em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 13em auto 15em;
   }
 
@@ -131,19 +131,19 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #tuzvedelem {
 
-    #extinguish {
+    .extinguish {
       height: 130px;
     }
   }
 
   #munkavedelem {
 
-    #helmet {
+    .helmet {
       height: 130px;
     }
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 130px;
   }
 
@@ -163,8 +163,8 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       margin-top: 3em;
 
       p:nth-child(3) {
@@ -185,7 +185,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $wwidescreen) and (max-width: $xwidescreen-) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -193,7 +193,7 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none!important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
@@ -208,13 +208,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 20px;
     top: 60px;
     width: 65px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 25px;
@@ -234,7 +234,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 25px;
 
       img {
@@ -245,7 +245,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 20px;
 
       img {
@@ -254,7 +254,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -294,11 +294,11 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: .5em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 1em auto 6.25em;
   }
 
@@ -307,7 +307,7 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 75px;
   }
 
@@ -327,8 +327,8 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       margin-top: 3em;
 
       p:nth-child(3) {
@@ -349,7 +349,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mwidescreen) and (max-width: $wwidescreen-) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -357,7 +357,7 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none!important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
@@ -372,13 +372,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 21px;
     top: 60px;
     width: 55px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 20px;
@@ -398,7 +398,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 20px;
 
       img {
@@ -409,7 +409,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 25px;
 
       img {
@@ -418,7 +418,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -451,11 +451,11 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 1em;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 1.23em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 3.125em auto 6.25em;
   }
 
@@ -464,7 +464,7 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 70px;
   }
 
@@ -491,8 +491,8 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       margin-top: 3em;
 
       p:nth-child(3) {
@@ -512,7 +512,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $widescreen) and (max-width: $mwidescreen-) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -520,7 +520,7 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none!important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
@@ -535,13 +535,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     position: fixed;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
@@ -561,7 +561,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 20px;
 
       img {
@@ -572,7 +572,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 25px;
 
       img {
@@ -581,7 +581,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -595,7 +595,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }  
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
@@ -611,15 +611,15 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none;
   }
 
-  #logo {
+  .logo {
 
-    #logo_pic img {
+    .logo-pic img {
       height: 80px;
       position: relative;
       top: 80px;
     }
 
-    #logo_text {
+    .logo-text {
       top: 80px;
     }
   }
@@ -637,20 +637,20 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 0;
   }
 
-  #first-p {
+  .first-p {
     margin-top: -.2em;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 2.1em auto 0;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 60px;
   }
 
-  #screw,
-  #certificate {
+  .screw,
+  .certificate {
     margin-top: -1em;
   }
 
@@ -660,7 +660,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #tuzvedelem {
 
-    #extinguish {
+    .extinguish {
       height: 60px;
     }
   }
@@ -674,7 +674,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #munkavedelem {
 
-    #helmet {
+    .helmet {
       height: 60px;
     }
   }
@@ -688,7 +688,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #kapcsolat {
 
-    #five-kapcs {
+    .five-kapcs {
 
       div:nth-child(3) {
         margin-top: 3em;
@@ -710,8 +710,8 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       margin: 2em 0 5em !important;
 
       p:nth-child(3) {
@@ -720,7 +720,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #map {
+    .map {
       height: 900px;
     }
 
@@ -736,7 +736,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
-  #wrap {
+  .wrap {
     visibility: hidden;
   }
 
@@ -744,7 +744,7 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none!important;
   }
 
-  #loader {
+  .loader {
     left: 40%;
     margin: auto;
     position: fixed;
@@ -759,13 +759,13 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #help-nav-bg {
+  .help-nav-bg {
     right: 15px;
     top: 60px;
     width: 50px;
   }
 
-  #help {
+  .help {
     height: 450px;
     position: fixed;
     right: 13px;
@@ -785,7 +785,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-ext {
+    .help-ext {
       margin-bottom: 15px;
 
       img {
@@ -796,7 +796,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-helmet {
+    .help-helmet {
       height: 20px;
 
       img {
@@ -805,7 +805,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #help-nav {
+    .help-nav {
 
       .small-circle {
         background-color: $silver;
@@ -819,7 +819,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }  
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
@@ -830,7 +830,7 @@ $xwidescreen-: $xwidescreen - .01em;
     position: fixed;
     top: 10px;
 
-    #menu {
+    .menu {
       width: 700px !important;
     }
   }
@@ -839,9 +839,9 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none;
   }
 
-  #logo {
+  .logo {
 
-    #logo_pic img {
+    .logo-pic img {
       height: 80px;
       position: relative;
       top: 80px;
@@ -861,20 +861,20 @@ $xwidescreen-: $xwidescreen - .01em;
     padding-bottom: 0;
   }
 
-  #first-p {
+  .first-p {
     margin-top: 0;
   }
 
-  #first-ref {
+  .first-ref {
     margin: 2em auto 1.5em;
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 60px;
   }
 
-  #screw,
-  #certificate {
+  .screw,
+  .certificate {
     margin-top: -1em;
   }
 
@@ -884,7 +884,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #tuzvedelem {
 
-    #extinguish {
+    .extinguish {
       height: 60px;
     }
   }
@@ -898,7 +898,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #munkavedelem {
 
-    #helmet {
+    .helmet {
       height: 60px;
     }
   }
@@ -918,7 +918,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #kapcsolat {
 
-    #five-kapcs {
+    .five-kapcs {
 
       div:nth-child(3) {
         margin-top: 3em;
@@ -940,8 +940,8 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       margin: 2em 0 5em !important;
 
       p:nth-child(3) {
@@ -950,7 +950,7 @@ $xwidescreen-: $xwidescreen - .01em;
       }
     }
 
-    #map {
+    .map {
       height: 900px;
     }
 
@@ -967,22 +967,22 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $tablet) and (max-width: $monitor-) {
-  #help,
-  #loader {
+  .help,
+  .loader {
     display: none;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: 15px;
     position: fixed;
@@ -997,9 +997,9 @@ $xwidescreen-: $xwidescreen - .01em;
   #main_nav {
     height: 3.75em;
 
-    #logo {
+    .logo {
 
-      #logo_text {
+      .logo-text {
         left: 70px;
         position: fixed;
         top: 20px;
@@ -1014,7 +1014,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
@@ -1027,7 +1027,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #icon img {
+  .icon img {
     height: 85px;
     margin: -1em auto 1em;
   }
@@ -1051,35 +1051,31 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #munkavedelem {
 
-    #certificate,
-    #helmet,
-    #screw {
+    .certificate,
+    .helmet,
+    .screw {
       height: 80px;
     }
 
-    #certificate,
-    #screw {
+    .certificate,
+    .screw {
       margin-bottom: 1em;
     }
   }
 
   #tuzvedelem {
 
-    #extinguish {
+    .extinguish {
       height: 80px;
     }
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 80px;
   }
 
-  #law {
+  .law {
     height: 60px !important;
-    margin-top: .8em;
-  }
-
-  #law {
     margin: 1em 0 3em;
   }
 
@@ -1141,12 +1137,12 @@ $xwidescreen-: $xwidescreen - .01em;
       text-align: center;
     }
 
-    #five-kapcs {
+    .five-kapcs {
       text-align: center;
       width: 100%;
     }
 
-    #contact {
+    .contact {
       height: 80px;
     }
 
@@ -1159,15 +1155,15 @@ $xwidescreen-: $xwidescreen - .01em;
         width: 110px;
       }
 
-      #left,
-      #right {
+      .left,
+      .right {
         margin: 1em 0;
         width: 100%;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       p:nth-child(3) {
         font-size: 1.1em;
       }
@@ -1178,7 +1174,7 @@ $xwidescreen-: $xwidescreen - .01em;
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: $alabaster;
     height: 250px;
     width: 100%;
@@ -1196,22 +1192,22 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (min-width: $mobile) and (max-width: $tablet-) {
-  #help,
-  #loader {
+  .help,
+  .loader {
     display: none;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: -8px;
     position: fixed;
@@ -1222,9 +1218,9 @@ $xwidescreen-: $xwidescreen - .01em;
   #main_nav {
     height: 3.75em;
 
-    #logo {
+    .logo {
 
-      #logo_text {
+      .logo-text {
         left: 50px;
         position: fixed;
         top: 20px;
@@ -1243,7 +1239,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
@@ -1257,7 +1253,7 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
 
-  #icon img {
+  .icon img {
     height: 85px;
     margin: -1em auto 1em;
   }
@@ -1281,28 +1277,24 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #munkavedelem {
 
-    #certificate,
-    #helmet,
-    #screw {
+    .certificate,
+    .helmet,
+    .screw {
       height: 70px;
     }
 
-    #certificate,
-    #screw {
+    .certificate,
+    .screw {
       margin-bottom: 1em;
     }
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 70px;
   }
 
-  #law {
+  .law {
     height: 50px !important;
-    margin-top: .8em;
-  }
-
-  #law {
     margin: 1em 0 2em;
   }
 
@@ -1371,12 +1363,12 @@ $xwidescreen-: $xwidescreen - .01em;
       text-align: center;
     }
 
-    #five-kapcs {
+    .five-kapcs {
       text-align: center;
       width: 100%;
     }
 
-    #contact {
+    .contact {
       height: 70px;
     }
 
@@ -1389,15 +1381,15 @@ $xwidescreen-: $xwidescreen - .01em;
         width: 90px;
       }
 
-      #left,
-      #right {
+      .left,
+      .right {
         margin: 1em 0;
         width: 100%;
       }
     }
 
-    #left,
-    #right {
+    .left,
+    .right {
       p:nth-child(3) {
         font-size: 1.1em;
       }
@@ -1408,7 +1400,7 @@ $xwidescreen-: $xwidescreen - .01em;
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: $alabaster;
     height: 200px;
     width: 100%;
@@ -1426,22 +1418,22 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media only screen and (max-width: $mobile-) {
-  #help,
-  #loader {
+  .help,
+  .loader {
     display: none;
   }
 
-  #stripe {
+  .stripe {
     height: 10px;
     position: fixed;
     top: 0;
   }
 
-  #logo {
+  .logo {
     padding-bottom: 10px;
   }
 
-  #logo_pic img {
+  .logo-pic img {
     height: 35px;
     left: -12px;
     position: fixed;
@@ -1452,9 +1444,9 @@ $xwidescreen-: $xwidescreen - .01em;
   #main_nav {
     height: 3.75em;
 
-    #logo {
+    .logo {
 
-      #logo_text {
+      .logo-text {
         left: 43px;
         position: fixed;
         top: 20px;
@@ -1467,7 +1459,7 @@ $xwidescreen-: $xwidescreen - .01em;
     display: none;
   }
 
-  #sandwich {
+  .sandwich {
     display: block !important;
     position: fixed;
     right: 20px;
@@ -1480,7 +1472,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
   }
 
-  #icon img {
+  .icon img {
     height: 70px;
     margin-top: -1em;
   }
@@ -1500,36 +1492,32 @@ $xwidescreen-: $xwidescreen - .01em;
 
   #tuzvedelem {
 
-    #extinguish {
+    .extinguish {
       height: 50px;
     }
   }
 
   #munkavedelem {
 
-    #certificate,
-    #helmet,
-    #screw {
+    .certificate,
+    .helmet,
+    .screw {
       height: 50px;
     }
 
-    #certificate,
-    #screw {
+    .certificate,
+    .screw {
       margin-bottom: 1em;
     }
   }
 
-  #ref-icon {
+  .ref-icon {
     height: 50px;
   }
 
   .circle,
-  #law {
+  .law {
     height: 50px !important;
-    margin-top: .8em;
-  }
-
-  #law {
     margin: 1em 0 2em;
   }
 
@@ -1598,12 +1586,12 @@ $xwidescreen-: $xwidescreen - .01em;
       text-align: center;
     }
 
-    #five-kapcs {
+    .five-kapcs {
       text-align: center;
       width: 100%;
     }
 
-    #contact {
+    .contact {
       height: 50px;
     }
 
@@ -1616,8 +1604,8 @@ $xwidescreen-: $xwidescreen - .01em;
         width: 70px;
       }
 
-      #left,
-      #right {
+      .left,
+      .right {
         margin: 1em 0;
         width: 100%;
       }
@@ -1629,7 +1617,7 @@ $xwidescreen-: $xwidescreen - .01em;
     margin: .3em 0;
   }
 
-  #map {
+  .map {
     background-color: $alabaster;
     height: 150px;
     width: 100%;
@@ -1659,7 +1647,7 @@ $xwidescreen-: $xwidescreen - .01em;
 @media only screen and (max-width: $monitor-) {
   .mobile-menu-wrap-open {
     .bemutatkozas:active {
-      $from: #b6b6b6;
+      $from: $nobel;
       $to: $alto;
       background-color: $alto;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
@@ -1677,7 +1665,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .tuzvedelem:active {
-      $from: #d21a1a;
+      $from: $thunderbird2;
       $to: $pomegranate;
       background-color: $pomegranate;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
@@ -1696,7 +1684,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
     .munkavedelem:active {
       $from: $pizazz;
-      $to: #fa7103;
+      $to: $chileanfire;
       background-color: $pizazz;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
       background-image: -moz-linear-gradient(top , $from 0%, $to 100%);
@@ -1713,7 +1701,7 @@ $xwidescreen-: $xwidescreen - .01em;
     }
 
     .referenciak:active {
-      $from: #0c85ac;
+      $from: $bluechill;
       $to: $cerulean;
       background-color: $cerulean;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
@@ -1732,7 +1720,7 @@ $xwidescreen-: $xwidescreen - .01em;
 
     .kapcsolatok:active {
       $from: $lima;
-      $to: #2c9d0f;
+      $to: $lapalma2;
       background-color: $lima;
       background-image: -o-linear-gradient(top , $from 0%, $to 100%);
       background-image: -moz-linear-gradient(top , $from 0%, $to 100%);
@@ -1770,7 +1758,7 @@ $xwidescreen-: $xwidescreen - .01em;
 }
 
 @media screen and (min-width: $monitor) {
-  #map {
+  .map {
     margin-top: 60px;
 
     @mixin calc($property, $expression) { 
