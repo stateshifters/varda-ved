@@ -280,9 +280,9 @@
 					     	data-400="top:21px"
 						>
 							<a href="#bemutatkozas" data-menu-top="0"
-								 data-0="font-size:1em"
+								 data-0="font-size:1em; transition:none"
 							     data-150="font-size:0em"
-							     data-151="font-size:1em">
+							     data-152="font-size:1em">
 							   VÁRDA-VÉD</a>
 						</div>
 
