@@ -131,6 +131,7 @@ body {
   background-color: white;
   font-weight: 300;
   width: 100%;
+  z-index: 1;
 }
 #main_nav .menu-wrap .menu {
   display: table;

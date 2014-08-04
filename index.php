@@ -71,6 +71,16 @@
     <script type="application/javascript">
         document.addEventListener("touchstart", function(){}, true);
     </script>
+    <noscript>
+    	<style type="text/css">
+    		.wrap {
+		    	visibility: visible;
+		  	}
+		  	.loader {
+		  		display: none;
+		  	}
+    	</style>
+    </noscript>
 </head>
 
 <body>
