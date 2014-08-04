@@ -79,6 +79,27 @@
 		  	.loader {
 		  		display: none;
 		  	}
+		  	.five-kapcs, .map {
+		  		width: 100%;
+		  	}
+		  	@media only screen and (orientation: landscape) {
+		  		#kapcsolat .map {
+		  			background: url('images/noscript_map.jpg') no-repeat;
+		  		}
+		  	}
+		  	@media only screen and (orientation: portrait) {
+		  		#kapcsolat .map {
+		  			background: url('images/noscript_map_portrait.jpg') no-repeat;
+		  		}
+		  	}
+		  	#kapcsolat .map {	
+		  		background-size: cover;
+		  		height: 100%;
+		  		margin-top: 0;
+		  	}
+		  	.map iframe {
+		  		visibility: hidden;
+		  	}
     	</style>
     </noscript>
 </head>
