@@ -275,7 +275,7 @@
 						</div>
 						<div class="logo-text"
 							data-0="position:relative; left:0px; top:0px; display:inline; padding:.3em 0"
-					     	data-151="position:fixed; left:0px; top:-80px; z-index:5"
+					     	data-151="position:fixed; left:0px; top:-80px; z-index:101"
 					     	data-152="left:65px; top-80px"
 					     	data-400="top:21px"
 						>
