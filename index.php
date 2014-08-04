@@ -73,6 +73,22 @@
     </script>
     <noscript>
     	<style type="text/css">
+    		@media only screen and (min-width: 1024px) {
+    			.logo-text {
+    				left: 60px;
+    				position: fixed!important;
+    				top: 18px!important;
+    				z-index: 102;
+    			}
+    			.logo .logo-pic img {
+    				left: 15px;
+    				height: 42px!important;
+    				margin-top: 0!important;
+    				position: fixed!important;
+    				top: 12px!important;
+    				z-index: 102;
+    			}
+    		}
     		.wrap {
 		    	visibility: visible;
 		  	}
