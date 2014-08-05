@@ -272,8 +272,9 @@ a:active {
 .logo {
 
   img {
-    height: 2.625em;
+    height: 2.625em; 
     margin-top: 1em;
+    width: 2.625em;
   }
 }
 
@@ -321,7 +322,7 @@ a:active {
 #referenciak,
 #kapcsolat {
   height: 100%;
-  padding-bottom: .0001em;
+  padding-bottom: 2em;
   position: relative;
   width: 100%;
 }

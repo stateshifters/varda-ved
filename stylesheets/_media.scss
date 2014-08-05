@@ -983,10 +983,8 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .logo-pic img {
-    height: 35px;
     left: 15px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1208,10 +1206,8 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .logo-pic img {
-    height: 35px;
     left: -8px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1434,10 +1430,8 @@ $xwidescreen-: $xwidescreen - .01em;
   }
 
   .logo-pic img {
-    height: 35px;
     left: -12px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1738,6 +1732,14 @@ $xwidescreen-: $xwidescreen - .01em;
 
     a:active {
       text-decoration: none;
+    }
+  }
+
+  .logo {
+
+    img {
+      margin-left: .75em;
+      top: -4px;
     }
   }
 }

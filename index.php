@@ -11,7 +11,7 @@
 					VÁRDA-VÉD Kft. szakembereire!">
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
-	<link href="assets/stylesheets/main.css" rel="stylesheet">
+	<link href="assets/stylesheets/main.min.css" rel="stylesheet">
     <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
 
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
@@ -71,6 +71,9 @@
     <script type="application/javascript">
         document.addEventListener("touchstart", function(){}, true);
     </script>
+    <noscript>
+    	<link href="assets/stylesheets/noscript.min.css" rel="stylesheet">
+    </noscript>
 </head>
 
 <body>
@@ -244,31 +247,48 @@
 						</div>
 						<div class="logo-text"
 							data-0="position:relative; left:0px; top:0px; display:inline; padding:.3em 0"
-					     	data-151="position:fixed; left:0px; top:-80px; z-index:5"
+					     	data-151="position:fixed; left:0px; top:-80px; z-index:101"
 					     	data-152="left:65px; top-80px"
 					     	data-400="top:21px"
 						>
 							<a href="#bemutatkozas" data-menu-top="0"
-								 data-0="font-size:1em"
+								 data-0="font-size:1em; transition:none"
 							     data-150="font-size:0em"
-							     data-151="font-size:1em">
+							     data-152="font-size:0em"
+							     data-153="font-size:1em">
 							   VÁRDA-VÉD</a>
 						</div>
 
 					</div>
 
 					<div class="stripe"
-							 data-0="height:2px; position:relative"
-						     data-500="height:10px">
-						<div class="stripe_1 stripe_all">
+							data-0="height:2px; position:relative"
+						    data-500="height:10px"
+						     >
+						<div class="stripe_1 stripe_all"
+							data-0="height:2px; position:relative"
+							data-500="height:10px"
+						>
 						</div>
-						<div class="stripe_2 stripe_all">
+						<div class="stripe_2 stripe_all"
+						 	data-0="height:2px; position:relative"
+						 	data-500="height:10px"
+						>
 						</div>
-						<div class="stripe_3 stripe_all">
+						<div class="stripe_3 stripe_all"
+							data-0="height:2px; position:relative"
+							data-500="height:10px"
+						>
 						</div>
-						<div class="stripe_4 stripe_all">
+						<div class="stripe_4 stripe_all"
+							data-0="height:2px; position:relative"
+							data-500="height:10px"
+						>
 						</div>
-						<div class="stripe_5 stripe_all">
+						<div class="stripe_5 stripe_all"
+							data-0="height:2px; position:relative"
+							data-500="height:10px"
+						>
 						</div>
 					</div>
 

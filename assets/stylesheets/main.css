@@ -131,6 +131,7 @@ body {
   background-color: white;
   font-weight: 300;
   width: 100%;
+  z-index: 1;
 }
 #main_nav .menu-wrap .menu {
   display: table;
@@ -349,6 +350,7 @@ a:active {
 .logo img {
   height: 2.625em;
   margin-top: 1em;
+  width: 2.625em;
 }
 
 .menu,
@@ -399,7 +401,7 @@ a:active {
 #referenciak,
 #kapcsolat {
   height: 100%;
-  padding-bottom: .0001em;
+  padding-bottom: 2em;
   position: relative;
   width: 100%;
 }
@@ -1435,10 +1437,8 @@ footer div {
   }
 
   .logo-pic img {
-    height: 35px;
     left: 15px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1617,10 +1617,8 @@ footer div {
   }
 
   .logo-pic img {
-    height: 35px;
     left: -8px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -1800,10 +1798,8 @@ footer div {
   }
 
   .logo-pic img {
-    height: 35px;
     left: -12px;
     position: fixed;
-    top: 0;
     z-index: 5;
   }
 
@@ -2020,6 +2016,11 @@ footer div {
   }
   .mobile-menu-wrap-open a:active {
     text-decoration: none;
+  }
+
+  .logo img {
+    margin-left: .75em;
+    top: -4px;
   }
 }
 @media only screen and (max-width: 47.99em) and (orientation: landscape) {

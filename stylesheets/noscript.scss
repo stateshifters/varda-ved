@@ -1,0 +1,100 @@
+@media only screen and (min-width: 1024px) {
+		.logo-text {
+				left: 60px;
+				position: fixed!important;
+				top: 18px!important;
+				z-index: 102;
+		}
+
+		.logo .logo-pic img {
+				height: 42px!important;
+				left: 15px;
+				margin-top: 0!important;
+				position: fixed!important;
+				top: 12px!important;
+				z-index: 102;
+		}
+}
+
+@media only screen and (max-width: 1023px) {
+		.sandwich-x, 
+		.logo-text {
+				display: none!important;
+		}
+
+		.mobile-menu-wrap, 
+		.mobile-menu-wrap-open {
+				display: none!important;
+		}
+
+		.menu-wrap {
+				display: block!important;
+				position: fixed;
+		}
+
+		#main_nav .menu-wrap .menu {
+				margin-right: 5%;
+				width: 80%;
+		}
+}
+
+@media only screen and (max-width: 800px) {
+		.menu span {
+				font-size: 14px;
+		}
+
+		#main_nav {
+				text-transform: capitalize;
+		}
+}
+
+@media only screen and (max-width: 800px) {
+		.menu span {
+				font-size: 12px;
+		}
+}
+
+@media only screen and (max-width: 480px) {
+		html,
+		#main_nav .menu-wrap .menu,
+		.stripe {
+				min-width: 400px;
+		}
+
+		.logo .logo-pic img {
+				display: none;
+		}
+
+		.menu span {
+				font-size: 11px;
+		}
+}
+
+#main_nav {
+		height: 4em;
+}
+
+.loader {
+		display: none;
+}
+
+.wrap {
+		visibility: visible;
+}
+	
+.five-kapcs, 
+.map {
+		width: 100%;
+}
+	
+#kapcsolat .map {	
+		background: url('images/noscript_map.jpg') no-repeat center center;
+		background-size: cover;
+		height: 500px;
+		margin-top: 0;
+}
+	
+.map iframe, 
+.help {
+		display: none;
+}
