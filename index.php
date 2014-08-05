@@ -99,18 +99,21 @@
 		  		width: 100%;
 		  	}
 		  	@media only screen and (orientation: landscape) {
+		  		#main_nav {
+		  			height: 4em;
+		  		}
 		  		#kapcsolat .map {
-		  			background: url('images/noscript_map.jpg') no-repeat;
+		  			background: url('images/noscript_map.jpg') no-repeat center center;
 		  		}
 		  	}
 		  	@media only screen and (orientation: portrait) {
 		  		#kapcsolat .map {
-		  			background: url('images/noscript_map_portrait.jpg') no-repeat;
+		  			
 		  		}
 		  	}
 		  	#kapcsolat .map {	
 		  		background-size: cover;
-		  		height: 100%;
+		  		height: 500px;
 		  		margin-top: 0;
 		  	}
 		  	.map iframe {
