@@ -77,7 +77,7 @@ module.exports = function (grunt) {
 			all: [staticTargetDir, 'robots.txt', 'manifest.appcache'],
 			cache: ['manifest.appcache'],
 			robots: ['robots.txt'],
-			css: [staticTargetDir + '*.css'],
+			css: [staticTargetDir + '**/*.css'],
 			hash: [staticTargetDir + 'assets.map'],
 			hooks: ['.git/hooks/*'],
 			hashless: [

@@ -11,7 +11,7 @@
 					VÁRDA-VÉD Kft. szakembereire!">
 
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
-	<link href="assets/stylesheets/main.css" rel="stylesheet">
+	<link href="assets/stylesheets/main.min.css" rel="stylesheet">
     <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
 
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
@@ -72,88 +72,7 @@
         document.addEventListener("touchstart", function(){}, true);
     </script>
     <noscript>
-    	<style type="text/css">
-    		@media only screen and (min-width: 1024px) {
-    			.logo-text {
-    				left: 60px;
-    				position: fixed!important;
-    				top: 18px!important;
-    				z-index: 102;
-    			}
-    			.logo .logo-pic img {
-    				left: 15px;
-    				height: 42px!important;
-    				margin-top: 0!important;
-    				position: fixed!important;
-    				top: 12px!important;
-    				z-index: 102;
-    			}
-    		}
-    		@media only screen and (orientation: landscape) {
-		  		#main_nav {
-		  			height: 4em;
-		  		}
-		  	}
-		  	@media only screen and (max-width: 1023px) {
-		  		.sandwich-x, .logo-text {
-		  			display: none!important;
-		  		}
-		  		.mobile-menu-wrap, .mobile-menu-wrap-open {
-		  			display: none!important;
-		  		}
-		  		.menu-wrap {
-		  			display: block!important;
-		  			position: fixed;
-		  		}
-		  		#main_nav .menu-wrap .menu {
-		  			margin-right: 5%;
-		  			width: 80%;
-		  		}
-		  	}
-		  	@media only screen and (max-width: 800px) {
-		  		.menu span {
-		  			font-size: 14px;
-		  		}
-		  		#main_nav {
-		  			text-transform: capitalize;
-		  		}
-		  	}
-		  	@media only screen and (max-width: 800px) {
-		  		.menu span {
-		  			font-size: 12px;
-		  		}
-		  	}
-		  	@media only screen and (max-width: 480px) {
-		  		#main_nav .menu-wrap .menu {
-		  			margin-right: auto;
-		  			width: 95%;
-		  		}
-		  		.logo .logo-pic img {
-		  			display: none;
-		  		}
-		  		.menu span {
-		  			font-size: 11px;
-		  		}
-		  	}
-    		.loader {
-		  		display: none;
-		  	}
-    		.wrap {
-		    	visibility: visible;
-		  	}
-		  	.five-kapcs, .map {
-		  		width: 100%;
-		  	}
-		  	#kapcsolat .map {	
-		  		background: url('images/noscript_map.jpg') no-repeat center center;
-		  		background-size: cover;
-		  		height: 500px;
-		  		margin-top: 0;
-		  	}
-		  	.map iframe, .help {
-		  		display: none;
-		  	}
-    	</style>
+    	<link href="assets/stylesheets/noscript.min.css" rel="stylesheet">
     </noscript>
 </head>
 
