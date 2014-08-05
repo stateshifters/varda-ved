@@ -55,9 +55,12 @@
 }
 
 @media only screen and (max-width: 480px) {
+		html {
+				min-width: 400px;
+		}
+
 		#main_nav .menu-wrap .menu {
-				margin-right: auto;
-				width: 95%;
+				min-width: 400px;
 		}
 
 		.logo .logo-pic img {
