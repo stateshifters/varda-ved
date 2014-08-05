@@ -89,29 +89,22 @@
     				z-index: 102;
     			}
     		}
+    		@media only screen and (orientation: landscape) {
+		  		#main_nav {
+		  			height: 4em;
+		  		}
+		  	}
+    		.loader {
+		  		display: none;
+		  	}
     		.wrap {
 		    	visibility: visible;
-		  	}
-		  	.loader {
-		  		display: none;
 		  	}
 		  	.five-kapcs, .map {
 		  		width: 100%;
 		  	}
-		  	@media only screen and (orientation: landscape) {
-		  		#main_nav {
-		  			height: 4em;
-		  		}
-		  		#kapcsolat .map {
-		  			background: url('images/noscript_map.jpg') no-repeat center center;
-		  		}
-		  	}
-		  	@media only screen and (orientation: portrait) {
-		  		#kapcsolat .map {
-		  			
-		  		}
-		  	}
 		  	#kapcsolat .map {	
+		  		background: url('images/noscript_map.jpg') no-repeat center center;
 		  		background-size: cover;
 		  		height: 500px;
 		  		margin-top: 0;
