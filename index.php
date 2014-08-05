@@ -239,8 +239,8 @@
 								 data-0="height:6em; width:6em; position:relative; display:inline; float:none; margin-top:3em; left:0px; top:0px; opacity:1;"
 							     data-100="height:4em; width:4em;"
 							     data-270="height:0; width:0;"
-							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5;"
-							     data-500="left:10px"
+							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5; opacity:0"
+							     data-500="left:10px; opacity:1"
 							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft." title="Varda-Ved Kft."
 							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
                                 >
