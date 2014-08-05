@@ -94,6 +94,47 @@
 		  			height: 4em;
 		  		}
 		  	}
+		  	@media only screen and (max-width: 1023px) {
+		  		.sandwich-x, .logo-text {
+		  			display: none!important;
+		  		}
+		  		.mobile-menu-wrap, .mobile-menu-wrap-open {
+		  			display: none!important;
+		  		}
+		  		.menu-wrap {
+		  			display: block!important;
+		  			position: fixed;
+		  		}
+		  		#main_nav .menu-wrap .menu {
+		  			margin-right: 5%;
+		  			width: 80%;
+		  		}
+		  	}
+		  	@media only screen and (max-width: 800px) {
+		  		.menu span {
+		  			font-size: 14px;
+		  		}
+		  		#main_nav {
+		  			text-transform: capitalize;
+		  		}
+		  	}
+		  	@media only screen and (max-width: 800px) {
+		  		.menu span {
+		  			font-size: 12px;
+		  		}
+		  	}
+		  	@media only screen and (max-width: 480px) {
+		  		#main_nav .menu-wrap .menu {
+		  			margin-right: auto;
+		  			width: 95%;
+		  		}
+		  		.logo .logo-pic img {
+		  			display: none;
+		  		}
+		  		.menu span {
+		  			font-size: 11px;
+		  		}
+		  	}
     		.loader {
 		  		display: none;
 		  	}
