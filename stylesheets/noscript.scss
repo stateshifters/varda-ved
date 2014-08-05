@@ -55,11 +55,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-		html {
-				min-width: 400px;
-		}
-
-		#main_nav .menu-wrap .menu {
+		html,
+		#main_nav .menu-wrap .menu,
+		.stripe {
 				min-width: 400px;
 		}
 
