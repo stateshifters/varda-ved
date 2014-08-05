@@ -1,4 +1,10 @@
-@media only screen and (min-width: 1024px) {
+@import 'breakpoints';
+
+#bemutatkozas {
+		padding-top: 50px!important;
+}
+
+@media only screen and (min-width: $monitor) {
 		.logo-text {
 				left: 60px;
 				position: fixed!important;
@@ -16,7 +22,7 @@
 		}
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $monitor-) {
 		.sandwich-x, 
 		.logo-text {
 				display: none!important;
@@ -38,7 +44,7 @@
 		}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: $big-tablet-) {
 		.menu span {
 				font-size: 14px;
 		}
@@ -48,13 +54,13 @@
 		}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: $big-tablet) {
 		.menu span {
 				font-size: 12px;
 		}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: $mobile-) {
 		html,
 		#main_nav .menu-wrap .menu,
 		.stripe {

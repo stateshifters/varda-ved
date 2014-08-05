@@ -1,4 +1,8 @@
-@media only screen and (min-width: 1024px) {
+#bemutatkozas {
+  padding-top: 50px !important;
+}
+
+@media only screen and (min-width: 64em) {
   .logo-text {
     left: 60px;
     position: fixed !important;
@@ -15,7 +19,7 @@
     z-index: 102;
   }
 }
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 63.99em) {
   .sandwich-x,
   .logo-text {
     display: none !important;
@@ -36,7 +40,7 @@
     width: 80%;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 49.99em) {
   .menu span {
     font-size: 14px;
   }
@@ -45,12 +49,12 @@
     text-transform: capitalize;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 50em) {
   .menu span {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 29.99em) {
   html,
   #main_nav .menu-wrap .menu,
   .stripe {
