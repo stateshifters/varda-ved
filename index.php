@@ -109,8 +109,8 @@
 		  		height: 500px;
 		  		margin-top: 0;
 		  	}
-		  	.map iframe {
-		  		visibility: hidden;
+		  	.map iframe, .help {
+		  		display: none;
 		  	}
     	</style>
     </noscript>
