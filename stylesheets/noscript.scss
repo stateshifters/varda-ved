@@ -4,6 +4,36 @@
 		padding-top: 50px!important;
 }
 
+@media only screen and (min-width: $widescreen) {
+		.menu-icon,
+		.circle,
+		.screw,
+		.certificate,
+		.first-ref {
+				height: 80px!important;
+		}
+}
+
+@media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
+		.menu-icon,
+		.circle,
+		.screw,
+		.certificate,
+		.first-ref {
+				height: 70px!important;
+		}
+}
+
+@media only screen and (min-width: $big-tablet) and (max-width: $monitor-) {
+		.menu-icon,
+		.circle,
+		.screw,
+		.certificate,
+		.first-ref {
+				height: 61px!important;
+		}
+}
+
 @media only screen and (min-width: $monitor) {
 		.logo-text {
 				left: 60px;
@@ -52,6 +82,14 @@
 		#main_nav {
 				text-transform: capitalize;
 		}
+
+		.menu-icon,
+		.circle,
+		.screw,
+		.certificate,
+		.first-ref {
+				height: 55px!important;
+		}
 }
 
 @media only screen and (max-width: $big-tablet) {
@@ -76,11 +114,27 @@
 		}
 }
 
+.menu-icon,
+.circle,
+.screw,
+.certificate,
+.first-ref,
+p {
+		margin: 1em auto!important;
+}
+
+.navigation {
+		position: fixed;
+		width: 100%;
+		z-index: 100;	
+}
+
 #main_nav {
 		height: 4em;
 }
 
-.loader {
+.loader,
+.law {
 		display: none;
 }
 
