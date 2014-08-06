@@ -4,6 +4,26 @@
 		padding-top: 50px!important;
 }
 
+@media only screen and (min-width: $widescreen) {
+		.menu-icon,
+		.circle,
+		.screw,
+		.certificate,
+		.first-ref {
+				height: 80px!important;
+		}
+}
+
+@media only screen and (min-width: $monitor) and (max-width: $widescreen-) {
+		.menu-icon,
+		.circle,
+		.screw,
+		.certificate,
+		.first-ref {
+				height: 70px!important;
+		}
+}
+
 @media only screen and (min-width: $monitor) {
 		.logo-text {
 				left: 60px;
@@ -86,7 +106,8 @@
 		height: 4em;
 }
 
-.loader {
+.loader,
+.law {
 		display: none;
 }
 
