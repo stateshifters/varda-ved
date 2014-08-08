@@ -169,12 +169,15 @@ window.onload = function () {
 
 	$('.sandwich').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
+	  $('body').css('overflow-y', 'hidden');
 	});
 	$('.menu-1').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
+	  $('body').css('overflow-y', 'visible');
 	});
 	$('.sandwich2').click(function() {
 	  $('nav.mobile-menu-wrap-open').toggleClass('off');
+	  $('body').css('overflow-y', 'visible');
 	});
 
 	initHistory(false);
