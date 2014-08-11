@@ -894,21 +894,21 @@
 					data-35200="opacity:1"
 				>
 					<div class="left">
-						<img class="rounded" src="images/gyula-color.jpg"
-							data-33901="opacity:0; height:0px; width:0px"
-							data-34500="opacity:1; height:120px; width:120px"
-                            alt="Szűrös Gyula" title="Szűrös Gyula"
+						<div class="rounded-picture-left"
+								data-33901="opacity:0; height:0px; width:0px"
+								data-34500="opacity:1; height:120px; width:120px"
 						>
+						</div>
 						<p class="name center upp bold">Szűrös Gyula</p>
 						<p class="center">Tűzvédelmi szakértő</p>
 					</div>
 
 					<div class="right">
-						<img class="rounded" src="images/csaba-color.jpg"
-							data-33901="opacity:0; height:0px; width:0px"
-							data-34500="opacity:1; height:120px; width:120px"
-                            alt="Szűrös Csaba" title="Szűrös Csaba"
+						<div class="rounded-picture-right"
+								data-33901="opacity:0; height:0px; width:0px"
+								data-34500="opacity:1; height:120px; width:120px"
 						>
+						</div>
 						<p class="name center upp bold">Szűrös Csaba</p>
 						<p class="center">Munkavédelmi szakértő</p>
 					</div>

@@ -6,11 +6,22 @@
 
   #profile_pic {
 
-    img {
-      border: 7px solid $white;
-      @include border-radius(50%);
+    .rounded-picture-left,
+    .rounded-picture-right {
+      background-size: cover;
       height: 120px;
+      margin: 0 auto 1em;
       width: 120px;
+      @include border-radius(50%);
+      @include box-shadow(rgba($white, 1) 0 0 0 5px inset);
+    }
+
+    .rounded-picture-left {
+      background-image: url('images/gyula-color.jpg');
+    }
+
+    .rounded-picture-right {
+      background-image: url('images/csaba-color.jpg');
     }
 
     .left,
