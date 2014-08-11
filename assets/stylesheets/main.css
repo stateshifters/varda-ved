@@ -748,11 +748,14 @@ footer div {
   #kapcsolat .text {
     margin: .5em auto 0;
   }
-  #kapcsolat #profile_pic img {
-    border: 13px solid white;
-    height: 230px !important;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 266px !important;
     margin-bottom: 1.6em;
-    width: 230px !important;
+    width: 266px !important;
+    -moz-box-shadow: white 0 0 0 13px inset;
+    -webkit-box-shadow: white 0 0 0 13px inset;
+    box-shadow: white 0 0 0 13px inset;
   }
   #kapcsolat .left,
   #kapcsolat .right {
@@ -890,11 +893,14 @@ footer div {
   #kapcsolat .text {
     margin: .5em auto 0;
   }
-  #kapcsolat #profile_pic img {
-    border: 10px solid white;
-    height: 170px !important;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 190px !important;
     margin-bottom: 1.4em;
-    width: 170px !important;
+    width: 190px !important;
+    -moz-box-shadow: white 0 0 0 10px inset;
+    -webkit-box-shadow: white 0 0 0 10px inset;
+    box-shadow: white 0 0 0 10px inset;
   }
   #kapcsolat .left,
   #kapcsolat .right {
@@ -1032,11 +1038,14 @@ footer div {
   #kapcsolat .text {
     margin: .5em auto 0;
   }
-  #kapcsolat #profile_pic img {
-    border: 10px solid white;
-    height: 170px !important;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 190px !important;
     margin-bottom: 1.3em;
-    width: 170px !important;
+    width: 190px !important;
+    -moz-box-shadow: white 0 0 0 10px inset;
+    -webkit-box-shadow: white 0 0 0 10px inset;
+    box-shadow: white 0 0 0 10px inset;
   }
   #kapcsolat .left,
   #kapcsolat .right {
@@ -1213,11 +1222,14 @@ footer div {
     line-height: 1.3em;
     margin: .5em auto 0;
   }
-  #kapcsolat #profile_pic img {
-    border: 8px solid white;
-    height: 135px !important;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 151px !important;
     margin-bottom: .8em;
-    width: 135px !important;
+    width: 151px !important;
+    -moz-box-shadow: white 0 0 0 8px inset;
+    -webkit-box-shadow: white 0 0 0 8px inset;
+    box-shadow: white 0 0 0 8px inset;
   }
   #kapcsolat .left,
   #kapcsolat .right {
@@ -1404,11 +1416,14 @@ footer div {
     line-height: 1.3em;
     margin: .5em auto 0;
   }
-  #kapcsolat #profile_pic img {
-    border: 5px solid white;
-    height: 110px !important;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 120px !important;
     margin-bottom: 1.2em;
-    width: 110px !important;
+    width: 120px !important;
+    -moz-box-shadow: white 0 0 0 5px inset;
+    -webkit-box-shadow: white 0 0 0 5px inset;
+    box-shadow: white 0 0 0 5px inset;
   }
   #kapcsolat .left,
   #kapcsolat .right {
@@ -1575,13 +1590,13 @@ footer div {
   #kapcsolat .contact {
     height: 80px;
   }
-  #kapcsolat #profile_pic img {
-    border: 5px solid white;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    height: 110px;
-    width: 110px;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 120px !important;
+    width: 120px !important;
+    -moz-box-shadow: white 0 0 0 5px inset;
+    -webkit-box-shadow: white 0 0 0 5px inset;
+    box-shadow: white 0 0 0 5px inset;
   }
   #kapcsolat #profile_pic .left,
   #kapcsolat #profile_pic .right {
@@ -1756,13 +1771,13 @@ footer div {
   #kapcsolat .contact {
     height: 70px;
   }
-  #kapcsolat #profile_pic img {
-    border: 5px solid white;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 100px !important;
+    width: 100px !important;
+    -moz-box-shadow: white 0 0 0 5px inset;
+    -webkit-box-shadow: white 0 0 0 5px inset;
+    box-shadow: white 0 0 0 5px inset;
   }
   #kapcsolat #profile_pic .left,
   #kapcsolat #profile_pic .right {
@@ -1934,13 +1949,13 @@ footer div {
   #kapcsolat .contact {
     height: 50px;
   }
-  #kapcsolat #profile_pic img {
-    border: 3px solid white;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;
+  #kapcsolat #profile_pic .rounded-picture-left,
+  #kapcsolat #profile_pic .rounded-picture-right {
+    height: 76px !important;
+    width: 76px !important;
+    -moz-box-shadow: white 0 0 0 3px inset;
+    -webkit-box-shadow: white 0 0 0 3px inset;
+    box-shadow: white 0 0 0 3px inset;
   }
   #kapcsolat #profile_pic .left,
   #kapcsolat #profile_pic .right {

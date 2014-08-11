@@ -142,11 +142,12 @@
 
     #profile_pic {
 
-      img {
-        border: 13px solid $white;
-        height: 230px !important;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 266px!important;
         margin-bottom: 1.6em;
-        width: 230px !important;
+        width: 266px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 13px inset);
       }
     }
 
@@ -306,11 +307,12 @@
 
     #profile_pic {
 
-      img {
-        border: 10px solid $white;
-        height: 170px !important;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 190px!important;
         margin-bottom: 1.4em;
-        width: 170px !important;
+        width: 190px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 10px inset);
       }
     }
 
@@ -470,11 +472,12 @@
 
     #profile_pic {
 
-      img {
-        border: 10px solid $white;
-        height: 170px !important;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 190px!important;
         margin-bottom: 1.3em;
-        width: 170px !important;
+        width: 190px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 10px inset);
       }
     }
 
@@ -689,11 +692,12 @@
 
     #profile_pic {
 
-      img {
-        border: 8px solid $white;
-        height: 135px !important;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 151px!important;
         margin-bottom: .8em;
-        width: 135px !important;
+        width: 151px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 8px inset);
       }
     }
 
@@ -919,11 +923,12 @@
 
     #profile_pic {
 
-      img {
-        border: 5px solid $white;
-        height: 110px !important;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 120px!important;
         margin-bottom: 1.2em;
-        width: 110px !important;
+        width: 120px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 5px inset);
       }
     }
 
@@ -1133,11 +1138,11 @@
 
     #profile_pic {
 
-      img {
-        border: 5px solid $white;
-        @include border-radius(50%);
-        height: 110px;
-        width: 110px;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 120px!important;
+        width: 120px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 5px inset);
       }
 
       .left,
@@ -1357,11 +1362,11 @@
 
     #profile_pic {
 
-      img {
-        border: 5px solid $white;
-        @include border-radius(50%);
-        height: 90px;
-        width: 90px;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 100px!important;
+        width: 100px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 5px inset);
       }
 
       .left,
@@ -1578,11 +1583,11 @@
 
     #profile_pic {
 
-      img {
-        border: 3px solid $white;
-        @include border-radius(50%);
-        height: 70px;
-        width: 70px;
+      .rounded-picture-left,
+      .rounded-picture-right {
+        height: 76px!important;
+        width: 76px!important;
+        @include box-shadow(rgba($white, 1) 0 0 0 3px inset);
       }
 
       .left,
