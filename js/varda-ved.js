@@ -158,6 +158,7 @@ window.onload = function () {
 		if(hasSkrollr) {
 			$('.wrap').hide();
 			$('.wrap').css('visibility', 'visible');
+			$('body').css('overflow-y', 'visible');
 			$('.loader').hide();
 			$('.wrap').show({duration:300});
 			$('.loader').remove();
