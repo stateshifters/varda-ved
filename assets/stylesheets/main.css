@@ -567,13 +567,24 @@ a:active {
   float: left;
   width: 66.66%;
 }
-.five-kapcs #profile_pic img {
-  border: 7px solid white;
+.five-kapcs #profile_pic .rounded-picture-left,
+.five-kapcs #profile_pic .rounded-picture-right {
+  background-size: cover;
+  height: 120px;
+  margin: 0 auto 1em;
+  width: 120px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  height: 120px;
-  width: 120px;
+  -moz-box-shadow: white 0 0 0 5px inset;
+  -webkit-box-shadow: white 0 0 0 5px inset;
+  box-shadow: white 0 0 0 5px inset;
+}
+.five-kapcs #profile_pic .rounded-picture-left {
+  background-image: url("/assets/images/gyula-color.jpg");
+}
+.five-kapcs #profile_pic .rounded-picture-right {
+  background-image: url("/assets/images/csaba-color.jpg");
 }
 .five-kapcs #profile_pic .left,
 .five-kapcs #profile_pic .right {
