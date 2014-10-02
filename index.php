@@ -10,26 +10,22 @@
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					VÁRDA-VÉD Kft. szakembereire!">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico">
 	<link href="assets/stylesheets/main.min.css" rel="stylesheet">
     <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
-
     <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
-    <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png" />
-
+    <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
     <meta property="og:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
-    <meta property="twitter:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem" />
-
+    <meta property="twitter:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
     <meta property="og:locale" content="hu_HU">
-
     <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					VÁRDA-VÉD Kft. szakembereire!">
     <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					VÁRDA-VÉD Kft. szakembereire!" />
+					VÁRDA-VÉD Kft. szakembereire!">
 
-    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:card" content="summary">
     <script charset="UTF-8" type="application/ld+json">
         {
             "@context": "http://schema.org",
