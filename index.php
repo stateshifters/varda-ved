@@ -2,33 +2,27 @@
 <html lang="hu">
 <head>
 	<title>VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no" />
     <meta name="keywords" content="Tűzvédelem, Munkavédelem, Munkavédelemi oktatás, Tűzvédelemi oktatás,
-    Tűzvédelemi felmérés, Munkavédelemi felmérés, Tűzvédelemi tanácsadás, Munkavédelemi tanácsadás">
+    Tűzvédelemi felmérés, Munkavédelemi felmérés, Tűzvédelemi tanácsadás, Munkavédelemi tanácsadás" />
     <meta name="description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					VÁRDA-VÉD Kft. szakembereire!">
-
+					VÁRDA-VÉD Kft. szakembereire!" />
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/varda-ved.ico" />
-	<link href="assets/stylesheets/main.min.css" rel="stylesheet">
-    <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
-
-    <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png">
+	<link href="assets/stylesheets/main.min.css" rel="stylesheet" />
+    <meta property="og:site_name" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem" />
+    <meta property="og:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png" />
     <meta property="twitter:image" content="http://<?php print $_SERVER['HTTP_HOST']?>/assets/images/varda-ved-share.png" />
-
-    <meta property="og:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem">
+    <meta property="og:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem" />
     <meta property="twitter:title" content="VÁRDA-VÉD Kft. | Tűzvédelem, Munkavédelem" />
-
-    <meta property="og:locale" content="hu_HU">
-
+    <meta property="og:locale" content="hu_HU" />
     <meta property="og:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
-					VÁRDA-VÉD Kft. szakembereire!">
+					VÁRDA-VÉD Kft. szakembereire!" />
     <meta property="twitter:description" content="Összpontosítson cégének azon feladataira, amelyekből bevétele, profitja származik! A
 					munkavédelmi törvények értelmezését, nyomon követését és a feladatok ellátását bízza a
 					VÁRDA-VÉD Kft. szakembereire!" />
-
     <meta property="twitter:card" content="summary" />
     <script charset="UTF-8" type="application/ld+json">
         {
@@ -72,7 +66,7 @@
         document.addEventListener("touchstart", function(){}, true);
     </script>
     <noscript>
-    	<link href="assets/stylesheets/noscript.min.css" rel="stylesheet">
+    	<link href="assets/stylesheets/noscript.min.css" rel="stylesheet" />
     </noscript>
 </head>
 
@@ -84,7 +78,6 @@
     </div>
 
 	<div class="wrap">
-
 		<div class="help">
 			<div class="help-nav-bg"
 				data-0="visibility:hidden"
@@ -96,7 +89,6 @@
 				data-13877="background-color: rgb(188,30,30)"
 				data-13878="visibility:visible; background-color: rgb(225,101,0)"
 				data-14200="visibility:hidden"
-
 			></div>
 			<div class="arrow"
 				data-0="left:0px; opacity:1"
@@ -242,8 +234,8 @@
 							     data-271="height:2.625em; width:2.625em; position:fixed; left:-150px; top:12px; margin-top:0; z-index:5; opacity:0"
 							     data-500="left:10px; opacity:1"
 							      src="/assets/images/varda-ved.min.svg" alt="Varda-Ved Kft." title="Varda-Ved Kft."
-							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px"
-                                >
+							     onerror="this.onerror=null; this.src='/assets/images/vardaved-logo.png'" height="70px" width="70px" 
+                                />
 						</div>
 						<div class="logo-text"
 							data-0="position:relative; left:0px; top:0px; display:inline; padding:.3em 0"
@@ -355,7 +347,7 @@
 						<ul class="menu">
 							<a class="menu-link">
 								<li class="sandwich2">
-									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px"/>
+									<img class="sandwich-y" src="images/sandwich-y.png" height="28px" width="28px" />
 								</li>
 							</a>
 							<a class="bemutatkozas menu-1" href="#bemutatkozas" data-menu-top="0">
@@ -385,7 +377,6 @@
 							</a>
 						</ul>
 					</nav>
-
 				</div>
 			</div>
 		</header>
@@ -421,7 +412,7 @@
 						data-1850="opacity:1"
 						data-2030="opacity:0"
 					>
-						<img class="first-ref" src="images/references.png" alt="" title="">
+						<img class="first-ref" src="images/references.png" alt="" title="" />
 					</div>
 
 					<p class="relative text center regular"
@@ -465,7 +456,7 @@
 				data-2400="height:100%">
 
 				<div class="relative">
-					<img class="menu-icon extinguish" src="images/ext-b.png" alt="" title="">
+					<img class="menu-icon extinguish" src="images/ext-b.png" alt="" title="" />
 				</div>
 
 				<h1 class="title upp">Tűzvédelem</h1>
@@ -487,7 +478,7 @@
 					data-3500="height:80px"
 					data-3800="height:0px"
 					data-3801="display:none"
-				class="law" src="images/law.png" alt="" title="">
+				class="law" src="images/law.png" alt="" title="" />
 
 
 
@@ -498,7 +489,7 @@
 						data-5200="opacity:1"
 						data-5600="opacity:0; display:none"
 				>
-					<img class="circle" src="images/1_3.png"  alt="" title="">
+					<img class="circle" src="images/1_3.png"  alt="" title="" />
 				</div>
 
 
@@ -523,7 +514,7 @@
 						data-7200="opacity:0"
 						data-7201="display:none"
 				>
-					<img class="circle" src="images/2.png"  alt="" title="">
+					<img class="circle" src="images/2.png"  alt="" title="" />
 				</div>
 
 				<p class="text relative center"
@@ -603,14 +594,13 @@
 				data-27250="opacity:0"
 			>
 
-				<img class="menu-icon helmet" src="images/helmet.png" alt="" title="">
+				<img class="menu-icon helmet" src="images/helmet.png" alt="" title="" />
 				<h1 class="title upp">Munkavédelem</h1>
 				<p class="text regular relative center"
 					data-13600="opacity:0; left:1850px; display:block"
 					data-14000="opacity:1; left:0px"
 					data-14600="opacity:1; left:0px"
 					data-15100="opacity:0; left:0px; display:none"
-
 				>
 					Ahogy azt bizonyára tudja, a munkavédelem előírásainak megvalósítása és betartása minden
 					munkavállalónak és a munkáltatónak érdeke és törvényi kötelezettsége. Ha önnek legalább
@@ -639,7 +629,7 @@
 						data-15800="transform:rotate(0deg)"
 						data-16600="transform:rotate(-90deg)"
 						data-17500="transform:rotate(720deg)"
-                        alt="" title="">
+                        alt="" title="" />
 				</div>
 
 				<p class="text relative center"
@@ -706,7 +696,7 @@
 						Ahogy azzal bizonyára ön is tisztában van: a szakfeladatok ellátására 2004. május 1. óta
 						minden munkáltatónak megfelelő munkavédelmi képzettségű szakembert kell megbíznia.
 					</p>
-					<img class="certificate" src="images/certificate.png" alt="" title="">
+					<img class="certificate" src="images/certificate.png" alt="" title="" />
 				</div>
 
 				<p class="text center"
@@ -746,7 +736,7 @@
 		>
 			<div class="four-ref">
 
-				<img class="menu-icon ref-icon" src="images/references-2.png" alt="" title="">
+				<img class="menu-icon ref-icon" src="images/references-2.png" alt="" title="" />
 				<h1 class="title upp">Referenciák</h1>
 
 				<p class="text regular center"
@@ -766,7 +756,7 @@
 					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
-								<img src="images/madison.png" alt="Madison Pub & Restaurant" title="Madison Pub & Restaurant"/>
+								<img src="images/madison.png" alt="Madison Pub & Restaurant" title="Madison Pub & Restaurant" />
 							</span>
 						</div>
 						<div class="box-logo-nev">
@@ -789,7 +779,7 @@
 					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
-								<img src="images/caroflex.png" alt="Caroflex Fékbetétgyár Kft." title="Caroflex Fékbetétgyár Kft."/>
+								<img src="images/caroflex.png" alt="Caroflex Fékbetétgyár Kft." title="Caroflex Fékbetétgyár Kft." />
 							</span>
 						</div>
 						<div class="box-logo-nev">
@@ -812,7 +802,7 @@
 					<li class="box">
 						<div class="box-logo">
 							<span class="box-text">
-								<img src="images/pirehab.png" alt="Pirehab Kft." title="Pirehab Kft."/>
+								<img src="images/pirehab.png" alt="Pirehab Kft." title="Pirehab Kft." />
 							</span>
 						</div>
 						<div class="box-logo-nev">
@@ -866,7 +856,7 @@
 			data-32900="z-index:5"
 		>
 			<div class="five-kapcs">
-				<img class="menu-icon contact" src="images/contact-3.png" alt="" title="">
+				<img class="menu-icon contact" src="images/contact-3.png" alt="" title="" />
 				<h1 class="title upp">Kapcsolat</h1>
 
 				<div class="relative"
